@@ -519,7 +519,7 @@ def parse_coins_repo():
         coins_data = json.load(f)
 
     for item in coins_data:
-        if item["mm2"] == 1:
+        if item["kdf"] == 1 or item["mm2"] == 1:
             config = CoinConfig(item)
             config.get_generics()
             config.get_protocol_info()
@@ -683,7 +683,7 @@ def filter_wss(coins_config):
 
 
 def generate_binance_api_ids(coins_config):
-    mm2_coins = coins_config.keys()
+    kdf_coins = coins_config.keys()
     r = requests.get("https://defi-stats.komodo.earth/api/v3/binance/ticker_price")
     binance_tickers = r.json()
     pairs = []
@@ -705,7 +705,7 @@ def generate_binance_api_ids(coins_config):
 
     api_ids = {}
     known_id_coins = list(set([i[0] for i in known_ids] + [i[1] for i in known_ids]))
-    for coin in mm2_coins:
+    for coin in kdf_coins:
         ticker = coin.split("-")[0]
         if ticker in known_id_coins:
             if ticker not in BINANCE_DELISTED_COINS:
