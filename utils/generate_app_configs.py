@@ -519,29 +519,35 @@ def parse_coins_repo():
         coins_data = json.load(f)
 
     for item in coins_data:
-        if item["kdf"] == 1 or item["mm2"] == 1:
-            config = CoinConfig(item)
-            config.get_generics()
-            config.get_protocol_info()
-            config.clean_name()
-            config.get_swap_contracts()
-            config.get_electrums()
-            config.get_explorers()
-            config.is_smartchain()
-            config.is_wallet_only()
-            config.get_address_format()
-            config.get_rewards_info()
-            config.get_alias_ticker()
-            config.get_asset()
-            config.get_forex_id()
-            config.get_coinpaprika_id()
-            config.get_coingecko_id()
-            config.get_livecoinwatch_id()
-            config.get_binance_id()
-            config.get_bchd_urls()
-            config.get_hd_info()
-            config.get_links()
-            coins_config.update(config.data)
+        if "kdf" not in item and "mm2" not in item:
+            print(f"{item['coin']} has no kdf or mm2 field!")
+            continue
+        for k in ["kdf", "mm2"]:
+            if k in item:
+                if item[k] != 1:
+                    continue
+        config = CoinConfig(item)
+        config.get_generics()
+        config.get_protocol_info()
+        config.clean_name()
+        config.get_swap_contracts()
+        config.get_electrums()
+        config.get_explorers()
+        config.is_smartchain()
+        config.is_wallet_only()
+        config.get_address_format()
+        config.get_rewards_info()
+        config.get_alias_ticker()
+        config.get_asset()
+        config.get_forex_id()
+        config.get_coinpaprika_id()
+        config.get_coingecko_id()
+        config.get_livecoinwatch_id()
+        config.get_binance_id()
+        config.get_bchd_urls()
+        config.get_hd_info()
+        config.get_links()
+        coins_config.update(config.data)
 
     nodata = []
     for coin in coins_config:
