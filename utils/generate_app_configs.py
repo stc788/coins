@@ -519,13 +519,6 @@ def parse_coins_repo():
         coins_data = json.load(f)
 
     for item in coins_data:
-        if "kdf" not in item and "mm2" not in item:
-            print(f"{item['coin']} has no kdf or mm2 field!")
-            continue
-        for k in ["kdf", "mm2"]:
-            if k in item:
-                if item[k] != 1:
-                    continue
         config = CoinConfig(item)
         config.get_generics()
         config.get_protocol_info()
