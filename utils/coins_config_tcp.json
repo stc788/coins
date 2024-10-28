@@ -28,7 +28,7 @@
                 "contract_address": "0xd501281565bf7789224523144Fe5D98e8B28f267"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xd501281565bf7789224523144Fe5D98e8B28f267",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -73,7 +73,7 @@
                 "contract_address": "0xaFf5Ed00c57b0E0c22123dbA28Cb6A5B26651Bbd"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xaFf5Ed00c57b0E0c22123dbA28Cb6A5B26651Bbd",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -121,7 +121,7 @@
                 "contract_address": "0x0D6e16c7066421607F8D334D6C02A48031fc2Eba"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x0D6e16c7066421607F8D334D6C02A48031fc2Eba",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -171,7 +171,7 @@
                 "contract_address": "0x111111111117dC0aa78b770fA6A738034120C302"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -286,7 +286,7 @@
                 "contract_address": "0x79f3244F3FFd7500A31a90Bb83C7D56649c2C7C5"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x79f3244F3FFd7500A31a90Bb83C7D56649c2C7C5",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -330,7 +330,7 @@
                 "contract_address": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -386,7 +386,7 @@
                 "contract_address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -442,7 +442,7 @@
                 "contract_address": "0x63a72806098Bd3D9520cC43356dD78afe5D386D9"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x63a72806098Bd3D9520cC43356dD78afe5D386D9",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -486,7 +486,7 @@
                 "contract_address": "0xfb6115445Bff7b52FeB98650C87f44907E58f802"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -606,7 +606,7 @@
                 "contract_address": "0x6a07A792ab2965C72a5B8088d3a069A7aC3a993B"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x6a07A792ab2965C72a5B8088d3a069A7aC3a993B",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -656,7 +656,7 @@
                 "contract_address": "0x202b4936fE1a82A4965220860aE46d7d3939Bb25"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x202b4936fE1a82A4965220860aE46d7d3939Bb25",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -700,7 +700,7 @@
                 "contract_address": "0xE76e97C157658004eE22e01C03a5e21A4655A2Fd"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xE76e97C157658004eE22e01C03a5e21A4655A2Fd",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -744,7 +744,7 @@
                 "contract_address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -803,22 +803,17 @@
         },
         "electrum": [
             {
-                "url": "aby-ex-four.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -851,7 +846,7 @@
                 "contract_address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -909,7 +904,7 @@
                 "contract_address": "0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -1020,7 +1015,7 @@
                 "contract_address": "0xAEC8318a9a59bAEb39861d10ff6C7f7bf1F96C57"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xAEC8318a9a59bAEb39861d10ff6C7f7bf1F96C57",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -1121,7 +1116,7 @@
                 "contract_address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -1233,7 +1228,7 @@
                 "contract_address": "0x190Eb8a183D22a4bdf278c6791b152228857c033"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x190Eb8a183D22a4bdf278c6791b152228857c033",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -1387,7 +1382,7 @@
                 "contract_address": "0xf307910A4c7bbc79691fD374889b36d8531B08e3"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xf307910A4c7bbc79691fD374889b36d8531B08e3",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -1493,7 +1488,7 @@
                 "contract_address": "0x101A023270368c0D50BFfb62780F4aFd4ea79C35"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -1605,7 +1600,7 @@
                 "contract_address": "0xC762043E211571eB34f1ef377e5e8e76914962f9"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -1664,7 +1659,7 @@
                 "contract_address": "0x2d72A97a31Dc920dB03330780d30074626e39C8A"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x2d72A97a31Dc920dB03330780d30074626e39C8A",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -1714,7 +1709,7 @@
                 "contract_address": "0xB7b31a6BC18e48888545CE79e83E06003bE70930"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -1882,7 +1877,7 @@
                 "contract_address": "0x6F769E65c14Ebd1f68817F5f1DcDb61Cfa2D6f7e"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -1996,7 +1991,7 @@
                 "contract_address": "0xEE800B277A96B0f490a1A732e1D6395FAD960A26"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -2160,7 +2155,7 @@
                 "contract_address": "0xCDAF240C90F989847c56aC9Dee754F76F41c5833"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xCDAF240C90F989847c56aC9Dee754F76F41c5833",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -2210,7 +2205,7 @@
                 "contract_address": "0x0Eb3a705fc54725037CC9e008bDede697f62F335"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -2270,7 +2265,7 @@
                 "contract_address": "0xac51C4c48Dc3116487eD4BC16542e27B5694Da1b"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -2380,7 +2375,7 @@
                 "contract_address": "0x13616F44Ba82D63c8C0DC3Ff843D36a8ec1c05a9"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x13616F44Ba82D63c8C0DC3Ff843D36a8ec1c05a9",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -2482,6 +2477,7 @@
         "protocol": {
             "type": "ETH"
         },
+        "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
@@ -2521,7 +2517,7 @@
         "protocol": {
             "type": "ETH"
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "trezor_coin": "Avalanche C-Chain",
         "links": {
             "homepage": "https://www.avax.network/"
@@ -2568,7 +2564,7 @@
                 "contract_address": "0x1CE0c2827e2eF14D5C4f29a091d735A204794041"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -2690,7 +2686,7 @@
                 "contract_address": "0x752DC265EAf6Da2Db0F8e4a32D5596D3f18e8701"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x752DC265EAf6Da2Db0F8e4a32D5596D3f18e8701",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -2867,7 +2863,7 @@
                 "contract_address": "0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -3024,7 +3020,7 @@
                 "contract_address": "0x86e5775F5c46304939c40959812bC220dD1c0333"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x86e5775F5c46304939c40959812bC220dD1c0333",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -3074,7 +3070,7 @@
                 "contract_address": "0xc748673057861a797275CD8A068AbB95A902e8de"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xc748673057861a797275CD8A068AbB95A902e8de",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -3124,7 +3120,7 @@
                 "contract_address": "0xd4ed60d8368a92b5F1ca33aF61eF2A94714B2d46"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xd4ed60d8368a92b5F1ca33aF61eF2A94714B2d46",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -3236,7 +3232,7 @@
                 "contract_address": "0xFC31366Be1795c1Ff444b9fBF55759733aD4d26D"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xFC31366Be1795c1Ff444b9fBF55759733aD4d26D",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -3280,7 +3276,7 @@
                 "contract_address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -3335,7 +3331,7 @@
                 "contract_address": "0xe20B9e246db5a0d21BF9209E4858Bc9A3ff7A034"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xe20B9e246db5a0d21BF9209E4858Bc9A3ff7A034",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -3385,7 +3381,7 @@
                 "contract_address": "0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -3500,7 +3496,7 @@
                 "contract_address": "0x46E7628E8b4350b2716ab470eE0bA1fa9e76c6C5"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x46E7628E8b4350b2716ab470eE0bA1fa9e76c6C5",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -3550,7 +3546,7 @@
                 "contract_address": "0xA8b1E0764f85f53dfe21760e8AfE5446D82606ac"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xA8b1E0764f85f53dfe21760e8AfE5446D82606ac",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -3598,7 +3594,7 @@
                 "contract_address": "0x98443B96EA4b0858FDF3219Cd13e98C7A4690588"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x98443B96EA4b0858FDF3219Cd13e98C7A4690588",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -3701,7 +3697,7 @@
                 "contract_address": "0x101d82428437127bF1608F699CD651e6Abf9766E"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x101d82428437127bF1608F699CD651e6Abf9766E",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -3752,7 +3748,7 @@
                 "contract_address": "0x0bF46C86Ce3B904660aE85677EaA20B0C1b24064"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x0bF46C86Ce3B904660aE85677EaA20B0C1b24064",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -3796,7 +3792,7 @@
                 "contract_address": "0x3Cef98bb43d732E2F285eE605a8158cDE967D219"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x3Cef98bb43d732E2F285eE605a8158cDE967D219",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -4206,7 +4202,7 @@
                 "contract_address": "0x218645F85Ff27FC456ef46c3CdacBF5c40B2F9E8"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x218645F85Ff27FC456ef46c3CdacBF5c40B2F9E8",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -4351,7 +4347,7 @@
                 "contract_address": "0x9045B0eda6B6A556cf9B3d81C2db47411714f847"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x9045B0eda6B6A556cf9B3d81C2db47411714f847",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -4402,7 +4398,7 @@
                 "contract_address": "0x2C8a46eF99Cb64928eB3Dd50A925327e02296F63"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x2C8a46eF99Cb64928eB3Dd50A925327e02296F63",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -4507,7 +4503,7 @@
                 "contract_address": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -4559,7 +4555,7 @@
                 "contract_address": "0xeF3CEBD77E0C52cb6f60875d9306397B5Caca375"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xeF3CEBD77E0C52cb6f60875d9306397B5Caca375",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -4603,7 +4599,7 @@
                 "contract_address": "0x9A2f5556e9A637e8fBcE886d8e3cf8b316a1D8a2"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x9A2f5556e9A637e8fBcE886d8e3cf8b316a1D8a2",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -4625,6 +4621,49 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/",
         "forex_id": "IDR"
+    },
+    "BITN": {
+        "coin": "BITN",
+        "type": "UTXO",
+        "name": "Bitnet",
+        "coinpaprika_id": "bit-bitnet",
+        "coingecko_id": "bitnet-io",
+        "livecoinwatch_id": "________BIT",
+        "explorer_url": "https://bitexplorer.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bitnet Signed Message:\n",
+        "fname": "Bitnet",
+        "rpcport": 9332,
+        "pubtype": 25,
+        "p2shtype": 22,
+        "wiftype": 158,
+        "txfee": 700000,
+        "segwit": true,
+        "bech32_hrp": "bit",
+        "mm2": 1,
+        "required_confirmations": 1,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "bitexplorer.io:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "c4pt#7855"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "BLK": {
         "coin": "BLK",
@@ -4722,7 +4761,7 @@
                 "contract_address": "0xd2cDfD5d26dfA1D11116B9ED7DBd7C6B88C6e1D3"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xd2cDfD5d26dfA1D11116B9ED7DBd7C6B88C6e1D3",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -4883,7 +4922,7 @@
         "protocol": {
             "type": "ETH"
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "trezor_coin": "Binance Smart Chain",
         "links": {
             "homepage": "https://www.binance.org"
@@ -5032,7 +5071,7 @@
         "protocol": {
             "type": "ETH"
         },
-        "derivation_path": "m/44'/137'",
+        "derivation_path": "m/44'/60'",
         "trezor_coin": "RSK",
         "links": {
             "homepage": "https://rsk.co"
@@ -5071,6 +5110,7 @@
         "protocol": {
             "type": "ETH"
         },
+        "derivation_path": "m/44'/60'",
         "swap_contract_address": "0xcCD17C913aD7b772755Ad4F0BDFF7B34C6339150",
         "fallback_swap_contract": "0xcCD17C913aD7b772755Ad4F0BDFF7B34C6339150",
         "nodes": [
@@ -5113,7 +5153,7 @@
                 "contract_address": "0xA069008A669e2Af00a86673D9D584cfb524A42Cc"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xA069008A669e2Af00a86673D9D584cfb524A42Cc",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -5225,7 +5265,7 @@
                 "contract_address": "0xc26D47d5c33aC71AC5CF9F776D63Ba292a4F7842"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xc26D47d5c33aC71AC5CF9F776D63Ba292a4F7842",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -5333,7 +5373,7 @@
                 "contract_address": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -5498,7 +5538,7 @@
                 "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -5546,7 +5586,7 @@
                 "contract_address": "0x4eD141110F6EeeAbA9A1df36d8c26f684d2475Dc"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -5603,7 +5643,7 @@
                 "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -5854,7 +5894,7 @@
                 "contract_address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -5919,7 +5959,7 @@
         "derivation_path": "m/44'/177'",
         "electrum": [
             {
-                "url": "electrum1.btcz.rocks:50001",
+                "url": "electrum2.btcz.rocks:50001",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -5928,7 +5968,7 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum2.btcz.rocks:50001",
+                "url": "electrum1.btcz.rocks:50001",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -5968,7 +6008,7 @@
                 "contract_address": "0xcBBB3e5099F769F6d4E2b8b92DC0e268f7E099D8"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xcBBB3e5099F769F6d4E2b8b92DC0e268f7E099D8",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -6178,7 +6218,7 @@
                 "contract_address": "0x8595F9dA7b868b1822194fAEd312235E43007b49"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x8595F9dA7b868b1822194fAEd312235E43007b49",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -6229,7 +6269,7 @@
                 "contract_address": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -6349,7 +6389,7 @@
                 "contract_address": "0xFdc26CDA2d2440d0E83CD1DeE8E8bE48405806DC"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xFdc26CDA2d2440d0E83CD1DeE8E8bE48405806DC",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -6499,7 +6539,7 @@
                 "contract_address": "0x000000089fb24237dA101020Ff8e2AfD14624687"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x000000089fb24237dA101020Ff8e2AfD14624687",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -6550,8 +6590,53 @@
                 "contract_address": "0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39",
+        "parent_coin": "AVAX",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BUSD-AVX20_OLD": {
+        "coin": "BUSD-AVX20_OLD",
+        "type": "AVX-20",
+        "name": "Binance USD (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "BUSD",
+        "explorer_url": "https://snowtrace.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Binance USD (OLD)",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 43114,
+        "required_confirmations": 3,
+        "avg_blocktime": 2.4,
+        "decimals": 18,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "AVAX",
+                "contract_address": "0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -6595,7 +6680,7 @@
                 "contract_address": "0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818"
             }
         },
-        "derivation_path": "m/44'/1285'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818",
         "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -6698,7 +6783,7 @@
                 "contract_address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -6749,7 +6834,7 @@
                 "contract_address": "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -6854,7 +6939,7 @@
                 "contract_address": "0x9de41aFF9f55219D5bf4359F167d1D0c772A396D"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -6910,7 +6995,7 @@
                 "contract_address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -6969,7 +7054,7 @@
                 "contract_address": "0x5cafe85d8983f61C059df359c504F1Bab8009e9e"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x5cafe85d8983f61C059df359c504F1Bab8009e9e",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -7196,7 +7281,7 @@
                 "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -7240,7 +7325,7 @@
                 "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -7291,7 +7376,7 @@
                 "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -7395,7 +7480,7 @@
                 "contract_address": "0xD85d1e945766Fea5Eda9103F918Bd915FbCa63E6"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xD85d1e945766Fea5Eda9103F918Bd915FbCa63E6",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -7504,7 +7589,7 @@
                 "contract_address": "0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -7620,7 +7705,7 @@
                 "contract_address": "0x045c4324039dA91c52C55DF5D785385Aab073DcF"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -7747,7 +7832,7 @@
                 "contract_address": "0xb096DF47073A39041D9ffeD5d4E1d1b0D5D6b8E7"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xb096DF47073A39041D9ffeD5d4E1d1b0D5D6b8E7",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -7767,74 +7852,6 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "CHIPS": {
-        "coin": "CHIPS",
-        "type": "UTXO",
-        "name": "Chips",
-        "coinpaprika_id": "chips-chips",
-        "coingecko_id": "chips",
-        "livecoinwatch_id": "__CHIPS",
-        "explorer_url": "https://explorer.chips.cash/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Chips",
-        "rpcport": 57776,
-        "pubtype": 60,
-        "p2shtype": 85,
-        "wiftype": 188,
-        "txfee": 10000,
-        "segwit": true,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 10,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.cipig.net:20053",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20053",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:20053",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "CHSB-ERC20": {
@@ -7926,7 +7943,7 @@
                 "contract_address": "0x67Ce67ec4fCd4aCa0Fcb738dD080b2a21ff69D75"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x67Ce67ec4fCd4aCa0Fcb738dD080b2a21ff69D75",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -8030,7 +8047,7 @@
                 "contract_address": "0x6E8ce0519B7e4d691BaCE464099547E5fC17679c"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x6E8ce0519B7e4d691BaCE464099547E5fC17679c",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -8074,7 +8091,7 @@
                 "contract_address": "0xf1938Ce12400f9a761084E7A80d37e732a4dA056"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xf1938Ce12400f9a761084E7A80d37e732a4dA056",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -8236,7 +8253,7 @@
                 "contract_address": "0x3039e86d39A5BCF38E96D78fF93FD0aBe753212c"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x3039e86d39A5BCF38E96D78fF93FD0aBe753212c",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -8287,7 +8304,7 @@
                 "contract_address": "0xc3048E19E76CB9a3Aa9d77D8C03c29Fc906e2437"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xc3048E19E76CB9a3Aa9d77D8C03c29Fc906e2437",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -8331,7 +8348,7 @@
                 "contract_address": "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -8451,7 +8468,7 @@
                 "contract_address": "0x16c4106966cE30e06E806A7c40eEFb46d84cE7e5"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x16c4106966cE30e06E806A7c40eEFb46d84cE7e5",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -8495,7 +8512,7 @@
                 "contract_address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -8607,7 +8624,7 @@
                 "contract_address": "0x652D253b7Ca91810A4a05ACFc39729387c5090C0"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x652D253b7Ca91810A4a05ACFc39729387c5090C0",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -8651,7 +8668,7 @@
                 "contract_address": "0xAdA58DF0F643D959C2A47c9D4d4c1a4deFe3F11C"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xAdA58DF0F643D959C2A47c9D4d4c1a4deFe3F11C",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -8891,7 +8908,7 @@
                 "contract_address": "0x249848BeCA43aC405b8102Ec90Dd5F22CA513c06"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x249848BeCA43aC405b8102Ec90Dd5F22CA513c06",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -8936,7 +8953,7 @@
                 "contract_address": "0x1E4F97b9f9F913c46F1632781732927B9019C68b"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x1E4F97b9f9F913c46F1632781732927B9019C68b",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -8986,7 +9003,7 @@
                 "contract_address": "0x4500E16dA66b99e0C55D7B46EBBD59bc413BA171"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x4500E16dA66b99e0C55D7B46EBBD59bc413BA171",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -9030,7 +9047,7 @@
                 "contract_address": "0x172370d5Cd63279eFa6d502DAB29171933a610AF"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -9085,7 +9102,7 @@
                 "contract_address": "0xcC4b3EA1F25c8772D390dA1DB507832aBE4a9740"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xcC4b3EA1F25c8772D390dA1DB507832aBE4a9740",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -9135,7 +9152,7 @@
                 "contract_address": "0x27Ae27110350B98d564b9A3eeD31bAeBc82d878d"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x27Ae27110350B98d564b9A3eeD31bAeBc82d878d",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -9372,7 +9389,7 @@
                 "contract_address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -9476,7 +9493,7 @@
                 "contract_address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -9535,7 +9552,7 @@
                 "contract_address": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -9585,7 +9602,7 @@
                 "contract_address": "0x3D760a45D0887DFD89A2F5385a236B29Cb46ED2a"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x3D760a45D0887DFD89A2F5385a236B29Cb46ED2a",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -9629,7 +9646,7 @@
                 "contract_address": "0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844"
             }
         },
-        "derivation_path": "m/44'/1285'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844",
         "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -9673,7 +9690,7 @@
                 "contract_address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -9975,7 +9992,7 @@
                 "contract_address": "0xE7804D91dfCDE7F776c90043E03eAa6Df87E6395"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xE7804D91dfCDE7F776c90043E03eAa6Df87E6395",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -10023,7 +10040,7 @@
                 "contract_address": "0x27f485b62C4A7E635F561A87560Adf5090239E93"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -10335,7 +10352,7 @@
                 "contract_address": "0x99956D38059cf7bEDA96Ec91Aa7BB2477E0901DD"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -10607,6 +10624,16 @@
                         "discord": "[MadCatMining]#0677"
                     }
                 ]
+            },
+            {
+                "url": "electrumx2.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -10639,7 +10666,7 @@
                 "contract_address": "0xA33789a5478Add74e8D7628E817a281aAbD92dA9"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xA33789a5478Add74e8D7628E817a281aAbD92dA9",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -10825,7 +10852,7 @@
                 "contract_address": "0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -10932,7 +10959,7 @@
                 "contract_address": "0x8724F9FB7B3f1bb6f2c90B3Ad3Fd6B3c20A06429"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x8724F9FB7B3f1bb6f2c90B3Ad3Fd6B3c20A06429",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -11052,7 +11079,7 @@
                 "contract_address": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -11145,7 +11172,7 @@
                 "contract_address": "0x7AE5709c585cCFB3e61fF312EC632C21A5F03F70"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x7AE5709c585cCFB3e61fF312EC632C21A5F03F70",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -11195,7 +11222,7 @@
                 "contract_address": "0x74926B3d118a63F6958922d3DC05eB9C6E6E00c6"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x74926B3d118a63F6958922d3DC05eB9C6E6E00c6",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -11245,7 +11272,7 @@
                 "contract_address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -11304,7 +11331,7 @@
                 "contract_address": "0xA2c49cEe16a5E5bDEFDe931107dc1fae9f7773E3"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xA2c49cEe16a5E5bDEFDe931107dc1fae9f7773E3",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -11565,7 +11592,7 @@
                 "contract_address": "0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -11679,7 +11706,7 @@
                 "contract_address": "0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -11930,7 +11957,7 @@
                 "contract_address": "0x6e2D990C8e718E7b6D86ed08eBf0FF2dEc05253B"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x6e2D990C8e718E7b6D86ed08eBf0FF2dEc05253B",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -11974,7 +12001,7 @@
                 "contract_address": "0x7eC26842F195c852Fa843bB9f6D8B583a274a157"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x7eC26842F195c852Fa843bB9f6D8B583a274a157",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -12021,7 +12048,7 @@
                 "contract_address": "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -12077,7 +12104,7 @@
         "protocol": {
             "type": "ETH"
         },
-        "derivation_path": "m/44'/61'",
+        "derivation_path": "m/44'/60'",
         "trezor_coin": "Ethereum Classic",
         "links": {
             "homepage": "https://ethereumclassic.org"
@@ -12126,7 +12153,7 @@
                 "contract_address": "0x3d6545b08693daE087E957cb1180ee38B9e3c25E"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x3d6545b08693daE087E957cb1180ee38B9e3c25E",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -12229,7 +12256,7 @@
                 "contract_address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -12325,7 +12352,7 @@
                 "contract_address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -12377,7 +12404,7 @@
                 "contract_address": "0x74b23882a30290451A17c44f4F05243b6b58C76d"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x74b23882a30290451A17c44f4F05243b6b58C76d",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -12428,7 +12455,7 @@
                 "contract_address": "0x64FF637fB478863B7468bc97D30a5bF3A428a1fD"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x64FF637fB478863B7468bc97D30a5bF3A428a1fD",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -12473,7 +12500,7 @@
                 "contract_address": "0xf55aF137A98607F7ED2eFEfA4cd2DfE70E4253b1"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xf55aF137A98607F7ED2eFEfA4cd2DfE70E4253b1",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -12518,7 +12545,7 @@
                 "contract_address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -12631,7 +12658,7 @@
                 "contract_address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -12744,7 +12771,7 @@
                 "contract_address": "0x820802Fa8a99901F52e39acD21177b0BE6EE2974"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -12862,7 +12889,7 @@
                 "contract_address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -12916,7 +12943,7 @@
         "protocol": {
             "type": "ETH"
         },
-        "derivation_path": "m/44'/246'",
+        "derivation_path": "m/44'/60'",
         "trezor_coin": "Energy Web",
         "links": {
             "homepage": "https://www.energyweb.org"
@@ -12959,7 +12986,7 @@
                 "contract_address": "0xc88f6F4C400321FAd5c26d574f9933a991011360"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xc88f6F4C400321FAd5c26d574f9933a991011360",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -13243,7 +13270,7 @@
                 "contract_address": "0x031b41e504677879370e9DBcF937283A8691Fa7f"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x031b41e504677879370e9DBcF937283A8691Fa7f",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -13294,7 +13321,7 @@
                 "contract_address": "0x7583FEDDbceFA813dc18259940F76a02710A8905"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x7583FEDDbceFA813dc18259940F76a02710A8905",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -13341,7 +13368,7 @@
                 "contract_address": "0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -13456,7 +13483,7 @@
                 "contract_address": "0xae3a768f9aB104c69A7CD6041fE16fFa235d1810"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xae3a768f9aB104c69A7CD6041fE16fFa235d1810",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -13564,7 +13591,7 @@
                 "contract_address": "0xd5d0322b6bAb6a762C79f8c81A0B674778E13aeD"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -13761,7 +13788,7 @@
                 "contract_address": "0xd4451a8eE7D0978c60651a114b742Fa8d5857CDf"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xd4451a8eE7D0978c60651a114b742Fa8d5857CDf",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -13811,7 +13838,7 @@
                 "contract_address": "0xda73AE86D38D9b5D22C64722320cCC071cB79ba3"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xda73AE86D38D9b5D22C64722320cCC071cB79ba3",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -13861,7 +13888,7 @@
                 "contract_address": "0xfb5B838b6cfEEdC2873aB27866079AC55363D37E"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -13976,7 +14003,7 @@
                 "contract_address": "0xC943c5320B9c18C153d1e2d12cC3074bebfb31A2"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -14186,6 +14213,7 @@
         "protocol": {
             "type": "ETH"
         },
+        "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
@@ -14221,7 +14249,7 @@
         "protocol": {
             "type": "ETH"
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "trezor_coin": "Fantom Opera",
         "links": {
             "homepage": "https://fantom.foundation"
@@ -14273,7 +14301,7 @@
                 "contract_address": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -14386,7 +14414,7 @@
                 "contract_address": "0xDE2F075f6F14EB9D96755b24E416A53E736Ca363"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xDE2F075f6F14EB9D96755b24E416A53E736Ca363",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -14493,7 +14521,7 @@
                 "contract_address": "0x1a3acf6D19267E2d3e7f898f42803e90C9219062"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -14549,7 +14577,7 @@
                 "contract_address": "0x214DB107654fF987AD859F34125307783fC8e387"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x214DB107654fF987AD859F34125307783fC8e387",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -14594,7 +14622,7 @@
                 "contract_address": "0x6f1D1Ee50846Fcbc3de91723E61cb68CFa6D0E98"
             }
         },
-        "derivation_path": "m/44'/1285'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x6f1D1Ee50846Fcbc3de91723E61cb68CFa6D0E98",
         "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -14638,7 +14666,7 @@
                 "contract_address": "0x7d016eec9c25232b01F23EF992D98ca97fc2AF5a"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x7d016eec9c25232b01F23EF992D98ca97fc2AF5a",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -14744,7 +14772,7 @@
                 "contract_address": "0x7dDEE176F665cD201F93eEDE625770E2fD911990"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x7dDEE176F665cD201F93eEDE625770E2fD911990",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -14851,7 +14879,7 @@
                 "contract_address": "0x8d1566569d5b695d44a9a234540f68D393cDC40D"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -14950,7 +14978,7 @@
                 "contract_address": "0x8E10F08C9A56a93B6adbfBcFda421919B3357596"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x8E10F08C9A56a93B6adbfBcFda421919B3357596",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -15001,7 +15029,7 @@
                 "contract_address": "0x72fF5742319eF07061836F5C924aC6D72c919080"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -15306,7 +15334,7 @@
                 "contract_address": "0x0B220b82F3eA3B7F6d9A1D8ab58930C064A2b5Bf"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -15361,7 +15389,7 @@
                 "contract_address": "0xA55C1e67039B6d59E91eb4cDa2bfc5A854989102"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xA55C1e67039B6d59E91eb4cDa2bfc5A854989102",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -15412,7 +15440,7 @@
                 "contract_address": "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -15463,7 +15491,7 @@
                 "contract_address": "0x714DB550b574b3E927af3D93E26127D15721D4C2"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -15576,7 +15604,7 @@
                 "contract_address": "0x62edc0692BD897D2295872a9FFCac5425011c661"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -15689,7 +15717,7 @@
                 "contract_address": "0x5FFD62D3C3eE2E81C00A7b9079FB248e7dF024A8"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x5FFD62D3C3eE2E81C00A7b9079FB248e7dF024A8",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -15794,7 +15822,7 @@
                 "contract_address": "0xE5417Af564e4bFDA1c483642db72007871397896"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -15960,7 +15988,7 @@
                 "contract_address": "0x7283DfA2d8D7e277b148cc263B5d8Ae02f1076D3"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x7283DfA2d8D7e277b148cc263B5d8Ae02f1076D3",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -16146,7 +16174,7 @@
                 "contract_address": "0x8a0cAc13c7da965a312f08ea4229c37869e85cB9"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x8a0cAc13c7da965a312f08ea4229c37869e85cB9",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -16252,7 +16280,7 @@
                 "contract_address": "0xb49dd3eDB98FBe82A01DFcb556Cd016964baf5A3"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xb49dd3eDB98FBe82A01DFcb556Cd016964baf5A3",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -16296,7 +16324,7 @@
                 "contract_address": "0x5fe2B58c013d7601147DcdD68C143A77499f5531"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -16352,7 +16380,7 @@
                 "contract_address": "0x4a2c860cEC6471b9F5F5a336eB4F38bb21683c98"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x4a2c860cEC6471b9F5F5a336eB4F38bb21683c98",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -16576,7 +16604,7 @@
                 "contract_address": "0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -16688,7 +16716,7 @@
                 "contract_address": "0x0C51f415cF478f8D08c246a6C6Ee180C5dC3A012"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x0C51f415cF478f8D08c246a6C6Ee180C5dC3A012",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -16731,7 +16759,7 @@
         "protocol": {
             "type": "ETH"
         },
-        "derivation_path": "m/44'/1010'",
+        "derivation_path": "m/44'/60'",
         "trezor_coin": "Huobi ECO Chain",
         "links": {
             "homepage": "https://www.hecochain.com"
@@ -16892,7 +16920,7 @@
                 "contract_address": "0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -16936,7 +16964,7 @@
                 "contract_address": "0xBEc1e1009CE00ECf7F16372451Ac849b39C32897"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xBEc1e1009CE00ECf7F16372451Ac849b39C32897",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -16980,7 +17008,7 @@
                 "contract_address": "0x2088C47Fc0c78356c622F79dBa4CbE1cCfA84A91"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x2088C47Fc0c78356c622F79dBa4CbE1cCfA84A91",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -17084,7 +17112,7 @@
                 "contract_address": "0x66207E39bb77e6B99aaB56795C7c340C08520d83"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x66207E39bb77e6B99aaB56795C7c340C08520d83",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -17135,7 +17163,7 @@
                 "contract_address": "0x554cd6bdD03214b10AafA3e0D4D42De0C5D2937b"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -17194,15 +17222,6 @@
         },
         "electrum": [
             {
-                "url": "il8p-ex-five.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "il8p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -17225,11 +17244,24 @@
                 ]
             },
             {
-                "url": "il8p-ex-five.ewmci.online:50001",
-                "protocol": "TCP",
+                "url": "il9p.electrumx.transcenders.name:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
                 "contact": [
                     {
-                        "discord": "475820011634819072"
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
                     }
                 ]
             }
@@ -17314,7 +17346,7 @@
                 "contract_address": "0xb49a312677BA1E80DDe23C17E46E80B3E86b533d"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xb49a312677BA1E80DDe23C17E46E80B3E86b533d",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -17365,7 +17397,7 @@
                 "contract_address": "0x2bAa79e7C13C302210436455925E68aD8fA687F0"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x2bAa79e7C13C302210436455925E68aD8fA687F0",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -17413,7 +17445,7 @@
                 "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -17517,7 +17549,7 @@
                 "contract_address": "0x4d5AC5cc4f8aBdf2EC2Cb986C00C382369f787D4"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -17631,7 +17663,7 @@
                 "contract_address": "0xa2B726B1145A4773F68593CF171187d8EBe4d495"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -17744,7 +17776,7 @@
                 "contract_address": "0xd944f1D1e9d5f9Bb90b62f9D45e447D989580782"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -17802,7 +17834,7 @@
                 "contract_address": "0x9678E42ceBEb63F23197D726B29b1CB20d0064E5"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -17861,7 +17893,7 @@
                 "contract_address": "0xf6372cDb9c1d3674E83842e3800F2A62aC9F3C66"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xf6372cDb9c1d3674E83842e3800F2A62aC9F3C66",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -17965,7 +17997,7 @@
                 "contract_address": "0x15669CF161946C09a8B207650BfBB00e3d8A2E3E"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -18023,7 +18055,7 @@
                 "contract_address": "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -18074,7 +18106,7 @@
                 "contract_address": "0xCB7F1Ef7246D1497b985f7FC45A1A31F04346133"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -18131,7 +18163,7 @@
                 "contract_address": "0x316622977073BBC3dF32E7d2A9B3c77596a0a603"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x316622977073BBC3dF32E7d2A9B3c77596a0a603",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -18183,7 +18215,7 @@
                 "contract_address": "0xf2f77FE7b8e66571E0fca7104c4d670BF1C8d722"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -18240,7 +18272,7 @@
                 "contract_address": "0x8ca194A3b22077359b5732DE53373D4afC11DeE3"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -18297,7 +18329,7 @@
                 "contract_address": "0x2d5563da42b06FbBF9c67b7DC073cF6A7842239e"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x2d5563da42b06FbBF9c67b7DC073cF6A7842239e",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -18342,7 +18374,7 @@
                 "contract_address": "0x7c869b5A294b1314E985283d01C702B62224a05f"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x7c869b5A294b1314E985283d01C702B62224a05f",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -18450,7 +18482,7 @@
                 "contract_address": "0xbD1463F02f61676d53fd183C2B19282BFF93D099"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -18507,7 +18539,7 @@
                 "contract_address": "0x84526c812D8f6c4fD6C1a5B68713AFF50733E772"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -18564,7 +18596,7 @@
                 "contract_address": "0x9fB1d52596c44603198fB0aee434fac3a679f702"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x9fB1d52596c44603198fB0aee434fac3a679f702",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -18609,7 +18641,7 @@
                 "contract_address": "0x23b8683Ff98F9E4781552DFE6f12Aa32814924e8"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x23b8683Ff98F9E4781552DFE6f12Aa32814924e8",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -18716,7 +18748,7 @@
                 "contract_address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -18772,7 +18804,7 @@
                 "contract_address": "0x048E9b1ddF9EBbb224812372280e94Ccac443f9e"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x048E9b1ddF9EBbb224812372280e94Ccac443f9e",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -18880,7 +18912,7 @@
                 "contract_address": "0x767058F11800FBA6A682E73A6e79ec5eB74Fac8c"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -18937,7 +18969,7 @@
                 "contract_address": "0x192Ef3FFF1708456D3A1F21354FA8d6bFd86b45c"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x192Ef3FFF1708456D3A1F21354FA8d6bFd86b45c",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -18986,7 +19018,7 @@
                 "contract_address": "0x8343091F2499FD4b6174A46D067A920a3b851FF9"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -19043,7 +19075,7 @@
                 "contract_address": "0xa22f6bc96f13bcC84dF36109c973d3c0505a067E"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xa22f6bc96f13bcC84dF36109c973d3c0505a067E",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -19092,7 +19124,7 @@
                 "contract_address": "0xBD1fe73e1f12bD2bc237De9b626F056f21f86427"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -19149,7 +19181,7 @@
                 "contract_address": "0x6b526Daf03B4C47AF2bcc5860B12151823Ff70E0"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -19206,7 +19238,7 @@
                 "contract_address": "0x486880FB16408b47f928F472f57beC55AC6089d1"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x486880FB16408b47f928F472f57beC55AC6089d1",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -19255,7 +19287,7 @@
                 "contract_address": "0x08E6d1F0c4877Ef2993Ad733Fc6F1D022d0E9DBf"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x08E6d1F0c4877Ef2993Ad733Fc6F1D022d0E9DBf",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -19304,7 +19336,7 @@
                 "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -19350,7 +19382,7 @@
                 "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -19462,7 +19494,7 @@
                 "contract_address": "0x596eBE76e2DB4470966ea395B0d063aC6197A8C5"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x596eBE76e2DB4470966ea395B0d063aC6197A8C5",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -19510,7 +19542,7 @@
                 "contract_address": "0x197E5d6CcfF265AC3E303a34Db360ee1429f5d1A"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x197E5d6CcfF265AC3E303a34Db360ee1429f5d1A",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -19559,7 +19591,7 @@
                 "contract_address": "0xa926db7a4CC0cb1736D5ac60495ca8Eb7214B503"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -19616,7 +19648,7 @@
                 "contract_address": "0x2A227fc77Bb2cf8f1881a04eCC8fA01EC57EC9fc"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x2A227fc77Bb2cf8f1881a04eCC8fA01EC57EC9fc",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -19665,7 +19697,7 @@
                 "contract_address": "0xc948EE9a0687C292ac4d8C1e2557aD652D6baf44"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xc948EE9a0687C292ac4d8C1e2557aD652D6baf44",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -19714,7 +19746,7 @@
                 "contract_address": "0xeA998D307ACA04D4f0A3B3036Aba84AE2E409C0A"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -19770,7 +19802,7 @@
         "protocol": {
             "type": "ETH"
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "trezor_coin": "KCC",
         "links": {
             "homepage": "https://kcc.io"
@@ -19895,7 +19927,7 @@
                 "contract_address": "0x2003f7ba57Ea956B05B85C60B4B2Ceea9b111256"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x2003f7ba57Ea956B05B85C60B4B2Ceea9b111256",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -19946,7 +19978,7 @@
                 "contract_address": "0xfe56d5892BDffC7BF58f2E84BE1b2C32D21C308b"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xfe56d5892BDffC7BF58f2E84BE1b2C32D21C308b",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -20057,7 +20089,7 @@
                 "contract_address": "0x1C954E8fe737F99f68Fa1CCda3e51ebDB291948C"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -20113,7 +20145,7 @@
                 "contract_address": "0x39fC9e94Caeacb435842FADeDeCB783589F50f5f"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x39fC9e94Caeacb435842FADeDeCB783589F50f5f",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -20228,7 +20260,7 @@
                 "contract_address": "0x2aa69E8D25C045B659787BC1f03ce47a388DB6E8"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -20571,7 +20603,7 @@
                 "contract_address": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -20687,7 +20719,7 @@
                 "contract_address": "0x06D02e9D62A13fC76BB229373FB3BBBD1101D2fC"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x06D02e9D62A13fC76BB229373FB3BBBD1101D2fC",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -20790,7 +20822,7 @@
                 "contract_address": "0x5947BB275c521040051D82396192181b413227A3"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x5947BB275c521040051D82396192181b413227A3",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -20834,7 +20866,7 @@
                 "contract_address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -20885,7 +20917,7 @@
                 "contract_address": "0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -20935,7 +20967,7 @@
                 "contract_address": "0x9e004545c59D359F6B7BFB06a26390b087717b42"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x9e004545c59D359F6B7BFB06a26390b087717b42",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -20979,7 +21011,7 @@
                 "contract_address": "0x47841910329aaa6b88D5e9DcdE9000195151dc72"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x47841910329aaa6b88D5e9DcdE9000195151dc72",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -21023,7 +21055,7 @@
                 "contract_address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -21079,7 +21111,7 @@
                 "contract_address": "0xcE186ad6430E2Fe494a22C9eDbD4c68794a28B35"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xcE186ad6430E2Fe494a22C9eDbD4c68794a28B35",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -21191,7 +21223,7 @@
                 "contract_address": "0x66e4d38b20173F509A1fF5d82866949e4fE898da"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -21250,7 +21282,7 @@
                 "contract_address": "0x84e1670F61347CDaeD56dcc736FB990fBB47ddC1"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x84e1670F61347CDaeD56dcc736FB990fBB47ddC1",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -21414,7 +21446,7 @@
                 "contract_address": "0xE6Ce27025F13f5213bBc560dC275e292965a392F"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -21473,7 +21505,7 @@
                 "contract_address": "0x3F8a14f5a3Ee2F4A3Ed61cCF5EEA3c9535C090C8"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x3F8a14f5a3Ee2F4A3Ed61cCF5EEA3c9535C090C8",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -21792,7 +21824,7 @@
                 "contract_address": "0x26433c8127d9b4e9B71Eaa15111DF99Ea2EeB2f8"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x26433c8127d9b4e9B71Eaa15111DF99Ea2EeB2f8",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -21843,7 +21875,7 @@
                 "contract_address": "0xC19a5caCC2bb68Ff09f2Fcc695F31493A039Fa5e"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xC19a5caCC2bb68Ff09f2Fcc695F31493A039Fa5e",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -21887,7 +21919,7 @@
                 "contract_address": "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -21943,7 +21975,7 @@
                 "contract_address": "0x2eD9a5C8C13b93955103B9a7C167B67Ef4d568a3"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x2eD9a5C8C13b93955103B9a7C167B67Ef4d568a3",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -22050,7 +22082,7 @@
                 "contract_address": "0x2B9E7ccDF0F4e5B24757c1E1a80e311E34Cb10c7"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -22101,6 +22133,7 @@
         "protocol": {
             "type": "ETH"
         },
+        "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x73c1Dd989218c3A154C71Fc08Eb55A24Bd2B3A10",
         "nodes": [
             {
@@ -22141,7 +22174,7 @@
         "protocol": {
             "type": "ETH"
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "trezor_coin": "Polygon",
         "links": {
             "homepage": "https://polygon.technology/"
@@ -22191,7 +22224,7 @@
                 "contract_address": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -22304,7 +22337,7 @@
                 "contract_address": "0xdB11743fe8B129b49b11236E8a715004BDabe7e5"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xdB11743fe8B129b49b11236E8a715004BDabe7e5",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -22349,7 +22382,7 @@
                 "contract_address": "0x1B8e27ABA297466fc6765Ce55BD12A8E216759da"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x1B8e27ABA297466fc6765Ce55BD12A8E216759da",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -22450,7 +22483,7 @@
                 "contract_address": "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -22700,7 +22733,7 @@
                 "contract_address": "0xf48f91df403976060cC05dBbf8A0901b09fdeFd4"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xf48f91df403976060cC05dBbf8A0901b09fdeFd4",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -22807,7 +22840,7 @@
                 "contract_address": "0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -22858,7 +22891,7 @@
                 "contract_address": "0x88128fd4b259552A9A1D457f435a6527AAb72d42"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x88128fd4b259552A9A1D457f435a6527AAb72d42",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -22902,7 +22935,7 @@
                 "contract_address": "0x5f0Da599BB2ccCfcf6Fdfd7D81743B6020864350"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x5f0Da599BB2ccCfcf6Fdfd7D81743B6020864350",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -23014,7 +23047,7 @@
                 "contract_address": "0xdE81028C743f5304fe2cdEfac588f572d629a687"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xdE81028C743f5304fe2cdEfac588f572d629a687",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -23058,7 +23091,7 @@
                 "contract_address": "0x6f7C932e7684666C9fd1d44527765433e01fF61d"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -23173,7 +23206,7 @@
                 "contract_address": "0x993163CaD35162fB579D7B64e6695cB076EF5064"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x993163CaD35162fB579D7B64e6695cB076EF5064",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -23218,7 +23251,7 @@
                 "contract_address": "0xBF05279F9Bf1CE69bBFEd670813b7e431142Afa4"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xBF05279F9Bf1CE69bBFEd670813b7e431142Afa4",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -23269,7 +23302,7 @@
                 "contract_address": "0x95bf7E307BC1ab0BA38ae10fc27084bC36FcD605"
             }
         },
-        "derivation_path": "m/44'/1285'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x95bf7E307BC1ab0BA38ae10fc27084bC36FcD605",
         "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -23313,7 +23346,7 @@
                 "contract_address": "0x5647Fe4281F8F6F01E84BCE775AD4b828A7b8927"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x5647Fe4281F8F6F01E84BCE775AD4b828A7b8927",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -23579,7 +23612,7 @@
         "protocol": {
             "type": "ETH"
         },
-        "derivation_path": "m/44'/1285'",
+        "derivation_path": "m/44'/60'",
         "trezor_coin": "Moonriver",
         "links": {
             "homepage": "https://moonbeam.network/networks/moonriver/"
@@ -23630,7 +23663,7 @@
         "protocol": {
             "type": "ETH"
         },
-        "derivation_path": "m/44'/1284'",
+        "derivation_path": "m/44'/60'",
         "trezor_coin": "Moonbeam",
         "links": {
             "homepage": "https://moonbeam.network/networks/moonbeam/"
@@ -23721,7 +23754,7 @@
                 "contract_address": "0xBFEf6cCFC830D3BaCA4F6766a0d4AaA242Ca9F3D"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xBFEf6cCFC830D3BaCA4F6766a0d4AaA242Ca9F3D",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -23771,7 +23804,7 @@
                 "contract_address": "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -23898,7 +23931,7 @@
                 "contract_address": "0xaD2c0B5ee5424C6b6f9C06E4fEF3FD7CD9FF0264"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xaD2c0B5ee5424C6b6f9C06E4fEF3FD7CD9FF0264",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -24009,7 +24042,7 @@
                 "contract_address": "0xb7A18bd55e8E3E2262d7c8Ee7b4DD9B216Df0Faf"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xb7A18bd55e8E3E2262d7c8Ee7b4DD9B216Df0Faf",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -24053,7 +24086,7 @@
                 "contract_address": "0x41b3966B4FF7b427969ddf5da3627d6AEAE9a48E"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -24395,7 +24428,7 @@
                 "contract_address": "0xBF84720097de111A80f46f9D077643967042841A"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xBF84720097de111A80f46f9D077643967042841A",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -24582,7 +24615,7 @@
                 "contract_address": "0xeaFE31Cd9e8E01C8f0073A2C974f728Fb80e9DcE"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xeaFE31Cd9e8E01C8f0073A2C974f728Fb80e9DcE",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -24631,7 +24664,7 @@
                 "contract_address": "0x6c015277B0f9b8c24B20BD8BbbD29FDb25738A69"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x6c015277B0f9b8c24B20BD8BbbD29FDb25738A69",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -24681,7 +24714,7 @@
                 "contract_address": "0xDCe07662CA8EbC241316a15B611c89711414Dd1a"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xDCe07662CA8EbC241316a15B611c89711414Dd1a",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -24792,7 +24825,7 @@
                 "contract_address": "0x282d8efCe846A88B159800bd4130ad77443Fa1A1"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x282d8efCe846A88B159800bd4130ad77443Fa1A1",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -25072,7 +25105,7 @@
                 "contract_address": "0x62414D03084EeB269E18C970a21f45D2967F0170"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x62414D03084EeB269E18C970a21f45D2967F0170",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -25117,7 +25150,7 @@
         "protocol": {
             "type": "ETH"
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
@@ -25159,7 +25192,7 @@
                 "contract_address": "0xFd7B3A77848f1C2D67E05E54d78d174a0C850335"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xFd7B3A77848f1C2D67E05E54d78d174a0C850335",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -25269,7 +25302,7 @@
                 "contract_address": "0xb7F8Cd00C5A06c0537E2aBfF0b58033d02e5E094"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xb7F8Cd00C5A06c0537E2aBfF0b58033d02e5E094",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -25320,7 +25353,7 @@
                 "contract_address": "0x69a7169F9Da9BBa04b982e49Ffd8d6a16c70c590"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x69a7169F9Da9BBa04b982e49Ffd8d6a16c70c590",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -25364,7 +25397,7 @@
                 "contract_address": "0x6F3B3286fd86d8b47EC737CEB3D0D354cc657B3e"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x6F3B3286fd86d8b47EC737CEB3D0D354cc657B3e",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -25411,7 +25444,7 @@
                 "contract_address": "0x7950865a9140cB519342433146Ed5b40c6F210f7"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x7950865a9140cB519342433146Ed5b40c6F210f7",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -25523,7 +25556,7 @@
                 "contract_address": "0x553d3D295e0f695B9228246232eDF400ed3560B5"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -26032,7 +26065,7 @@
                 "contract_address": "0xd7c8469c7eC40f853dA5f651DE81b45aeD47e5aB"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -26148,7 +26181,7 @@
                 "contract_address": "0x0AaB8DC887D34f00D50E19aee48371a941390d14"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x0AaB8DC887D34f00D50E19aee48371a941390d14",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -26304,7 +26337,7 @@
                 "contract_address": "0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -26351,7 +26384,7 @@
                 "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -26458,7 +26491,7 @@
                 "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -26508,6 +26541,15 @@
         },
         "electrum": [
             {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
                 "url": "txserver.live:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -26517,7 +26559,7 @@
                 ]
             },
             {
-                "url": "txserver.live:50001",
+                "url": "electrumx.live:50010",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -26613,7 +26655,7 @@
                 "contract_address": "0x430EF9263E76DAE63c84292C3409D61c598E9682"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -26668,7 +26710,7 @@
                 "contract_address": "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -26778,7 +26820,7 @@
                 "contract_address": "0x73b6086955c820370A18002F60E9b51FB67d7e1A"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x73b6086955c820370A18002F60E9b51FB67d7e1A",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -26822,7 +26864,7 @@
                 "contract_address": "0x6f8a06447Ff6FcF75d803135a7de15CE88C1d4ec"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -27114,7 +27156,7 @@
                 "contract_address": "0xA1434F1FC3F437fa33F7a781E041961C0205B5Da"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -27293,7 +27335,7 @@
                 "contract_address": "0x791630C11c7159A748d8c2267a66780B3DDC40a7"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x791630C11c7159A748d8c2267a66780B3DDC40a7",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -27617,6 +27659,14 @@
             {
                 "url": "electrum01.reddcoin.com:50002",
                 "protocol": "SSL"
+            },
+            {
+                "url": "electrum02.reddcoin.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -27711,7 +27761,7 @@
                 "contract_address": "0x212208bcc81F3a2D0188afF76A2d39351eb53b96"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x212208bcc81F3a2D0188afF76A2d39351eb53b96",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -27870,7 +27920,7 @@
                 "contract_address": "0xB25e20De2F2eBb4CfFD4D16a55C7B395e8a94762"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -28058,7 +28108,7 @@
                 "contract_address": "0xc2097531d6Cd4A712AE08f398283a92631DC39F9"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xc2097531d6Cd4A712AE08f398283a92631DC39F9",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -28309,7 +28359,7 @@
                 "contract_address": "0xbe662058e00849C3Eef2AC9664f37fEfdF2cdbFE"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xbe662058e00849C3Eef2AC9664f37fEfdF2cdbFE",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -28413,7 +28463,7 @@
                 "contract_address": "0x61299774020dA444Af134c82fa83E3810b309991"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -28627,7 +28677,7 @@
                 "contract_address": "0xF7C71cab11E3694638Bb9A106E0F430565BD15F1"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xF7C71cab11E3694638Bb9A106E0F430565BD15F1",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -28811,7 +28861,7 @@
                 "contract_address": "0x67b725d7e342d7B611fa85e859Df9697D9378B2e"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x67b725d7e342d7B611fa85e859Df9697D9378B2e",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -28862,7 +28912,7 @@
                 "contract_address": "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -28918,7 +28968,7 @@
                 "contract_address": "0x02dd18E4981DA3fC7363fE56f3B81D1860b44ea7"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x02dd18E4981DA3fC7363fE56f3B81D1860b44ea7",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -28969,7 +29019,7 @@
                 "contract_address": "0x7b0E7E40eE4672599F7095D1DdD730b0805195BA"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -29028,7 +29078,7 @@
                 "contract_address": "0xBeC243C995409E6520D7C41E404da5dEba4b209B"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xBeC243C995409E6520D7C41E404da5dEba4b209B",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -29072,7 +29122,7 @@
                 "contract_address": "0x9Ac983826058b8a9C7Aa1C9171441191232E8404"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x9Ac983826058b8a9C7Aa1C9171441191232E8404",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -29184,7 +29234,7 @@
                 "contract_address": "0x56ee926bD8c72B2d5fa1aF4d9E4Cbb515a1E3Adc"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x56ee926bD8c72B2d5fa1aF4d9E4Cbb515a1E3Adc",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -29234,7 +29284,7 @@
                 "contract_address": "0x31965b5c9c55f5579eb49F4b3AcC59aA10a7B98E"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x31965b5c9c55f5579eb49F4b3AcC59aA10a7B98E",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -29278,7 +29328,7 @@
                 "contract_address": "0x50B728D8D964fd00C2d0AAD81718b71311feF68a"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -29334,7 +29384,7 @@
                 "contract_address": "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -29385,7 +29435,7 @@
                 "contract_address": "0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -29566,7 +29616,7 @@
                 "contract_address": "0x09211Dc67f9fe98Fb7bBB91Be0ef05f4a12FA2b2"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x09211Dc67f9fe98Fb7bBB91Be0ef05f4a12FA2b2",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -29610,7 +29660,7 @@
                 "contract_address": "0x9E1170c12FDDd3B00FEc42ddF4C942565D9Be577"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x9E1170c12FDDd3B00FEc42ddF4C942565D9Be577",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -29661,7 +29711,7 @@
                 "contract_address": "0x5f7F94a1dd7b15594d17543BEB8B30b111DD464c"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x5f7F94a1dd7b15594d17543BEB8B30b111DD464c",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -29711,7 +29761,7 @@
                 "contract_address": "0xB53Ec4aCe420a62Cfb75aFdEba600D284777cd65"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -29823,7 +29873,7 @@
                 "contract_address": "0x6Bf2eb299E51Fc5DF30Dec81D9445dDe70e3F185"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x6Bf2eb299E51Fc5DF30Dec81D9445dDe70e3F185",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -29890,76 +29940,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "SUPERNET": {
-        "coin": "SUPERNET",
-        "type": "Smart Chain",
-        "name": "Supernet",
-        "coinpaprika_id": "unity-supernet",
-        "coingecko_id": "supernet",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://supernet.kmdexplorer.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "SUPERNET",
-        "fname": "Supernet",
-        "rpcport": 11341,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrum1.cipig.net:20005",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20005",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:20005",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "SUSHI-AVX20": {
         "coin": "SUSHI-AVX20",
         "type": "AVX-20",
@@ -29989,7 +29969,7 @@
                 "contract_address": "0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -30033,7 +30013,7 @@
                 "contract_address": "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -30145,7 +30125,7 @@
                 "contract_address": "0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -30195,7 +30175,7 @@
                 "contract_address": "0xE0a60890BB7F9250089455620063fb6fe4DC159a"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xE0a60890BB7F9250089455620063fb6fe4DC159a",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -30239,7 +30219,7 @@
                 "contract_address": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2"
             }
         },
-        "derivation_path": "m/44'/1285'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
         "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -30283,7 +30263,7 @@
                 "contract_address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -30338,7 +30318,7 @@
                 "contract_address": "0xe56a473043EaAB7947c0a2408cEA623074500EE3"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xe56a473043EaAB7947c0a2408cEA623074500EE3",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -30388,7 +30368,7 @@
                 "contract_address": "0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -30594,7 +30574,7 @@
                 "contract_address": "0xa4080f1778e69467E905B8d6F72f6e441f9e9484"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xa4080f1778e69467E905B8d6F72f6e441f9e9484",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -30645,7 +30625,7 @@
                 "contract_address": "0xf8F9efC0db77d8881500bb06FF5D6ABc3070E695"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -30701,7 +30681,7 @@
                 "contract_address": "0x1f1E7c893855525b303f99bDF5c3c05Be09ca251"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x1f1E7c893855525b303f99bDF5c3c05Be09ca251",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -30746,7 +30726,7 @@
                 "contract_address": "0xE55e19Fb4F2D85af758950957714292DAC1e25B2"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xE55e19Fb4F2D85af758950957714292DAC1e25B2",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -31012,7 +30992,7 @@
                 "contract_address": "0x83BC92dcfC1F62Ba5dbd0f3537032f83a004300A"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x83BC92dcfC1F62Ba5dbd0f3537032f83a004300A",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -31119,7 +31099,7 @@
                 "contract_address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -31357,7 +31337,7 @@
                 "contract_address": "0x621C1E8610e4B9b7fc9F043203C008EDe52E92F5"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x621C1E8610e4B9b7fc9F043203C008EDe52E92F5",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -31401,7 +31381,7 @@
                 "contract_address": "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -31457,7 +31437,7 @@
                 "contract_address": "0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -31568,7 +31548,7 @@
                 "contract_address": "0xBD9a8CA934e673b874937761D7CFa7084ecBdd53"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xBD9a8CA934e673b874937761D7CFa7084ecBdd53",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -31745,7 +31725,7 @@
                 "contract_address": "0x76A797A59Ba2C17726896976B7B3747BfD1d220f"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x76A797A59Ba2C17726896976B7B3747BfD1d220f",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -31834,7 +31814,7 @@
                 "contract_address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -31885,7 +31865,7 @@
                 "contract_address": "0xCE7de646e7208a4Ef112cb6ed5038FA6cC6b12e3"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -31944,7 +31924,7 @@
                 "contract_address": "0x564A341Df6C126f90cf3ECB92120FD7190ACb401"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -31997,7 +31977,7 @@
                 "contract_address": "0xC1fdbed7Dac39caE2CcC0748f7a80dC446F6a594"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xC1fdbed7Dac39caE2CcC0748f7a80dC446F6a594",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -32049,7 +32029,7 @@
                 "contract_address": "0x4Fb71290Ac171E1d144F7221D882BECAc7196EB5"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -32161,7 +32141,7 @@
                 "contract_address": "0x14016E85a25aeb13065688cAFB43044C2ef86784"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x14016E85a25aeb13065688cAFB43044C2ef86784",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -32212,7 +32192,7 @@
                 "contract_address": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -32323,7 +32303,7 @@
                 "contract_address": "0x1C20E891Bab6b1727d14Da358FAe2984Ed9B59EB"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x1C20E891Bab6b1727d14Da358FAe2984Ed9B59EB",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -32368,7 +32348,7 @@
                 "contract_address": "0x9879aBDea01a879644185341F7aF7d8343556B7a"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x9879aBDea01a879644185341F7aF7d8343556B7a",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -32418,7 +32398,7 @@
                 "contract_address": "0x5eE41aB6edd38cDfB9f6B4e6Cf7F75c87E170d98"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x5eE41aB6edd38cDfB9f6B4e6Cf7F75c87E170d98",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -32462,7 +32442,7 @@
                 "contract_address": "0xD17027b85Abf02721F953EE528721A980fa58941"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xD17027b85Abf02721F953EE528721A980fa58941",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -32506,7 +32486,7 @@
                 "contract_address": "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -32554,7 +32534,7 @@
                 "contract_address": "0x4B0F1812e5Df2A09796481Ff14017e6005508003"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x4B0F1812e5Df2A09796481Ff14017e6005508003",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -32665,7 +32645,7 @@
                 "contract_address": "0x7FBc10850caE055B27039aF31bD258430e714c62"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x7FBc10850caE055B27039aF31bD258430e714c62",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -32714,6 +32694,11 @@
         },
         "electrum": [
             {
+                "url": "failover.trc-uis.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
                 "url": "uis-uno.ewmcx.net:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
@@ -32750,7 +32735,7 @@
                 "contract_address": "0x3Bd2B1c7ED8D396dbb98DED3aEbb41350a5b2339"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x3Bd2B1c7ED8D396dbb98DED3aEbb41350a5b2339",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -32851,7 +32836,7 @@
                 "contract_address": "0x3066818837c5e6eD6601bd5a91B0762877A6B731"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x3066818837c5e6eD6601bd5a91B0762877A6B731",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -32899,7 +32884,7 @@
                 "contract_address": "0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -33003,7 +32988,7 @@
                 "contract_address": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -33054,7 +33039,7 @@
                 "contract_address": "0x22C54cE8321A4015740eE1109D9cBc25815C46E6"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x22C54cE8321A4015740eE1109D9cBc25815C46E6",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -33098,7 +33083,7 @@
                 "contract_address": "0xEe58E4D62b10A92dB1089d4D040B759C28aE16Cd"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xEe58E4D62b10A92dB1089d4D040B759C28aE16Cd",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -33142,7 +33127,7 @@
                 "contract_address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -33205,12 +33190,12 @@
         },
         "electrum": [
             {
-                "url": "uno-bkp.coinmunity.gold:50002",
+                "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "uno-main.coinmunity.gold:50002",
+                "url": "uno-bkp.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -33303,7 +33288,7 @@
                 "contract_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -33348,7 +33333,7 @@
                 "contract_address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -33452,7 +33437,7 @@
                 "contract_address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -33510,7 +33495,7 @@
                 "contract_address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -33560,7 +33545,7 @@
                 "contract_address": "0x9362Bbef4B8313A8Aa9f0c9808B80577Aa26B73B"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x9362Bbef4B8313A8Aa9f0c9808B80577Aa26B73B",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -33604,7 +33589,7 @@
                 "contract_address": "0x980a5AfEf3D17aD98635F6C5aebCBAedEd3c3430"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x980a5AfEf3D17aD98635F6C5aebCBAedEd3c3430",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -33648,7 +33633,7 @@
                 "contract_address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D"
             }
         },
-        "derivation_path": "m/44'/1285'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
         "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -33692,7 +33677,7 @@
                 "contract_address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -33748,7 +33733,7 @@
                 "contract_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -33796,7 +33781,7 @@
                 "contract_address": "0xd17479997F34dd9156Deef8F95A52D81D265be9c"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xd17479997F34dd9156Deef8F95A52D81D265be9c",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -33903,7 +33888,7 @@
                 "contract_address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C"
             }
         },
-        "derivation_path": "m/44'/1285'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
         "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -33947,7 +33932,7 @@
                 "contract_address": "0x049d68029688eAbF473097a2fC38ef61633A3C7A"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x049d68029688eAbF473097a2fC38ef61633A3C7A",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -33997,7 +33982,7 @@
                 "contract_address": "0xa71EdC38d189767582C38A3145b5873052c3e47a"
             }
         },
-        "derivation_path": "m/44'/1023'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
         "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -34041,7 +34026,7 @@
                 "contract_address": "0x0039f574eE5cC39bdD162E9A88e3EB1f111bAF48"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x0039f574eE5cC39bdD162E9A88e3EB1f111bAF48",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -34085,7 +34070,7 @@
                 "contract_address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -34198,7 +34183,7 @@
                 "contract_address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -34251,7 +34236,7 @@
                 "contract_address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -34295,7 +34280,7 @@
                 "contract_address": "0x55d398326f99059fF775485246999027B3197955"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -34616,7 +34601,7 @@
                 "contract_address": "0x6FDcdfef7c496407cCb0cEC90f9C5Aaa1Cc8D888"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -34786,7 +34771,7 @@
                 "contract_address": "0x054c42b6414747F5263b4A86f21B1aFAD00326Bf"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x054c42b6414747F5263b4A86f21B1aFAD00326Bf",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -34945,7 +34930,7 @@
                 "contract_address": "0x2794DAD4077602eD25A88d03781528D1637898B4"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -35275,7 +35260,7 @@
                 "contract_address": "0xFC3E14af0f0c2129a84Cc013D48C70D682902874"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xFC3E14af0f0c2129a84Cc013D48C70D682902874",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -35387,7 +35372,7 @@
                 "contract_address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -35612,7 +35597,7 @@
                 "contract_address": "0xaBC9547B534519fF73921b1FBA6E672b5f58D083"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xaBC9547B534519fF73921b1FBA6E672b5f58D083",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -35657,7 +35642,7 @@
                 "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -35708,7 +35693,7 @@
                 "contract_address": "0x6626c47c00F1D87902fc13EECfaC3ed06D5E8D8a"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x6626c47c00F1D87902fc13EECfaC3ed06D5E8D8a",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -35758,7 +35743,7 @@
                 "contract_address": "0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -35870,7 +35855,7 @@
                 "contract_address": "0x7324c7C0d95CEBC73eEa7E85CbAac0dBdf88a05b"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x7324c7C0d95CEBC73eEa7E85CbAac0dBdf88a05b",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -35989,7 +35974,7 @@
                 "contract_address": "0xb897D0a0f68800f8Be7D69ffDD1c24b69f57Bf3e"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xb897D0a0f68800f8Be7D69ffDD1c24b69f57Bf3e",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -36097,7 +36082,7 @@
                 "contract_address": "0x2c826035c1C36986117A0e949bD6ad4baB54afE2"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -36152,7 +36137,7 @@
                 "contract_address": "0x43C934A845205F0b514417d757d7235B8f53f1B9"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -36486,7 +36471,7 @@
                 "contract_address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -36663,7 +36648,7 @@
                 "contract_address": "0xDC3326e71D45186F113a2F448984CA0e8D201995"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -36719,7 +36704,7 @@
                 "contract_address": "0x16939ef78684453bfDFb47825F8a5F714f12623a"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -36780,15 +36765,6 @@
         },
         "electrum": [
             {
-                "url": "xvc-ex-seven.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx1.vanillacash.info:50011",
                 "protocol": "TCP"
             },
@@ -36827,7 +36803,7 @@
                 "contract_address": "0xeBbfB9E5aF3172C7C0e1D4ff7106A8Bbb961F87B"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xeBbfB9E5aF3172C7C0e1D4ff7106A8Bbb961F87B",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -37008,7 +36984,7 @@
                 "contract_address": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -37067,7 +37043,7 @@
                 "contract_address": "0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -37111,7 +37087,7 @@
                 "contract_address": "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -37231,7 +37207,7 @@
                 "contract_address": "0x29b0Da86e484E1C0029B56e817912d778aC0EC69"
             }
         },
-        "derivation_path": "m/44'/1007'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x29b0Da86e484E1C0029B56e817912d778aC0EC69",
         "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -37281,7 +37257,7 @@
                 "contract_address": "0xdfa3Ef49d357c6b0B2DfBB88701af2b7A053fD0A"
             }
         },
-        "derivation_path": "m/44'/641'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xdfa3Ef49d357c6b0B2DfBB88701af2b7A053fD0A",
         "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -37325,7 +37301,7 @@
                 "contract_address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -37380,7 +37356,7 @@
                 "contract_address": "0x7F70642d88cf1C4a3a7abb072B53B929b653edA5"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x7F70642d88cf1C4a3a7abb072B53B929b653edA5",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -37646,7 +37622,7 @@
                 "contract_address": "0x530e9346870E632A63E8d461bb3c3622e00782DE"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x530e9346870E632A63E8d461bb3c3622e00782DE",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -37701,15 +37677,6 @@
         },
         "electrum": [
             {
-                "url": "zet-ex-three.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL"
             },
@@ -37748,7 +37715,7 @@
                 "contract_address": "0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -37807,7 +37774,7 @@
                 "contract_address": "0x596fA47043f99A4e0F122243B841E55375cdE0d2"
             }
         },
-        "derivation_path": "m/44'/9000'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x596fA47043f99A4e0F122243B841E55375cdE0d2",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -37913,7 +37880,7 @@
                 "contract_address": "0x5559Edb74751A0edE9DeA4DC23aeE72cCA6bE3D5"
             }
         },
-        "derivation_path": "m/44'/966'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x5559Edb74751A0edE9DeA4DC23aeE72cCA6bE3D5",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -38144,7 +38111,7 @@
                 "contract_address": "0xaFF9084f2374585879e8B434C399E29E80ccE635"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
@@ -39431,7 +39398,7 @@
         "protocol": {
             "type": "ETH"
         },
-        "derivation_path": "m/44'/108'",
+        "derivation_path": "m/44'/60'",
         "trezor_coin": "Ubiq",
         "links": {
             "homepage": "https://ubiqsmart.com"
@@ -39996,7 +39963,7 @@
                 "contract_address": "0x5fb4968fC85868DF3aD2d6e59883a10570f01D18"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x5fb4968fC85868DF3aD2d6e59883a10570f01D18",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -40103,7 +40070,7 @@
                 "contract_address": "0x788D2780992222360f674cc12C36478870b8E6ED"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x788D2780992222360f674cc12C36478870b8E6ED",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -40170,6 +40137,15 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
+            {
+                "url": "tbch.loping.net:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
             {
                 "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
@@ -40478,7 +40454,7 @@
                 "contract_address": "0xee8EE60503fd0a735cC972A08E3a5B2026DDCe47"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xee8EE60503fd0a735cC972A08E3a5B2026DDCe47",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -40498,98 +40474,6 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "ZOMBIE": {
-        "coin": "ZOMBIE",
-        "type": "ZHTLC",
-        "name": "Zombie",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://zombie.komodo.earth/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": true,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "light_wallet_d_servers": [
-            "https://zombie.dragonhound.info:443",
-            "https://zombie.dragonhound.info:1443"
-        ],
-        "asset": "ZOMBIE",
-        "fname": "Zombie",
-        "txversion": 4,
-        "overwintered": 1,
-        "avg_blocktime": 60,
-        "mm2": 1,
-        "protocol": {
-            "type": "ZHTLC",
-            "protocol_data": {
-                "consensus_params": {
-                    "overwinter_activation_height": 0,
-                    "sapling_activation_height": 1,
-                    "blossom_activation_height": null,
-                    "heartwood_activation_height": null,
-                    "canopy_activation_height": null,
-                    "coin_type": 133,
-                    "hrp_sapling_extended_spending_key": "secret-extended-key-main",
-                    "hrp_sapling_extended_full_viewing_key": "zxviews",
-                    "hrp_sapling_payment_address": "zs",
-                    "b58_pubkey_address_prefix": [
-                        28,
-                        184
-                    ],
-                    "b58_script_address_prefix": [
-                        28,
-                        189
-                    ]
-                },
-                "z_derivation_path": "m/32'/133'"
-            }
-        },
-        "derivation_path": "m/44'/133'",
-        "required_confirmations": 3,
-        "electrum": [
-            {
-                "url": "zombie.dragonhound.info:20033",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "smk@komodoplatform.com"
-                    },
-                    {
-                        "discord": "smk#7640"
-                    }
-                ]
-            },
-            {
-                "url": "zombie.dragonhound.info:20133",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "smk@komodoplatform.com"
-                    },
-                    {
-                        "discord": "smk#7640"
-                    }
-                ]
-            },
-            {
-                "url": "zombie.dragonhound.info:10033",
-                "contact": [
-                    {
-                        "email": "smk@komodoplatform.com"
-                    },
-                    {
-                        "discord": "smk#7640"
-                    }
-                ],
-                "protocol": "TCP"
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "ZINU-BEP20": {
@@ -40620,7 +40504,7 @@
                 "contract_address": "0x21F9B5b2626603e3F40bfc13d01AfB8c431D382F"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x21F9B5b2626603e3F40bfc13d01AfB8c431D382F",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -40782,7 +40666,7 @@
                 "contract_address": "0xD7380b10bF3886B34Ab3422DEa42E408850375CA"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0xD7380b10bF3886B34Ab3422DEa42E408850375CA",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -40877,7 +40761,7 @@
                 "gas_price": 0.5
             }
         },
-        "derivation_path": "m/44'/566'",
+        "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
                 "url": "https://iris-rpc.alpha.komodo.earth/",
@@ -40921,7 +40805,7 @@
                 "contract_address": "0x05C50a62b0b87bE1fFB1Cf3b77d9eDBa834ef6f7"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x05C50a62b0b87bE1fFB1Cf3b77d9eDBa834ef6f7",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -41021,7 +40905,7 @@
                 "gas_price": 0.5
             }
         },
-        "derivation_path": "m/44'/566'",
+        "derivation_path": "m/44'/118'",
         "parent_coin": "IRIS",
         "rpc_urls": [
             {
@@ -41281,6 +41165,15 @@
         },
         "electrum": [
             {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -41329,7 +41222,7 @@
                 "contract_address": "0x347862372f7C8f83D69025234367Ac11c5241Db3"
             }
         },
-        "derivation_path": "m/44'/714'",
+        "derivation_path": "m/44'/60'",
         "contract_address": "0x347862372f7C8f83D69025234367Ac11c5241Db3",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -41436,7 +41329,7 @@
                 "gas_price": 0.5
             }
         },
-        "derivation_path": "m/44'/1'",
+        "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
                 "url": "https://iristest-rpc.bravo.komodo.earth/"
@@ -41472,7 +41365,7 @@
                 "chain_id": "nucleus-3"
             }
         },
-        "derivation_path": "m/44'/1'",
+        "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
                 "url": "https://nucleus-rpc.alpha.komodo.earth/",
@@ -41527,7 +41420,7 @@
                 "denom": "ibc/F7F28FF3C09024A0225EDBBDB207E5872D2B4EF2FB874FE47B05EF9C9A7D211C"
             }
         },
-        "derivation_path": "m/44'/1'",
+        "derivation_path": "m/44'/118'",
         "parent_coin": "IRISTEST",
         "rpc_urls": [
             {
@@ -41562,6 +41455,7 @@
                 "denom": "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E"
             }
         },
+        "derivation_path": "m/44'/118'",
         "parent_coin": "NUCLEUSTEST",
         "rpc_urls": [
             {
@@ -41618,6 +41512,7 @@
                 "denom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23"
             }
         },
+        "derivation_path": "m/44'/118'",
         "parent_coin": "NUCLEUSTEST",
         "rpc_urls": [
             {
@@ -41647,6 +41542,75 @@
         ],
         "explorer_block_url": "nucleus/blocks/",
         "binance_id": "OSMO"
+    },
+    "LUPA": {
+        "coin": "LUPA",
+        "type": "Smart Chain",
+        "name": "Lupaza",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.lupacoin.biz/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "LUPA",
+        "fname": "Lupaza",
+        "rpcport": 64151,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrum.lupacoin.biz:50005",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.lupacoin.biz:50005",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.lupacoin.biz:17487",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ],
+                "protocol": "TCP"
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "ZOIN": {
         "coin": "ZOIN",
