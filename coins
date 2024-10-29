@@ -6064,6 +6064,7 @@
     "protocol": {
       "type": "UTXO"
     },
+    "derivation_path": "m/44'/101'",
     "links": {
       "github": "https://github.com/goldcoin/goldcoin",
       "homepage": "https://www.goldcoinproject.org"
