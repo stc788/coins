@@ -12527,7 +12527,8 @@
     "required_confirmations": 0,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/1'"
   },
   {
     "coin": "TESTBTC-segwit",
@@ -12550,7 +12551,8 @@
     "required_confirmations": 0,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/1'"
   },
   {
     "coin": "TEL-ERC20",
