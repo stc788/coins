@@ -16320,6 +16320,11 @@
     "avg_blocktime": 120,
     "protocol": {
       "type": "UTXO"
+    },
+    "derivation_path": "m/44'/88'",
+    "links": {
+      "github": "https://github.com/runebase/runebase",
+      "homepage": "https://www.runebase.io"
     }
   },
   {
