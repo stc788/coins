@@ -523,6 +523,7 @@
     "coin": "AIBC",
     "name": "aiblockchain",
     "fname": "Aiblockchain",
+    "sign_message_prefix": "Aiblockchain Signed Message:\n",
     "rpcport": 7772,
     "pubtype": 23,
     "p2shtype": 23,
@@ -530,16 +531,17 @@
     "txfee": 0,
     "dust": 5460,
     "segwit": true,
+    "bech32_hrp": "aibc",
     "mm2": 1,
     "required_confirmations": 11,
     "avg_blocktime": 30,
     "protocol": {
-      "type": "UTXO",
-      "bip44": "m/44'/2'/0'/0/0"
+      "type": "UTXO"
     },
+    "derivation_path": "m/44'/2'",
     "links": {
       "github": "https://github.com/nickgsh/AiBlockChain",
-      "homepage": "https://aibc.space/"
+      "homepage": "https://aibc.space"
     }
   },
   {
