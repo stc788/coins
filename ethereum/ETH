@@ -4,7 +4,7 @@
     "rpc_nodes": [
         {
             "url": "https://node.komodo.earth:8080/ethereum",
-            "gui_auth": true
+            "komodo_auth": true
         },
         {
             "url": "https://eth1.cipig.net:18555",
