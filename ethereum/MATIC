@@ -4,7 +4,7 @@
   "rpc_nodes": [
     {
       "url": "https://node.komodo.earth:8080/polygon",
-      "komodo_auth": true
+      "komodo_proxy": true
     },
     {
       "url": "https://polygon-rpc.com"

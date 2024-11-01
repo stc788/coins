@@ -631,10 +631,10 @@ def filter_tcp(coins_config, coins_config_ssl):
     coins_config_tcp = {}
     for coin in coins_config:
         coins_config_tcp.update({coin: coins_config[coin]})
-        # Omit komodo_auth: true nodes - these are web only.
+        # Omit komodo_proxy: true nodes - these are web only.
         if "nodes" in coins_config[coin]:
             coins_config_tcp[coin]["nodes"] = [
-                i for i in coins_config[coin]["nodes"] if "komodo_auth" not in i
+                i for i in coins_config[coin]["nodes"] if "komodo_proxy" not in i
             ][:3]
         if "electrum" in coins_config[coin]:
             electrums = []
@@ -643,8 +643,8 @@ def filter_tcp(coins_config, coins_config_ssl):
                 if len(coins_config_ssl[coin]["electrum"]) > 0:
                     electrums = coins_config_ssl[coin]["electrum"]
             for i in coins_config[coin]["electrum"]:
-                if "komodo_auth" in i:
-                    if i["komodo_auth"] == True:
+                if "komodo_proxy" in i:
+                    if i["komodo_proxy"] == True:
                         continue
                 if item_exists(i, electrums) == False:
                     if "protocol" in i:
