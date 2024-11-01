@@ -332,6 +332,7 @@
     "coin": "ABY",
     "name": "artbyte",
     "fname": "ArtByte",
+    "sign_message_prefix": "Artbyte Signed Message:\n",
     "isPoS": 1,
     "rpcport": 9262,
     "pubtype": 28,
@@ -345,6 +346,11 @@
     "avg_blocktime": 45,
     "protocol": {
       "type": "UTXO"
+    },
+    "derivation_path": "m/44'/720'",
+    "links": {
+      "github": "https://github.com/WikiMin3R/ArtBytE",
+      "homepage": "https://artbyte.art"
     }
   },
   {
@@ -1983,7 +1989,8 @@
     "avg_blocktime": 66,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/1'"
   },
   {
     "coin": "BLOCX",
@@ -2460,6 +2467,7 @@
     "coin": "BTE",
     "name": "bitweb",
     "fname": "Bitweb",
+    "sign_message_prefix": "Bitweb Signed Message:\n",
     "rpcport": 1605,
     "pubtype": 33,
     "p2shtype": 30,
@@ -4189,6 +4197,7 @@
     "coin": "DPC",
     "name": "dualpowecoin",
     "fname": "Dualpowcoin",
+    "sign_message_prefix": "Dpowcoin Signed Message:\n",
     "rpcport": 42002,
     "pubtype": 55,
     "p2shtype": 28,
@@ -4254,6 +4263,7 @@
     "coin": "DIMI",
     "name": "diminutivecoin",
     "fname": "Diminutive Coin",
+    "sign_message_prefix": "DiminutiveCoin Signed Message:\n",
     "rpcport": 49122,
     "pubtype": 32,
     "p2shtype": 30,
@@ -6904,6 +6914,7 @@
     "coin": "IL8P",
     "name": "infiniloop",
     "fname": "InfiniLooP",
+    "sign_message_prefix": "InfiniLooP Signed Message:\n",
     "isPoS": 1,
     "rpcport": 9459,
     "pubtype": 33,
@@ -6917,6 +6928,11 @@
     "avg_blocktime": 45,
     "protocol": {
       "type": "UTXO"
+    },
+    "derivation_path": "m/44'/722'",
+    "links": {
+      "github": "https://github.com/WikiMin3R/InfiniLooP",
+      "homepage": "https://infiniloop.io"
     }
   },
   {
@@ -13116,6 +13132,7 @@
     "coin": "UIS",
     "name": "unitus",
     "fname": "Unitus",
+    "sign_message_prefix": "Unitus Signed Message:\n",
     "rpcport": 50604,
     "pubtype": 68,
     "p2shtype": 10,
@@ -13127,6 +13144,11 @@
     "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
+    },
+    "derivation_path": "m/44'/723'",
+    "links": {
+      "github": "https://github.com/unitusdev/unitus",
+      "homepage": "https://unituscurrency.com"
     }
   },
   {
@@ -14826,6 +14848,7 @@
     "coin": "XVC",
     "name": "vanillacash",
     "fname": "VanillaCash",
+    "sign_message_prefix": "Vanillacash Signed Message:\n",
     "isPoS": 1,
     "rpcport": 48888,
     "pubtype": 18,
@@ -14838,6 +14861,11 @@
     "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
+    },
+    "derivation_path": "m/44'/724'",
+    "links": {
+      "github": "https://github.com/WikiMin3R/Vanillacash",
+      "homepage": "https://vanillacash.org"
     }
   },
   {
@@ -15197,6 +15225,11 @@
     "avg_blocktime": 45,
     "protocol": {
       "type": "UTXO"
+    },
+    "derivation_path": "m/44'/719'",
+    "links": {
+      "github": "https://github.com/WikiMin3R/ZetacoinE",
+      "homepage": "https://zetacoin.io"
     }
   },
   {
