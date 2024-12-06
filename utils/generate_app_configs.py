@@ -7,6 +7,7 @@ from copy import deepcopy
 import requests
 from scan_electrums import get_electrums_report
 from ensure_chainids import ensure_chainids
+from logger import logger
 
 
 current_time = time.time()
@@ -117,19 +118,6 @@ with open(f"{repo_path}/api_ids/coinpaprika_ids.json", "r") as f:
 with open(f"{repo_path}/slp/bchd_urls.json", "r") as f:
     bchd_urls = json.load(f)
 
-
-def colorize(string, color):
-    colors = {
-        "red": "\033[31m",
-        "yellow": "\033[33m",
-        "magenta": "\033[35m",
-        "blue": "\033[34m",
-        "green": "\033[32m",
-    }
-    if color not in colors:
-        return str(string)
-    else:
-        return colors[color] + str(string) + "\033[0m"
 
 
 class CoinConfig:
@@ -410,7 +398,7 @@ class CoinConfig:
             if token_type in value_list:
                 i = value_list.index(token_type)
                 return key_list[i]
-            print(f"{token_type} not in value_list")
+            logger.warning(f"{token_type} not in value_list")
         return None
 
     def clean_name(self):
@@ -562,7 +550,7 @@ def parse_coins_repo():
     nodata = []
     for coin in coins_config:
         if not coins_config[coin]["explorer_url"]:
-            print(f"{coin} has no explorers!")
+            logger.warning(f"{coin} has no explorers!")
         if coins_config[coin]["type"] not in ["SLP"]:
             for field in ["nodes", "electrum", "light_wallet_d_servers", "rpc_urls"]:
                 if field in coins_config[coin]:
@@ -575,14 +563,14 @@ def parse_coins_repo():
             ):
                 nodata.append(coin)
 
-    print(
+    logger.warning(
         f"The following coins are missing required data or failing connections for nodes/electrums {nodata}"
     )
-    print(f"They will not be included in the output")
+    logger.warning(f"They will not be included in the output")
     if errors:
-        print(f"Errors:")
+        logger.error(f"Errors:")
         for error in errors:
-            print(error)
+            logger.error(error)
     return coins_config, nodata
 
 
@@ -708,7 +696,7 @@ def filter_wss(coins_config):
                     if i["protocol"] == "WSS":
                         electrums.append(i)
                 else:
-                    print(i)
+                    logger.warning(f"No protocol data in {i}")
             if len(electrums) > 0:
                 coins_config_wss.update({coin: coins_config[coin]})
                 coins_config_wss[coin]["electrum"] = electrums
@@ -737,7 +725,7 @@ def generate_binance_api_ids(coins_config):
     known_ids = [i for i in pairs if isinstance(i, tuple)]
 
     if unknown_ids:
-        print(f"Unknown ids: {unknown_ids}")
+        logger.warning(f"Unknown ids: {unknown_ids}")
 
     api_ids = {}
     known_id_coins = list(set([i[0] for i in known_ids] + [i[1] for i in known_ids]))
@@ -788,24 +776,19 @@ if __name__ == "__main__":
     coins_config_wss = filter_wss(deepcopy(coins_config))
     coins_config_tcp = filter_tcp(deepcopy(coins_config), coins_config_ssl)
     for coin in coins_config:
+        r = f"{coin}: [SSL {coin in coins_config_ssl}] [TCP {coin in coins_config_tcp}] [WSS {coin in coins_config_wss}]"
         if (
             coin in coins_config_tcp
             and coin in coins_config_ssl
             and coin in coins_config_wss
         ):
-            color = "green"
+            logger.info(r)
         else:
-            color = "blue"
-        print(
-            colorize(
-                f"{coin}: [SSL {coin in coins_config_ssl}] [TCP {coin in coins_config_tcp}] [WSS {coin in coins_config_wss}]",
-                color,
-            )
-        )
+            logger.calc(r)
     for coin in nodata:
-        print(colorize(f"{coin}: [SSL False] [TCP False] [WSS False]", "red"))
-    print()
-    print(f"Total coins: {len(coins_config)}")
-    print(f"Total coins with SSL: {len(coins_config_ssl)}")
-    print(f"Total coins with TCP: {len(coins_config_tcp)}")
-    print(f"Total coins with WSS: {len(coins_config_wss)}")
+        logger.warning(f"{coin}: [SSL False] [TCP False] [WSS False]")
+    
+    logger.info(f"\nTotal coins: {len(coins_config)}")
+    logger.info(f"Total coins with SSL: {len(coins_config_ssl)}")
+    logger.info(f"Total coins with TCP: {len(coins_config_tcp)}")
+    logger.info(f"Total coins with WSS: {len(coins_config_wss)}")
