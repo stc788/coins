@@ -16271,6 +16271,7 @@
     "coin": "XEC",
     "name": "xec",
     "fname": "eCash",
+    "sign_message_prefix": "eCash Signed Message:\n",
     "rpcport": 8332,
     "pubtype": 0,
     "p2shtype": 5,
@@ -16290,7 +16291,11 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/1899'"
+    "derivation_path": "m/44'/1899'",
+    "links": {
+      "github": "https://github.com/Bitcoin-ABC/bitcoin-abc",
+      "homepage": "https://e.cash"
+    }
   },
   {
     "coin": "SIBM-BEP20",
