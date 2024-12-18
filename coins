@@ -1166,6 +1166,7 @@
     "coin": "AXE",
     "name": "axe",
     "fname": "Axe",
+    "sign_message_prefix": "DarkCoin Signed Message:\n",
     "rpcport": 9337,
     "pubtype": 55,
     "p2shtype": 16,
