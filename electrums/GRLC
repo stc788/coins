@@ -76,5 +76,15 @@
                 "discord": "405566674448810005"
             }
         ]
+    },
+    {
+        "url": "electrum.niftybakes.com:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum.niftybakes.com:50004",
+        "contact": [
+            {
+                "discord": "405566674448810005"
+            }
+        ]
     }
 ]

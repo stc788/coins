@@ -14,7 +14,12 @@
       "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
     },
     {
-      "url": "https://electrum3.cipig.net:18755"
+      "url": "https://electrum3.cipig.net:18755",
+      "ws_url": "wss://electrum3.cipig.net:38755"
+    },
+    {
+      "url": "https://polygon-bor-rpc.publicnode.com",
+      "ws_url": "wss://polygon-bor-rpc.publicnode.com"
     }
   ]
 }
