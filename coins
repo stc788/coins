@@ -2965,43 +2965,6 @@
     "derivation_path": "m/44'/34'"
   },
   {
-    "coin": "CDS-AVX20",
-    "name": "cds_avx20",
-    "fname": "Crypto Development Services",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 43114,
-    "required_confirmations": 3,
-    "avg_blocktime": 2.4,
-    "decimals": 8,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "AVAX",
-        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "CDS-BEP20",
-    "name": "cds_bep20",
-    "fname": "Crypto Development Services",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "CDS-PLG20",
     "name": "cds_plg20",
     "fname": "Crypto Development Services",
@@ -3015,7 +2978,7 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "MATIC",
-        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
+        "contract_address": "0xF7B5991c676929BF98BF3E2e2e386789BB16912a"
       }
     },
     "derivation_path": "m/44'/60'"
