@@ -1990,6 +1990,27 @@
     }
   },
   {
+    "coin": "BCZERO",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "BCZERO",
+    "fname": "Buggyra Coin Zero",
+    "rpcport": 46856,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 4,
+    "requires_notarization": false,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo",
+    "links": {
+      "homepage": "https://buggyracoinzero.com"
+    }
+  },
+  {
     "coin": "BLK",
     "name": "blackmore",
     "fname": "BlackCoin",
