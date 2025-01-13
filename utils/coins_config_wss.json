@@ -1348,6 +1348,11 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "miami.ecoincore.com:34335",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "woolloomooloo.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -1394,6 +1399,11 @@
         "electrum": [
             {
                 "url": "holland.ecoincore.com:34335",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "miami.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
