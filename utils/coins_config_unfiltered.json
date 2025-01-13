@@ -8055,7 +8055,28 @@
             "github": "https://github.com/LIMXTEC/BitCore",
             "homepage": "https://bitcore.cc"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "BTX-segwit": {
@@ -8097,7 +8118,28 @@
             "github": "https://github.com/LIMXTEC/BitCore",
             "homepage": "https://bitcore.cc"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "BTX-BEP20": {
@@ -14108,6 +14150,17 @@
                     }
                 ],
                 "ws-url": "big-parrot-60.doi.works:50004"
+            },
+            {
+                "url": "itchy-jellyfish-89.doi.works:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "doichain"
+                    }
+                ],
+                "ws-url": "itchy-jellyfish-89.doi.works:50004"
             },
             {
                 "url": "pink-deer-69.doi.works:50001",
@@ -21929,6 +21982,33 @@
         },
         "electrum": [
             {
+                "url": "il8p-ex-five.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "il8p-ex-five.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "il8p-ex-five.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "il8p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -27585,14 +27665,6 @@
         },
         "derivation_path": "m/44'/191'",
         "electrum": [
-            {
-                "url": "electrum5.getlynx.io:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum5.getlynx.io:50004",
-                "protocol": "WSS"
-            },
             {
                 "url": "electrum6.getlynx.io:50002",
                 "protocol": "SSL"
@@ -35696,6 +35768,33 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -35757,6 +35856,33 @@
                     },
                     {
                         "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
                     }
                 ]
             }
@@ -42129,6 +42255,14 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "uno-ex-one.ewmci.online:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "uno-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -43777,6 +43911,35 @@
         },
         "electrum": [
             {
+                "url": "e1.validitytech.com:11001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "e1.validitytech.com:11002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "e1.validitytech.com:11004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "e2.validitytech.com:11001",
                 "contact": [
                     {
@@ -44506,7 +44669,98 @@
         },
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "electrum1.grms.pw:17485",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.grms.pw:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.grms.pw:17485",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum3.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.grms.pw:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "VPRM": {
@@ -46593,6 +46847,33 @@
             {
                 "url": "electrumx2.vanillacash.info:50013",
                 "protocol": "WSS"
+            },
+            {
+                "url": "xvc-ex-seven.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "xvc-ex-seven.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "xvc-ex-seven.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -47812,7 +48093,39 @@
             "github": "https://github.com/WikiMin3R/ZetacoinE",
             "homepage": "https://zetacoin.io"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "207.180.252.200:50011",
+                "protocol": "TCP"
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50011",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50013",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "ZIL-BEP20": {
@@ -51529,6 +51842,36 @@
                         "twitter": "whiveio"
                     }
                 ]
+            },
+            {
+                "url": "electrumx2.cointest.com:50001",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx2.cointest.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -51592,6 +51935,36 @@
             },
             {
                 "url": "electrumx1.cointest.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.cointest.com:50001",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx2.cointest.com:50002",
                 "protocol": "SSL",
                 "contact": [
                     {

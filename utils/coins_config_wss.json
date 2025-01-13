@@ -1137,6 +1137,108 @@
         ],
         "explorer_block_url": "block/"
     },
+    "BTX": {
+        "coin": "BTX",
+        "type": "UTXO",
+        "name": "BitCore",
+        "coinpaprika_id": "btx-bitcore",
+        "coingecko_id": "bitcore",
+        "livecoinwatch_id": "BTX",
+        "explorer_url": "https://chainz.cryptoid.info/btx/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "BitCore",
+        "rpcport": 9469,
+        "pubtype": 3,
+        "p2shtype": 125,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "btx",
+        "txfee": 20000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/160'",
+        "trezor_coin": "Bitcore",
+        "links": {
+            "github": "https://github.com/LIMXTEC/BitCore",
+            "homepage": "https://bitcore.cc"
+        },
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
+    "BTX-segwit": {
+        "coin": "BTX-segwit",
+        "type": "UTXO",
+        "name": "BitCore",
+        "coinpaprika_id": "btx-bitcore",
+        "coingecko_id": "bitcore",
+        "livecoinwatch_id": "BTX",
+        "explorer_url": "https://chainz.cryptoid.info/btx/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "BitCore",
+        "rpcport": 9469,
+        "pubtype": 3,
+        "p2shtype": 125,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "btx",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "BTX",
+        "txfee": 20000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/160'",
+        "trezor_coin": "Bitcore",
+        "links": {
+            "github": "https://github.com/LIMXTEC/BitCore",
+            "homepage": "https://bitcore.cc"
+        },
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "CCL": {
         "coin": "CCL",
         "type": "Smart Chain",
@@ -3456,6 +3558,15 @@
         },
         "electrum": [
             {
+                "url": "il8p-ex-five.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "il8p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
@@ -4046,10 +4157,6 @@
         },
         "derivation_path": "m/44'/191'",
         "electrum": [
-            {
-                "url": "electrum5.getlynx.io:50004",
-                "protocol": "WSS"
-            },
             {
                 "url": "electrum6.getlynx.io:50004",
                 "protocol": "WSS"
@@ -5189,6 +5296,15 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -5238,6 +5354,15 @@
                     },
                     {
                         "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
                     }
                 ]
             }
@@ -6185,6 +6310,16 @@
         },
         "electrum": [
             {
+                "url": "e1.validitytech.com:11004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "e2.validitytech.com:11004",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
@@ -6396,6 +6531,69 @@
                     }
                 ],
                 "disable_cert_verification": false
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "GRMS": {
+        "coin": "GRMS",
+        "type": "Smart Chain",
+        "name": "GRMS",
+        "coinpaprika_id": "grms-grms",
+        "coingecko_id": "",
+        "livecoinwatch_id": "GRMS",
+        "explorer_url": "https://explorer.grms.pw/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "GRMS",
+        "fname": "GRMS",
+        "rpcport": 21687,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrum1.grms.pw:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.grms.pw:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -6767,6 +6965,15 @@
             {
                 "url": "electrumx2.vanillacash.info:50013",
                 "protocol": "WSS"
+            },
+            {
+                "url": "xvc-ex-seven.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -7051,6 +7258,55 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "ZET": {
+        "coin": "ZET",
+        "type": "UTXO",
+        "name": "Zetacoin",
+        "coinpaprika_id": "zet-zetacoin",
+        "coingecko_id": "zetacoin",
+        "livecoinwatch_id": "ZET",
+        "explorer_url": "https://chainz.cryptoid.info/zet/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Zetacoin Signed Message:\n",
+        "fname": "Zetacoin",
+        "isPoS": 1,
+        "rpcport": 22014,
+        "pubtype": 20,
+        "p2shtype": 85,
+        "wiftype": 153,
+        "txfee": 100000,
+        "dust": 100000,
+        "mm2": 1,
+        "mature_confirmations": 500,
+        "required_confirmations": 7,
+        "avg_blocktime": 45,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/719'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/ZetacoinE",
+            "homepage": "https://zetacoin.io"
+        },
+        "electrum": [
+            {
+                "url": "zet-ex-three.ewmci.online:50013",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "INK-QRC20": {
         "coin": "INK-QRC20",
