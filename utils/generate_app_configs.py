@@ -91,11 +91,6 @@ binance_quote_tickers = [
     "UAH",
 ]
 
-
-
-with open(f"{script_path}/electrum_scan_report.json", "r") as f:
-    electrum_scan_report = json.load(f)
-
 with open(f"{repo_path}/explorers/explorer_paths.json", "r") as f:
     explorer_paths = json.load(f)
 
@@ -133,8 +128,9 @@ def colorize(string, color):
 
 
 class CoinConfig:
-    def __init__(self, coin_data: dict):
+    def __init__(self, coin_data: dict, electrum_scan_report: dict):
         self.coin_data = coin_data
+        self.electrum_scan_report = electrum_scan_report
         self.data = {}
         self.is_testnet = self.is_testnet_network()
         self.ticker = self.coin_data["coin"].replace("-TEST", "")
@@ -528,7 +524,8 @@ class CoinConfig:
                     self.data[self.ticker].update({i[0]: i[1]})
 
 
-def parse_coins_repo():
+def parse_coins_repo(electrum_scan_report):
+    ensure_chainids()
     errors = []
     coins_config = {}
     with open(f"{repo_path}/coins", "r") as f:
@@ -536,7 +533,7 @@ def parse_coins_repo():
 
     for item in coins_data:
         if item["mm2"] == 1:
-            config = CoinConfig(item)
+            config = CoinConfig(item, electrum_scan_report)
             config.get_generics()
             config.get_protocol_info()
             config.clean_name()
@@ -770,9 +767,13 @@ if __name__ == "__main__":
         if sys.argv[1] == "no-scan":
             skip_scan = True
     if skip_scan is False:
-        get_electrums_report()
-    ensure_chainids()
-    coins_config, nodata = parse_coins_repo()
+        electrum_scan_report = get_electrums_report()
+    else:
+        # Use existing scan data
+        with open(f"{script_path}/electrum_scan_report.json", "r") as f:
+            electrum_scan_report = json.load(f)
+
+    coins_config, nodata = parse_coins_repo(electrum_scan_report)
     # Includes failing servers
     with open(f"{script_path}/coins_config_unfiltered.json", "w+") as f:
         json.dump(coins_config, f, indent=4)
