@@ -1,5 +1,6 @@
 {
     "AXO": "-ac_name=AXO -ac_supply=200000000 -addnode=78.47.196.146 -addnode=94.130.38.173",
+    "BCZERO": "-ac_name=BCZERO -ac_supply=9999999999 -ac_end=1 -ac_public=1 -ac_staked=50 -addnode=65.21.52.182",
     "BET": "-ac_name=BET -ac_supply=999999",
     "BOTS": "-ac_name=BOTS -ac_supply=999999",
     "BTCH": "-ac_name=BTCH -ac_supply=20998641 -addnode=78.47.196.146 -addnode=94.130.38.173",
