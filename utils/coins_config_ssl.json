@@ -7831,6 +7831,11 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
+                "url": "chicago.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "holland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -7885,6 +7890,11 @@
         },
         "derivation_path": "m/44'/34'",
         "electrum": [
+            {
+                "url": "chicago.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
             {
                 "url": "holland.ecoincore.com:34333",
                 "protocol": "SSL",
