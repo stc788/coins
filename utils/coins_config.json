@@ -326,18 +326,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -349,6 +339,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -400,18 +394,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -423,6 +407,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -770,18 +758,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -793,6 +771,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -1246,18 +1228,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -1269,6 +1241,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -1373,18 +1349,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -1396,6 +1362,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -1513,18 +1483,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -1536,6 +1496,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -1755,18 +1719,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -1778,6 +1732,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -1895,18 +1853,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -1918,6 +1866,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -2152,18 +2104,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -2175,6 +2117,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -2348,18 +2294,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -2371,6 +2307,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -2989,18 +2929,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -3012,6 +2942,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -3391,18 +3325,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -3414,6 +3338,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -3679,18 +3607,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -3702,6 +3620,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -3959,18 +3881,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -3982,6 +3894,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -4259,18 +4175,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -4282,6 +4188,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -4501,18 +4411,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -4524,6 +4424,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -4991,18 +4895,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -5014,6 +4908,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -5462,18 +5360,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -5485,6 +5373,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -6184,18 +6076,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -6207,6 +6089,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -6405,18 +6291,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -6428,6 +6304,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -6541,18 +6421,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -6564,6 +6434,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -6670,18 +6544,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -6693,6 +6557,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -7856,18 +7724,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -7879,6 +7737,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -8268,18 +8130,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -8291,6 +8143,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -8454,18 +8310,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -8477,6 +8323,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -9039,18 +8889,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -9062,6 +8902,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -9176,18 +9020,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -9199,6 +9033,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -9446,18 +9284,6 @@
                     }
                 ],
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrum2.mooo.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ],
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -9564,18 +9390,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -9587,6 +9403,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -9696,18 +9516,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -9719,6 +9529,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -10182,18 +9996,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -10205,6 +10009,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -10366,18 +10174,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -10389,6 +10187,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -10693,18 +10495,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -10716,6 +10508,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -11153,18 +10949,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -11176,6 +10962,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -11438,18 +11228,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -11461,6 +11241,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -11932,18 +11716,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -11955,6 +11729,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -12009,18 +11787,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -12032,6 +11800,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -12083,18 +11855,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -12106,6 +11868,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -12568,18 +12334,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -12591,6 +12347,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -13422,18 +13182,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -13445,6 +13195,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -14263,18 +14017,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -14286,6 +14030,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -14404,18 +14152,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -14427,6 +14165,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -14589,18 +14331,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -14612,6 +14344,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -14923,18 +14659,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -14946,6 +14672,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -15382,18 +15112,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -15405,6 +15125,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -15522,18 +15246,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -15545,6 +15259,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -15667,18 +15385,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -15690,6 +15398,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -15905,18 +15617,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -15928,6 +15630,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -16045,18 +15751,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -16068,6 +15764,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -16119,18 +15819,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -16142,6 +15832,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -16368,18 +16062,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -16391,6 +16075,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -17022,18 +16710,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -17045,6 +16723,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -17606,18 +17288,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -17629,6 +17301,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -17744,18 +17420,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -17767,6 +17433,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -18043,18 +17713,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -18066,6 +17726,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -18172,18 +17836,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -18195,6 +17849,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -18820,18 +18478,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -18843,6 +18491,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -19261,18 +18913,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -19284,6 +18926,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -19610,18 +19256,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -19633,6 +19269,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -20597,18 +20237,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -20620,6 +20250,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -20836,18 +20470,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -20859,6 +20483,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -20968,18 +20596,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -20991,6 +20609,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -21047,18 +20669,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -21070,6 +20682,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -21187,18 +20803,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -21210,6 +20816,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -21363,18 +20973,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -21386,6 +20986,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -21437,18 +21041,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -21460,6 +21054,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -21657,18 +21255,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -21680,6 +21268,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -22178,18 +21770,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -22201,6 +21783,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -22315,18 +21901,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -22338,6 +21914,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -22450,18 +22030,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -22473,6 +22043,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -22706,18 +22280,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -22729,6 +22293,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -23262,18 +22830,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -23285,6 +22843,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -23577,18 +23139,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -23600,6 +23152,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -23772,18 +23328,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -23795,6 +23341,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -24467,18 +24017,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -24490,6 +24030,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -25222,18 +24766,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -25245,6 +24779,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -25920,18 +25458,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -25943,6 +25471,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -26064,18 +25596,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -26087,6 +25609,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -26195,18 +25721,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -26218,6 +25734,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -26702,18 +26222,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -26725,6 +26235,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -26896,18 +26410,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -26919,6 +26423,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -26975,18 +26483,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -26998,6 +26496,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -27543,18 +27045,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -27566,6 +27058,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -27837,18 +27333,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -27860,6 +27346,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -28141,18 +27631,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -28164,6 +27644,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -28306,18 +27790,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -28329,6 +27803,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -28581,18 +28059,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -28604,6 +28072,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -28710,18 +28182,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -28733,6 +28195,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -28951,18 +28417,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -28974,6 +28430,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -29138,18 +28598,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -29161,6 +28611,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -29534,18 +28988,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -29557,6 +29001,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -30060,18 +29508,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -30083,6 +29521,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -30960,18 +30402,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -30983,6 +30415,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -31249,18 +30685,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -31272,6 +30698,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -31381,18 +30811,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -31404,6 +30824,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -31589,18 +31013,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -31612,6 +31026,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -31831,18 +31249,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -31854,6 +31262,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -32120,18 +31532,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -32143,6 +31545,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -32440,18 +31846,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -32463,6 +31859,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -32572,18 +31972,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -32595,6 +31985,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -32981,18 +32375,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -33004,6 +32388,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -33125,18 +32513,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -33148,6 +32526,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -33319,18 +32701,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -33342,6 +32714,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -33505,18 +32881,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -33528,6 +32894,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -33637,18 +33007,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -33660,6 +33020,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -33834,18 +33198,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -33857,6 +33211,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -34536,18 +33894,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -34559,6 +33907,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -34615,18 +33967,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -34638,6 +33980,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -34967,18 +34313,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -34990,6 +34326,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -35186,18 +34526,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -35209,6 +34539,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -35307,18 +34641,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -35330,6 +34654,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -35381,18 +34709,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -35404,6 +34722,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -36040,18 +35362,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -36063,6 +35375,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -36172,18 +35488,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -36195,6 +35501,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -36312,18 +35622,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -36335,6 +35635,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -36391,18 +35695,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -36414,6 +35708,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -36717,18 +36015,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -36740,6 +36028,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -37150,18 +36442,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -37173,6 +36455,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -37508,18 +36794,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -37531,6 +36807,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -38078,18 +37358,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -38101,6 +37371,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -38322,18 +37596,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -38345,6 +37609,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -38714,18 +37982,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -38737,6 +37995,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -38831,18 +38093,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -38854,6 +38106,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -39437,18 +38693,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -39460,6 +38706,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -39566,18 +38816,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -39589,6 +38829,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -39858,18 +39102,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -39881,6 +39115,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -40282,18 +39520,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -40305,6 +39533,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -40752,18 +39984,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -40775,6 +39997,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -40885,18 +40111,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -40908,6 +40124,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -41271,18 +40491,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -41294,6 +40504,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -41514,18 +40728,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -41537,6 +40741,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -41703,18 +40911,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -41726,6 +40924,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -42222,18 +41424,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -42245,6 +41437,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -42724,18 +41920,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -42747,6 +41933,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -43292,18 +42482,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -43315,6 +42495,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -43838,18 +43022,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -43861,6 +43035,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -43912,18 +43090,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -43935,6 +43103,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -44404,6 +43576,51 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "electrum.grms.pw:17485",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.grms.pw:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
                 "url": "electrum1.grms.pw:17485",
                 "contact": [
                     {
@@ -44435,6 +43652,51 @@
             },
             {
                 "url": "electrum1.grms.pw:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.grms.pw:17485",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum2.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.grms.pw:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -44765,18 +44027,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -44788,6 +44040,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -44905,18 +44161,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -44928,6 +44174,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -44979,18 +44229,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -45002,6 +44242,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -45342,18 +44586,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -45365,6 +44599,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -45622,18 +44860,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -45645,6 +44873,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -46223,18 +45455,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -46246,6 +45468,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -46302,18 +45528,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -46325,6 +45541,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -47041,18 +46261,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -47064,6 +46274,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -47338,18 +46552,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -47361,6 +46565,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -47956,18 +47164,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -47979,6 +47177,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -48286,18 +47488,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -48309,6 +47501,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -49646,18 +48842,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -49669,6 +48855,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -49724,18 +48914,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -49747,6 +48927,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -49803,18 +48987,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -49826,6 +49000,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -49882,18 +49060,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -49905,6 +49073,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -49956,18 +49128,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -49979,6 +49141,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -50030,18 +49196,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -50053,6 +49209,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -50108,18 +49268,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -50131,6 +49281,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -50182,18 +49336,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -50205,6 +49349,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -50261,18 +49409,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -50284,6 +49422,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -50339,18 +49481,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -50362,6 +49494,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -50456,18 +49592,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -50479,6 +49605,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -50530,18 +49660,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -50553,6 +49673,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -50608,18 +49732,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -50631,6 +49745,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -50687,18 +49805,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -50710,6 +49818,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -50761,18 +49873,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -50784,6 +49886,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -50835,18 +49941,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -50858,6 +49954,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -50913,18 +50013,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -50936,6 +50026,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -50987,18 +50081,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -51010,6 +50094,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -51061,18 +50149,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -51084,6 +50162,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -51190,18 +50272,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -51213,6 +50285,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
@@ -52982,6 +52058,111 @@
         "explorer_block_url": "nucleus/blocks/",
         "binance_id": "OSMO"
     },
+    "LUPA": {
+        "coin": "LUPA",
+        "type": "Smart Chain",
+        "name": "Lupaza",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.lupacoin.biz/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "LUPA",
+        "fname": "Lupaza",
+        "rpcport": 64151,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrum.lupacoin.biz:17487",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum.lupacoin.biz:50005",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.lupacoin.biz:50006",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.lupacoin.biz:17487",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.lupacoin.biz:50005",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.lupacoin.biz:50006",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "ZOIN": {
         "coin": "ZOIN",
         "type": "UTXO",
@@ -53091,18 +52272,8 @@
                 }
             },
             {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
             },
             {
                 "url": "https://eth3.cipig.net:18555",
@@ -53114,6 +52285,10 @@
             {
                 "url": "https://ethereum-rpc.publicnode.com",
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
