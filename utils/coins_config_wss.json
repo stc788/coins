@@ -23,6 +23,7 @@
         "wiftype": 153,
         "txfee": 100000,
         "dust": 100000,
+        "mm2": 1,
         "mature_confirmations": 550,
         "required_confirmations": 7,
         "avg_blocktime": 45,
@@ -75,6 +76,7 @@
         "segwit": true,
         "txfee": 1000000,
         "dust": 1000000,
+        "mm2": 1,
         "required_confirmations": 6,
         "avg_blocktime": 60,
         "protocol": {
@@ -128,6 +130,7 @@
         "fname": "Pirate",
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "avg_blocktime": 60,
         "protocol": {
             "type": "ZHTLC",
@@ -229,6 +232,7 @@
         "txfee": 5000,
         "segwit": false,
         "bech32_hrp": "aur",
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -283,6 +287,7 @@
         "fork_id": "0x40",
         "signature_version": "base",
         "txfee": 1000000,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 30,
         "protocol": {
@@ -343,6 +348,7 @@
         "wiftype": 204,
         "txfee": 10000,
         "confpath": "USERHOME/.axecore/axe.conf",
+        "mm2": 1,
         "mature_confirmations": 101,
         "required_confirmations": 3,
         "avg_blocktime": 150,
@@ -429,6 +435,7 @@
             "format": "cashaddress",
             "network": "bitcoincash"
         },
+        "mm2": 1,
         "required_confirmations": 1,
         "avg_blocktime": 600,
         "protocol": {
@@ -496,6 +503,7 @@
         "p2shtype": 85,
         "wiftype": 107,
         "txfee": 10000,
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -548,6 +556,7 @@
         "rpcport": 46856,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 4,
         "requires_notarization": false,
         "avg_blocktime": 60,
@@ -624,6 +633,7 @@
         "txfee": 100000,
         "dust": 100000,
         "segwit": true,
+        "mm2": 1,
         "required_confirmations": 5,
         "mature_confirmations": 500,
         "avg_blocktime": 66,
@@ -688,6 +698,7 @@
         "wiftype": 239,
         "txfee": 100000,
         "segwit": true,
+        "mm2": 1,
         "required_confirmations": 5,
         "mature_confirmations": 10,
         "avg_blocktime": 66,
@@ -752,6 +763,7 @@
         "wiftype": 153,
         "segwit": false,
         "txfee": 1000,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 90,
         "protocol": {
@@ -793,6 +805,7 @@
         "txfee": 200000,
         "segwit": true,
         "bech32_hrp": "gb",
+        "mm2": 1,
         "required_confirmations": 1,
         "avg_blocktime": 600,
         "protocol": {
@@ -836,6 +849,7 @@
         "bech32_hrp": "bc",
         "txfee": 0,
         "estimate_fee_mode": "ECONOMICAL",
+        "mm2": 1,
         "required_confirmations": 1,
         "avg_blocktime": 600,
         "protocol": {
@@ -917,6 +931,7 @@
         "orderbook_ticker": "BTC",
         "txfee": 0,
         "estimate_fee_mode": "ECONOMICAL",
+        "mm2": 1,
         "required_confirmations": 1,
         "avg_blocktime": 600,
         "protocol": {
@@ -994,6 +1009,7 @@
         "txfee": 10000,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 150,
         "protocol": {
@@ -1046,6 +1062,7 @@
         "segwit": true,
         "bech32_hrp": "web",
         "txfee": 20000,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
         "protocol": {
@@ -1133,6 +1150,7 @@
         },
         "orderbook_ticker": "BTE",
         "txfee": 20000,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
         "protocol": {
@@ -1215,6 +1233,7 @@
         "segwit": true,
         "bech32_hrp": "btx",
         "txfee": 20000,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 150,
         "protocol": {
@@ -1267,6 +1286,7 @@
         },
         "orderbook_ticker": "BTX",
         "txfee": 20000,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 150,
         "protocol": {
@@ -1313,6 +1333,7 @@
         "rpcport": 20849,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 2,
         "requires_notarization": true,
         "avg_blocktime": 60,
@@ -1386,6 +1407,7 @@
         "dust": 54600,
         "segwit": true,
         "bech32_hrp": "cdn",
+        "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 300,
         "protocol": {
@@ -1440,6 +1462,7 @@
             "format": "segwit"
         },
         "orderbook_ticker": "CDN",
+        "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 300,
         "protocol": {
@@ -1489,6 +1512,7 @@
         "wiftype": 133,
         "segwit": false,
         "txfee": 10000,
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -1533,6 +1557,7 @@
         "rpcport": 31034,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 5,
         "requires_notarization": false,
         "avg_blocktime": 60,
@@ -1580,6 +1605,7 @@
         "segwit": false,
         "txfee": 400000,
         "dust": 72800,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -1659,6 +1685,7 @@
         "txfee": 0,
         "segwit": true,
         "bech32_hrp": "cy",
+        "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 60,
         "protocol": {
@@ -1719,6 +1746,7 @@
             "format": "segwit"
         },
         "orderbook_ticker": "CY",
+        "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 60,
         "protocol": {
@@ -1775,6 +1803,7 @@
         "wiftype": 204,
         "txfee": 1000,
         "force_min_relay_fee": true,
+        "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 150,
         "protocol": {
@@ -1851,6 +1880,7 @@
         "txfee": 10000000,
         "segwit": true,
         "bech32_hrp": "dgb",
+        "mm2": 1,
         "required_confirmations": 7,
         "avg_blocktime": 15,
         "protocol": {
@@ -1931,6 +1961,7 @@
             "format": "segwit"
         },
         "orderbook_ticker": "DGB",
+        "mm2": 1,
         "required_confirmations": 7,
         "avg_blocktime": 15,
         "protocol": {
@@ -2005,6 +2036,7 @@
         "p2shtype": 5,
         "wiftype": 128,
         "txfee": 10000,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 36,
         "protocol": {
@@ -2044,6 +2076,7 @@
         "segwit": true,
         "bech32_hrp": "dpc",
         "txfee": 10000,
+        "mm2": 1,
         "required_confirmations": 6,
         "avg_blocktime": 300,
         "protocol": {
@@ -2127,6 +2160,7 @@
         "wiftype": 204,
         "txfee": 1000,
         "force_min_relay_fee": true,
+        "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 90,
         "protocol": {
@@ -2190,6 +2224,7 @@
         "bech32_hrp": "vx",
         "txfee": 1000,
         "decimals": 5,
+        "mm2": 1,
         "required_confirmations": 6,
         "avg_blocktime": 64,
         "protocol": {
@@ -2238,6 +2273,7 @@
         "isPoS": 1,
         "txfee": 1000,
         "segwit": false,
+        "mm2": 1,
         "mature_confirmations": 75,
         "required_confirmations": 4,
         "avg_blocktime": 75,
@@ -2303,6 +2339,7 @@
         "segwit": false,
         "txfee": 400000,
         "dust": 72800,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -2382,6 +2419,7 @@
         "txfee": 0,
         "force_min_relay_fee": true,
         "dust": 1000000,
+        "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 60,
         "protocol": {
@@ -2457,6 +2495,7 @@
         "wiftype": 122,
         "txfee": 10000,
         "dust": 5460,
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -2498,6 +2537,7 @@
         "wiftype": 176,
         "txfee": 200000,
         "dust": 54600,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 120,
         "protocol": {
@@ -2541,6 +2581,7 @@
         "wiftype": 176,
         "txfee": 100000,
         "dust": 54600,
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -2597,6 +2638,7 @@
         "p2shtype": 7,
         "wiftype": 210,
         "txfee": 1000,
+        "mm2": 1,
         "required_confirmations": 1,
         "avg_blocktime": 300,
         "protocol": {
@@ -2673,6 +2715,7 @@
         "segwit": true,
         "bech32_hrp": "fc",
         "txfee": 0,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
         "protocol": {
@@ -2734,6 +2777,7 @@
         },
         "orderbook_ticker": "FJC",
         "txfee": 0,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
         "protocol": {
@@ -2791,6 +2835,7 @@
         "txfee": 1000000,
         "segwit": true,
         "bech32_hrp": "fc",
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -2870,6 +2915,7 @@
             "format": "segwit"
         },
         "orderbook_ticker": "FTC",
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -2945,6 +2991,7 @@
         "segwit": false,
         "txfee": 100000,
         "dust": 54600,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 120,
         "protocol": {
@@ -2988,6 +3035,7 @@
         "rpcport": 23226,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 4,
         "requires_notarization": false,
         "avg_blocktime": 60,
@@ -3057,6 +3105,7 @@
         "rpcport": 23345,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 4,
         "requires_notarization": false,
         "avg_blocktime": 60,
@@ -3130,6 +3179,7 @@
         "bech32_hrp": "grlc",
         "txfee": 100000,
         "dust": 54600,
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 40,
         "protocol": {
@@ -3183,6 +3233,7 @@
         "dust": 10000,
         "segwit": true,
         "bech32_hrp": "grs",
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -3571,6 +3622,7 @@
         "wiftype": 153,
         "txfee": 100000,
         "dust": 100000,
+        "mm2": 1,
         "mature_confirmations": 500,
         "required_confirmations": 7,
         "avg_blocktime": 45,
@@ -3663,6 +3715,7 @@
         "txversion": 4,
         "overwintered": 1,
         "txfee": 1000,
+        "mm2": 1,
         "required_confirmations": 2,
         "requires_notarization": true,
         "avg_blocktime": 60,
@@ -3739,6 +3792,7 @@
         "rpcport": 10702,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 2,
         "requires_notarization": true,
         "avg_blocktime": 60,
@@ -3811,6 +3865,7 @@
         "txfee": 10000,
         "segwit": true,
         "bech32_hrp": "lbc",
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 150,
         "protocol": {
@@ -3864,6 +3919,7 @@
             "format": "segwit"
         },
         "orderbook_ticker": "LBC",
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 150,
         "protocol": {
@@ -3916,6 +3972,7 @@
         "txfee": 20000,
         "segwit": true,
         "bech32_hrp": "lcc",
+        "mm2": 1,
         "required_confirmations": 4,
         "avg_blocktime": 150,
         "protocol": {
@@ -3966,6 +4023,7 @@
             "format": "segwit"
         },
         "orderbook_ticker": "LCC",
+        "mm2": 1,
         "required_confirmations": 4,
         "avg_blocktime": 150,
         "protocol": {
@@ -4010,6 +4068,7 @@
         "dust": 5460,
         "segwit": true,
         "bech32_hrp": "ltc",
+        "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 150,
         "protocol": {
@@ -4091,6 +4150,7 @@
             "format": "segwit"
         },
         "orderbook_ticker": "LTC",
+        "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 150,
         "protocol": {
@@ -4167,6 +4227,7 @@
         "txfee": 100000,
         "dust": 54600,
         "segwit": false,
+        "mm2": 1,
         "required_confirmations": 1,
         "avg_blocktime": 1200,
         "protocol": {
@@ -4210,6 +4271,7 @@
         "rpcport": 33825,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 5,
         "requires_notarization": false,
         "avg_blocktime": 60,
@@ -4279,6 +4341,7 @@
         "rpcport": 18482,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 4,
         "requires_notarization": false,
         "avg_blocktime": 60,
@@ -4355,6 +4418,7 @@
         "p2shtype": 85,
         "wiftype": 150,
         "txfee": 10000,
+        "mm2": 1,
         "required_confirmations": 10,
         "avg_blocktime": 30,
         "protocol": {
@@ -4396,6 +4460,7 @@
         "txfee": 0,
         "segwit": true,
         "bech32_hrp": "nc",
+        "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 600,
         "protocol": {
@@ -4474,6 +4539,7 @@
             "format": "segwit"
         },
         "orderbook_ticker": "NMC",
+        "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 600,
         "protocol": {
@@ -4548,6 +4614,7 @@
         "segwit": false,
         "txfee": 400000,
         "dust": 72800,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -4626,6 +4693,7 @@
         "wiftype": 158,
         "segwit": false,
         "txfee": 1000000,
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -4690,6 +4758,7 @@
         "wiftype": 212,
         "txfee": 100000,
         "dust": 5460,
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -4745,6 +4814,7 @@
         "dust": 1000000,
         "segwit": true,
         "bech32_hrp": "pn",
+        "mm2": 1,
         "required_confirmations": 1,
         "avg_blocktime": 600,
         "protocol": {
@@ -4784,6 +4854,7 @@
         "txversion": 4,
         "txfee": 100000,
         "dust": 100000,
+        "mm2": 1,
         "mature_confirmations": 240,
         "required_confirmations": 5,
         "avg_blocktime": 40,
@@ -4829,6 +4900,7 @@
         "dust": 10000,
         "segwit": true,
         "bech32_hrp": "pc",
+        "mm2": 1,
         "required_confirmations": 1,
         "avg_blocktime": 510,
         "protocol": {
@@ -4877,6 +4949,7 @@
         "segwit": false,
         "txfee": 400000,
         "dust": 72800,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -4955,6 +5028,7 @@
         "segwit": false,
         "txfee": 400000,
         "dust": 72800,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -5033,6 +5107,7 @@
         "segwit": false,
         "txfee": 400000,
         "dust": 72800,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -5109,6 +5184,7 @@
         "wiftype": 128,
         "segwit": false,
         "txfee": 400000,
+        "mm2": 1,
         "mature_confirmations": 2000,
         "required_confirmations": 1,
         "avg_blocktime": 32,
@@ -5164,6 +5240,7 @@
         "bech32_hrp": "qc",
         "txfee": 400000,
         "dust": 72800,
+        "mm2": 1,
         "force_min_relay_fee": true,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
@@ -5243,6 +5320,7 @@
         "segwit": true,
         "bech32_hrp": "tq",
         "txfee": 400000,
+        "mm2": 1,
         "required_confirmations": 1,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -5288,6 +5366,7 @@
         "rpcport": 30261,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 4,
         "requires_notarization": false,
         "avg_blocktime": 60,
@@ -5362,6 +5441,7 @@
         "txfee": 100000,
         "dust": 100000,
         "segwit": false,
+        "mm2": 1,
         "mature_confirmations": 30,
         "required_confirmations": 5,
         "avg_blocktime": 60,
@@ -5414,6 +5494,7 @@
         "segwit": true,
         "bech32_hrp": "ric",
         "txfee": 10000,
+        "mm2": 1,
         "required_confirmations": 4,
         "avg_blocktime": 150,
         "protocol": {
@@ -5473,6 +5554,7 @@
         },
         "orderbook_ticker": "RIC",
         "txfee": 10000,
+        "mm2": 1,
         "required_confirmations": 4,
         "avg_blocktime": 150,
         "protocol": {
@@ -5525,6 +5607,7 @@
         "rpcport": 62415,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 1,
         "requires_notarization": false,
         "avg_blocktime": 60,
@@ -5594,6 +5677,7 @@
         "rpcport": 52592,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 1,
         "requires_notarization": false,
         "avg_blocktime": 60,
@@ -5663,6 +5747,7 @@
         "p2shtype": 16,
         "wiftype": 128,
         "txfee": 1000,
+        "mm2": 1,
         "confpath": "USERHOME/.raptoreumcore/raptoreum.conf",
         "required_confirmations": 3,
         "avg_blocktime": 120,
@@ -5705,6 +5790,7 @@
         "wiftype": 128,
         "segwit": true,
         "txfee": 1100000,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
         "protocol": {
@@ -5778,6 +5864,7 @@
         "rpcport": 35593,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 6,
         "requires_notarization": false,
         "avg_blocktime": 30,
@@ -5853,6 +5940,7 @@
         "bech32_hrp": "sys",
         "required_confirmations": 5,
         "avg_blocktime": 60,
+        "mm2": 1,
         "protocol": {
             "type": "UTXO"
         },
@@ -5934,6 +6022,7 @@
         "orderbook_ticker": "SYS",
         "required_confirmations": 5,
         "avg_blocktime": 60,
+        "mm2": 1,
         "protocol": {
             "type": "UTXO"
         },
@@ -6008,6 +6097,7 @@
         "bech32_hrp": "tb",
         "txfee": 0,
         "estimate_fee_mode": "ECONOMICAL",
+        "mm2": 1,
         "required_confirmations": 0,
         "protocol": {
             "type": "UTXO"
@@ -6057,6 +6147,7 @@
         "orderbook_ticker": "tBTC",
         "txfee": 0,
         "estimate_fee_mode": "ECONOMICAL",
+        "mm2": 1,
         "required_confirmations": 0,
         "protocol": {
             "type": "UTXO"
@@ -6099,6 +6190,7 @@
         "rpcport": 29405,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 2,
         "requires_notarization": true,
         "avg_blocktime": 60,
@@ -6146,6 +6238,7 @@
         "wiftype": 128,
         "txfee": 10000,
         "dust": 5460,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 120,
         "protocol": {
@@ -6184,6 +6277,7 @@
         "wiftype": 132,
         "txfee": 2000000,
         "dust": 6000000,
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -6230,6 +6324,7 @@
         "p2shtype": 30,
         "wiftype": 224,
         "txfee": 0,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 150,
         "protocol": {
@@ -6276,6 +6371,7 @@
         "rpcport": 20778,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 6,
         "avg_blocktime": 60,
         "protocol": {
@@ -6344,6 +6440,7 @@
         "rpcport": 21778,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 6,
         "avg_blocktime": 60,
         "protocol": {
@@ -6416,6 +6513,7 @@
         "wiftype": 121,
         "txfee": 100000,
         "dust": 300000,
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "mature_confirmations": 60,
@@ -6489,6 +6587,7 @@
         "avg_blocktime": 24,
         "segwit": true,
         "bech32_hrp": "via",
+        "mm2": 1,
         "protocol": {
             "type": "UTXO"
         },
@@ -6546,6 +6645,7 @@
             "format": "segwit"
         },
         "orderbook_ticker": "VIA",
+        "mm2": 1,
         "protocol": {
             "type": "UTXO"
         },
@@ -6592,6 +6692,7 @@
         "rpcport": 27486,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -6672,6 +6773,7 @@
         "rpcport": 21687,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -6768,6 +6870,7 @@
         "dust": 100000,
         "segwit": true,
         "bech32_hrp": "vtc",
+        "mm2": 1,
         "required_confirmations": 4,
         "avg_blocktime": 150,
         "protocol": {
@@ -6821,6 +6924,7 @@
             "format": "segwit"
         },
         "orderbook_ticker": "VTC",
+        "mm2": 1,
         "required_confirmations": 4,
         "avg_blocktime": 150,
         "protocol": {
@@ -6869,6 +6973,7 @@
         "txversion": 2,
         "txfee": 100000,
         "dust": 100000,
+        "mm2": 1,
         "segwit": true,
         "signature_version": "witness_v0",
         "bech32_hrp": "ep",
@@ -6936,6 +7041,7 @@
         "wiftype": 128,
         "segwit": true,
         "txfee": 1000000,
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -7013,6 +7119,7 @@
             "format": "cashaddress",
             "network": "ergon"
         },
+        "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 600,
         "protocol": {
@@ -7068,6 +7175,7 @@
         "wiftype": 181,
         "txfee": 1000,
         "dust": 10000,
+        "mm2": 1,
         "required_confirmations": 4,
         "avg_blocktime": 60,
         "protocol": {
@@ -7122,6 +7230,7 @@
         "segwit": false,
         "txfee": 400000,
         "dust": 72800,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -7205,6 +7314,7 @@
         "txfee": 400000,
         "dust": 400000,
         "force_min_relay_fee": true,
+        "mm2": 1,
         "required_confirmations": 10,
         "avg_blocktime": 30,
         "protocol": {
@@ -7252,6 +7362,7 @@
         "version_group_id": "0x892f2085",
         "consensus_branch_id": "0xc8e71055",
         "txfee": 100000,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 75,
         "protocol": {
@@ -7330,6 +7441,7 @@
         "version_group_id": "0x892f2085",
         "consensus_branch_id": "0x7361707a",
         "txfee": 1000,
+        "mm2": 1,
         "required_confirmations": 4,
         "avg_blocktime": 120,
         "protocol": {
@@ -7400,6 +7512,7 @@
         "wiftype": 153,
         "txfee": 100000,
         "dust": 100000,
+        "mm2": 1,
         "mature_confirmations": 500,
         "required_confirmations": 7,
         "avg_blocktime": 45,
@@ -7441,6 +7554,7 @@
         "wallet_only": false,
         "fname": "INK",
         "rpcport": 3889,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -7520,6 +7634,7 @@
         "wallet_only": false,
         "fname": "HyperPay",
         "rpcport": 3889,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -7599,6 +7714,7 @@
         "wallet_only": false,
         "fname": "HalalChain",
         "rpcport": 3889,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -7678,6 +7794,7 @@
         "wallet_only": false,
         "fname": "Medibloc",
         "rpcport": 3889,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -7757,6 +7874,7 @@
         "wallet_only": false,
         "fname": "Luna Stars",
         "rpcport": 3889,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -7836,6 +7954,7 @@
         "wallet_only": false,
         "fname": "Qbao",
         "rpcport": 3889,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -7915,6 +8034,7 @@
         "wallet_only": false,
         "fname": "Energo TSL",
         "rpcport": 3889,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -7994,6 +8114,7 @@
         "wallet_only": false,
         "fname": "OceanChain",
         "rpcport": 3889,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -8073,6 +8194,7 @@
         "wallet_only": false,
         "fname": "Profile Utility Token",
         "rpcport": 3889,
+        "mm2": 1,
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
@@ -8164,6 +8286,7 @@
             "format": "cashaddress",
             "network": "ecash"
         },
+        "mm2": 1,
         "decimals": 2,
         "required_confirmations": 1,
         "avg_blocktime": 600,
@@ -8210,6 +8333,7 @@
         "mature_confirmations": 120,
         "segwit": true,
         "bech32_hrp": "rc",
+        "mm2": 1,
         "required_confirmations": 6,
         "avg_blocktime": 120,
         "protocol": {
@@ -8270,6 +8394,7 @@
         "txversion": 4,
         "overwintered": 1,
         "txfee": 1000,
+        "mm2": 1,
         "required_confirmations": 2,
         "requires_notarization": false,
         "avg_blocktime": 60,
@@ -8317,6 +8442,7 @@
         "txfee": 10000,
         "segwit": true,
         "bech32_hrp": "maza",
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
         "protocol": {
@@ -8387,6 +8513,7 @@
         "txfee": 10000,
         "segwit": true,
         "bech32_hrp": "crnc",
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 20,
         "protocol": {
@@ -8436,6 +8563,7 @@
         "wiftype": 128,
         "segwit": true,
         "txfee": 1000000,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
         "protocol": {
@@ -8496,6 +8624,7 @@
         "p2shtype": 7,
         "wiftype": 210,
         "txfee": 1000,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 150,
         "protocol": {
@@ -8543,6 +8672,7 @@
         "segwit": false,
         "txfee": 1000000,
         "dust": 1000000,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
         "protocol": {
@@ -8596,6 +8726,7 @@
         "rpcport": 64151,
         "txversion": 4,
         "overwintered": 1,
+        "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
@@ -8655,6 +8786,7 @@
         "segwit": false,
         "txfee": 1000000,
         "dust": 1000000,
+        "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 150,
         "protocol": {
