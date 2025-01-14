@@ -24,16 +24,6 @@ repo_path = script_path.replace("/utils", "")
 os.chdir(script_path)
 
 
-def colorize(string, color):
-    colors = {
-            'red':'\033[31m',
-            'blue':"\x1b[38;2;59;142;200m",
-            'green':'\033[32m'
-    }
-    if color not in colors:
-            return str(string)
-    else:
-            return colors[color] + str(string) + '\033[0m'
 
 
 class ElectrumServer:
@@ -312,9 +302,9 @@ def parse_response(el_obj, resp):
         elif "block_height" in el_obj.result:
             el_obj.blockheight = int(el_obj.result['block_height'])
             el_obj.last_connection = int(time.time())
-        return el_obj
     except Exception as e:
         logger.error(f"[{el_obj.protocol}] Error parsing {el_obj.coin} {el_obj.url} {el_obj.port} | Response: [{e}] {resp}")
+    return el_obj
 
 
 def scan_electrums(electrum_dict):
@@ -389,10 +379,6 @@ def get_repo_electrums():
     return repo_electrums
 
 
-
-
-
-
 def get_existing_report():
     if os.path.exists("electrum_scan_report.json"):
         with open(f"{script_path}/electrum_scan_report.json", "r") as f:
@@ -441,9 +427,10 @@ def get_electrums_report():
         if electrums_set == electrum_coins:
             if electrums_ssl_set == electrum_coins_ssl:
                 if electrums_wss_set == electrum_coins_wss:
+                    logger.info("Electrum scan complete!")
                     break
         if i > (num_electrums * 0.1 + 90):
-            print("Loop expired incomplete after 60 iterations.")
+            logger.warning("Electrum scan loop expired incomplete after 60 iterations.")
             break
         i += 1
         time.sleep(3)
@@ -549,8 +536,9 @@ def get_electrums_report():
 
     with open(f"{script_path}/electrum_scan_report.json", "w+") as f:
         f.write(json.dumps(results, indent=4))
-    
+
     # print(json.dumps(results, indent=4))
+    return results
 
 if __name__ == '__main__':
     get_electrums_report()

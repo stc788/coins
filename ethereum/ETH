@@ -11,18 +11,12 @@
             "ws_url": "wss://ethereum-rpc.publicnode.com"
         },
         {
-            "url": "https://eth1.cipig.net:18555",
-            "ws_url": "wss://eth1.cipig.net:38555",
-            "contact": {
-                "email": "cipi@komodoplatform.com"
-            }
+            "url": "https://eth.drpc.org",
+            "ws_url": "wss://eth.drpc.org"
         },
         {
-            "url": "https://eth2.cipig.net:18555",
-            "ws_url": "wss://eth2.cipig.net:38555",
-            "contact": {
-                "email": "cipi@komodoplatform.com"
-            }
+            "url": "https://mainnet.gateway.tenderly.co",
+            "ws_url": "wss://mainnet.gateway.tenderly.co"
         },
         {
             "url": "https://eth3.cipig.net:18555",
