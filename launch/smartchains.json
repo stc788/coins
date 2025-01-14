@@ -39,6 +39,7 @@
     "PANGEA": "-ac_name=PANGEA -ac_supply=999999",
     "PGT": "-ac_name=PGT -ac_supply=10000000 -ac_end=1 -addnode=190.114.254.104",
     "PIRATE": "-ac_name=PIRATE -ac_supply=0 -ac_reward=25600000000 -ac_halving=77777 -ac_private=1 -addnode=88.99.212.81",
+    "RAPH": "-ac_name=RAPH -ac_supply=999999999 -ac_end=1 -ac_public=1 -ac_staked=50 -addnode=65.21.52.182",
     "REVS": "-ac_name=REVS -ac_supply=1300000",
     "RICK": "-ac_name=RICK -ac_supply=90000000000 -ac_reward=100000000 -ac_cc=3 -ac_staked=10 -addnode=138.201.136.145 -addnode=95.217.44.58",
     "ROGUE": "-ac_name=ROGUE -ac_supply=1000000 -addnode=95.217.44.58 -ac_cclib=rogue -ac_perc=10000000 -ac_reward=100000000 -ac_cc=60001 -ac_script=2ea22c80203d1579313abe7d8ea85f48c65ea66fc512c878c0d0e6f6d54036669de940febf8103120c008203000401cc -daemon",
