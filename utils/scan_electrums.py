@@ -379,10 +379,6 @@ def get_repo_electrums():
     return repo_electrums
 
 
-
-
-
-
 def get_existing_report():
     if os.path.exists("electrum_scan_report.json"):
         with open(f"{script_path}/electrum_scan_report.json", "r") as f:
@@ -540,8 +536,9 @@ def get_electrums_report():
 
     with open(f"{script_path}/electrum_scan_report.json", "w+") as f:
         f.write(json.dumps(results, indent=4))
-    
+
     # print(json.dumps(results, indent=4))
+    return results
 
 if __name__ == '__main__':
     get_electrums_report()
