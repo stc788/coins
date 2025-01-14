@@ -12,11 +12,12 @@
         "ws_url": "uno-main.coinmunity.gold:50003"
     },
     {
-        "url": "electrum.unobtanium.uno:50001",
-        "protocol": "TCP"
+        "url": "uno-ex-one.ewmci.online:50002",
+        "protocol": "SSL",
+        "ws_url": "uno-ex-one.ewmci.online:50003"
     },
     {
-        "url": "electrum2.unobtanium.uno:50001",
+        "url": "uno-ex-one.ewmci.online:50001",
         "protocol": "TCP"
     }
 ]

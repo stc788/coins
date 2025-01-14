@@ -35,7 +35,6 @@ AtomicDEX is a true non-custodial, cross-chain, cross-protocol Decentralized Exc
 - [COSMOS](https://cosmos.network/) / [Tendermint](https://tendermint.com/)
 - [SmartBCH](https://smartbch.org/) & SLP tokens
 
-
 ### Future coins & protocols
 
 - [Emercoin](https://github.com/KomodoPlatform/komodo-defi-framework/issues/1700)
@@ -51,3 +50,4 @@ AtomicDEX is a true non-custodial, cross-chain, cross-protocol Decentralized Exc
 - [SysCoin Tokens](https://github.com/KomodoPlatform/komodo-defi-framework/issues/938)
 - [ERC721 / ERC1155 NFTs](https://github.com/KomodoPlatform/komodo-defi-framework/issues/900)
 - [XTZ](https://github.com/KomodoPlatform/komodo-defi-framework/issues/632)
+- [SIA](https://github.com/KomodoPlatform/komodo-defi-framework/pull/2221)

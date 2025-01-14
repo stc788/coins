@@ -4,10 +4,14 @@
   "rpc_nodes": [
     {
       "url": "https://node.komodo.earth:8080/avalanche",
-      "gui_auth": true
+      "komodo_proxy": true
     },
     {
       "url": "https://api.avax.network/ext/bc/C/rpc"
+    },
+    {
+      "url": "https://avalanche-c-chain-rpc.publicnode.com",
+      "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
     },
     {
       "url": "https://block-proxy.komodo.earth/rpc/avax",

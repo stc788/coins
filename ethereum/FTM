@@ -4,7 +4,7 @@
   "rpc_nodes": [
     {
       "url": "https://node.komodo.earth:8080/fantom",
-      "gui_auth": true
+      "komodo_proxy": true
     },
     {
       "url": "https://fantom.drpc.org",
