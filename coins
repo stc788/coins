@@ -9164,6 +9164,27 @@
     "trezor_coin": "Komodo"
   },
   {
+    "coin": "MDX",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "MDX",
+    "fname": "Mandala",
+    "rpcport": 18482,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 4,
+    "requires_notarization": false,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo",
+    "links": {
+      "homepage": "https://mandala.exchange"
+    }
+  },
+  {
     "coin": "MINDS-ERC20",
     "name": "minds_erc20",
     "fname": "Minds",
