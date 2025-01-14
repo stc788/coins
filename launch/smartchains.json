@@ -1,5 +1,6 @@
 {
     "AXO": "-ac_name=AXO -ac_supply=200000000 -addnode=78.47.196.146 -addnode=94.130.38.173",
+    "BCZERO": "-ac_name=BCZERO -ac_supply=9999999999 -ac_end=1 -ac_public=1 -ac_staked=50 -addnode=65.21.52.182",
     "BET": "-ac_name=BET -ac_supply=999999",
     "BOTS": "-ac_name=BOTS -ac_supply=999999",
     "BTCH": "-ac_name=BTCH -ac_supply=20998641 -addnode=78.47.196.146 -addnode=94.130.38.173",
@@ -24,8 +25,10 @@
     "KSB": "-ac_name=KSB -ac_supply=1000000000 -ac_end=1 -ac_public=1 -addnode=37.187.225.231 -addnode=217.182.129.38",
     "KV": "-ac_name=KV -ac_supply=1000000 -addnode=78.47.196.146 -addnode=94.130.38.173",
     "LABS": "-ac_name=LABS -ac_supply=350689 -ac_reward=0,0,800000000 -ac_decay=0,100000000,100000000 -ac_halving=129,1 -ac_end=128,10080,0 -ac_notarypay=64,100000000,1000000000 -ac_eras=3 -ac_staked=51 -ac_sapling=1 -ac_cc=101 -ac_ccenable=226,236 -ac_cclib=labs -addnode=80.240.17.222 -addnode=195.201.20.230",
+    "LUPA": "-ac_name=LUPA -ac_reward=100000000000 -ac_adaptivepow=6 -ac_blocktime=3 -ac_staked=80 -ac_cbmaturity=10 -addnode=85.159.226.129",
     "MARTY": "-ac_name=MARTY -ac_supply=90000000000 -ac_reward=100000000 -ac_cc=3 -ac_staked=10 -addnode=65.21.77.109 -addnode=65.21.51.47",
     "MCL": "~/marmara/src/komodod -ac_name=MCL -ac_supply=2000000 -ac_cc=2 -addnode=5.189.149.242 -addnode=161.97.146.150 -addnode=149.202.158.145 -addressindex=1 -spentindex=1 -ac_marmara=1 -ac_staked=75 -ac_reward=3000000000 -daemon",
+    "MDX": "-ac_name=MDX -ac_supply=999999999 -ac_end=1 -ac_public=1 -ac_staked=50 -addnode=65.21.52.182",
     "MESH": "-ac_name=MESH -ac_supply=1000007 -ac_ccactivate=320000",
     "MGW": "-ac_name=MGW -ac_supply=999999",
     "MORTY": "-ac_name=MORTY -ac_supply=90000000000 -ac_reward=100000000 -ac_cc=3 -ac_staked=10 -addnode=138.201.136.145 -addnode=95.217.44.58",
@@ -38,6 +41,7 @@
     "PANGEA": "-ac_name=PANGEA -ac_supply=999999",
     "PGT": "-ac_name=PGT -ac_supply=10000000 -ac_end=1 -addnode=190.114.254.104",
     "PIRATE": "-ac_name=PIRATE -ac_supply=0 -ac_reward=25600000000 -ac_halving=77777 -ac_private=1 -addnode=88.99.212.81",
+    "RAPH": "-ac_name=RAPH -ac_supply=999999999 -ac_end=1 -ac_public=1 -ac_staked=50 -addnode=65.21.52.182",
     "REVS": "-ac_name=REVS -ac_supply=1300000",
     "RICK": "-ac_name=RICK -ac_supply=90000000000 -ac_reward=100000000 -ac_cc=3 -ac_staked=10 -addnode=138.201.136.145 -addnode=95.217.44.58",
     "ROGUE": "-ac_name=ROGUE -ac_supply=1000000 -addnode=95.217.44.58 -ac_cclib=rogue -ac_perc=10000000 -ac_reward=100000000 -ac_cc=60001 -ac_script=2ea22c80203d1579313abe7d8ea85f48c65ea66fc512c878c0d0e6f6d54036669de940febf8103120c008203000401cc -daemon",
@@ -55,6 +59,5 @@
     "WSB": "-ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=94.130.38.173 -addnode=178.63.47.105",
     "ZEXO": "-ac_name=ZEXO -ac_reward=1478310502, -ac_halving=525600, -ac_cc=42, -ac_ccenable=236, -ac_supply=100000000, -ac_perc=77700, -ac_staked=93, -ac_pubkey=02713bd85e054db923694b6b7a85306264edf4d6bd6d331814f2b40af444b3ebbc, -ac_public=1, -addnode=195.201.20.230 -addnode=80.240.17.222",
     "ZILLA": "-ac_name=ZILLA -ac_supply=11000000 -ac_sapling=5000000 -addnode=51.68.215.104",
-    "ZOMBIE": "-ac_name=ZOMBIE -ac_supply=0 -ac_reward=25600000000 -ac_halving=388885 -ac_private=1 -ac_sapling=1 -testnode=1 -addnode=65.21.51.116 -addnode=116.203.120.163 -addnode=168.119.236.239 -addnode=65.109.1.121 -addnode=159.69.125.84 -addnode=159.69.10.44",
-    "LUPA": "-ac_name=LUPA -ac_reward=100000000000 -ac_adaptivepow=6 -ac_blocktime=3 -ac_staked=80 -ac_cbmaturity=10 -addnode=85.159.226.129"
+    "ZOMBIE": "-ac_name=ZOMBIE -ac_supply=0 -ac_reward=25600000000 -ac_halving=388885 -ac_private=1 -ac_sapling=1 -testnode=1 -addnode=65.21.51.116 -addnode=116.203.120.163 -addnode=168.119.236.239 -addnode=65.109.1.121 -addnode=159.69.125.84 -addnode=159.69.10.44"
   }
