@@ -5593,6 +5593,10 @@
         "nodes": [
             {
                 "url": "https://public-node.rsk.co"
+            },
+            {
+                "url": "https://rootstock.drpc.org",
+                "ws_url": "wss://rootstock.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -12180,6 +12184,11 @@
         "electrum": [
             {
                 "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
@@ -25651,10 +25660,12 @@
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
             {
-                "url": "https://moonbeam.public.blastapi.io"
+                "url": "https://moonbeam.public.blastapi.io",
+                "ws_url": "wss://moonbeam.public.blastapi.io"
             },
             {
-                "url": "https://rpc.api.moonbeam.network"
+                "url": "https://rpc.api.moonbeam.network",
+                "ws_url": "wss://wss.api.moonbeam.network"
             }
         ],
         "explorer_block_url": "block/",
@@ -27314,6 +27325,10 @@
             },
             {
                 "url": "https://api.s0.t.hmny.io"
+            },
+            {
+                "url": "https://harmony-0.drpc.org",
+                "ws_url": "wss://harmony-0.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -38196,6 +38211,15 @@
                     }
                 ],
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.javerity.com:5885",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -38251,6 +38275,15 @@
                 "contact": [
                     {
                         "discord": "alviemahmud"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.javerity.com:5885",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
                     }
                 ],
                 "protocol": "TCP"
@@ -40893,6 +40926,10 @@
                 ]
             },
             {
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
             }
@@ -42733,7 +42770,10 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://rpc.octano.dev/"
+                "url": "https://pyrus2.ubiqscan.io"
+            },
+            {
+                "url": "https://rpc.octano.dev"
             }
         ],
         "explorer_block_url": "block/"
