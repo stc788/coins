@@ -2551,6 +2551,11 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "electrum3.egulden.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "holland.ecoincore.com:11019",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -6891,6 +6896,15 @@
                     }
                 ],
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrumx.javerity.com:5887",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ],
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -6942,6 +6956,15 @@
                 "contact": [
                     {
                         "discord": "alviemahmud"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx.javerity.com:5887",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
                     }
                 ],
                 "protocol": "WSS"
@@ -7533,6 +7556,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "zeta-seed-d.zetacoin.network:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
