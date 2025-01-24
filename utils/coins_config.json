@@ -4675,42 +4675,6 @@
             {
                 "url": "cashnode.bch.ninja:50004",
                 "protocol": "WSS"
-            },
-            {
-                "url": "electrum3.cipig.net:10055",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum3.cipig.net:20055",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:30055",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/",
@@ -6066,6 +6030,30 @@
             "homepage": "https://blocx.tech"
         },
         "electrum": [
+            {
+                "url": "electrum1.blocx.live:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.blocx.live:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum1.blocx.live:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.blocx.live:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum2.blocx.live:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum2.blocx.live:50004",
+                "protocol": "WSS"
+            },
             {
                 "url": "electrum3.blocx.live:50001",
                 "protocol": "TCP"
@@ -8850,16 +8838,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "holland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -8932,16 +8910,6 @@
             {
                 "url": "chicago.ecoincore.com:34333",
                 "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "holland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
@@ -9843,72 +9811,6 @@
             }
         ],
         "explorer_block_url": "block/"
-    },
-    "CLAM": {
-        "coin": "CLAM",
-        "type": "UTXO",
-        "name": "Clams",
-        "coinpaprika_id": "clam-clams",
-        "coingecko_id": "clams",
-        "livecoinwatch_id": "CLAM",
-        "explorer_url": "https://chainz.cryptoid.info/clam/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Clam Signed Message:\n",
-        "fname": "Clams",
-        "isPoS": 1,
-        "rpcport": 30174,
-        "pubtype": 137,
-        "p2shtype": 13,
-        "wiftype": 133,
-        "segwit": false,
-        "txfee": 10000,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/23'",
-        "links": {
-            "github": "https://github.com/nochowderforyou/clams",
-            "homepage": "http://clamclient.com"
-        },
-        "electrum": [
-            {
-                "url": "clam-ex-one.ewmci.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "clam-ex-one.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "clam-ex-one.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "CLC": {
         "coin": "CLC",
@@ -12448,49 +12350,6 @@
         ],
         "explorer_block_url": "block/",
         "binance_id": "DGB"
-    },
-    "DGC": {
-        "coin": "DGC",
-        "type": "UTXO",
-        "name": "Digitalcoin",
-        "coinpaprika_id": "dgc-digitalcoin",
-        "coingecko_id": "digitalcoin",
-        "livecoinwatch_id": "DGC",
-        "explorer_url": "https://chainz.cryptoid.info/dgc/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Digitalcoin Signed Message:\n",
-        "fname": "Digitalcoin",
-        "rpcport": 7998,
-        "pubtype": 30,
-        "p2shtype": 5,
-        "wiftype": 128,
-        "txfee": 10000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 36,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/18'",
-        "electrum": [
-            {
-                "url": "failover.dgc.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "failover.dgc.ewmcx.biz:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "DIA-ERC20": {
         "coin": "DIA-ERC20",
@@ -16420,24 +16279,6 @@
                     }
                 ],
                 "url": "electrumx02.firo.org:50004"
-            },
-            {
-                "url": "electrumx03.firo.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ]
-            },
-            {
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ],
-                "url": "electrumx03.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -27164,6 +27005,22 @@
         "derivation_path": "m/44'/191'",
         "electrum": [
             {
+                "url": "electrum5.getlynx.io:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum5.getlynx.io:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum6.getlynx.io:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum6.getlynx.io:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum7.getlynx.io:50002",
                 "protocol": "SSL"
             },
@@ -28346,6 +28203,74 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "MDX-ERC20": {
+        "coin": "MDX-ERC20",
+        "type": "ERC-20",
+        "name": "Mandala",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "MDX",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Mandala",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x947AEb02304391f8fbE5B25D7D98D649b57b1788"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x947AEb02304391f8fbE5B25D7D98D649b57b1788",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/eth",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
+                "contact": {
+                    "email": "smk@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -29979,112 +29904,6 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "NINJA": {
-        "coin": "NINJA",
-        "type": "Smart Chain",
-        "name": "Ninja",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://ninja.komodo.earth/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "NINJA",
-        "fname": "Ninja",
-        "rpcport": 8427,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrum1.cipig.net:10036",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum1.cipig.net:20036",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:10036",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum2.cipig.net:20036",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:10036",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum3.cipig.net:20036",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -39459,10 +39278,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "testnet.aranguren.org:51001",
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -39537,10 +39352,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "testnet.aranguren.org:51001",
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -41682,16 +41493,6 @@
             {
                 "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL"
-            },
-            {
-                "url": "uno-main.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "uno-main.coinmunity.gold:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -44062,51 +43863,6 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrum.grms.pw:17485",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum.grms.pw:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.grms.pw:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ]
-            },
-            {
                 "url": "electrum1.grms.pw:17485",
                 "contact": [
                     {
@@ -44138,51 +43894,6 @@
             },
             {
                 "url": "electrum1.grms.pw:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.grms.pw:17485",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum2.grms.pw:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.grms.pw:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -45827,11 +45538,6 @@
                         "telegram": "@fsmv0"
                     }
                 ]
-            },
-            {
-                "url": "xrg_ful.googol.cash:52138",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block/"
@@ -46493,18 +46199,6 @@
             {
                 "url": "88.99.26.209:5036",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrum-verge.cloud:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum-verge.cloud:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum-verge.cloud:50004",
-                "protocol": "WSS"
             },
             {
                 "url": "electrumx-verge.cloud:50001",
@@ -51368,42 +51062,6 @@
         },
         "electrum": [
             {
-                "url": "electrum2.runebase.io:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.runebase.io:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
                 "url": "electrum3.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -52545,111 +52203,6 @@
         ],
         "explorer_block_url": "nucleus/blocks/",
         "binance_id": "OSMO"
-    },
-    "LUPA": {
-        "coin": "LUPA",
-        "type": "Smart Chain",
-        "name": "Lupaza",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://explorer.lupacoin.biz/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "LUPA",
-        "fname": "Lupaza",
-        "rpcport": 64151,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrum.lupacoin.biz:17487",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum.lupacoin.biz:50005",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.lupacoin.biz:50006",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.lupacoin.biz:17487",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum1.lupacoin.biz:50005",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.lupacoin.biz:50006",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
     },
     "ZOIN": {
         "coin": "ZOIN",
