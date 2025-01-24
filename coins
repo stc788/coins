@@ -9185,6 +9185,25 @@
     }
   },
   {
+    "coin": "MDX-ERC20",
+    "name": "mdx_erc20",
+    "fname": "Mandala",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x947AEb02304391f8fbE5B25D7D98D649b57b1788"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "MINDS-ERC20",
     "name": "minds_erc20",
     "fname": "Minds",
