@@ -12585,7 +12585,12 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/18'",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "electrumx.dgc.ewmcx.org:50001",
+                "protocol": "TCP"
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "DIA-ERC20": {
@@ -16516,6 +16521,24 @@
                     }
                 ],
                 "url": "electrumx02.firo.org:50004"
+            },
+            {
+                "url": "electrumx03.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ]
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
+                "url": "electrumx03.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
