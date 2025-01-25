@@ -13285,9 +13285,9 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "UIS",
+    "coin": "UIS-OLD",
     "name": "unitus",
-    "fname": "Unitus",
+    "fname": "Unitus (OLD)",
     "sign_message_prefix": "Unitus Signed Message:\n",
     "rpcport": 50604,
     "pubtype": 68,
@@ -13304,6 +13304,30 @@
     "derivation_path": "m/44'/723'",
     "links": {
       "github": "https://github.com/unitusdev/unitus",
+      "homepage": "https://unituscurrency.com"
+    }
+  },
+  {
+    "coin": "UIS",
+    "name": "unitus",
+    "fname": "Unitus",
+    "sign_message_prefix": "Unitus Signed Message:\n",
+    "isPoS": 1,
+    "rpcport": 15715,
+    "pubtype": 130,
+    "p2shtype": 85,
+    "wiftype": 153,
+    "txfee": 100000,
+    "segwit": false,
+    "mm2": 1,
+    "required_confirmations": 4,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/723'",
+    "links": {
+      "github": "https://github.com/WikiMin3R/Unitus-Nouveau",
       "homepage": "https://unituscurrency.com"
     }
   },
