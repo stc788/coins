@@ -8,6 +8,8 @@ on:
       - 'utils/coins_config_ssl.json'
       - 'utils/coins_config_tcp.json'
       - 'utils/coins_config_wss.json'
+      - 'utils/coins_config_unfiltered.json'
+      - 'utils/electrum_scan_report.json'
   schedule:
     - cron:  '0 0 * * *'
   workflow_dispatch:
