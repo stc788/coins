@@ -3924,6 +3924,18 @@
             {
                 "url": "cashnode.bch.ninja:50004",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum3.cipig.net:30055",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/",
@@ -7981,6 +7993,54 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "CLAM": {
+        "coin": "CLAM",
+        "type": "UTXO",
+        "name": "Clams",
+        "coinpaprika_id": "clam-clams",
+        "coingecko_id": "clams",
+        "livecoinwatch_id": "CLAM",
+        "explorer_url": "https://chainz.cryptoid.info/clam/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Clam Signed Message:\n",
+        "fname": "Clams",
+        "isPoS": 1,
+        "rpcport": 30174,
+        "pubtype": 137,
+        "p2shtype": 13,
+        "wiftype": 133,
+        "segwit": false,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/23'",
+        "links": {
+            "github": "https://github.com/nochowderforyou/clams",
+            "homepage": "http://clamclient.com"
+        },
+        "electrum": [
+            {
+                "url": "clam-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "CLC": {
         "coin": "CLC",
@@ -32478,23 +32538,23 @@
         ],
         "explorer_block_url": "block/"
     },
-    "UIS": {
-        "coin": "UIS",
+    "UIS-OLD": {
+        "coin": "UIS-OLD",
         "type": "UTXO",
-        "name": "Unitus",
+        "name": "Unitus (OLD)",
         "coinpaprika_id": "uis-unitus",
         "coingecko_id": "unitus",
         "livecoinwatch_id": "UIS",
-        "explorer_url": "https://chainz.cryptoid.info/uis/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
+        "explorer_url": "https://explorer.unitus.network/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
         "supported": [],
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
         "sign_message_prefix": "Unitus Signed Message:\n",
-        "fname": "Unitus",
+        "fname": "Unitus (OLD)",
         "rpcport": 50604,
         "pubtype": 68,
         "p2shtype": 10,
@@ -32524,7 +32584,7 @@
                 "disable_cert_verification": false
             }
         ],
-        "explorer_block_url": "block.dws?"
+        "explorer_block_url": "block/"
     },
     "UMA-AVX20": {
         "coin": "UMA-AVX20",
