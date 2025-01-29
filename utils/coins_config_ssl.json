@@ -11115,7 +11115,13 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/18'",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "DIA-ERC20": {
@@ -36672,6 +36678,11 @@
             {
                 "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL"
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -40658,6 +40669,10 @@
         },
         "derivation_path": "m/44'/77'",
         "electrum": [
+            {
+                "url": "electrum-verge.cloud:50002",
+                "protocol": "SSL"
+            },
             {
                 "url": "electrumx-verge.cloud:50002",
                 "protocol": "SSL"
