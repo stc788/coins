@@ -10404,6 +10404,29 @@
     }
   },
   {
+    "coin": "FLOP",
+    "name": "flopcoin",
+    "fname": "Flopcoin",
+    "sign_message_prefix": "Flopcoin Signed Message:\n",
+    "rpcport": 32552,
+    "pubtype": 35,
+    "p2shtype": 22,
+    "wiftype": 158,
+    "txfee": 500000000,
+    "dust": 1000000,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/3'",
+    "links": {
+      "github": "https://github.com/Flopcoin/Flopcoin",
+      "homepage": "https://flopcoin.net"
+    }
+  },
+  {
     "coin": "PEP",
     "name": "pepecoin",
     "fname": "Pepecoin",

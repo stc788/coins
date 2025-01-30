@@ -37,6 +37,11 @@
 		"explorer_tx_url": "tx/",
 		"explorer_address_url": "address/"
 	},
+	"https://explorer.flopcoin.net/": {
+		"explorer_tx_url": "tx/",
+		"explorer_block_url": "block/",
+		"explorer_address_url": "address/"
+	},
 	"https://softbalanced.com:3001/insight/": {
 		"explorer_tx_url": "tx/",
 		"explorer_address_url": "address/"
