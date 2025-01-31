@@ -1,0 +1,28 @@
+[
+    {
+      "url": "electrumx1.flopcoin.net:10001"
+    },
+    {
+      "url": "electrumx1.flopcoin.net:10004",
+      "protocol": "SSL",
+      "contact": [
+        {
+            "discord": "technovision"
+        }
+      ],
+      "ws_url": "electrumx1.flopcoin.net:10003"
+    },
+    {
+      "url": "electrumx2.flopcoin.net:10001"
+    },
+    {
+      "url": "electrumx2.flopcoin.net:10004",
+      "protocol": "SSL",
+      "contact": [
+        {
+            "discord": "technovision"
+        }
+      ],
+      "ws_url": "electrumx2.flopcoin.net:10003"
+    }
+  ]

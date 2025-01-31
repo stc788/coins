@@ -1,0 +1,5 @@
+[Taker fee (FLOP)](https://explorer.flopcoin.net/tx/c01288598133155f8d3168355f5aa7aa7900af5571650ad6c3e23b1f66136e1f)
+[Maker payment (RVN)](https://blockbook.ravencoin.org/tx/d7d302e238c42976cec13153038d1e7cbf3dce068dc6a80b527a4929986061a2)
+[Taker payment (FLOP)](https://explorer.flopcoin.net/tx/326a6e5d5cb86afef1793887aa6a1b2c77ba52bebb2de0a11e864f060cb21a9d)
+[Taker payment spent (FLOP)](https://explorer.flopcoin.net/tx/0a3ed50bea058d0942e81ba4c4d5de5473b05b53052883536ef7dc7d8c696788)
+[Maker payment spent (RVN)](https://blockbook.ravencoin.org/tx/d223ebc1ebf849d1fb8f022c928ceb3bf8697700de017b712bf0f9301f53aa4e)
