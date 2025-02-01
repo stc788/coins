@@ -3186,7 +3186,10 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
+    "trezor_coin": "Komodo",
+    "links": {
+      "homepage": "https://chips.cash"
+    }
   },
   {
     "coin": "CHTA",
