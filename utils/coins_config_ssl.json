@@ -7921,6 +7921,11 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "holland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -7982,6 +7987,11 @@
         "electrum": [
             {
                 "url": "chicago.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "holland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
@@ -40137,18 +40147,6 @@
                         "discord": "456566604809895947"
                     }
                 ]
-            },
-            {
-                "url": "electrumx3.neurai.top:50001",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "alarm@neurai.org"
-                    },
-                    {
-                        "discord": "456566604809895947"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -44671,6 +44669,86 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "ZOMBIE": {
+        "coin": "ZOMBIE",
+        "type": "ZHTLC",
+        "name": "Zombie",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://zombie.komodo.earth/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "light_wallet_d_servers": [
+            "https://zombie.dragonhound.info:443",
+            "https://zombie.dragonhound.info:1443"
+        ],
+        "asset": "ZOMBIE",
+        "fname": "Zombie",
+        "txversion": 4,
+        "overwintered": 1,
+        "avg_blocktime": 60,
+        "mm2": 1,
+        "protocol": {
+            "type": "ZHTLC",
+            "protocol_data": {
+                "consensus_params": {
+                    "overwinter_activation_height": 0,
+                    "sapling_activation_height": 1,
+                    "blossom_activation_height": null,
+                    "heartwood_activation_height": null,
+                    "canopy_activation_height": null,
+                    "coin_type": 133,
+                    "hrp_sapling_extended_spending_key": "secret-extended-key-main",
+                    "hrp_sapling_extended_full_viewing_key": "zxviews",
+                    "hrp_sapling_payment_address": "zs",
+                    "b58_pubkey_address_prefix": [
+                        28,
+                        184
+                    ],
+                    "b58_script_address_prefix": [
+                        28,
+                        189
+                    ]
+                },
+                "z_derivation_path": "m/32'/133'"
+            }
+        },
+        "derivation_path": "m/44'/133'",
+        "required_confirmations": 3,
+        "electrum": [
+            {
+                "url": "zombie.dragonhound.info:20033",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ]
+            },
+            {
+                "url": "zombie.dragonhound.info:20133",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "ZINU-BEP20": {
         "coin": "ZINU-BEP20",
         "type": "BEP-20",
@@ -45344,6 +45422,15 @@
         },
         "electrum": [
             {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -45716,6 +45803,63 @@
         ],
         "explorer_block_url": "nucleus/blocks/",
         "binance_id": "OSMO"
+    },
+    "LUPA": {
+        "coin": "LUPA",
+        "type": "Smart Chain",
+        "name": "Lupaza",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.lupacoin.biz/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "LUPA",
+        "fname": "Lupaza",
+        "rpcport": 64151,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrum.lupacoin.biz:50005",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.lupacoin.biz:50005",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "ZOIN": {
         "coin": "ZOIN",

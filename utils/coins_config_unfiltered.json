@@ -8949,6 +8949,16 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "holland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "holland.ecoincore.com:34335",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -9021,6 +9031,16 @@
             {
                 "url": "chicago.ecoincore.com:34333",
                 "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "holland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "holland.ecoincore.com:34335",
+                "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
@@ -32399,6 +32419,15 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrumx1.flopcoin.net:10003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "technovision"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.flopcoin.net:10004",
                 "protocol": "SSL",
                 "contact": [
@@ -32410,6 +32439,15 @@
             {
                 "url": "electrumx2.flopcoin.net:10001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx2.flopcoin.net:10003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "technovision"
+                    }
+                ]
             },
             {
                 "url": "electrumx2.flopcoin.net:10004",
@@ -33005,24 +33043,6 @@
             },
             {
                 "url": "electrum01.chainster.org:50003",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum02.chainster.org:50001",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum02.chainster.org:50003",
                 "contact": [
                     {
                         "discord": "312541186793406465"
@@ -46212,30 +46232,6 @@
                         "discord": "456566604809895947"
                     }
                 ]
-            },
-            {
-                "url": "electrumx3.neurai.top:50001",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "alarm@neurai.org"
-                    },
-                    {
-                        "discord": "456566604809895947"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx3.neurai.top:50002",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "alarm@neurai.org"
-                    },
-                    {
-                        "discord": "456566604809895947"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -51926,7 +51922,80 @@
         },
         "derivation_path": "m/44'/133'",
         "required_confirmations": 3,
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "zombie.dragonhound.info:10033",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "zombie.dragonhound.info:10133",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "zombie.dragonhound.info:20033",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ]
+            },
+            {
+                "url": "zombie.dragonhound.info:20133",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ]
+            },
+            {
+                "url": "zombie.dragonhound.info:30058",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ]
+            },
+            {
+                "url": "zombie.dragonhound.info:30059",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "ZINU-BEP20": {
@@ -52800,6 +52869,33 @@
         },
         "electrum": [
             {
+                "url": "electrum1.kiirocoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "1155906841625239684"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.kiirocoin.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -53229,7 +53325,80 @@
         },
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "electrum.lupacoin.biz:17487",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum.lupacoin.biz:50005",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.lupacoin.biz:50006",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.lupacoin.biz:17487",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.lupacoin.biz:50005",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.lupacoin.biz:50006",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "ZOIN": {
