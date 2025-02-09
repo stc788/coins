@@ -11053,6 +11053,29 @@
     }
   },
   {
+    "coin": "SHIC",
+    "name": "shibacoin",
+    "fname": "Shibacoin",
+    "rpcport": 33863,
+    "pubtype": 63,
+    "p2shtype": 22,
+    "wiftype": 158,
+    "segwit": false,
+    "txfee": 1000000,
+    "mm2": 1,
+    "sign_message_prefix": "Shibacoin Signed Message:\n",
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/74'",
+    "links": {
+      "github": "https://github.com/shibacoinppc/shibacoin",
+      "homepage": "https://shibapow.org/"
+    }
+  },
+  {
     "coin": "QC-QRC20",
     "name": "qtum",
     "fname": "Qcash",
