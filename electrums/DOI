@@ -8,7 +8,7 @@
                 "twitter": "doichain"
             }
         ],
-        "ws-url": "itchy-jellyfish-89.doi.works:50004"
+        "ws_url": "itchy-jellyfish-89.doi.works:50004"
     },
     {
         "url": "big-parrot-60.doi.works:50002",
@@ -19,7 +19,7 @@
                 "twitter": "doichain"
             }
         ],
-        "ws-url": "big-parrot-60.doi.works:50004"
+        "ws_url": "big-parrot-60.doi.works:50004"
     },
     {
         "url": "pink-deer-69.doi.works:50002",
@@ -30,7 +30,7 @@
                 "twitter": "doichain"
             }
         ],
-        "ws-url": "pink-deer-69.doi.works:50004"
+        "ws_url": "pink-deer-69.doi.works:50004"
     },
     {
         "url": "pink-deer-69.doi.works:50001",
@@ -51,6 +51,6 @@
                 "twitter": "doichain"
             }
         ],
-        "ws-url": "ugly-bird-70.doi.works:50004"
+        "ws_url": "ugly-bird-70.doi.works:50004"
     }
 ]
