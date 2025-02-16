@@ -41063,6 +41063,15 @@
         },
         "electrum": [
             {
+                "url": "zet-ex-three.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
             }
