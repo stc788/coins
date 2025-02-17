@@ -8024,6 +8024,91 @@
     }
   },
   {
+    "coin": "KCN",
+    "name": "kylacoin",
+    "fname": "Kylacoin",
+    "rpcport": 5110,
+    "pubtype": 28,
+    "p2shtype": 26,
+    "wiftype": 65,
+    "segwit": true,
+    "bech32_hrp": "kc",
+    "txfee": 1000,
+    "decimals": 12,
+    "mm2": 1,
+    "wallet_only": true,
+    "sign_message_prefix": "Kylacoin Signed Message:\n",
+    "required_confirmations": 10,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/0'",
+    "trezor_coin": "Kylacoin",
+    "links": {
+      "github": "https://github.com/kylacoin/kylacoin",
+      "homepage": "https://kylacoin.com"
+    }
+  },
+  {
+    "coin": "KCN-segwit",
+    "name": "kylacoin",
+    "fname": "Kylacoin",
+    "sign_message_prefix": "Kylacoin Signed Message:\n",
+    "rpcport": 5110,
+    "pubtype": 28,
+    "p2shtype": 26,
+    "wiftype": 65,
+    "segwit": true,
+    "bech32_hrp": "kc",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "KCN",
+    "txfee": 1000,
+    "decimals": 12,
+    "mm2": 1,
+    "wallet_only": true,
+    "required_confirmations": 10,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/0'",
+    "trezor_coin": "Kylacoin",
+    "links": {
+      "github": "https://github.com/kylacoin/kylacoin",
+      "homepage": "https://kylacoin.com"
+    }
+  },
+  {
+    "coin": "KCN-BEP20",
+    "name": "kcn_bep20",
+    "fname": "Kylacoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 12,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x848B991fb420Cd59C8296143c8153477393ddcab"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "use_access_list": true,
+    "max_eth_tx_type": 2,
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 85000,
+        "erc20_sender_refund": 85000
+    }
+  },
+  {
     "coin": "KCS",
     "name": "kucoin-token",
     "fname": "KuCoin Token",
@@ -8322,6 +8407,91 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/192'"
+  },
+  {
+    "coin": "LCN",
+    "name": "lyncoin",
+    "fname": "Lyncoin",
+    "rpcport": 5053,
+    "pubtype": 234,
+    "p2shtype": 55,
+    "wiftype": 126,
+    "segwit": true,
+    "bech32_hrp": "lc",
+    "txfee": 1000,
+    "decimals": 8,
+    "mm2": 1,
+    "wallet_only": true,
+    "sign_message_prefix": "Lyncoin Signed Message:\n",
+    "required_confirmations": 10,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/0'",
+    "trezor_coin": "Lyncoin",
+    "links": {
+      "github": "https://github.com/lyncoin/lyncoin",
+      "homepage": "https://lyncoin.com"
+    }
+  },
+  {
+    "coin": "LCN-segwit",
+    "name": "lyncoin",
+    "fname": "Lyncoin",
+    "sign_message_prefix": "Lyncoin Signed Message:\n",
+    "rpcport": 5053,
+    "pubtype": 234,
+    "p2shtype": 55,
+    "wiftype": 126,
+    "segwit": true,
+    "bech32_hrp": "lc",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "LCN",
+    "txfee": 1000,
+    "decimals": 8,
+    "mm2": 1,
+    "wallet_only": true,
+    "required_confirmations": 10,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/0'",
+    "trezor_coin": "Lyncoin",
+    "links": {
+      "github": "https://github.com/lyncoin/lyncoin",
+      "homepage": "https://lyncoin.com"
+    }
+  },
+  {
+    "coin": "LCN-BEP20",
+    "name": "lcn_bep20",
+    "fname": "Lyncoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xD6a540543327B5A4F2223F123640932eE3C6C583"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "use_access_list": true,
+    "max_eth_tx_type": 2,
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 85000,
+        "erc20_sender_refund": 85000
+    }
   },
   {
     "coin": "LDO-ERC20",
