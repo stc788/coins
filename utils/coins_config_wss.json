@@ -27578,43 +27578,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "SHIC": {
-        "coin": "SHIC",
-        "type": "UTXO",
-        "name": "Shibacoin",
-        "coinpaprika_id": "shic-shibacoin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "SHIC",
-        "explorer_url": "https://shibaexplorer.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": true,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Shibacoin Signed Message:\n",
-        "fname": "Shibacoin",
-        "rpcport": 33863,
-        "pubtype": 63,
-        "p2shtype": 22,
-        "wiftype": 158,
-        "segwit": false,
-        "txfee": 1000000,
-        "mm2": 1,
-        "required_confirmations": 7,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/74'",
-        "links": {
-            "github": "https://github.com/shibacoinppc/shibacoin",
-            "homepage": "https://shibapow.org/"
-        },
-        "electrum": [],
-        "explorer_block_url": "block/"
-    },
     "QC-QRC20": {
         "coin": "QC-QRC20",
         "type": "QRC-20",
@@ -33484,6 +33447,11 @@
             "homepage": "https://unituscurrency.com"
         },
         "electrum": [
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": false
+            },
             {
                 "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS",
