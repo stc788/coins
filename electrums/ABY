@@ -1,5 +1,20 @@
 [
   {
+    "url": "aby-ex-three.ewmci.online:50002",
+    "ws_url": "aby-ex-three.ewmci.online:50003",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "475820011634819072" }
+    ]
+  },
+  {
+    "url": "aby-ex-three.ewmci.online:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "475820011634819072" }
+    ]
+  },
+  {
     "url": "aby-ex-four.ewmci.online:50012",
     "ws_url": "aby-ex-four.ewmci.online:50013",
     "protocol": "SSL",
@@ -14,25 +29,15 @@
       { "discord": "475820011634819072" }
     ]
   },
-    {
-        "url": "elec-seeder-one.artbytecoin.org:50012",
-        "protocol": "SSL",
-        "disable_cert_verification": true,
-        "ws_url": "elec-seeder-one.artbytecoin.org:50013"
-    },
-    {
-        "url": "electrumx-four.artbyte.live:50012",
-        "protocol": "SSL",
-        "ws_url": "electrumx-four.artbyte.live:50013"
-    },
-    {
-        "url": "electrumx-three.artbyte.live:50012",
-        "protocol": "SSL",
-        "ws_url": "electrumx-three.artbyte.live:50013"
-    },
-    {
-        "url": "elec-seeder-two.artbytecoin.org:50012",
-        "protocol": "SSL",
-        "ws_url": "elec-seeder-two.artbytecoin.org:50013"
-    }
+  {
+    "url": "elec-seeder-one.artbytecoin.org:50012",
+    "protocol": "SSL",
+    "disable_cert_verification": true,
+    "ws_url": "elec-seeder-one.artbytecoin.org:50013"
+  },
+  {
+    "url": "elec-seeder-two.artbytecoin.org:50012",
+    "protocol": "SSL",
+    "ws_url": "elec-seeder-two.artbytecoin.org:50013"
+  }
 ]
