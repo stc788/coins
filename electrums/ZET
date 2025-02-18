@@ -14,18 +14,23 @@
       { "discord": "475820011634819072" }
     ]
   },
-    {
-        "url": "zeta-seed-c.zetacoin.tech:50012",
-        "protocol": "SSL",
-        "ws_url": "zeta-seed-c.zetacoin.tech:50013"
-    },
-    {
-        "url": "zeta-seed-d.zetacoin.network:50012",
-        "protocol": "SSL",
-        "ws_url": "zeta-seed-d.zetacoin.network:50013"
-    },
-    {
-        "url": "207.180.252.200:50011",
-        "protocol": "TCP"
-    }
+  {
+    "url": "zet-ex-four.ewmci.online:50002",
+    "ws_url": "zet-ex-four.ewmci.online:50003",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "475820011634819072" }
+    ]
+  },
+  {
+    "url": "zet-ex-four.ewmci.online:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "475820011634819072" }
+    ]
+  },
+  {
+    "url": "207.180.252.200:50011",
+    "protocol": "TCP"
+  }
 ]
