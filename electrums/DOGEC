@@ -1,7 +1,11 @@
 [
     {
         "url": "dogec-one.ewm-cx.com:50006",
-        "protocol": "TCP",
+        "protocol": "TCP"
+    },
+    {
+        "url": "dogec-one.ewm-cx.com:50007",
+        "protocol": "SSL",
         "ws_url": "dogec-one.ewm-cx.com:50008"
     }
 ]
