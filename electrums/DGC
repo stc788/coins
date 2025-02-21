@@ -7,7 +7,11 @@
     },
     {
         "url": "electrumx.dgc.ewmcx.org:50001",
-        "protocol": "TCP",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrumx.dgc.ewmcx.org:50002",
+        "protocol": "SSL",
         "ws_url": "electrumx.dgc.ewmcx.org:50003"
     }
 ]
