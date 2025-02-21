@@ -5069,10 +5069,6 @@
             {
                 "url": "electrum2.blocx.live:50004",
                 "protocol": "WSS"
-            },
-            {
-                "url": "electrum3.blocx.live:50004",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -13376,40 +13372,40 @@
         },
         "electrum": [
             {
+                "url": "electrumx.firo.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
-                ],
-                "url": "electrumx.firo.org:50004"
+                ]
             },
             {
+                "url": "electrumx01.firo.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
-                ],
-                "url": "electrumx01.firo.org:50004"
+                ]
             },
             {
+                "url": "electrumx02.firo.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
-                ],
-                "url": "electrumx02.firo.org:50004"
+                ]
             },
             {
+                "url": "electrumx03.firo.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
-                ],
-                "url": "electrumx03.firo.org:50004"
+                ]
             }
         ],
         "explorer_block_url": "block/",
@@ -27129,12 +27125,21 @@
         "electrum": [
             {
                 "url": "electrum01.chainster.org:50003",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "312541186793406465"
                     }
-                ],
-                "protocol": "WSS"
+                ]
+            },
+            {
+                "url": "electrum02.chainster.org:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "312541186793406465"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?",
@@ -36339,21 +36344,21 @@
         "electrum": [
             {
                 "url": "electrumx-vtc.cryptoverted.com:55004",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "alviemahmud"
                     }
-                ],
-                "protocol": "WSS"
+                ]
             },
             {
                 "url": "electrumx.javerity.com:5887",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "cruelnovo#4936"
                     }
-                ],
-                "protocol": "WSS"
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -36402,21 +36407,21 @@
         "electrum": [
             {
                 "url": "electrumx-vtc.cryptoverted.com:55004",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "alviemahmud"
                     }
-                ],
-                "protocol": "WSS"
+                ]
             },
             {
                 "url": "electrumx.javerity.com:5887",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "cruelnovo#4936"
                     }
-                ],
-                "protocol": "WSS"
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -37174,30 +37179,30 @@
         "electrum": [
             {
                 "url": "electrumx1.electraprotocol.eu:50003",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "287952234317348865"
                     }
-                ],
-                "protocol": "WSS"
+                ]
             },
             {
                 "url": "electrumx2.electraprotocol.eu:50003",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "287952234317348865"
                     }
-                ],
-                "protocol": "WSS"
+                ]
             },
             {
                 "url": "electrumx3.electraprotocol.eu:50003",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "287952234317348865"
                     }
-                ],
-                "protocol": "WSS"
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -41831,6 +41836,18 @@
             },
             {
                 "url": "electrum3.runebase.io:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
