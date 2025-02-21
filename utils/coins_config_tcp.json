@@ -5458,10 +5458,6 @@
             {
                 "url": "electrum2.blocx.live:50002",
                 "protocol": "SSL"
-            },
-            {
-                "url": "electrum3.blocx.live:50002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -11101,13 +11097,13 @@
         "derivation_path": "m/44'/18'",
         "electrum": [
             {
+                "url": "electrumx.dgc.ewmcx.org:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "failover.dgc.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "electrumx.dgc.ewmcx.org:50001",
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -14622,8 +14618,8 @@
         },
         "electrum": [
             {
-                "url": "electrumx.firo.org:50001",
-                "protocol": "TCP",
+                "url": "electrumx.firo.org:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
@@ -14631,8 +14627,8 @@
                 ]
             },
             {
-                "url": "electrumx01.firo.org:50001",
-                "protocol": "TCP",
+                "url": "electrumx01.firo.org:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
@@ -14640,8 +14636,8 @@
                 ]
             },
             {
-                "url": "electrumx02.firo.org:50001",
-                "protocol": "TCP",
+                "url": "electrumx02.firo.org:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
@@ -14649,8 +14645,8 @@
                 ]
             },
             {
-                "url": "electrumx03.firo.org:50001",
-                "protocol": "TCP",
+                "url": "electrumx03.firo.org:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
@@ -29479,13 +29475,22 @@
         "derivation_path": "m/44'/119'",
         "electrum": [
             {
-                "url": "electrum01.chainster.org:50001",
+                "url": "electrum01.chainster.org:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "312541186793406465"
                     }
-                ],
-                "protocol": "TCP"
+                ]
+            },
+            {
+                "url": "electrum02.chainster.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "312541186793406465"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?",
@@ -32462,12 +32467,12 @@
         "derivation_path": "m/44'/10226'",
         "electrum": [
             {
-                "url": "x1.raptoreum.com:50001",
-                "protocol": "TCP"
+                "url": "x1.raptoreum.com:50002",
+                "protocol": "SSL"
             },
             {
-                "url": "x2.raptoreum.com:50001",
-                "protocol": "TCP"
+                "url": "x2.raptoreum.com:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -39542,25 +39547,25 @@
         },
         "electrum": [
             {
-                "url": "88.99.26.209:5028",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx-vtc.cryptoverted.com:55001",
+                "url": "electrumx-vtc.cryptoverted.com:55002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "alviemahmud"
                     }
-                ],
-                "protocol": "TCP"
+                ]
             },
             {
-                "url": "electrumx.javerity.com:5885",
+                "url": "electrumx.javerity.com:5886",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "cruelnovo#4936"
                     }
-                ],
+                ]
+            },
+            {
+                "url": "88.99.26.209:5028",
                 "protocol": "TCP"
             }
         ],
@@ -39609,25 +39614,25 @@
         },
         "electrum": [
             {
-                "url": "88.99.26.209:5028",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx-vtc.cryptoverted.com:55001",
+                "url": "electrumx-vtc.cryptoverted.com:55002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "alviemahmud"
                     }
-                ],
-                "protocol": "TCP"
+                ]
             },
             {
-                "url": "electrumx.javerity.com:5885",
+                "url": "electrumx.javerity.com:5886",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "cruelnovo#4936"
                     }
-                ],
+                ]
+            },
+            {
+                "url": "88.99.26.209:5028",
                 "protocol": "TCP"
             }
         ],
@@ -40391,31 +40396,31 @@
         "derivation_path": "m/44'/597'",
         "electrum": [
             {
-                "url": "electrumx1.electraprotocol.eu:50001",
+                "url": "electrumx1.electraprotocol.eu:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "287952234317348865"
                     }
-                ],
-                "protocol": "TCP"
+                ]
             },
             {
-                "url": "electrumx2.electraprotocol.eu:50001",
+                "url": "electrumx2.electraprotocol.eu:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "287952234317348865"
                     }
-                ],
-                "protocol": "TCP"
+                ]
             },
             {
-                "url": "electrumx3.electraprotocol.eu:50001",
+                "url": "electrumx3.electraprotocol.eu:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "287952234317348865"
                     }
-                ],
-                "protocol": "TCP"
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -41310,6 +41315,10 @@
         },
         "electrum": [
             {
+                "url": "electrumx2.vanillacash.info:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "xvc-ex-seven.ewmci.online:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -41320,10 +41329,6 @@
             },
             {
                 "url": "electrumx1.vanillacash.info:50011",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx2.vanillacash.info:50011",
                 "protocol": "TCP"
             }
         ],
@@ -45561,6 +45566,18 @@
             },
             {
                 "url": "electrum3.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
