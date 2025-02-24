@@ -34502,11 +34502,30 @@
         "electrum": [
             {
                 "url": "electrum.thepandacoin.net:443",
-                "protocol": "WSS"
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "374235093348253706"
+                    }
+                ]
             },
             {
                 "url": "electrum.thepandacoin.net:50001",
-                "protocol": "TCP"
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "374235093348253706"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.thepandacoin.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "374235093348253706"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -35609,8 +35628,31 @@
         },
         "electrum": [
             {
-                "url": "109.123.245.37:50001",
-                "protocol": "TCP"
+                "url": "electrum.shibaexplorer.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "1157581316175437884"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.shibaexplorer.com:50002",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "1157581316175437884"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.shibaexplorer.com:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "1157581316175437884"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -47626,8 +47668,26 @@
         "derivation_path": "m/44'/90'",
         "electrum": [
             {
-                "url": "xmy-two.ewm-cx.net:50001",
+                "url": "xmy-ex-one.ewmci.online:50001",
                 "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "xmy-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "xmy-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -47674,8 +47734,26 @@
         "derivation_path": "m/44'/90'",
         "electrum": [
             {
-                "url": "xmy-two.ewm-cx.net:50001",
+                "url": "xmy-ex-one.ewmci.online:50001",
                 "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "xmy-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "xmy-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -54558,15 +54636,6 @@
             {
                 "url": "electrum1.kiirocoin.org:50004",
                 "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.kiirocoin.org:50002",
-                "protocol": "SSL",
                 "contact": [
                     {
                         "github": "https://github.com/kiirocoin/electrum-kiiro/issues"

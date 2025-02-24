@@ -27181,7 +27181,12 @@
         "electrum": [
             {
                 "url": "electrum.thepandacoin.net:443",
-                "protocol": "WSS"
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "374235093348253706"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -28134,6 +28139,53 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "SHIC": {
+        "coin": "SHIC",
+        "type": "UTXO",
+        "name": "Shibacoin",
+        "coinpaprika_id": "shic-shibacoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "SHIC",
+        "explorer_url": "https://shibaexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Shibacoin Signed Message:\n",
+        "fname": "Shibacoin",
+        "rpcport": 33863,
+        "pubtype": 63,
+        "p2shtype": 22,
+        "wiftype": 158,
+        "segwit": false,
+        "txfee": 1000000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/74'",
+        "links": {
+            "github": "https://github.com/shibacoinppc/shibacoin",
+            "homepage": "https://shibapow.org/"
+        },
+        "electrum": [
+            {
+                "url": "electrum.shibaexplorer.com:50002",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "1157581316175437884"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -37457,6 +37509,98 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
+    },
+    "XMY": {
+        "coin": "XMY",
+        "type": "UTXO",
+        "name": "Myriad",
+        "coinpaprika_id": "xmy-myriad",
+        "coingecko_id": "myriadcoin",
+        "livecoinwatch_id": "XMY",
+        "explorer_url": "https://chainz.cryptoid.info/xmy/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Myriadcoin Signed Message:\n",
+        "fname": "Myriad",
+        "rpcport": 8332,
+        "pubtype": 50,
+        "p2shtype": 9,
+        "wiftype": 178,
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "my",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 240,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/90'",
+        "electrum": [
+            {
+                "url": "xmy-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
+    "XMY-segwit": {
+        "coin": "XMY-segwit",
+        "type": "UTXO",
+        "name": "Myriad",
+        "coinpaprika_id": "xmy-myriad",
+        "coingecko_id": "myriadcoin",
+        "livecoinwatch_id": "XMY",
+        "explorer_url": "https://chainz.cryptoid.info/xmy/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Myriadcoin Signed Message:\n",
+        "fname": "Myriad",
+        "rpcport": 8332,
+        "pubtype": 50,
+        "p2shtype": 9,
+        "wiftype": 178,
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "my",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "XMY",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 240,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/90'",
+        "electrum": [
+            {
+                "url": "xmy-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "XNA": {
         "coin": "XNA",
