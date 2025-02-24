@@ -1,18 +1,17 @@
 [
-    {
-        "url": "xmy-two.ewm-cx.net:50001",
-        "protocol": "TCP",
-        "contact": [
-            { "discord": "475820011634819072" }
-        ]
-    },
-    {
-        "url": "lenoir.ecoincore.com:10891",
-        "protocol": "TCP"
-    },
-    {
-        "url": "lenoir.ecoincore.com:10892",
-        "protocol": "SSL",
-        "ws_url": "lenoir.ecoincore.com:10894"
-    }
+  {
+    "url": "xmy-ex-one.ewmci.online:50002",
+    "ws_url": "xmy-ex-one.ewmci.online:50003",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "475820011634819072" }
+    ]
+  },
+  {
+    "url": "xmy-ex-one.ewmci.online:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "475820011634819072" }
+    ]
+  }
 ]
