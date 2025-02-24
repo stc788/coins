@@ -29865,7 +29865,17 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/37'",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "electrum.thepandacoin.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "374235093348253706"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "POT": {
@@ -30946,7 +30956,17 @@
             "github": "https://github.com/shibacoinppc/shibacoin",
             "homepage": "https://shibapow.org/"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "electrum.shibaexplorer.com:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "1157581316175437884"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "QC-QRC20": {
@@ -41375,7 +41395,17 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/90'",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "xmy-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "XMY-segwit": {
@@ -41413,7 +41443,17 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/90'",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "xmy-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "XNA": {
@@ -46896,15 +46936,6 @@
         "electrum": [
             {
                 "url": "electrum1.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
