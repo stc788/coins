@@ -13,5 +13,20 @@
     "contact": [
       { "discord": "475820011634819072" }
     ]
+  },
+  {
+    "url": "xmy-ex-two.ewmci.online:50002",
+    "ws_url": "xmy-ex-two.ewmci.online:50003",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "475820011634819072" }
+    ]
+  },
+  {
+    "url": "xmy-ex-two.ewmci.online:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "475820011634819072" }
+    ]
   }
 ]
