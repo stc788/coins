@@ -55790,5 +55790,70 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "BONC": {
+        "coin": "BONC",
+        "type": "UTXO",
+        "name": "Bonkcoin",
+        "coinpaprika_id": "bonc1-bonkcoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "_BONC",
+        "explorer_url": "https://explorer.bonkscoin.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bonkcoin Signed Message:\n",
+        "fname": "Bonkcoin",
+        "rpcport": 15612,
+        "pubtype": 25,
+        "p2shtype": 28,
+        "wiftype": 151,
+        "segwit": false,
+        "txfee": 1000000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/6363'",
+        "links": {
+            "github": "https://github.com/Bonkcoin/Bonkcoin-core",
+            "homepage": "https://bonkscoin.io"
+        },
+        "electrum": [
+            {
+                "url": "electrum.bonkscoin.io:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "1157581316175437884"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.bonkscoin.io:50002",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "1157581316175437884"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.bonkscoin.io:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "1157581316175437884"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
     }
 }
