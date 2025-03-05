@@ -1,0 +1,24 @@
+[
+  {
+    "url": "electrum1.nito.network:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "biigbang0001" }
+    ]
+  },
+  {
+    "url": "electrum1.nito.network:50003",
+    "protocol": "SSL",
+    "contact": [
+     { "discord": "biigbang0001" }
+    ]
+  },
+  {
+    "url": "electrum1.nito.network:50005",
+    "protocol": "WSS",
+    "contact": [
+     { "discord": "biigbang0001" }
+    ]
+  }
+  
+]
