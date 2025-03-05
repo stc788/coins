@@ -16974,6 +16974,33 @@
       "homepage": "https://coin.crionic.org"
     }
   },
+ {
+    "coin": "NITO-segwit",
+    "name": "nito",
+    "fname": "NITO",
+    "rpcport": 8825,
+    "pubtype": 8,
+    "p2shtype": 5,
+    "wiftype": 80,
+    "txfee": 10000,
+    "segwit": true,
+    "bech32_hrp": "nit",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "NITO",
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/0'",
+    "links": {
+      "github": "https://github.com/NitoNetwork/",
+      "homepage": "https://nito.network/"
+    }
+  },
   {
     "coin": "EVR",
     "name": "evrmore",
