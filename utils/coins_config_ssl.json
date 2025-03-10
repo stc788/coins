@@ -1038,24 +1038,6 @@
         },
         "electrum": [
             {
-                "url": "aby-ex-four.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "aby-ex-three.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -4953,15 +4935,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "bbk-ex-two.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -6419,10 +6392,6 @@
         "electrum": [
             {
                 "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             }
         ],
@@ -9082,15 +9051,6 @@
         },
         "electrum": [
             {
-                "url": "clam-ex-one.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "electrum3.cipig.net:20075",
                 "protocol": "SSL",
                 "contact": [
@@ -11346,6 +11306,11 @@
             {
                 "url": "electrumx.dgc.ewmcx.org:50002",
                 "protocol": "SSL"
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -29287,7 +29252,7 @@
         "coinpaprika_id": "pepenet-pepecoin",
         "coingecko_id": "pepecoin-network",
         "livecoinwatch_id": "_______________________________________PEPE",
-        "explorer_url": "https://pepeexplorer.com/",
+        "explorer_url": "https://pepeblocks.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
