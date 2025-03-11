@@ -46731,6 +46731,60 @@
         ],
         "explorer_block_url": "block/"
     },
+    "NITO-segwit": {
+        "coin": "NITO-segwit",
+        "type": "UTXO",
+        "name": "NITO",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "_NITO",
+        "explorer_url": "https://explorer.nito.network/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "NITO",
+        "rpcport": 8825,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "nito",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "NITO",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/0'",
+        "links": {
+            "github": "https://github.com/NitoNetwork/",
+            "homepage": "https://nito.network/"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.nito.network:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "biigbang0001@zemzar.net"
+                    },
+                    {
+                        "discord": "biigbang0001"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "EVR": {
         "coin": "EVR",
         "type": "UTXO",
