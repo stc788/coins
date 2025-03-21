@@ -4358,6 +4358,48 @@
     "derivation_path": "m/44'/2301'"
   },
   {
+    "coin": "DINGO",
+    "name": "dingocoin",
+    "fname": "Dingocoin",
+    "sign_message_prefix": "Dingocoin Signed Message:\n",
+    "rpcport": 34646,
+    "pubtype": 30,
+    "p2shtype": 22,
+    "wiftype": 158,
+    "txfee": 100000000,
+    "force_min_relay_fee": true,
+    "dust": 100000000,
+    "mm2": 1,
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/3'",
+    "links": {
+      "github": "https://github.com/dingocoin/dingocoin",
+      "homepage": "https://dingocoin.com"
+    }
+  },
+  {
+    "coin": "DINGO-BEP20",
+    "name": "dingo_bep20",
+    "fname": "Dingocoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x9b208b117B2C4F76C1534B6f006b033220a681A4"
+      }
+    }
+  },
+  {
     "coin": "DODO-ARB20",
     "name": "dodo_arb20",
     "fname": "DODO",

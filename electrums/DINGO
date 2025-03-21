@@ -1,0 +1,24 @@
+[
+  {
+    "url": "elecx1.dingocoin.com:3342",
+    "ws_url": "elecx1.dingocoin.com:3341",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "elecx1.dingocoin.com:3339",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "67.205.139.135:3339",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  }
+]
