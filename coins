@@ -4366,7 +4366,7 @@
     "pubtype": 30,
     "p2shtype": 22,
     "wiftype": 158,
-    "txfee": 100000000,
+    "txfee": "DINGO(100000000)",
     "force_min_relay_fee": true,
     "dust": 100000000,
     "mm2": 1,
