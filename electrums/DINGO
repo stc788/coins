@@ -15,10 +15,33 @@
     ]
   },
   {
-    "url": "67.205.139.135:3339",
+    "url": "elecx2.dingocoin.com:3342",
+    "ws_url": "elecx2.dingocoin.com:3341",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "elecx2.dingocoin.com:3339",
     "protocol": "TCP",
     "contact": [
       { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "delecx.twinkykms.com:3342",
+    "ws_url": "delecx.twinkykms.com:3341",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "405102339612082177" }
+    ]
+  },
+  {
+    "url": "delecx.twinkykms.com:3339",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "405102339612082177" }
     ]
   }
 ]
