@@ -3338,7 +3338,7 @@
     "p2shtype": 13,
     "wiftype": 133,
     "segwit": false,
-    "txfee": 10000,
+    "txfee": 100000,
     "mm2": 1,
     "sign_message_prefix": "Clam Signed Message:\n",
     "required_confirmations": 5,
