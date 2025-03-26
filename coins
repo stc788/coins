@@ -4114,6 +4114,7 @@
     "p2shtype": 63,
     "wiftype": 128,
     "txfee": 10000000,
+    "dust": 5460,
     "segwit": true,
     "bech32_hrp": "dgb",
     "mm2": 1,
@@ -4126,7 +4127,7 @@
     "derivation_path": "m/44'/20'",
     "trezor_coin": "DigiByte",
     "links": {
-      "github": "https://github.com/digibyte/digibyte",
+      "github": "https://github.com/DigiByte-Core/digibyte",
       "homepage": "https://digibyte.io"
     }
   },
@@ -4140,6 +4141,7 @@
     "p2shtype": 63,
     "wiftype": 128,
     "txfee": 10000000,
+    "dust": 5460,
     "segwit": true,
     "bech32_hrp": "dgb",
     "address_format": {
@@ -4155,7 +4157,7 @@
     "derivation_path": "m/44'/20'",
     "trezor_coin": "DigiByte",
     "links": {
-      "github": "https://github.com/digibyte/digibyte",
+      "github": "https://github.com/DigiByte-Core/digibyte",
       "homepage": "https://digibyte.io"
     }
   },
