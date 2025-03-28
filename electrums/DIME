@@ -1,5 +1,16 @@
 [
     {
+        "url": "electrumx1.dimecoinnetwork.com:50001",
+        "contact": [
+            {
+                "email": "developer@dimecoinnetwork.com"
+            },
+            {
+                "discord": "dhop14#9359"
+            }
+        ]
+    },
+    {
         "url": "electrumx1.dimecoinnetwork.com:50002",
 	"ws_url": "electrumx1.dimecoinnetwork.com:50004",
 	"protocol": "SSL",
@@ -14,6 +25,19 @@
     },
     {
         "url": "electrumx2.dimecoinnetwork.com:50001",
+        "contact": [
+            {
+                "email": "developer@dimecoinnetwork.com"
+            },
+            {
+                "discord": "dhop14#9359"
+            }
+        ]
+    },
+    {
+        "url": "electrumx2.dimecoinnetwork.com:50002",
+        "ws_url": "electrumx2.dimecoinnetwork.com:50004",
+        "protocol": "SSL",
         "contact": [
             {
                 "email": "developer@dimecoinnetwork.com"
