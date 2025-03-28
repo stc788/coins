@@ -10626,6 +10626,7 @@
     "wiftype": 158,
     "segwit": false,
     "txfee": 1000000,
+    "dust": 1000000,
     "mm2": 1,
     "sign_message_prefix": "Pepecoin Signed Message:\n",
     "required_confirmations": 5,
