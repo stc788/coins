@@ -8343,6 +8343,15 @@
         },
         "electrum": [
             {
+                "url": "clam-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.cipig.net:30075",
                 "protocol": "WSS",
                 "contact": [
