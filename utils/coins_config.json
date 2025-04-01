@@ -10272,6 +10272,33 @@
         },
         "electrum": [
             {
+                "url": "clam-ex-one.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "clam-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "clam-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.cipig.net:20075",
                 "protocol": "SSL",
                 "contact": [
@@ -13312,6 +13339,18 @@
             "github": "https://github.com/dime-coin/dimecoin/"
         },
         "electrum": [
+            {
+                "url": "electrumx1.dimecoinnetwork.com:50001",
+                "contact": [
+                    {
+                        "email": "developer@dimecoinnetwork.com"
+                    },
+                    {
+                        "discord": "dhop14#9359"
+                    }
+                ],
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx1.dimecoinnetwork.com:50002",
                 "protocol": "SSL",
