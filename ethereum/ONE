@@ -15,6 +15,9 @@
     {
       "url": "https://harmony-0.drpc.org",
       "ws_url": "wss://harmony-0.drpc.org"
+    },
+    {
+      "url": "https://hmyone-pokt.nodies.app"
     }
   ]
 }
