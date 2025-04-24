@@ -1,0 +1,26 @@
+[
+    {
+        "url": "electrum.junkiewally.xyz:50001",
+        "protocol": "TCP",
+        "contact": [
+            {
+                "email": "nekohime@nodecattel.xyz"
+            },
+            {
+                "discord": "@moonether"
+            }
+        ]
+    },
+    {
+        "url": "electrum.junkiewally.xyz:50002",
+        "protocol": "SSL",
+        "contact": [
+            {
+                "email": "nekohime@nodecattel.xyz"
+            },
+            {
+                "discord": "@moonether"
+            }
+        ]
+    }
+]
