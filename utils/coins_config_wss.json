@@ -95,6 +95,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -260,6 +264,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -323,6 +331,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -410,6 +422,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -472,6 +488,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -629,6 +649,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -765,6 +789,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -814,6 +842,11 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
@@ -994,6 +1027,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -1104,6 +1141,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -1190,6 +1231,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -1229,6 +1274,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -1308,6 +1357,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -1348,6 +1401,15 @@
             "homepage": "aipowergrid.io"
         },
         "electrum": [
+            {
+                "url": "electrumx1.aipowergrid.io:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "482101557383528448"
+                    }
+                ]
+            },
             {
                 "url": "electrumx2.aipowergrid.io:50004",
                 "protocol": "WSS",
@@ -1453,6 +1515,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -1539,6 +1605,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -1578,6 +1648,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -1782,6 +1856,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -1821,6 +1899,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -2005,6 +2087,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -2091,6 +2177,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -2387,6 +2477,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -2424,15 +2518,6 @@
         },
         "derivation_path": "m/44'/85'",
         "electrum": [
-            {
-                "url": "electrum1.valhala.is:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "388437778624413706"
-                    }
-                ]
-            },
             {
                 "url": "electrumx.aur.ewmcx.info:50003",
                 "protocol": "WSS",
@@ -2539,6 +2624,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -2829,6 +2918,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -2867,6 +2960,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -3077,6 +3174,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -3322,6 +3423,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -3408,6 +3513,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -3572,6 +3681,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -3700,6 +3813,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -3788,6 +3905,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -3933,6 +4054,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -4189,6 +4314,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -4369,6 +4498,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -4570,6 +4703,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -4609,6 +4746,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -5064,6 +5205,10 @@
             {
                 "url": "electrum2.blocx.live:50004",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum3.blocx.live:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -5161,6 +5306,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -5375,6 +5524,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -5453,6 +5606,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -5496,6 +5653,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -5620,6 +5781,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -5706,6 +5871,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -5788,7 +5957,7 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver01.globalboost.info:50013",
+                "url": "electrumserver02.globalboost.info:50013",
                 "protocol": "WSS"
             }
         ],
@@ -6481,6 +6650,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -6559,6 +6732,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -6856,6 +7033,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -6992,6 +7173,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -7031,6 +7216,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -7119,6 +7308,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -7475,6 +7668,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -7514,6 +7711,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -7593,6 +7794,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -7637,6 +7842,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -8093,6 +8302,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -8171,6 +8384,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -8210,6 +8427,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -8289,6 +8510,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -8610,6 +8835,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -8696,6 +8925,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -8735,6 +8968,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -8814,6 +9051,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -8932,6 +9173,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -9169,6 +9414,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -9324,6 +9573,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -9556,6 +9809,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -9805,6 +10062,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -9921,6 +10182,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -9988,6 +10253,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -10051,6 +10320,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -10138,6 +10411,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -10373,6 +10650,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -10652,7 +10933,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.dimecoinnetwork.com:50004",
+                "url": "electrumx2.dimecoinnetwork.com:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -11025,6 +11306,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -11636,6 +11921,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -11771,6 +12060,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -11898,6 +12191,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -11976,6 +12273,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -12134,6 +12435,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -12435,6 +12740,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -12475,6 +12784,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -12562,6 +12875,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -12601,6 +12918,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -12688,6 +13009,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -12732,6 +13057,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -12819,6 +13148,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -12920,6 +13253,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -13055,6 +13392,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -13118,6 +13459,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -13256,6 +13601,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -13361,6 +13710,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -13870,6 +14223,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -14270,6 +14627,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -14402,6 +14763,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -14488,6 +14853,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -14676,6 +15045,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -14799,6 +15172,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -14885,6 +15262,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -15238,6 +15619,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -15324,6 +15709,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -15503,6 +15892,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -15655,6 +16048,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -15733,6 +16130,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -15849,6 +16250,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -15942,6 +16347,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -16069,104 +16478,7 @@
         },
         "electrum": [
             {
-                "url": "electrum11.groestlcoin.org:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum12.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum13.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum14.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum15.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum16.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum17.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum18.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum19.groestlcoin.org:50004",
+                "url": "electrum1.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -16179,222 +16491,6 @@
             },
             {
                 "url": "electrum2.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum20.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum21.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum23.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum24.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum25.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum26.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum27.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum28.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum31.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum32.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum33.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum34.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum35.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum36.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum37.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum38.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum39.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum40.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -16549,6 +16645,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -16635,6 +16735,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -16733,6 +16837,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -16860,6 +16968,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -16928,6 +17040,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -17015,6 +17131,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -17054,6 +17174,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -17133,6 +17257,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -17175,6 +17303,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -17239,6 +17371,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -17318,6 +17454,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -17357,6 +17497,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -17503,6 +17647,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -17761,6 +17909,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -17815,6 +17967,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -17854,6 +18010,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -17986,6 +18146,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -18114,6 +18278,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -18325,6 +18493,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -18364,6 +18536,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -18576,6 +18752,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -18699,6 +18879,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -18762,6 +18946,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -18908,6 +19096,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -18994,6 +19186,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -19056,6 +19252,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -19202,6 +19402,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -19288,6 +19492,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -19387,6 +19595,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -19473,6 +19685,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -19527,6 +19743,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -19590,6 +19810,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -19645,6 +19869,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -19708,6 +19936,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -19771,6 +20003,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -19826,6 +20062,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -19881,6 +20121,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -19990,6 +20234,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -20028,6 +20276,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -20107,6 +20359,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -20161,6 +20417,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -20224,6 +20484,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -20279,6 +20543,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -20334,6 +20602,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -20924,6 +21196,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -21010,6 +21286,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -21708,6 +21988,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -21794,6 +22078,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -21837,6 +22125,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -21916,6 +22208,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -21954,6 +22250,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -22195,6 +22495,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -22361,6 +22665,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -22506,6 +22814,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -22544,6 +22856,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -22613,6 +22929,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -23024,6 +23344,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -23169,6 +23493,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -23268,6 +23596,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -23354,6 +23686,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -23407,6 +23743,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -23519,6 +23859,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -23583,6 +23927,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -23850,6 +24198,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -23917,6 +24269,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -24040,6 +24396,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -24273,6 +24633,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -24359,6 +24723,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -24401,6 +24769,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -24631,6 +25003,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -24670,6 +25046,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -25186,6 +25566,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -25272,6 +25656,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -25611,6 +25999,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -25690,6 +26082,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -25852,6 +26248,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -25930,6 +26330,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -25969,6 +26373,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -26123,6 +26531,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -26167,6 +26579,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -26246,6 +26662,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -26394,6 +26814,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -26530,6 +26954,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -26633,6 +27061,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -26719,6 +27151,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -26744,10 +27180,10 @@
         "pubtype": 35,
         "p2shtype": 22,
         "wiftype": 158,
-        "txfee": 500000000,
-        "dust": 1000000,
+        "segwit": false,
+        "txfee": 1000000,
         "mm2": 1,
-        "required_confirmations": 2,
+        "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -26802,6 +27238,7 @@
         "wiftype": 158,
         "segwit": false,
         "txfee": 1000000,
+        "dust": 1000000,
         "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
@@ -26934,6 +27371,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -27059,6 +27500,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -27244,15 +27689,6 @@
                         "discord": "312541186793406465"
                     }
                 ]
-            },
-            {
-                "url": "electrum02.chainster.org:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?",
@@ -27385,6 +27821,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -27471,6 +27911,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -27514,6 +27958,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -27593,6 +28041,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -27685,6 +28137,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -27763,6 +28219,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -27861,6 +28321,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -27939,6 +28403,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -27978,6 +28446,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -28065,6 +28537,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -28166,6 +28642,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -28252,6 +28732,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -28645,6 +29129,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -28713,6 +29201,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -28915,6 +29407,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -29159,6 +29655,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -29226,6 +29726,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -29289,6 +29793,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -29376,6 +29884,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -29735,6 +30247,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -29813,6 +30329,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -29852,6 +30372,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -29939,6 +30463,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -29978,6 +30506,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -30047,6 +30579,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -30288,6 +30824,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -30433,6 +30973,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -30716,6 +31260,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -30852,6 +31400,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -30973,6 +31525,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -31011,6 +31567,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -31376,6 +31936,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -31438,6 +32002,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -31477,6 +32045,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -31556,6 +32128,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -31704,6 +32280,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -31887,6 +32467,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -32043,6 +32627,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -32106,6 +32694,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -32252,6 +32844,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -32548,6 +33144,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -32671,6 +33271,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -32757,6 +33361,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -32893,6 +33501,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -32979,6 +33591,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -33190,6 +33806,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -33612,6 +34232,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -33650,6 +34274,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -33777,6 +34405,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -33952,6 +34584,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -34055,6 +34691,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -34133,6 +34773,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -34267,6 +34911,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -34345,6 +34993,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -34434,6 +35086,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -34579,6 +35235,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -34816,6 +35476,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -35064,6 +35728,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -35118,6 +35786,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -35216,6 +35888,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -35399,6 +36075,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -35661,6 +36341,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -36001,6 +36685,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -36064,6 +36752,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -36143,6 +36835,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -36628,6 +37324,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -36714,6 +37414,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -36753,6 +37457,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -36817,6 +37525,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -37113,6 +37825,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -37152,6 +37868,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -37404,6 +38124,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -37490,6 +38214,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -37905,6 +38633,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -37973,6 +38705,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -38060,6 +38796,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -38590,6 +39330,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -38726,6 +39470,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -38828,6 +39576,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -39272,6 +40024,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -39350,6 +40106,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -39469,6 +40229,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -40248,6 +41012,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -40315,6 +41083,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -40385,6 +41157,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -40454,6 +41230,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -40518,6 +41298,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -40581,6 +41365,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -40650,6 +41438,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -40713,6 +41505,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -40783,6 +41579,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -40850,6 +41650,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -40920,6 +41724,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -40983,6 +41791,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -41051,6 +41863,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -41121,6 +41937,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -41185,6 +42005,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -41248,6 +42072,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -41317,6 +42145,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -41381,6 +42213,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
                 "contact": {
@@ -41444,6 +42280,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -41567,6 +42407,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -41863,81 +42707,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "ZDEEX": {
-        "coin": "ZDEEX",
-        "type": "ZHTLC",
-        "name": "Zdeex",
-        "coinpaprika_id": "zdeex-zdeex",
-        "coingecko_id": "",
-        "livecoinwatch_id": "ZDEEX",
-        "explorer_url": "https://explorer.zdeex.org",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "light_wallet_d_servers": [
-            "https://zdeexlightd.zdeex.org:9067",
-            "https://zdeexlightd1.zdeex.org:9067",
-            "https://zdeexlightd2.zdeex.org:9067"
-        ],
-        "asset": "ZDEEX",
-        "fname": "Zdeex",
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "avg_blocktime": 300,
-        "protocol": {
-            "type": "ZHTLC",
-            "protocol_data": {
-                "consensus_params": {
-                    "overwinter_activation_height": 0,
-                    "sapling_activation_height": 1,
-                    "blossom_activation_height": null,
-                    "heartwood_activation_height": null,
-                    "canopy_activation_height": null,
-                    "coin_type": 133,
-                    "hrp_sapling_extended_spending_key": "secret-extended-key-main",
-                    "hrp_sapling_extended_full_viewing_key": "zxviews",
-                    "hrp_sapling_payment_address": "zs",
-                    "b58_pubkey_address_prefix": [
-                        28,
-                        184
-                    ],
-                    "b58_script_address_prefix": [
-                        28,
-                        189
-                    ]
-                },
-                "z_derivation_path": "m/32'/133'"
-            }
-        },
-        "derivation_path": "m/44'/133'",
-        "required_confirmations": 3,
-        "electrum": [
-            {
-                "url": "electrum.zdeex.org:50006",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "contact@zdeex.org"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.zdeex.org:50006",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "contact@zdeex.org"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "ZINU-BEP20": {
         "coin": "ZINU-BEP20",
         "type": "BEP-20",
@@ -42017,8 +42786,8 @@
         "pubtype": 61,
         "p2shtype": 123,
         "wiftype": 216,
-        "txfee": 5000000,
-        "dust": 400000,
+        "txfee": 40000000,
+        "dust": 72800,
         "mature_confirmations": 120,
         "segwit": true,
         "bech32_hrp": "rc",
@@ -42035,7 +42804,7 @@
         },
         "electrum": [
             {
-                "url": "electrum3.runebase.io:50004",
+                "url": "electrum2.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -42047,7 +42816,7 @@
                 ]
             },
             {
-                "url": "electrum4.runebase.io:50004",
+                "url": "electrum3.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -43045,63 +43814,6 @@
         "explorer_block_url": "nucleus/blocks/",
         "binance_id": "OSMO"
     },
-    "LUPA": {
-        "coin": "LUPA",
-        "type": "Smart Chain",
-        "name": "Lupaza",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://explorer.lupacoin.biz/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "LUPA",
-        "fname": "Lupaza",
-        "rpcport": 64151,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrum.lupacoin.biz:50006",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.lupacoin.biz:50006",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "NFT_ETH": {
         "coin": "NFT_ETH",
         "type": "ERC-20",
@@ -43135,6 +43847,10 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://0xrpc.io/eth",
+                "ws_url": "wss://0xrpc.io/eth"
+            },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/eth",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
@@ -43373,6 +44089,10 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
