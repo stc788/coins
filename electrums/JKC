@@ -22,5 +22,17 @@
                 "discord": "@moonether"
             }
         ]
+    },
+    {
+        "url": "electrum.junkiewally.xyz:50005",
+        "protocol": "WSS",
+        "contact": [
+            {
+                "email": "nekohime@nodecattel.xyz"
+            },
+            {
+                "discord": "@moonether"
+            }
+        ]
     }
 ]

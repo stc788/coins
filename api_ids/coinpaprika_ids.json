@@ -309,6 +309,7 @@
     "JRT-ERC20": "jrt-jarvis-reward-token",
     "JRT-PLG20": "jrt-jarvis-reward-token",
     "JST-BEP20": "jst-just",
+    "JKC": "jkc-junkcoin",
     "KCN": "kcn-kylacoin",
     "KCN-BEP20": "kcn-kylacoin",
     "KCS": "kcs-kucoin-token",
@@ -658,3 +659,4 @@
     "ZRX-ERC20": "zrx-0x",
     "ZRX-PLG20": "zrx-0x"
 }
+
