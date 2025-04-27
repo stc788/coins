@@ -1,6 +1,6 @@
 [
     {
-        "url": "electrum.junkiewally.xyz:50001",
+        "url": "electrum.junkiewally.xyz:50003",
         "protocol": "TCP",
         "contact": [
             {
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "url": "electrum.junkiewally.xyz:50002",
+        "url": "electrum.junkiewally.xyz:50004",
         "protocol": "SSL",
         "contact": [
             {
