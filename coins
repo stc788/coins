@@ -1828,6 +1828,7 @@
     "wiftype": 144,
     "decimals": 8,
     "txfee": 100000,
+    "dust": 100000,
     "mm2": 1,
     "required_confirmations": 3,
     "avg_blocktime": 60,
