@@ -1,0 +1,38 @@
+[
+    {
+        "url": "electrum.junkiewally.xyz:50003",
+        "protocol": "TCP",
+        "contact": [
+            {
+                "email": "nekohime@nodecattel.xyz"
+            },
+            {
+                "discord": "@moonether"
+            }
+        ]
+    },
+    {
+        "url": "electrum.junkiewally.xyz:50004",
+        "protocol": "SSL",
+        "contact": [
+            {
+                "email": "nekohime@nodecattel.xyz"
+            },
+            {
+                "discord": "@moonether"
+            }
+        ]
+    },
+    {
+        "url": "electrum.junkiewally.xyz:50005",
+        "protocol": "WSS",
+        "contact": [
+            {
+                "email": "nekohime@nodecattel.xyz"
+            },
+            {
+                "discord": "@moonether"
+            }
+        ]
+    }
+]

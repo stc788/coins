@@ -1818,6 +1818,31 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "JKC",
+    "name": "junkcoin",
+    "fname": "JunkCoin",
+    "sign_message_prefix": "JunkCoin Signed Message:\n",
+    "rpcport": 9771,
+    "pubtype": 16,
+    "p2shtype": 5,
+    "wiftype": 144,
+    "decimals": 8,
+    "txfee": 100000,
+    "dust": 100000,
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "mature_confirmations": 70,
+    "derivation_path": "m/44'/2013'",
+    "links": {
+      "github": "https://github.com/Junkcoin-Foundation/junkcoin-core",
+      "homepage": "https://junk-coin.com"
+    }
+  },
+  {
     "coin": "MAZE-SLP",
     "fname": "Maze",
     "protocol": {
