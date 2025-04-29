@@ -15399,8 +15399,7 @@
                 ]
             }
         ],
-        "explorer_block_url": "block/",
-        "binance_id": "FIRO"
+        "explorer_block_url": "block/"
     },
     "FIRO-BEP20": {
         "coin": "FIRO-BEP20",
@@ -15466,8 +15465,7 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/",
-        "binance_id": "FIRO"
+        "explorer_block_url": "block/"
     },
     "FJC": {
         "coin": "FJC",
