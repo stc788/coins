@@ -1,7 +1,4 @@
 {
-    "BIDR-BEP20": "IDR",
-    "CADC-ERC20": "CAD",
-    "CADC-PLG20": "CAD",
     "JAUD-PLG20": "AUD",
     "JBRL-BEP20": "BRL",
     "JBRL-PLG20": "BRL",
@@ -17,7 +14,5 @@
     "JSEK-PLG20": "SEK",
     "JSGD-PLG20": "SGD",
     "JTRY-PLG20": "TRY",
-    "JUSD-PLG20": "USD",
-    "NZDS-ERC20": "NZD",
-    "NZDS-PLG20": "NZD"
+    "JUSD-PLG20": "USD"
 }
