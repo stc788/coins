@@ -835,20 +835,6 @@
         },
         "electrum": [
             {
-                "url": "aby-ex-four.ewmci.online:50013",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "elec-seeder-one.artbytecoin.org:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
                 "protocol": "WSS"
             }
@@ -2519,14 +2505,13 @@
         "derivation_path": "m/44'/85'",
         "electrum": [
             {
-                "url": "electrumx.aur.ewmcx.info:50003",
+                "url": "electrum1.valhala.is:50004",
                 "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "failover.aur.ewmcx.biz:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "contact": [
+                    {
+                        "discord": "388437778624413706"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4948,8 +4933,7 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/",
-        "forex_id": "IDR"
+        "explorer_block_url": "block/"
     },
     "BCZERO": {
         "coin": "BCZERO",
@@ -5250,10 +5234,6 @@
             "homepage": "https://blocx.tech"
         },
         "electrum": [
-            {
-                "url": "electrum1.blocx.live:50004",
-                "protocol": "WSS"
-            },
             {
                 "url": "electrum2.blocx.live:50004",
                 "protocol": "WSS"
@@ -6008,6 +5988,10 @@
         },
         "derivation_path": "m/44'/664'",
         "electrum": [
+            {
+                "url": "electrumserver01.globalboost.info:50013",
+                "protocol": "WSS"
+            },
             {
                 "url": "electrumserver02.globalboost.info:50013",
                 "protocol": "WSS"
@@ -7299,8 +7283,7 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "CAD"
+        "explorer_block_url": "block/"
     },
     "CADC-PLG20": {
         "coin": "CADC-PLG20",
@@ -7366,8 +7349,7 @@
                 "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "CAD"
+        "explorer_block_url": "block/"
     },
     "CAKE-BEP20": {
         "coin": "CAKE-BEP20",
@@ -11031,28 +11013,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "electrumx1.diminutivecoin.com:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
-                    },
-                    {
-                        "twitter": "coin_dimi"
-                    },
-                    {
-                        "reddit": "DiminutiveCoin_DIMI"
-                    },
-                    {
-                        "github": "MadCatMining"
-                    },
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ]
-            },
             {
                 "url": "electrumx2.diminutivecoin.com:50013",
                 "protocol": "WSS",
@@ -17763,28 +17723,6 @@
                         "github": "WikiMin3R"
                     }
                 ]
-            },
-            {
-                "url": "il9p.electrumx.transcenders.name:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -21631,104 +21569,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "LCC": {
-        "coin": "LCC",
-        "type": "UTXO",
-        "name": "Litecoin Cash",
-        "coinpaprika_id": "lcc-litecoin-cash",
-        "coingecko_id": "litecoin-cash",
-        "livecoinwatch_id": "LCC",
-        "explorer_url": "https://chainz.cryptoid.info/lcc/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Litecoin Signed Message:\n",
-        "fname": "Litecoin Cash",
-        "rpcport": 62457,
-        "pubtype": 28,
-        "p2shtype": 50,
-        "wiftype": 176,
-        "decimals": 7,
-        "fork_id": "0x40",
-        "signature_version": "base",
-        "txfee": 20000,
-        "segwit": true,
-        "bech32_hrp": "lcc",
-        "mm2": 1,
-        "required_confirmations": 4,
-        "avg_blocktime": 150,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/192'",
-        "electrum": [
-            {
-                "url": "lcc-ex-one.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
-    "LCC-segwit": {
-        "coin": "LCC-segwit",
-        "type": "UTXO",
-        "name": "Litecoin Cash",
-        "coinpaprika_id": "lcc-litecoin-cash",
-        "coingecko_id": "litecoin-cash",
-        "livecoinwatch_id": "LCC",
-        "explorer_url": "https://chainz.cryptoid.info/lcc/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Litecoin Signed Message:\n",
-        "fname": "Litecoin Cash",
-        "rpcport": 62457,
-        "pubtype": 28,
-        "p2shtype": 50,
-        "wiftype": 176,
-        "decimals": 7,
-        "fork_id": "0x40",
-        "signature_version": "base",
-        "txfee": 20000,
-        "segwit": true,
-        "bech32_hrp": "lcc",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "LCC",
-        "mm2": 1,
-        "required_confirmations": 4,
-        "avg_blocktime": 150,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/192'",
-        "electrum": [
-            {
-                "url": "lcc-ex-one.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
     "LCN": {
         "coin": "LCN",
         "type": "UTXO",
@@ -21768,18 +21608,6 @@
         },
         "electrum": [
             {
-                "url": "electrum1.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.lcnxp.com:52004",
                 "protocol": "WSS",
                 "contact": [
@@ -21792,31 +21620,7 @@
                 ]
             },
             {
-                "url": "electrum3.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
                 "url": "electrum4.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum5.lcnxp.com:52004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -21873,18 +21677,6 @@
         },
         "electrum": [
             {
-                "url": "electrum1.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.lcnxp.com:52004",
                 "protocol": "WSS",
                 "contact": [
@@ -21897,31 +21689,7 @@
                 ]
             },
             {
-                "url": "electrum3.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
                 "url": "electrum4.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum5.lcnxp.com:52004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -26079,8 +25847,7 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "NZD"
+        "explorer_block_url": "block/"
     },
     "NZDS-PLG20": {
         "coin": "NZDS-PLG20",
@@ -26138,8 +25905,7 @@
                 "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "NZD"
+        "explorer_block_url": "block/"
     },
     "NYC-BEP20": {
         "coin": "NYC-BEP20",
@@ -33419,102 +33185,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "TESTBTC": {
-        "coin": "TESTBTC",
-        "type": "UTXO",
-        "name": "Bitcoin Testnet",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://blockstream.info/testnet/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": true,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Bitcoin Testnet",
-        "rpcport": 18332,
-        "pubtype": 111,
-        "p2shtype": 196,
-        "wiftype": 239,
-        "segwit": true,
-        "bech32_hrp": "tb",
-        "txfee": 0,
-        "estimate_fee_mode": "ECONOMICAL",
-        "mm2": 1,
-        "required_confirmations": 0,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/1'",
-        "electrum": [
-            {
-                "url": "electrum3.cipig.net:30068",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "TESTBTC-segwit": {
-        "coin": "TESTBTC-segwit",
-        "type": "UTXO",
-        "name": "Bitcoin Testnet",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://blockstream.info/testnet/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": true,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Bitcoin Testnet",
-        "rpcport": 18332,
-        "pubtype": 111,
-        "p2shtype": 196,
-        "wiftype": 239,
-        "segwit": true,
-        "bech32_hrp": "tb",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "tBTC",
-        "txfee": 0,
-        "estimate_fee_mode": "ECONOMICAL",
-        "mm2": 1,
-        "required_confirmations": 0,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/84'/1'",
-        "electrum": [
-            {
-                "url": "electrum3.cipig.net:30068",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "TEL-ERC20": {
         "coin": "TEL-ERC20",
         "type": "ERC-20",
@@ -34870,11 +34540,6 @@
                 "url": "failover.trc-uis.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": false
-            },
-            {
-                "url": "uis-uno.ewmcx.net:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block/"
@@ -35328,11 +34993,6 @@
             "homepage": "https://unobtanium.uno"
         },
         "electrum": [
-            {
-                "url": "uno-bkp.coinmunity.gold:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
             {
                 "url": "uno-main.coinmunity.gold:50003",
                 "protocol": "WSS",
@@ -38963,15 +38623,6 @@
             {
                 "url": "electrumx2.vanillacash.info:50013",
                 "protocol": "WSS"
-            },
-            {
-                "url": "xvc-ex-seven.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -42854,7 +42505,7 @@
         },
         "electrum": [
             {
-                "url": "electrum3.runebase.io:50004",
+                "url": "electrum2.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -42866,7 +42517,7 @@
                 ]
             },
             {
-                "url": "electrum4.runebase.io:50004",
+                "url": "electrum3.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
