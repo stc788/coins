@@ -16867,8 +16867,11 @@
         "decimals": 6,
         "denom": "uatom",
         "account_prefix": "cosmos",
-        "chain_registry_name": "cosmoshub",
-        "chain_id": "cosmoshub-4"
+        "chain_id": "cosmoshub-4",
+        "ibc_channels": {
+          "iaa": 91,
+          "osmo": 141
+        }
       }
     },
     "derivation_path": "m/44'/118'"
@@ -16887,8 +16890,11 @@
         "denom": "uiris",
         "account_prefix": "iaa",
         "chain_id": "irishub-1",
-        "chain_registry_name": "irishub",
-        "gas_price": 0.5
+        "gas_price": 0.5,
+        "ibc_channels": {
+          "cosmos": 0,
+          "osmo": 3
+        }
       }
     },
     "derivation_path": "m/44'/118'"
@@ -16925,9 +16931,12 @@
         "decimals": 6,
         "denom": "uosmo",
         "account_prefix": "osmo",
-        "chain_registry_name": "osmosis",
         "chain_id": "osmosis-1",
-        "gas_price": 0.5
+        "gas_price": 0.5,
+        "ibc_channels": {
+          "cosmos": 0,
+          "iaa": 6
+        }
       }
     },
     "derivation_path": "m/44'/118'"
@@ -17150,7 +17159,6 @@
             "decimals": 6,
             "denom": "unucl",
             "account_prefix": "nuc",
-            "chain_registry_name": "nucleus",
             "chain_id": "nucleus-3"
         }
     },
