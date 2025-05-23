@@ -2488,7 +2488,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/0'",
+    "derivation_path": "m/84'/0'",
     "trezor_coin": "Bitcoin",
     "links": {
       "github": "https://github.com/bitcoin/bitcoin",
@@ -2749,7 +2749,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/160'",
+    "derivation_path": "m/84'/160'",
     "trezor_coin": "Bitcore",
     "links": {
       "github": "https://github.com/LIMXTEC/BitCore",
@@ -3032,7 +3032,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/34'"
+    "derivation_path": "m/84'/34'"
   },
   {
     "coin": "CDS-PLG20",
@@ -3857,7 +3857,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/802'",
+    "derivation_path": "m/84'/802'",
     "links": {
       "github": "https://github.com/cyberyen/cyberyen",
       "homepage": "https://cyberyen.org"
@@ -4177,7 +4177,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/20'",
+    "derivation_path": "m/84'/20'",
     "trezor_coin": "DigiByte",
     "links": {
       "github": "https://github.com/digibyte/digibyte",
@@ -5559,7 +5559,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/75'",
+    "derivation_path": "m/84'/75'",
     "trezor_coin": "Fujicoin",
     "links": {
       "github": "https://github.com/fujicoin/fujicoin",
@@ -5742,7 +5742,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/8'",
+    "derivation_path": "m/84'/8'",
     "trezor_coin": "Feathercoin",
     "links": {
       "github": "https://github.com/FeatherCoin/Feathercoin",
@@ -8099,7 +8099,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/0'",
+    "derivation_path": "m/84'/0'",
     "trezor_coin": "Kylacoin",
     "links": {
       "github": "https://github.com/kylacoin/kylacoin",
@@ -8380,7 +8380,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/140'"
+    "derivation_path": "m/84'/140'"
   },
   {
     "coin": "LCC",
@@ -8431,7 +8431,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/192'"
+    "derivation_path": "m/84'/192'"
   },
   {
     "coin": "LCN",
@@ -8484,7 +8484,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/0'",
+    "derivation_path": "m/84'/0'",
     "trezor_coin": "Lyncoin",
     "links": {
       "github": "https://github.com/lyncoin/lyncoin",
@@ -9016,7 +9016,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/2'",
+    "derivation_path": "m/84'/2'",
     "trezor_coin": "Litecoin",
     "links": {
       "github": "https://github.com/litecoin-project/litecoin",
@@ -9755,7 +9755,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/22'",
+    "derivation_path": "m/84'/22'",
     "trezor_coin": "Monacoin",
     "links": {
       "github": "https://github.com/monacoinproject/monacoin",
@@ -10088,7 +10088,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/7'",
+    "derivation_path": "m/84'/7'",
     "trezor_coin": "Namecoin",
     "links": {
       "github": "https://github.com/namecoin/namecoin-core",
@@ -11728,7 +11728,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/143'"
+    "derivation_path": "m/84'/143'"
   },
   {
     "coin": "RIC-BEP20",
@@ -12871,7 +12871,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/57'",
+    "derivation_path": "m/84'/57'",
     "trezor_coin": "Syscoin",
     "links": {
       "github": "https://github.com/syscoin/syscoin",
@@ -14500,7 +14500,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/14'",
+    "derivation_path": "m/84'/14'",
     "trezor_coin": "Viacoin",
     "links": {
       "github": "https://github.com/viacoin",
@@ -14617,7 +14617,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/28'",
+    "derivation_path": "m/84'/28'",
     "trezor_coin": "Vertcoin",
     "links": {
       "github": "https://github.com/vertcoin-project/vertcoin-core",
@@ -14929,7 +14929,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/597'"
+    "derivation_path": "m/84'/597'"
   },
   {
     "coin": "XEP-BEP20",
@@ -15065,7 +15065,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/90'"
+    "derivation_path": "m/84'/90'"
   },
   {
     "coin": "XNA",
@@ -17023,7 +17023,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/0'",
+    "derivation_path": "m/84'/0'",
     "links": {
       "github": "https://github.com/NitoNetwork/",
       "homepage": "https://nito.network/"
