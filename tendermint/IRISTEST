@@ -1,7 +1,7 @@
 {
   "rpc_nodes": [
     {
-      "url": "https://iristest-rpc.bravo.komodo.earth/"
+      "url": "https://evmrpc.nyancat.irisnet.org"
     }
   ]
 }
