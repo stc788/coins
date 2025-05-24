@@ -28,13 +28,6 @@
             "contact": {
                 "email": "cipi@komodoplatform.com"
             }
-        },
-        {
-            "url": "https://block-proxy.komodo.earth/rpc/eth",
-            "ws_url": "wss://block-proxy.komodo.earth/rpc/eth/websocket",
-            "contact": {
-                "email": "smk@komodoplatform.com"
-            }
         }
     ]
 }

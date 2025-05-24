@@ -16,10 +16,6 @@
     {
       "url": "https://0xrpc.io/avax",
       "ws_url": "wss://0xrpc.io/avax"
-    },
-    {
-      "url": "https://block-proxy.komodo.earth/rpc/avax",
-      "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
     }
   ]
 }
