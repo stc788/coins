@@ -4,10 +4,6 @@
     "rpc_nodes": [
         {
             "url":"https://data-seed-prebsc-1-s2.binance.org:8545"
-        },
-        {
-            "url": "https://block-proxy.komodo.earth/rpc/bnbt",
-            "ws_url": "wss://block-proxy.komodo.earth/rpc/bnbt/websocket"
         }
     ]
 }

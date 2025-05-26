@@ -13,10 +13,6 @@
     {
       "url": "https://fantom-rpc.publicnode.com",
       "ws_url": "wss://fantom-rpc.publicnode.com"
-    },
-    {
-        "url": "https://block-proxy.komodo.earth/rpc/ftm",
-        "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
     }
   ]
 }

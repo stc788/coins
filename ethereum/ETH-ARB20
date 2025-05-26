@@ -12,10 +12,6 @@
         {
             "url": "https://arbitrum-one.publicnode.com",
             "ws_url": "wss://arbitrum-one.publicnode.com"
-        },
-        {
-            "url": "https://block-proxy.komodo.earth/rpc/arb/",
-            "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
         }
     ]
 }

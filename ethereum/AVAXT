@@ -4,10 +4,6 @@
   "rpc_nodes": [
     {
       "url": "https://api.avax-test.network/ext/bc/C/rpc"
-    },
-    {
-      "url": "https://block-proxy.komodo.earth/rpc/avaxt",
-      "ws_url": "wss://block-proxy.komodo.earth/rpc/avaxt/websocket"
     }
   ]
 }

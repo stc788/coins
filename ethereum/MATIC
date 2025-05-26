@@ -15,10 +15,6 @@
       "ws_url": "wss://polygon.gateway.tenderly.co"
     },
     {
-      "url": "https://block-proxy.komodo.earth/rpc/matic",
-      "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-    },
-    {
       "url": "https://electrum3.cipig.net:18755",
       "ws_url": "wss://electrum3.cipig.net:38755"
     },
