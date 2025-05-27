@@ -16,8 +16,8 @@
     ]
   },
   {
-    "url": "electrum2.cascoin.net:50002",
-    "ws_url": "electrum2.cascoin.net:50001",
+    "url": "electrum3.cascoin.net:50002",
+    "ws_url": "electrum3.cascoin.net:50001",
     "protocol": "SSL",
     "contact": [
       { "discord": "635448663543644170" }
