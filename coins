@@ -4158,7 +4158,7 @@
   {
     "coin": "DGB-segwit",
     "name": "digibyte",
-    "fname": "Digibyte",
+    "fname": "DigiByte",
     "sign_message_prefix": "DigiByte Signed Message:\n",
     "rpcport": 14022,
     "pubtype": 30,
