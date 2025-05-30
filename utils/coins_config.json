@@ -6826,6 +6826,18 @@
             {
                 "url": "electrumserver01.globalboost.info:50014",
                 "protocol": "SSL"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50011",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50014",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -9982,7 +9994,7 @@
         "p2shtype": 13,
         "wiftype": 133,
         "segwit": false,
-        "txfee": 10000,
+        "txfee": 100000,
         "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
@@ -12272,6 +12284,7 @@
         "p2shtype": 63,
         "wiftype": 128,
         "txfee": 10000000,
+        "dust": 5460,
         "segwit": true,
         "bech32_hrp": "dgb",
         "mm2": 1,
@@ -12283,7 +12296,7 @@
         "derivation_path": "m/44'/20'",
         "trezor_coin": "DigiByte",
         "links": {
-            "github": "https://github.com/digibyte/digibyte",
+            "github": "https://github.com/DigiByte-Core/digibyte",
             "homepage": "https://digibyte.io"
         },
         "electrum": [
@@ -12421,6 +12434,7 @@
         "p2shtype": 63,
         "wiftype": 128,
         "txfee": 10000000,
+        "dust": 5460,
         "segwit": true,
         "bech32_hrp": "dgb",
         "address_format": {
@@ -12436,7 +12450,7 @@
         "derivation_path": "m/84'/20'",
         "trezor_coin": "DigiByte",
         "links": {
-            "github": "https://github.com/digibyte/digibyte",
+            "github": "https://github.com/DigiByte-Core/digibyte",
             "homepage": "https://digibyte.io"
         },
         "electrum": [
@@ -13061,7 +13075,7 @@
         "p2shtype": 30,
         "wiftype": 181,
         "isPoS": 1,
-        "txfee": 1000,
+        "txfee": 10000,
         "segwit": false,
         "mm2": 1,
         "mature_confirmations": 75,
@@ -13695,8 +13709,7 @@
         "pubtype": 30,
         "p2shtype": 22,
         "wiftype": 158,
-        "txfee": 0,
-        "force_min_relay_fee": true,
+        "txfee": 1000000,
         "dust": 1000000,
         "mm2": 1,
         "required_confirmations": 2,
@@ -24165,6 +24178,42 @@
         },
         "electrum": [
             {
+                "url": "electrum1.kcnxp.com:51001",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.kcnxp.com:51001",
                 "contact": [
                     {
@@ -24201,6 +24250,42 @@
                 ]
             },
             {
+                "url": "electrum3.kcnxp.com:51001",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum3.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
                 "url": "electrum4.kcnxp.com:51001",
                 "contact": [
                     {
@@ -24226,6 +24311,42 @@
             },
             {
                 "url": "electrum4.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.kcnxp.com:51001",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum5.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.kcnxp.com:51004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -24282,6 +24403,42 @@
         },
         "electrum": [
             {
+                "url": "electrum1.kcnxp.com:51001",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.kcnxp.com:51001",
                 "contact": [
                     {
@@ -24318,6 +24475,42 @@
                 ]
             },
             {
+                "url": "electrum3.kcnxp.com:51001",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum3.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
                 "url": "electrum4.kcnxp.com:51001",
                 "contact": [
                     {
@@ -24343,6 +24536,42 @@
             },
             {
                 "url": "electrum4.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.kcnxp.com:51001",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum5.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.kcnxp.com:51004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -25455,6 +25684,42 @@
         },
         "electrum": [
             {
+                "url": "electrum1.lcnxp.com:52001",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.lcnxp.com:52004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.lcnxp.com:52001",
                 "contact": [
                     {
@@ -25491,6 +25756,42 @@
                 ]
             },
             {
+                "url": "electrum3.lcnxp.com:52001",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum3.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.lcnxp.com:52004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
                 "url": "electrum4.lcnxp.com:52001",
                 "contact": [
                     {
@@ -25516,6 +25817,42 @@
             },
             {
                 "url": "electrum4.lcnxp.com:52004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.lcnxp.com:52001",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum5.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.lcnxp.com:52004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -25572,6 +25909,42 @@
         },
         "electrum": [
             {
+                "url": "electrum1.lcnxp.com:52001",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.lcnxp.com:52004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.lcnxp.com:52001",
                 "contact": [
                     {
@@ -25608,6 +25981,42 @@
                 ]
             },
             {
+                "url": "electrum3.lcnxp.com:52001",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum3.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.lcnxp.com:52004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
                 "url": "electrum4.lcnxp.com:52001",
                 "contact": [
                     {
@@ -25633,6 +26042,42 @@
             },
             {
                 "url": "electrum4.lcnxp.com:52004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.lcnxp.com:52001",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum5.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.lcnxp.com:52004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -33786,6 +34231,7 @@
         "wiftype": 158,
         "segwit": false,
         "txfee": 1000000,
+        "dingo_fee": true,
         "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
@@ -36461,7 +36907,7 @@
         "p2shtype": 122,
         "wiftype": 128,
         "segwit": true,
-        "txfee": 1100000,
+        "txfee": 1000000,
         "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
@@ -46165,7 +46611,7 @@
         "pubtype": 18,
         "p2shtype": 30,
         "wiftype": 181,
-        "txfee": 1000,
+        "txfee": 10000,
         "dust": 10000,
         "mm2": 1,
         "required_confirmations": 4,
@@ -46463,8 +46909,8 @@
         "decimals": 6,
         "segwit": true,
         "bech32_hrp": "vg",
-        "txfee": 400000,
-        "dust": 400000,
+        "txfee": 500000,
+        "dust": 500000,
         "force_min_relay_fee": true,
         "mm2": 1,
         "required_confirmations": 10,
