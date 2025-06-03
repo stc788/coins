@@ -115,8 +115,6 @@ with open(f"{repo_path}/api_ids/coingecko_ids.json", "r") as f:
 with open(f"{repo_path}/api_ids/coinpaprika_ids.json", "r") as f:
     coinpaprika_ids = json.load(f)
 
-with open(f"{repo_path}/slp/bchd_urls.json", "r") as f:
-    bchd_urls = json.load(f)
 
 
 
@@ -145,7 +143,6 @@ class CoinConfig:
             "QTUM": "QRC-20",
             "RBTC": "RSK Smart Bitcoin",
             "SBCH": "SmartBCH",
-            "SLP": "SLPTOKEN",
             "ATOM": "TENDERMINT",
             "OSMO": "TENDERMINT",
             "IRIS": "TENDERMINT",
@@ -155,7 +152,6 @@ class CoinConfig:
             "AVAXT": "AVX-20",
             "BNBT": "BEP-20",
             "FTMT": "FTM-20",
-            "tSLP": "SLPTOKEN",
             "tQTUM": "QRC-20",
             "IRISTEST": "TENDERMINT",
             "NUCLEUSTEST": "TENDERMINT",
@@ -183,7 +179,7 @@ class CoinConfig:
                 }
             }
         )
-        if self.coin_type in ["UTXO", "QRC20", "BCH", "QTUM", "SIA"]:
+        if self.coin_type in ["UTXO", "QRC20", "QTUM", "SIA"]:
             try:
                 if self.coin_data["sign_message_prefix"]:
                     self.data[self.ticker].update(
@@ -195,7 +191,7 @@ class CoinConfig:
                 print(self.ticker + ": Sign message was not found\n")
             if self.ticker in ["BCH", "tBCH"]:
                 self.data[self.ticker].update(
-                    {"type": "UTXO", "bchd_urls": [], "other_types": ["SLP"]}
+                    {"type": "UTXO", "other_types": []}
                 )
         elif self.coin_type in ["ZHTLC"]:
             if self.ticker in lightwallet_coins:
@@ -234,19 +230,6 @@ class CoinConfig:
                         }
                     )
 
-            if "slp_prefix" in protocol_data:
-                if self.ticker in ["BCH", "tBCH"]:
-                    self.data[self.ticker].update({"allow_slp_unsafe_conf": False})
-                    coin_type = "UTXO"
-                else:
-                    coin_type = "SLP"
-                self.data[self.ticker].update(
-                    {"type": coin_type, "slp_prefix": protocol_data["slp_prefix"]}
-                )
-                if "token_id" in protocol_data:
-                    self.data[self.ticker].update(
-                        {"token_id": protocol_data["token_id"]}
-                    )
 
             elif "platform" in protocol_data:
                 # TODO: ERC-like things
@@ -370,10 +353,6 @@ class CoinConfig:
         token_type = self.data[self.ticker]["type"]
         if self.ticker == "RBTC":
             return "RSK"
-        if token_type in ["SLP"]:
-            if self.data[self.ticker]["is_testnet"]:
-                return f"t{token_type}"
-            return token_type
 
         if self.coin_type in ["TENDERMINTTOKEN", "TENDERMINT"]:
             for i in ["IRISTEST", "NUCLEUSTEST"]:
@@ -467,7 +446,7 @@ class CoinConfig:
                 contract_data = json.load(f)
 
         elif self.ticker not in electrum_coins:
-            if self.parent_coin not in ["SLP", "tSLP", None]:
+            if self.parent_coin not in [None]:
                 with open(f"{repo_path}/ethereum/{self.parent_coin}", "r") as f:
                     contract_data = json.load(f)
 
@@ -552,17 +531,17 @@ def parse_coins_repo(electrum_scan_report):
     for coin in coins_config:
         if not coins_config[coin]["explorer_url"]:
             logger.warning(f"{coin} has no explorers!")
-        if coins_config[coin]["type"] not in ["SLP"]:
-            for field in ["nodes", "electrum", "light_wallet_d_servers", "rpc_urls"]:
-                if field in coins_config[coin]:
-                    if not coins_config[coin][field]:
-                        nodata.append(coin)
-            if (
-                "nodes" not in coins_config[coin]
-                and "electrum" not in coins_config[coin]
-                and "rpc_urls" not in coins_config[coin]
-            ):
-                nodata.append(coin)
+        
+        for field in ["nodes", "electrum", "light_wallet_d_servers", "rpc_urls"]:
+            if field in coins_config[coin]:
+                if not coins_config[coin][field]:
+                    nodata.append(coin)
+        if (
+            "nodes" not in coins_config[coin]
+            and "electrum" not in coins_config[coin]
+            and "rpc_urls" not in coins_config[coin]
+        ):
+            nodata.append(coin)
 
     logger.warning(
         f"The following coins are missing required data or failing connections for nodes/electrums {nodata}"
