@@ -791,11 +791,6 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
                 "protocol": "WSS"
             }
@@ -2517,7 +2512,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 2.4,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 43114
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Avalanche C-Chain",
@@ -4914,7 +4912,10 @@
         "max_eth_tx_type": 2,
         "required_confirmations": 3,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 56
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Binance Smart Chain",
@@ -5029,7 +5030,10 @@
         "chain_id": 30,
         "required_confirmations": 1,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 30
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "RSK",
@@ -7067,11 +7071,6 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
-                "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "miami.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -7121,11 +7120,6 @@
         },
         "derivation_path": "m/84'/34'",
         "electrum": [
-            {
-                "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
             {
                 "url": "miami.ecoincore.com:34335",
                 "protocol": "WSS",
@@ -10515,6 +10509,15 @@
                 ]
             },
             {
+                "url": "elecx1.dingocoin.com:3341",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "115619332448321541"
+                    }
+                ]
+            },
+            {
                 "url": "elecx2.dingocoin.com:3341",
                 "protocol": "WSS",
                 "contact": [
@@ -11785,7 +11788,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 1
+            }
         },
         "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
@@ -11887,7 +11893,10 @@
         "required_confirmations": 10,
         "avg_blocktime": 0.25,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 42161
+            }
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
@@ -13725,7 +13734,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 1.8,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 250
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Fantom Opera",
@@ -22385,7 +22397,10 @@
         "avg_blocktime": 1.8,
         "required_confirmations": 20,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 137
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Polygon",
@@ -23726,7 +23741,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 1285
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Moonriver",
@@ -23779,7 +23797,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 1284
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Moonbeam",
@@ -25180,7 +25201,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 1666600000
+            }
         },
         "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -37571,55 +37595,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "ZET": {
-        "coin": "ZET",
-        "type": "UTXO",
-        "name": "Zetacoin",
-        "coinpaprika_id": "zet-zetacoin",
-        "coingecko_id": "zetacoin",
-        "livecoinwatch_id": "ZET",
-        "explorer_url": "https://chainz.cryptoid.info/zet/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Zetacoin Signed Message:\n",
-        "fname": "Zetacoin",
-        "isPoS": 1,
-        "rpcport": 22014,
-        "pubtype": 20,
-        "p2shtype": 85,
-        "wiftype": 153,
-        "txfee": 100000,
-        "dust": 100000,
-        "mm2": 1,
-        "mature_confirmations": 500,
-        "required_confirmations": 7,
-        "avg_blocktime": 45,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/719'",
-        "links": {
-            "github": "https://github.com/WikiMin3R/ZetacoinE",
-            "homepage": "https://zetacoin.io"
-        },
-        "electrum": [
-            {
-                "url": "zet-ex-three.ewmci.online:50013",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
     "ZIL-BEP20": {
         "coin": "ZIL-BEP20",
         "type": "BEP-20",
@@ -40531,8 +40506,12 @@
                 "decimals": 6,
                 "denom": "uatom",
                 "account_prefix": "cosmos",
+                "chain_id": "cosmoshub-4",
                 "chain_registry_name": "cosmoshub",
-                "chain_id": "cosmoshub-4"
+                "ibc_channels": {
+                    "iaa": 91,
+                    "osmo": 141
+                }
             }
         },
         "derivation_path": "m/44'/118'",
@@ -40545,6 +40524,10 @@
             },
             {
                 "url": "https://cosmoshub.rpc.stakin-nodes.com/"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/cosmos",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -40577,7 +40560,11 @@
                 "account_prefix": "iaa",
                 "chain_id": "irishub-1",
                 "chain_registry_name": "irishub",
-                "gas_price": 0.5
+                "gas_price": 0.5,
+                "ibc_channels": {
+                    "cosmos": 0,
+                    "osmo": 3
+                }
             }
         },
         "derivation_path": "m/44'/118'",
@@ -40673,9 +40660,13 @@
                 "decimals": 6,
                 "denom": "uosmo",
                 "account_prefix": "osmo",
-                "chain_registry_name": "osmosis",
                 "chain_id": "osmosis-1",
-                "gas_price": 0.5
+                "chain_registry_name": "osmosis",
+                "gas_price": 0.5,
+                "ibc_channels": {
+                    "cosmos": 0,
+                    "iaa": 6
+                }
             }
         },
         "derivation_path": "m/44'/118'",
@@ -40790,15 +40781,6 @@
                 ]
             },
             {
-                "url": "electrumx.mazanode.com:50005",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "brian@mazacoin.org"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.mazacha.in:50005",
                 "protocol": "WSS",
                 "contact": [
@@ -40851,6 +40833,18 @@
             "homepage": "https://coin.crionic.org"
         },
         "electrum": [
+            {
+                "url": "coin.crionic.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
             {
                 "url": "explorer.crionic.org:50005",
                 "protocol": "WSS",
@@ -41153,7 +41147,6 @@
                 "decimals": 6,
                 "denom": "unucl",
                 "account_prefix": "nuc",
-                "chain_registry_name": "nucleus",
                 "chain_id": "nucleus-3"
             }
         },
