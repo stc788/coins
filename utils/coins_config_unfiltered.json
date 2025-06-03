@@ -1061,16 +1061,6 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "elec-seeder-one.artbytecoin.org:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             },
@@ -3061,7 +3051,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 2.4,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 43113
+            }
         },
         "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -3097,7 +3090,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 2.4,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 43114
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Avalanche C-Chain",
@@ -3739,7 +3735,7 @@
         "derivation_path": "m/44'/357'",
         "electrum": [
             {
-                "url": "88.99.26.209:5151",
+                "url": "159.69.73.223:5151",
                 "protocol": "TCP"
             }
         ],
@@ -6213,7 +6209,10 @@
         "max_eth_tx_type": 2,
         "required_confirmations": 3,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 56
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Binance Smart Chain",
@@ -6375,7 +6374,10 @@
         "chain_id": 30,
         "required_confirmations": 1,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 30
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "RSK",
@@ -6418,7 +6420,10 @@
         "mm2": 1,
         "required_confirmations": 3,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 97
+            }
         },
         "derivation_path": "m/44'/60'",
         "swap_contract_address": "0xcCD17C913aD7b772755Ad4F0BDFF7B34C6339150",
@@ -7470,6 +7475,15 @@
                     }
                 ],
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum5.btcz.rocks:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "426842722436120577"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -8922,16 +8936,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "holland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -9004,16 +9008,6 @@
             {
                 "url": "chicago.ecoincore.com:34333",
                 "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "holland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
@@ -13550,6 +13544,33 @@
                 ]
             },
             {
+                "url": "elecx1.dingocoin.com:3339",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "115619332448321541"
+                    }
+                ]
+            },
+            {
+                "url": "elecx1.dingocoin.com:3341",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "115619332448321541"
+                    }
+                ]
+            },
+            {
+                "url": "elecx1.dingocoin.com:3342",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "115619332448321541"
+                    }
+                ]
+            },
+            {
                 "url": "elecx2.dingocoin.com:3339",
                 "protocol": "TCP",
                 "contact": [
@@ -15174,7 +15195,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 61
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Ethereum Classic",
@@ -15275,7 +15299,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 1
+            }
         },
         "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
@@ -15388,7 +15415,10 @@
         "required_confirmations": 10,
         "avg_blocktime": 0.25,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 42161
+            }
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
@@ -16110,7 +16140,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 5,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 246
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Energy Web",
@@ -17781,7 +17814,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 4002
+            }
         },
         "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
@@ -17817,7 +17853,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 1.8,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 250
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Fantom Opera",
@@ -20858,7 +20897,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 3,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 128
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Huobi ECO Chain",
@@ -24915,7 +24957,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 3,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 321
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "KCC",
@@ -28442,7 +28487,10 @@
         "avg_blocktime": 1.8,
         "required_confirmations": 3,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 80001
+            }
         },
         "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x73c1Dd989218c3A154C71Fc08Eb55A24Bd2B3A10",
@@ -28483,7 +28531,10 @@
         "avg_blocktime": 1.8,
         "required_confirmations": 20,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 137
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Polygon",
@@ -30277,7 +30328,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 1285
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Moonriver",
@@ -30330,7 +30384,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 1284
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Moonbeam",
@@ -32280,7 +32337,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 1666600000
+            }
         },
         "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -39466,7 +39526,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 6,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 10000
+            }
         },
         "swap_contract_address": "0x25bF2AAB8749AD2e4360b3e0B738f3Cd700C4D68",
         "fallback_swap_contract": "0x25bF2AAB8749AD2e4360b3e0B738f3Cd700C4D68",
@@ -45027,7 +45090,7 @@
         },
         "electrum": [
             {
-                "url": "88.99.26.209:5028",
+                "url": "159.69.73.223:5028",
                 "protocol": "TCP"
             },
             {
@@ -45130,7 +45193,7 @@
         },
         "electrum": [
             {
-                "url": "88.99.26.209:5028",
+                "url": "159.69.73.223:5028",
                 "protocol": "TCP"
             },
             {
@@ -47398,7 +47461,7 @@
         "derivation_path": "m/44'/77'",
         "electrum": [
             {
-                "url": "88.99.26.209:5036",
+                "url": "159.69.73.223:5036",
                 "protocol": "TCP"
             },
             {
@@ -48366,33 +48429,6 @@
             {
                 "url": "zet-ex-four.ewmci.online:50002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "zet-ex-three.ewmci.online:50011",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "zet-ex-three.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "zet-ex-three.ewmci.online:50013",
-                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -50351,7 +50387,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 11155111
+            }
         },
         "derivation_path": "m/44'/60'"
     },
@@ -50920,7 +50959,10 @@
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
-            "type": "ETH"
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 8
+            }
         },
         "derivation_path": "m/44'/60'",
         "trezor_coin": "Ubiq",
@@ -52683,8 +52725,12 @@
                 "decimals": 6,
                 "denom": "uatom",
                 "account_prefix": "cosmos",
+                "chain_id": "cosmoshub-4",
                 "chain_registry_name": "cosmoshub",
-                "chain_id": "cosmoshub-4"
+                "ibc_channels": {
+                    "iaa": 91,
+                    "osmo": 141
+                }
             }
         },
         "derivation_path": "m/44'/118'",
@@ -52697,6 +52743,10 @@
             },
             {
                 "url": "https://cosmoshub.rpc.stakin-nodes.com/"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/cosmos",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -52729,7 +52779,11 @@
                 "account_prefix": "iaa",
                 "chain_id": "irishub-1",
                 "chain_registry_name": "irishub",
-                "gas_price": 0.5
+                "gas_price": 0.5,
+                "ibc_channels": {
+                    "cosmos": 0,
+                    "osmo": 3
+                }
             }
         },
         "derivation_path": "m/44'/118'",
@@ -52825,9 +52879,13 @@
                 "decimals": 6,
                 "denom": "uosmo",
                 "account_prefix": "osmo",
-                "chain_registry_name": "osmosis",
                 "chain_id": "osmosis-1",
-                "gas_price": 0.5
+                "chain_registry_name": "osmosis",
+                "gas_price": 0.5,
+                "ibc_channels": {
+                    "cosmos": 0,
+                    "iaa": 6
+                }
             }
         },
         "derivation_path": "m/44'/118'",
@@ -52960,33 +53018,6 @@
                 ]
             },
             {
-                "url": "electrumx.mazanode.com:50001",
-                "contact": [
-                    {
-                        "email": "brian@mazacoin.org"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.mazanode.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "brian@mazacoin.org"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx.mazanode.com:50005",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "brian@mazacoin.org"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.mazacha.in:50001",
                 "contact": [
                     {
@@ -53063,6 +53094,42 @@
             "homepage": "https://coin.crionic.org"
         },
         "electrum": [
+            {
+                "url": "coin.crionic.org:50001",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "coin.crionic.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
+            {
+                "url": "coin.crionic.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
             {
                 "url": "explorer.crionic.org:50001",
                 "contact": [
@@ -53552,7 +53619,6 @@
                 "decimals": 6,
                 "denom": "unucl",
                 "account_prefix": "nuc",
-                "chain_registry_name": "nucleus",
                 "chain_id": "nucleus-3"
             }
         },
