@@ -94,10 +94,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -119,8 +119,7 @@
     },
     "derivation_path": "m/44'/60'"
   },
-
-{
+  {
     "coin": "GNEISS-ERC20",
     "name": "gneiss_erc20",
     "fname": "GNEISS",
@@ -139,8 +138,7 @@
     },
     "derivation_path": "m/44'/60'"
   },
-
-{
+  {
     "coin": "1INCH-KRC20",
     "name": "1inch_krc20",
     "fname": "1Inch",
@@ -180,10 +178,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -207,10 +205,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -252,10 +250,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -362,10 +360,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -413,10 +411,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -439,10 +437,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -527,10 +525,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -701,10 +699,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -747,10 +745,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -794,10 +792,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -840,10 +838,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -866,10 +864,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -911,10 +909,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -1000,10 +998,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -1027,10 +1025,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -1102,7 +1100,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 2.4,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 43113
+      }
     },
     "derivation_path": "m/44'/60'"
   },
@@ -1118,7 +1119,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 2.4,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 43114
+      }
     },
     "derivation_path": "m/44'/60'",
     "trezor_coin": "Avalanche C-Chain",
@@ -1146,10 +1150,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -1255,10 +1259,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -1422,10 +1426,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -1466,10 +1470,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -1591,10 +1595,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -2132,7 +2136,10 @@
     "max_eth_tx_type": 2,
     "required_confirmations": 3,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 56
+      }
     },
     "derivation_path": "m/44'/60'",
     "trezor_coin": "Binance Smart Chain",
@@ -2195,7 +2202,10 @@
     "chain_id": 30,
     "required_confirmations": 1,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 30
+      }
     },
     "derivation_path": "m/44'/60'",
     "trezor_coin": "RSK",
@@ -2214,7 +2224,10 @@
     "is_testnet": true,
     "required_confirmations": 3,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 97
+      }
     },
     "derivation_path": "m/44'/60'"
   },
@@ -2238,10 +2251,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -2369,10 +2382,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 120000,
-        "erc20_receiver_spend": 90000,
-        "erc20_sender_refund": 90000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 120000,
+      "erc20_receiver_spend": 90000,
+      "erc20_sender_refund": 90000
     }
   },
   {
@@ -2441,29 +2454,29 @@
     }
   },
   {
-	"coin": "BKC",
-	"name": "briskcoin",
-	"fname": "Briskcoin",
-	"rpcport": 8552,
-	"pubtype": 25,
-	"p2shtype": 33,
-	"wiftype": 153,
-	"txfee": 0,
-	"segwit": true,
-	"bech32_hrp": "bc",
-	"mm2": 1,
-	"required_confirmations": 5,
-	"avg_blocktime": 30,
-	"protocol": {
-		"type": "UTXO"
-	},
-	"derivation_path": "m/44'/1918'",
-	"sign_message_prefix": "Briskcoin Signed Message:\n",
-	"trezor_coin": "Briskcoin",
-   	"links": {
-      		"github": "https://github.com/briskcoin-project/briskcoin",
-      		"homepage": "https://briskcoin.org"
-    	}
+    "coin": "BKC",
+    "name": "briskcoin",
+    "fname": "Briskcoin",
+    "rpcport": 8552,
+    "pubtype": 25,
+    "p2shtype": 33,
+    "wiftype": 153,
+    "txfee": 0,
+    "segwit": true,
+    "bech32_hrp": "bc",
+    "mm2": 1,
+    "required_confirmations": 5,
+    "avg_blocktime": 30,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/1918'",
+    "sign_message_prefix": "Briskcoin Signed Message:\n",
+    "trezor_coin": "Briskcoin",
+    "links": {
+      "github": "https://github.com/briskcoin-project/briskcoin",
+      "homepage": "https://briskcoin.org"
+    }
   },
   {
     "coin": "BTC-segwit",
@@ -2515,10 +2528,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -2654,10 +2667,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -2918,10 +2931,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 120000,
-        "erc20_receiver_spend": 90000,
-        "erc20_sender_refund": 90000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 120000,
+      "erc20_receiver_spend": 90000,
+      "erc20_sender_refund": 90000
     }
   },
   {
@@ -2944,10 +2957,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -3136,10 +3149,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -3163,10 +3176,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -3190,10 +3203,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -3467,10 +3480,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -3537,10 +3550,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -3664,10 +3677,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -3749,10 +3762,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -3925,10 +3938,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -4012,10 +4025,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -4123,10 +4136,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -4244,10 +4257,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -4447,10 +4460,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -4473,10 +4486,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -4638,10 +4651,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -4742,10 +4755,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -4787,10 +4800,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -4918,10 +4931,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -4936,7 +4949,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 15,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 61
+      }
     },
     "derivation_path": "m/44'/60'",
     "trezor_coin": "Ethereum Classic",
@@ -4973,7 +4989,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 15,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 1
+      }
     },
     "derivation_path": "m/44'/60'"
   },
@@ -5006,16 +5025,19 @@
     "required_confirmations": 10,
     "avg_blocktime": 0.25,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 42161
+      }
     },
     "derivation_path": "m/44'/60'",
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_coins": 300000,
-        "eth_payment": 700000,
-        "eth_receiver_spend": 600000,
-        "eth_sender_refund": 600000
+      "eth_send_coins": 300000,
+      "eth_payment": 700000,
+      "eth_receiver_spend": 600000,
+      "eth_sender_refund": 600000
     }
   },
   {
@@ -5038,10 +5060,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -5124,10 +5146,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -5170,10 +5192,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 90000,
-        "erc20_payment": 150000,
-        "erc20_receiver_spend": 120000,
-        "erc20_sender_refund": 120000
+      "eth_send_erc20": 90000,
+      "erc20_payment": 150000,
+      "erc20_receiver_spend": 120000,
+      "erc20_sender_refund": 120000
     }
   },
   {
@@ -5216,10 +5238,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -5267,10 +5289,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -5285,7 +5307,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 5,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 246
+      }
     },
     "derivation_path": "m/44'/60'",
     "trezor_coin": "Energy Web",
@@ -5358,10 +5383,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 70000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 70000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -5460,10 +5485,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -5548,10 +5573,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -5665,10 +5690,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 85000,
-        "erc20_payment": 140000,
-        "erc20_receiver_spend": 110000,
-        "erc20_sender_refund": 110000
+      "eth_send_erc20": 85000,
+      "erc20_payment": 140000,
+      "erc20_receiver_spend": 110000,
+      "erc20_sender_refund": 110000
     }
   },
   {
@@ -5731,10 +5756,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -5803,7 +5828,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 15,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 4002
+      }
     },
     "derivation_path": "m/44'/60'"
   },
@@ -5819,7 +5847,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 1.8,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 250
+      }
     },
     "derivation_path": "m/44'/60'",
     "trezor_coin": "Fantom Opera",
@@ -5889,10 +5920,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -5935,10 +5966,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -5979,10 +6010,10 @@
     },
     "derivation_path": "m/44'/60'",
     "gas_limit": {
-        "eth_send_erc20": 1000000,
-        "erc20_payment": 1000000,
-        "erc20_receiver_spend": 1000000,
-        "erc20_sender_refund": 1000000
+      "eth_send_erc20": 1000000,
+      "erc20_payment": 1000000,
+      "erc20_receiver_spend": 1000000,
+      "erc20_sender_refund": 1000000
     }
   },
   {
@@ -6083,10 +6114,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -6153,10 +6184,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -6201,7 +6232,7 @@
     "derivation_path": "m/44'/141'",
     "trezor_coin": "Komodo"
   },
-  { 
+  {
     "coin": "GLEEC",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "GLEEC",
@@ -6259,10 +6290,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -6323,10 +6354,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -6350,10 +6381,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -6377,10 +6408,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 120000,
-        "erc20_receiver_spend": 90000,
-        "erc20_sender_refund": 90000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 120000,
+      "erc20_receiver_spend": 90000,
+      "erc20_sender_refund": 90000
     }
   },
   {
@@ -6446,10 +6477,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -6473,10 +6504,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -6585,10 +6616,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -6674,10 +6705,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -6804,10 +6835,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -6858,7 +6889,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 3,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 128
+      }
     },
     "derivation_path": "m/44'/60'",
     "trezor_coin": "Huobi ECO Chain",
@@ -7027,10 +7061,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 120000,
-        "erc20_receiver_spend": 90000,
-        "erc20_sender_refund": 90000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 120000,
+      "erc20_receiver_spend": 90000,
+      "erc20_sender_refund": 90000
     }
   },
   {
@@ -7176,10 +7210,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7221,10 +7255,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7265,10 +7299,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7291,10 +7325,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7356,10 +7390,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7401,10 +7435,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7447,10 +7481,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7474,10 +7508,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7558,10 +7592,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7585,10 +7619,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7669,10 +7703,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7734,10 +7768,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7780,10 +7814,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7826,10 +7860,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7853,10 +7887,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -7937,10 +7971,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -8020,10 +8054,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -8085,10 +8119,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -8170,10 +8204,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -8188,7 +8222,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 3,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 321
+      }
     },
     "derivation_path": "m/44'/60'",
     "trezor_coin": "KCC",
@@ -8242,10 +8279,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -8310,10 +8347,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -8374,10 +8411,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -8555,10 +8592,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -8601,10 +8638,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -8804,10 +8841,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -8896,10 +8933,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -8984,10 +9021,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -9169,10 +9206,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -9234,10 +9271,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -9251,7 +9288,10 @@
     "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 80001
+      }
     },
     "derivation_path": "m/44'/60'"
   },
@@ -9267,7 +9307,10 @@
     "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 137
+      }
     },
     "derivation_path": "m/44'/60'",
     "trezor_coin": "Polygon",
@@ -9295,10 +9338,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -9643,10 +9686,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -9845,10 +9888,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -9861,7 +9904,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 15,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 1285
+      }
     },
     "derivation_path": "m/44'/60'",
     "trezor_coin": "Moonriver",
@@ -9871,9 +9917,9 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_payment": 100000,
-        "eth_receiver_spend": 500000,
-        "eth_sender_refund": 500000
+      "eth_payment": 100000,
+      "eth_receiver_spend": 500000,
+      "eth_sender_refund": 500000
     }
   },
   {
@@ -9888,7 +9934,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 15,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 1284
+      }
     },
     "derivation_path": "m/44'/60'",
     "trezor_coin": "Moonbeam",
@@ -9956,10 +10005,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -10061,10 +10110,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -10181,10 +10230,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -10394,10 +10443,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -10421,10 +10470,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -10482,7 +10531,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 15,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 1666600000
+      }
     },
     "derivation_path": "m/44'/60'"
   },
@@ -10506,10 +10558,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -10655,10 +10707,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -10729,10 +10781,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -10839,10 +10891,10 @@
       "homepage": "https://www.pepe.vip"
     },
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -10973,10 +11025,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -11199,10 +11251,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 120000,
-        "erc20_receiver_spend": 90000,
-        "erc20_sender_refund": 90000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 120000,
+      "erc20_receiver_spend": 90000,
+      "erc20_sender_refund": 90000
     }
   },
   {
@@ -11285,10 +11337,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -11407,10 +11459,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -11723,10 +11775,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -11913,10 +11965,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -12100,10 +12152,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -12127,10 +12179,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -12154,10 +12206,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -12281,10 +12333,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -12327,10 +12379,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -12390,10 +12442,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -12473,10 +12525,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -12500,10 +12552,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -12685,10 +12737,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -12759,7 +12811,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 6,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 10000
+      }
     }
   },
   {
@@ -12821,10 +12876,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -13000,10 +13055,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -13109,10 +13164,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -13136,10 +13191,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -13294,10 +13349,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -13321,10 +13376,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 120000,
-        "erc20_receiver_spend": 90000,
-        "erc20_sender_refund": 90000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 120000,
+      "erc20_receiver_spend": 90000,
+      "erc20_sender_refund": 90000
     }
   },
   {
@@ -13366,10 +13421,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -13815,10 +13870,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -13865,10 +13920,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -13953,10 +14008,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -14058,10 +14113,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -14221,10 +14276,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -14248,10 +14303,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -14275,10 +14330,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 120000,
-        "erc20_receiver_spend": 90000,
-        "erc20_sender_refund": 90000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 120000,
+      "erc20_receiver_spend": 90000,
+      "erc20_sender_refund": 90000
     }
   },
   {
@@ -14321,10 +14376,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -14367,7 +14422,7 @@
     "derivation_path": "m/44'/141'",
     "trezor_coin": "Komodo"
   },
-  { 
+  {
     "coin": "vDEX",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "vDEX",
@@ -14431,10 +14486,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -14571,10 +14626,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -14754,10 +14809,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -14819,10 +14874,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 400000,
-        "erc20_payment": 800000,
-        "erc20_receiver_spend": 700000,
-        "erc20_sender_refund": 700000
+      "eth_send_erc20": 400000,
+      "erc20_payment": 800000,
+      "erc20_receiver_spend": 700000,
+      "erc20_sender_refund": 700000
     }
   },
   {
@@ -14904,10 +14959,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -15034,10 +15089,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -15060,10 +15115,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -15201,10 +15256,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -15271,10 +15326,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -15297,10 +15352,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -15413,10 +15468,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -15458,10 +15513,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -15548,10 +15603,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 55000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -15711,10 +15766,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -15866,10 +15921,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 60000,
-        "erc20_payment": 110000,
-        "erc20_receiver_spend": 85000,
-        "erc20_sender_refund": 85000
+      "eth_send_erc20": 60000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
     }
   },
   {
@@ -16130,7 +16185,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 15,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 11155111
+      }
     },
     "derivation_path": "m/44'/60'"
   },
@@ -16319,7 +16377,10 @@
     "required_confirmations": 3,
     "avg_blocktime": 15,
     "protocol": {
-      "type": "ETH"
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 8
+      }
     },
     "derivation_path": "m/44'/60'",
     "trezor_coin": "Ubiq",
@@ -16911,8 +16972,12 @@
         "decimals": 6,
         "denom": "uatom",
         "account_prefix": "cosmos",
+        "chain_id": "cosmoshub-4",
         "chain_registry_name": "cosmoshub",
-        "chain_id": "cosmoshub-4"
+        "ibc_channels": {
+          "iaa": 91,
+          "osmo": 141
+        }
       }
     },
     "derivation_path": "m/44'/118'"
@@ -16932,7 +16997,11 @@
         "account_prefix": "iaa",
         "chain_id": "irishub-1",
         "chain_registry_name": "irishub",
-        "gas_price": 0.5
+        "gas_price": 0.5,
+        "ibc_channels": {
+          "cosmos": 0,
+          "osmo": 3
+        }
       }
     },
     "derivation_path": "m/44'/118'"
@@ -16969,9 +17038,13 @@
         "decimals": 6,
         "denom": "uosmo",
         "account_prefix": "osmo",
-        "chain_registry_name": "osmosis",
         "chain_id": "osmosis-1",
-        "gas_price": 0.5
+        "chain_registry_name": "osmosis",
+        "gas_price": 0.5,
+        "ibc_channels": {
+          "cosmos": 0,
+          "iaa": 6
+        }
       }
     },
     "derivation_path": "m/44'/118'"
@@ -17188,69 +17261,68 @@
     "mm2": 1,
     "wallet_only": false,
     "is_testnet": true,
-    "protocol":{
-        "type":"TENDERMINT",
-        "protocol_data": {
-            "decimals": 6,
-            "denom": "unucl",
-            "account_prefix": "nuc",
-            "chain_registry_name": "nucleus",
-            "chain_id": "nucleus-3"
-        }
+    "protocol": {
+      "type": "TENDERMINT",
+      "protocol_data": {
+        "decimals": 6,
+        "denom": "unucl",
+        "account_prefix": "nuc",
+        "chain_id": "nucleus-3"
+      }
     },
     "derivation_path": "m/44'/118'"
   },
   {
-    "coin":"IRISTEST-IBC_NUCLEUSTEST",
+    "coin": "IRISTEST-IBC_NUCLEUSTEST",
     "avg_blocktime": 5,
     "name": "iristest-ibc-nucleus-test",
     "fname": "Iris Test",
     "mm2": 1,
     "wallet_only": false,
     "is_testnet": true,
-    "protocol":{
-        "type":"TENDERMINTTOKEN",
-        "protocol_data": {
-            "platform": "NUCLEUSTEST",
-            "decimals": 6,
-            "denom": "ibc/F7F28FF3C09024A0225EDBBDB207E5872D2B4EF2FB874FE47B05EF9C9A7D211C"
-        }
+    "protocol": {
+      "type": "TENDERMINTTOKEN",
+      "protocol_data": {
+        "platform": "NUCLEUSTEST",
+        "decimals": 6,
+        "denom": "ibc/F7F28FF3C09024A0225EDBBDB207E5872D2B4EF2FB874FE47B05EF9C9A7D211C"
+      }
     },
     "derivation_path": "m/44'/118'"
   },
   {
-    "coin":"ATOM-IBC_NUCLEUSTEST",
+    "coin": "ATOM-IBC_NUCLEUSTEST",
     "avg_blocktime": 5,
     "name": "cosmos-ibc-nucleus-test",
     "fname": "Cosmos",
     "mm2": 1,
     "wallet_only": false,
     "is_testnet": true,
-    "protocol":{
-        "type":"TENDERMINTTOKEN",
-        "protocol_data": {
-            "platform": "NUCLEUSTEST",
-            "decimals": 6,
-            "denom": "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E"
-        }
+    "protocol": {
+      "type": "TENDERMINTTOKEN",
+      "protocol_data": {
+        "platform": "NUCLEUSTEST",
+        "decimals": 6,
+        "denom": "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E"
+      }
     },
     "derivation_path": "m/44'/118'"
   },
   {
-    "coin":"OSMO-IBC_NUCLEUSTEST",
+    "coin": "OSMO-IBC_NUCLEUSTEST",
     "avg_blocktime": 5,
     "name": "cosmos-ibc-nucleus-test",
     "fname": "Osmosis",
     "mm2": 1,
     "wallet_only": false,
     "is_testnet": true,
-    "protocol":{
-        "type":"TENDERMINTTOKEN",
-        "protocol_data": {
-            "platform": "NUCLEUSTEST",
-            "decimals": 6,
-            "denom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23"
-        }
+    "protocol": {
+      "type": "TENDERMINTTOKEN",
+      "protocol_data": {
+        "platform": "NUCLEUSTEST",
+        "decimals": 6,
+        "denom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23"
+      }
     },
     "derivation_path": "m/44'/118'"
   },
