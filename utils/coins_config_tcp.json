@@ -26333,6 +26333,10 @@
                 ]
             },
             {
+                "url": "namecoin.stackwallet.com:57002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "nmc2.bitcoins.sk:57002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -26415,6 +26419,10 @@
                         "github": "https://github.com/namecoin/electrum-nmc/issues"
                     }
                 ]
+            },
+            {
+                "url": "namecoin.stackwallet.com:57002",
+                "protocol": "SSL"
             },
             {
                 "url": "nmc2.bitcoins.sk:57002",
