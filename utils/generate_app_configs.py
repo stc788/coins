@@ -189,10 +189,6 @@ class CoinConfig:
                     self.data[self.ticker].update({"sign_message_prefix": ""})
             except KeyError as e:
                 print(self.ticker + ": Sign message was not found\n")
-            if self.ticker in ["BCH", "tBCH"]:
-                self.data[self.ticker].update(
-                    {"type": "UTXO", "other_types": []}
-                )
         elif self.coin_type in ["ZHTLC"]:
             if self.ticker in lightwallet_coins:
                 with open(f"{repo_path}/light_wallet_d/{self.ticker}", "r") as f:
