@@ -430,10 +430,6 @@ class CoinConfig:
         elif self.coin_type in ["SIA"]:
             self.data[self.ticker].update({"nodes": electrums})
 
-    def get_bchd_urls(self):
-        if self.ticker in bchd_urls:
-            self.data[self.ticker].update({"bchd_urls": bchd_urls[self.ticker]})
-
     def get_swap_contracts(self):
         contract_data = None
 
@@ -522,7 +518,6 @@ def parse_coins_repo(electrum_scan_report):
         config.get_coingecko_id()
         config.get_livecoinwatch_id()
         config.get_binance_id()
-        config.get_bchd_urls()
         config.get_hd_info()
         config.get_links()
         coins_config.update(config.data)
