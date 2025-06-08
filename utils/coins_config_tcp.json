@@ -6069,10 +6069,6 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             }
@@ -43902,18 +43898,6 @@
                 ]
             },
             {
-                "url": "electrum4.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
                 "url": "electrum1.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -45244,6 +45228,75 @@
                 "contact": [
                     {
                         "discord": "1157581316175437884"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "CAS": {
+        "coin": "CAS",
+        "type": "UTXO",
+        "name": "Cascoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://casplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Cascoin Signed Message:\n",
+        "fname": "Cascoin",
+        "rpcport": 62457,
+        "pubtype": 40,
+        "p2shtype": 8,
+        "wiftype": 188,
+        "decimals": 7,
+        "fork_id": "0x40",
+        "signature_version": "base",
+        "txfee": 0,
+        "segwit": true,
+        "bech32_hrp": "cas",
+        "mm2": 1,
+        "required_confirmations": 6,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/6363'",
+        "links": {
+            "github": "https://github.com/casraw/cascoin",
+            "homepage": "https://cascoin.net"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.cascoin.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "635448663543644170"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cascoin.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "635448663543644170"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cascoin.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "635448663543644170"
                     }
                 ]
             }
