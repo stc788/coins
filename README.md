@@ -33,7 +33,8 @@ AtomicDEX is a true non-custodial, cross-chain, cross-protocol Decentralized Exc
 - [QTUM](https://www.qtum.org/) & QRC20 tokens
 - "ZHTLC" coins (e.g. [ARRR](https://pirate.black/) & ZOMBIE)
 - [COSMOS](https://cosmos.network/) / [Tendermint](https://tendermint.com/)
-- [SmartBCH](https://smartbch.org/) & SLP tokens
+- [SmartBCH](https://smartbch.org/)
+- [ERC721 / ERC1155 NFTs](https://github.com/KomodoPlatform/komodo-defi-framework/issues/900)
 
 ### Future coins & protocols
 
@@ -48,6 +49,5 @@ AtomicDEX is a true non-custodial, cross-chain, cross-protocol Decentralized Exc
 - [XMR](https://github.com/KomodoPlatform/komodo-defi-framework/issues/956)
 - [Zano](https://github.com/KomodoPlatform/komodo-defi-framework/issues/942)
 - [SysCoin Tokens](https://github.com/KomodoPlatform/komodo-defi-framework/issues/938)
-- [ERC721 / ERC1155 NFTs](https://github.com/KomodoPlatform/komodo-defi-framework/issues/900)
 - [XTZ](https://github.com/KomodoPlatform/komodo-defi-framework/issues/632)
 - [SIA](https://github.com/KomodoPlatform/komodo-defi-framework/pull/2221)
