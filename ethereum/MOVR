@@ -9,6 +9,10 @@
     {
       "url": "https://rpc.api.moonriver.moonbeam.network",
       "ws_url": "wss://wss.api.moonriver.moonbeam.network"
+    },
+    {
+      "url": "https://moonriver.unitedbloc.com",
+      "ws_url": "wss://moonriver.unitedbloc.com"
     }
   ]
 }
