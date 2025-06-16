@@ -1,4 +1,4 @@
-name: Validate Seed Nodes
+name: Validate Seed Nodes Configuration
 
 on:
   push:
@@ -52,8 +52,10 @@ jobs:
 
       - name: Validation Summary
         run: |
-            echo "🎉 All seed nodes validation checks passed!"
-            echo "✓ Schema validation successful"
-            echo "✓ All seed nodes are properly formatted"
-            echo "✓ Host addresses are valid (domains/IPs)"
-            echo "✓ Contact information is properly structured" 
+          echo "🎉 All seed nodes validation checks passed!"
+          echo "✓ Schema validation successful"
+          echo "✓ All seed nodes are properly formatted"
+          echo "✓ Host addresses are valid (domains/IPs)"
+          echo "✓ Host types are correctly classified (domain/ipv4/ipv6)"
+          echo "✓ netids are valid (1-14428 range)"
+          echo "✓ Contact information is properly structured" 

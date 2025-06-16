@@ -16,6 +16,7 @@
             "required": [
                 "name",
                 "host",
+                "type",
                 "netid",
                 "contact"
             ],
@@ -64,6 +65,21 @@
                     ],
                     "minLength": 1,
                     "maxLength": 253
+                },
+                "type": {
+                    "type": "string",
+                    "title": "Host Type",
+                    "description": "Type of host address (domain, IPv4, or IPv6)",
+                    "enum": [
+                        "domain",
+                        "ipv4",
+                        "ipv6"
+                    ],
+                    "examples": [
+                        "domain",
+                        "ipv4",
+                        "ipv6"
+                    ]
                 },
                 "netid": {
                     "type": "integer",
@@ -126,6 +142,7 @@
             {
                 "name": "seed-node-1",
                 "host": "seed01.kmdefi.net",
+                "type": "domain",
                 "netid": 8762,
                 "contact": [
                     {
@@ -136,6 +153,7 @@
             {
                 "name": "seed-node-2",
                 "host": "192.168.1.100",
+                "type": "ipv4",
                 "netid": 8762,
                 "contact": [
                     {

@@ -2,6 +2,7 @@
     {
         "name": "seed-node-1",
         "host": "seed01.kmdefi.net",
+        "type": "domain",
         "netid": 8762,
         "contact": [
             {
@@ -12,6 +13,7 @@
     {
         "name": "seed-node-2",
         "host": "seed02.kmdefi.net",
+        "type": "domain",
         "netid": 8762,
         "contact": [
             {
@@ -22,6 +24,7 @@
     {
         "name": "seed-node-3",
         "host": "188.241.240.110",
+        "type": "ipv4",
         "netid": 8762,
         "contact": [
             {
@@ -32,6 +35,7 @@
     {
         "name": "seed-node-4",
         "host": "66.42.60.49",
+        "type": "ipv4",
         "netid": 8762,
         "contact": [
             {
@@ -42,6 +46,7 @@
     {
         "name": "seed-node-5",
         "host": "160.191.224.187",
+        "type": "ipv4",
         "netid": 8762,
         "contact": [
             {
@@ -52,6 +57,7 @@
     {
         "name": "seed-node-6",
         "host": "209.145.50.223",
+        "type": "ipv4",
         "netid": 8762,
         "contact": [
             {
@@ -62,6 +68,7 @@
     {
         "name": "seed-node-7",
         "host": "163.172.74.144",
+        "type": "ipv4",
         "netid": 8762,
         "contact": [
             {
