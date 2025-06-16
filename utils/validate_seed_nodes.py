@@ -68,10 +68,14 @@ async def test_wss_connection(host, port, timeout=5):
     """Test WSS connection to a seed node."""
     wss_url = f"wss://{host}:{port}"
     try:
-        async with websockets.connect(wss_url, timeout=timeout) as websocket:
+        # Connect with timeout using asyncio.wait_for
+        websocket = await asyncio.wait_for(websockets.connect(wss_url), timeout=timeout)
+        try:
             # Try to send a simple ping to verify the connection works
-            await websocket.ping()
+            await asyncio.wait_for(websocket.ping(), timeout=2)
             return True, "Connected successfully"
+        finally:
+            await websocket.close()
     except asyncio.TimeoutError:
         return False, f"Connection timeout after {timeout}s"
     except websockets.exceptions.InvalidURI:
