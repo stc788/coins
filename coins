@@ -11223,6 +11223,7 @@
     "segwit": false,
     "txfee": 1000000,
     "dingo_fee": true,
+    "dust": 1000000,
     "mm2": 1,
     "sign_message_prefix": "Shibacoin Signed Message:\n",
     "required_confirmations": 5,
