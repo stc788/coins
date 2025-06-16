@@ -45,9 +45,9 @@ jobs:
           fi
           echo "✓ utils/seed_nodes_schema.json file exists"
          
-      - name: Validate seed nodes JSON schema
+      - name: Validate seed nodes JSON schema and WSS connectivity
         run: |
-          echo "Validating seed-nodes.json against schema..."
+          echo "Validating seed-nodes.json against schema and testing WSS connectivity..."
           python3 utils/validate_seed_nodes.py
 
       - name: Validation Summary
@@ -58,4 +58,5 @@ jobs:
           echo "✓ Host addresses are valid (domains/IPs)"
           echo "✓ Host types are correctly classified (domain/ipv4/ipv6)"
           echo "✓ netids are valid (1-14428 range)"
-          echo "✓ Contact information is properly structured" 
+          echo "✓ Contact information is properly structured"
+          echo "✓ WSS connectivity verified for all domain-type seed nodes" 
