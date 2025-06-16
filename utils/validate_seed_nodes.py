@@ -65,6 +65,39 @@ def load_json_file(file_path):
         return None
 
 
+def check_duplicates(seed_nodes):
+    """Check for duplicate names and hosts in seed nodes."""
+    errors = []
+    
+    # Check for duplicate names
+    names = [node.get('name') for node in seed_nodes if node.get('name')]
+    seen_names = set()
+    duplicate_names = set()
+    
+    for name in names:
+        if name in seen_names:
+            duplicate_names.add(name)
+        seen_names.add(name)
+    
+    if duplicate_names:
+        errors.append(f"Duplicate seed node names found: {', '.join(sorted(duplicate_names))}")
+    
+    # Check for duplicate hosts
+    hosts = [node.get('host') for node in seed_nodes if node.get('host')]
+    seen_hosts = set()
+    duplicate_hosts = set()
+    
+    for host in hosts:
+        if host in seen_hosts:
+            duplicate_hosts.add(host)
+        seen_hosts.add(host)
+    
+    if duplicate_hosts:
+        errors.append(f"Duplicate seed node hosts found: {', '.join(sorted(duplicate_hosts))}")
+    
+    return errors
+
+
 async def test_wss_connection(host, port, timeout=5):
     """Test WSS connection to a seed node."""
     wss_url = f"wss://{host}:{port}"
@@ -179,6 +212,13 @@ async def validate_seed_nodes(seed_nodes_path=None, schema_path=None):
         validate(instance=seed_nodes, schema=schema)
         print("✓ Seed nodes file is valid!")
         print(f"✓ Found {len(seed_nodes)} seed nodes")
+        
+        # Check for duplicates
+        duplicate_errors = check_duplicates(seed_nodes)
+        if duplicate_errors:
+            for error in duplicate_errors:
+                print(f"✗ {error}")
+            return False
         
         # Print summary of nodes
         for i, node in enumerate(seed_nodes, 1):
