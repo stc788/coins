@@ -24,9 +24,19 @@ jobs:
         shell: bash
         run:  ${GITHUB_WORKSPACE}/utils/icons_resize.sh
 
+      - name: Install dependencies
+        shell: bash
+        run: pip3 install -r ${GITHUB_WORKSPACE}/utils/requirements.txt
+
+      - name: Validate seed nodes
+        shell: bash
+        run: |
+          echo "Validating seed-nodes.json before generating configs..."
+          python3 ${GITHUB_WORKSPACE}/utils/validate_seed_nodes.py
+
       - name: Generate configs
         shell: bash
-        run:  pip3 install -r ${GITHUB_WORKSPACE}/utils/requirements.txt && ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
+        run: ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
