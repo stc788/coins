@@ -30,6 +30,7 @@ except ImportError:
 
 def wss_port(netid, lp_rpcport=7783):
     """Quick function to get WSS port from netid."""
+    """lp_rpcport is hardcoded to 7783 in kdf for calculating wss port"""
     max_netid = (65535 - 40 - lp_rpcport) // 4
     
     if not (0 <= netid <= max_netid):
