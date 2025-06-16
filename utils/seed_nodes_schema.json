@@ -16,6 +16,7 @@
             "required": [
                 "name",
                 "host",
+                "netid",
                 "contact"
             ],
             "properties": {
@@ -63,6 +64,16 @@
                     ],
                     "minLength": 1,
                     "maxLength": 253
+                },
+                "netid": {
+                    "type": "integer",
+                    "title": "Network ID",
+                    "description": "Network identifier for the seed node",
+                    "minimum": 1,
+                    "maximum": 14428,
+                    "examples": [
+                        8762
+                    ]
                 },
                 "contact": {
                     "type": "array",
@@ -115,6 +126,7 @@
             {
                 "name": "seed-node-1",
                 "host": "seed01.kmdefi.net",
+                "netid": 8762,
                 "contact": [
                     {
                         "email": "admin@kmdefi.net"
@@ -124,6 +136,7 @@
             {
                 "name": "seed-node-2",
                 "host": "192.168.1.100",
+                "netid": 8762,
                 "contact": [
                     {
                         "email": ""

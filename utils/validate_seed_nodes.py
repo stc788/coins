@@ -88,8 +88,9 @@ def validate_seed_nodes(seed_nodes_path=None, schema_path=None):
         for i, node in enumerate(seed_nodes, 1):
             host = node.get('host', 'unknown')
             name = node.get('name', f'node-{i}')
+            netid = node.get('netid', 'unknown') # 14428 is the max netid if rpcport is 7783 lookup max_netid in kdf repo 
             contact_count = len(node.get('contact', []))
-            print(f"  {i}. {name} ({host}) - {contact_count} contact(s)")
+            print(f"  {i}. {name} ({host}) - netid: {netid} - {contact_count} contact(s)")
         
         return True
         

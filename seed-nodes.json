@@ -2,6 +2,7 @@
     {
         "name": "seed-node-1",
         "host": "seed01.kmdefi.net",
+        "netid": 8762,
         "contact": [
             {
                 "email": ""
@@ -11,6 +12,7 @@
     {
         "name": "seed-node-2",
         "host": "seed02.kmdefi.net",
+        "netid": 8762,
         "contact": [
             {
                 "email": ""
@@ -20,6 +22,7 @@
     {
         "name": "seed-node-3",
         "host": "188.241.240.110",
+        "netid": 8762,
         "contact": [
             {
                 "email": ""
@@ -29,6 +32,7 @@
     {
         "name": "seed-node-4",
         "host": "66.42.60.49",
+        "netid": 8762,
         "contact": [
             {
                 "email": ""
@@ -38,6 +42,7 @@
     {
         "name": "seed-node-5",
         "host": "160.191.224.187",
+        "netid": 8762,
         "contact": [
             {
                 "email": ""
@@ -47,6 +52,7 @@
     {
         "name": "seed-node-6",
         "host": "209.145.50.223",
+        "netid": 8762,
         "contact": [
             {
                 "email": ""
@@ -56,6 +62,7 @@
     {
         "name": "seed-node-7",
         "host": "163.172.74.144",
+        "netid": 8762,
         "contact": [
             {
                 "email": ""
