@@ -86,18 +86,18 @@ async def test_wss_connection(host, port, timeout=5):
         return False, f"Unexpected error: {e}"
 
 
-async def check_domain_wss_connectivity(seed_nodes):
-    """Check WSS connectivity for domain-type seed nodes."""
-    print("🔍 Checking WSS connectivity for domain-type seed nodes...")
+async def check_wss_connectivity(seed_nodes):
+    """Check WSS connectivity for seed nodes with WSS support enabled."""
+    print("🔍 Checking WSS connectivity for seed nodes with WSS support...")
     
-    domain_nodes = [node for node in seed_nodes if node.get('type') == 'domain']
+    wss_nodes = [node for node in seed_nodes if node.get('wss') == True]
     
-    if not domain_nodes:
-        print("ℹ️  No domain-type seed nodes found")
+    if not wss_nodes:
+        print("ℹ️  No WSS-enabled seed nodes found")
         return True
     
     connectivity_results = []
-    for node in domain_nodes:
+    for node in wss_nodes:
         host = node.get('host')
         name = node.get('name', 'unknown')
         netid = node.get('netid', 8762)
@@ -117,18 +117,18 @@ async def check_domain_wss_connectivity(seed_nodes):
             print(f"    ✗ WSS connection failed: {message}")
     
     successful_connections = sum(1 for _, _, success, _ in connectivity_results if success)
-    total_domain_nodes = len(domain_nodes)
+    total_wss_nodes = len(wss_nodes)
     
-    print(f"📊 WSS Connectivity Summary: {successful_connections}/{total_domain_nodes} domain nodes reachable")
+    print(f"📊 WSS Connectivity Summary: {successful_connections}/{total_wss_nodes} WSS-enabled nodes reachable")
     
     if successful_connections == 0:
-        print("✗ FAILURE: No domain-type seed nodes are reachable via WSS")
+        print("✗ FAILURE: No WSS-enabled seed nodes are reachable via WSS")
         return False
-    elif successful_connections < total_domain_nodes:
-        print("✗ FAILURE: Not all domain-type seed nodes are reachable via WSS")
+    elif successful_connections < total_wss_nodes:
+        print("✗ FAILURE: Not all WSS-enabled seed nodes are reachable via WSS")
         return False
     else:
-        print("✓ All domain-type seed nodes are reachable via WSS")
+        print("✓ All WSS-enabled seed nodes are reachable via WSS")
         return True
 
 
@@ -180,12 +180,14 @@ async def validate_seed_nodes(seed_nodes_path=None, schema_path=None):
             host = node.get('host', 'unknown')
             name = node.get('name', f'node-{i}')
             node_type = node.get('type', 'unknown')
+            wss_support = node.get('wss', False)
             netid = node.get('netid', 'unknown') # 14428 is the max netid if rpcport is 7783 lookup max_netid in kdf repo 
             contact_count = len(node.get('contact', []))
-            print(f"  {i}. {name} ({host}) - type: {node_type} - netid: {netid} - {contact_count} contact(s)")
+            wss_indicator = "WSS" if wss_support else "no-WSS"
+            print(f"  {i}. {name} ({host}) - type: {node_type} - {wss_indicator} - netid: {netid} - {contact_count} contact(s)")
         
-        # Check WSS connectivity for domain-type nodes
-        connectivity_result = await check_domain_wss_connectivity(seed_nodes)
+        # Check WSS connectivity for WSS-enabled nodes
+        connectivity_result = await check_wss_connectivity(seed_nodes)
         
         return connectivity_result
         
@@ -223,7 +225,7 @@ async def main():
             print("  --help, -h          Show this help message")
             print("")
             print("This script validates seed nodes JSON schema and tests WSS connectivity")
-            print("for all domain-type seed nodes.")
+            print("for all seed nodes with 'wss': true.")
             sys.exit(0)
         elif arg.startswith('--'):
             print(f"Unknown option: {arg}")

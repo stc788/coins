@@ -81,6 +81,15 @@
                         "ipv6"
                     ]
                 },
+                "wss": {
+                    "type": "boolean",
+                    "title": "WSS Support",
+                    "description": "Whether this seed node supports WSS connections",
+                    "examples": [
+                        true,
+                        false
+                    ]
+                },
                 "netid": {
                     "type": "integer",
                     "title": "Network ID",
@@ -143,6 +152,7 @@
                 "name": "seed-node-1",
                 "host": "seed01.kmdefi.net",
                 "type": "domain",
+                "wss": true,
                 "netid": 8762,
                 "contact": [
                     {
@@ -154,6 +164,7 @@
                 "name": "seed-node-2",
                 "host": "192.168.1.100",
                 "type": "ipv4",
+                "wss": false,
                 "netid": 8762,
                 "contact": [
                     {
