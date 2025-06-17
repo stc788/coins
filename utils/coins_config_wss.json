@@ -1845,8 +1845,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -6303,8 +6307,8 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io",
-                "ws_url": "wss://moonriver.public.blastapi.io"
+                "url": "https://moonriver-rpc.dwellir.com",
+                "ws_url": "wss://moonriver-rpc.dwellir.com"
             },
             {
                 "url": "https://moonriver.unitedbloc.com",
@@ -7238,8 +7242,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -8431,8 +8439,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -9133,8 +9145,8 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io",
-                "ws_url": "wss://moonriver.public.blastapi.io"
+                "url": "https://moonriver-rpc.dwellir.com",
+                "ws_url": "wss://moonriver-rpc.dwellir.com"
             },
             {
                 "url": "https://moonriver.unitedbloc.com",
@@ -10394,8 +10406,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -11678,8 +11694,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/",
@@ -13921,8 +13941,8 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io",
-                "ws_url": "wss://moonriver.public.blastapi.io"
+                "url": "https://moonriver-rpc.dwellir.com",
+                "ws_url": "wss://moonriver-rpc.dwellir.com"
             },
             {
                 "url": "https://moonriver.unitedbloc.com",
@@ -14863,8 +14883,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -15086,8 +15110,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -15433,8 +15461,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -23315,8 +23347,8 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io",
-                "ws_url": "wss://moonriver.public.blastapi.io"
+                "url": "https://moonriver-rpc.dwellir.com",
+                "ws_url": "wss://moonriver-rpc.dwellir.com"
             },
             {
                 "url": "https://moonriver.unitedbloc.com",
@@ -23488,8 +23520,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -23537,8 +23573,8 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io",
-                "ws_url": "wss://moonriver.public.blastapi.io"
+                "url": "https://moonriver-rpc.dwellir.com",
+                "ws_url": "wss://moonriver-rpc.dwellir.com"
             },
             {
                 "url": "https://moonriver.unitedbloc.com",
@@ -25426,8 +25462,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -25715,8 +25755,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -29571,8 +29615,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -30210,8 +30258,8 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io",
-                "ws_url": "wss://moonriver.public.blastapi.io"
+                "url": "https://moonriver-rpc.dwellir.com",
+                "ws_url": "wss://moonriver-rpc.dwellir.com"
             },
             {
                 "url": "https://moonriver.unitedbloc.com",
@@ -32977,8 +33025,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -33283,8 +33335,8 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io",
-                "ws_url": "wss://moonriver.public.blastapi.io"
+                "url": "https://moonriver-rpc.dwellir.com",
+                "ws_url": "wss://moonriver-rpc.dwellir.com"
             },
             {
                 "url": "https://moonriver.unitedbloc.com",
@@ -33565,8 +33617,8 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io",
-                "ws_url": "wss://moonriver.public.blastapi.io"
+                "url": "https://moonriver-rpc.dwellir.com",
+                "ws_url": "wss://moonriver-rpc.dwellir.com"
             },
             {
                 "url": "https://moonriver.unitedbloc.com",
@@ -33731,8 +33783,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -35136,8 +35192,12 @@
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
             {
-                "url": "https://arbitrum-one.publicnode.com",
-                "ws_url": "wss://arbitrum-one.publicnode.com"
+                "url": "https://arbitrum-one-rpc.publicnode.com",
+                "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            },
+            {
+                "url": "https://arbitrum.meowrpc.com",
+                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
