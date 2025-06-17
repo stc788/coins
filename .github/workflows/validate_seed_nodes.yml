@@ -1,0 +1,63 @@
+name: Validate Seed Nodes Configuration
+
+on:
+  push:
+    branches: [ "master", "main" ]
+    paths:
+      - 'seed-nodes.json'
+      - 'utils/seed_nodes_schema.json'
+      - 'utils/validate_seed_nodes.py'
+  pull_request:
+    branches: [ "master", "main" ]
+    paths:
+      - 'seed-nodes.json'
+      - 'utils/seed_nodes_schema.json'
+      - 'utils/validate_seed_nodes.py'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-22.04
+    name: Validate Seed Nodes Configuration
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip3 install -r utils/requirements.txt
+
+      - name: Check seed nodes file exists
+        run: |
+          if [ ! -f "seed-nodes.json" ]; then
+            echo "❌ seed-nodes.json file not found!"
+            exit 1
+          fi
+          echo "✓ seed-nodes.json file exists"
+
+      - name: Check schema file exists
+        run: |
+          if [ ! -f "utils/seed_nodes_schema.json" ]; then
+            echo "❌ utils/seed_nodes_schema.json file not found!"
+            exit 1
+          fi
+          echo "✓ utils/seed_nodes_schema.json file exists"
+         
+      - name: Validate seed nodes JSON schema and WSS connectivity
+        run: |
+          echo "Validating seed-nodes.json against schema and testing WSS connectivity..."
+          echo "Note: WSS connectivity tests run for nodes with 'wss': true"
+          python3 utils/validate_seed_nodes.py
+
+      - name: Validation Summary
+        run: |
+          echo "🎉 All seed nodes validation checks passed!"
+          echo "✓ Schema validation successful"
+          echo "✓ All seed nodes are properly formatted"
+          echo "✓ Host addresses are valid (domains/IPs)"
+          echo "✓ Host types are correctly classified (domain/ipv4/ipv6)"
+          echo "✓ netids are valid (1-14428 range)"
+          echo "✓ Contact information is properly structured"
+          echo "✓ WSS connectivity verified for all WSS-enabled seed nodes" 
