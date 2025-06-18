@@ -486,6 +486,8 @@ class CoinConfig:
             ]:
                 if i[0] not in self.data[self.ticker]:
                     self.data[self.ticker].update({i[0]: i[1]})
+                elif self.data[self.ticker][i[0]] == "":
+                    self.data[self.ticker].update({i[0]: i[1]})
 
 
 def parse_coins_repo(electrum_scan_report):
