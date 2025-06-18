@@ -171,5 +171,10 @@
                 "explorer_tx_url": "tx/",
                 "explorer_address_url": "address/",
                 "explorer_block_url": "block/"
+	},
+        "https://kmdexplorer.io/": {
+                "explorer_tx_url": "tx/",
+                "explorer_address_url": "address/",
+                "explorer_block_url": "block/"
         }
 }
