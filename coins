@@ -1,14 +1,5 @@
 [
   {
-    "coin": "ANAGAMI",
-    "fname": "Anagami Testnet",
-    "mm2": 1,
-    "required_confirmations": 1,
-    "protocol": {
-      "type": "SIA"
-    }
-  },
-  {
     "coin": "TSIA",
     "fname": "Siacoin Testnet",
     "mm2": 1,
