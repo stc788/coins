@@ -84,6 +84,7 @@ jobs:
           curl -H "Content-Type: application/json" \
                -X POST \
                -d '{
+                "content": "<@423176312354635779>",
                  "embeds": [{
                    "title": "✅ Seed Nodes Validation Successful",
                    "description": "All seed nodes passed validation and WSS connectivity checks",
