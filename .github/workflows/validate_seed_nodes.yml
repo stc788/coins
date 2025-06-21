@@ -13,6 +13,9 @@ on:
       - 'seed-nodes.json'
       - 'utils/seed_nodes_schema.json'
       - 'utils/validate_seed_nodes.py'
+  schedule:
+    # Run every 6 hours at minute 0 (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -60,4 +63,100 @@ jobs:
           echo "✓ Host types are correctly classified (domain/ipv4/ipv6)"
           echo "✓ netids are valid (1-14428 range)"
           echo "✓ Contact information is properly structured"
-          echo "✓ WSS connectivity verified for all WSS-enabled seed nodes" 
+          echo "✓ WSS connectivity verified for all WSS-enabled seed nodes"
+
+      - name: Send Discord Success Notification
+        if: success() && github.event_name == 'schedule'
+        run: |
+          WEBHOOK_URL="${{ secrets.DISCORD_WEBHOOK_URL }}"
+          if [ -z "$WEBHOOK_URL" ]; then
+            echo "Warning: DISCORD_WEBHOOK_URL secret not set, skipping Discord notification"
+            exit 0
+          fi
+          
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          COMMIT_SHA="${{ github.sha }}"
+          COMMIT_SHORT="${COMMIT_SHA:0:7}"
+          REPO_URL="${{ github.server_url }}/${{ github.repository }}"
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          
+          # Create Discord embed payload
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d '{
+                 "embeds": [{
+                   "title": "✅ Seed Nodes Validation Successful",
+                   "description": "All seed nodes passed validation and WSS connectivity checks",
+                   "color": 3066993,
+                   "fields": [
+                     {
+                       "name": "Repository",
+                       "value": "[${{ github.repository }}]('$REPO_URL')",
+                       "inline": true
+                     },
+                     {
+                       "name": "Commit",
+                       "value": "['$COMMIT_SHORT']('$REPO_URL'/commit/'$COMMIT_SHA')",
+                       "inline": true
+                     },
+                     {
+                       "name": "Workflow Run",
+                       "value": "[View Details]('$RUN_URL')",
+                       "inline": true
+                     }
+                   ],
+                   "timestamp": "'$TIMESTAMP'",
+                   "footer": {
+                     "text": "Komodo Platform Seed Nodes Monitor"
+                   }
+                 }]
+               }' \
+               "$WEBHOOK_URL"
+
+      - name: Send Discord Failure Notification
+        if: failure() && github.event_name == 'schedule'
+        run: |
+          WEBHOOK_URL="${{ secrets.DISCORD_WEBHOOK_URL }}"
+          if [ -z "$WEBHOOK_URL" ]; then
+            echo "Warning: DISCORD_WEBHOOK_URL secret not set, skipping Discord notification"
+            exit 0
+          fi
+          
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          COMMIT_SHA="${{ github.sha }}"
+          COMMIT_SHORT="${COMMIT_SHA:0:7}"
+          REPO_URL="${{ github.server_url }}/${{ github.repository }}"
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          
+          # Create Discord embed payload
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d '{
+                 "embeds": [{
+                   "title": "❌ Seed Nodes Validation Failed",
+                   "description": "One or more seed nodes failed validation or WSS connectivity checks",
+                   "color": 15158332,
+                   "fields": [
+                     {
+                       "name": "Repository",
+                       "value": "[${{ github.repository }}]('$REPO_URL')",
+                       "inline": true
+                     },
+                     {
+                       "name": "Commit",
+                       "value": "['$COMMIT_SHORT']('$REPO_URL'/commit/'$COMMIT_SHA')",
+                       "inline": true
+                     },
+                     {
+                       "name": "Workflow Run",
+                       "value": "[View Details]('$RUN_URL')",
+                       "inline": true
+                     }
+                   ],
+                   "timestamp": "'$TIMESTAMP'",
+                   "footer": {
+                     "text": "Komodo Platform Seed Nodes Monitor"
+                   }
+                 }]
+               }' \
+               "$WEBHOOK_URL" 
