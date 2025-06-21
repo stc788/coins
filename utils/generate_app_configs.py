@@ -3,8 +3,10 @@ import os
 import sys
 import time
 import json
+import math
 from copy import deepcopy
 import requests
+from PIL import Image
 from scan_electrums import get_electrums_report
 from ensure_chainids import ensure_chainids
 from logger import logger
@@ -735,8 +737,53 @@ def sort_dicts_list(data, sort_key):
     return sorted(data, key=lambda x: x[sort_key])
 
 
+def generate_spritemap():
+    icon_size = 128
+    icons_dir = f"{repo_path}/icons"
+    spritemap_img_path = f"{script_path}/spritemap.png"
+    spritemap_json_path = f"{script_path}/spritemap.json"
+
+    icons = [f for f in os.listdir(icons_dir) if f.endswith('.png') and f != 'spritemap.png']
+    
+    if not icons:
+        logger.info("No icons found to generate a spritemap.")
+        return
+
+    grid_size = math.ceil(math.sqrt(len(icons)))
+    spritemap_width = grid_size * icon_size
+    spritemap_height = grid_size * icon_size
+
+    spritemap = Image.new('RGBA', (spritemap_width, spritemap_height), (0, 0, 0, 0))
+    coordinates = {}
+
+    for i, icon_file in enumerate(icons):
+        icon_path = os.path.join(icons_dir, icon_file)
+        with Image.open(icon_path) as icon:
+            icon = icon.resize((icon_size, icon_size), Image.Resampling.LANCZOS)
+            x = (i % grid_size) * icon_size
+            y = (i // grid_size) * icon_size
+            spritemap.paste(icon, (x, y))
+            
+            coin_ticker = os.path.splitext(icon_file)[0]
+            coordinates[coin_ticker] = {
+                'x': x,
+                'y': y,
+                'width': icon_size,
+                'height': icon_size
+            }
+
+    spritemap.save(spritemap_img_path, 'PNG')
+    with open(spritemap_json_path, 'w') as f:
+        json.dump(coordinates, f, indent=4)
+    logger.info(f"Generated spritemap at {spritemap_img_path}")
+    logger.info(f"Generated spritemap coordinates at {spritemap_json_path}")
+
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1 and "spritemap" in sys.argv:
+        generate_spritemap()
+        sys.exit()
+
     skip_scan = False
     if len(sys.argv) > 1:
         if sys.argv[1] == "no-scan":
@@ -763,6 +810,7 @@ if __name__ == "__main__":
     coins_config_ssl = filter_ssl(deepcopy(coins_config))
     coins_config_wss = filter_wss(deepcopy(coins_config))
     coins_config_tcp = filter_tcp(deepcopy(coins_config), coins_config_ssl)
+
     for coin in coins_config:
         r = f"{coin}: [SSL {coin in coins_config_ssl}] [TCP {coin in coins_config_tcp}] [WSS {coin in coins_config_wss}]"
         if (

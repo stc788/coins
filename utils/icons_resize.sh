@@ -7,8 +7,11 @@ cd ..
 rsync -a -v --ignore-existing icons_original/ icons/ #copy missing images from icons_original to icons
 cd icons
 
-IMAGES_TO_RESIZE="$(find . -iname "*.png" -type f -exec identify -format '%w %h %i\n' '{}' \; | awk '$1>120 || $2>120' | awk '{print $3}')"
+IMAGES_TO_RESIZE="$(find . -iname "*.png" -type f -exec identify -format '%w %h %i\n' '{}' \; | awk '$1>128 || $2>128' | awk '{print $3}')"
 
 echo $IMAGES_TO_RESIZE | while read line; do
-    mogrify -trim +repage -fuzz 20% -resize 120x120 $line # needs imagemagick installed
+    # Needs imagemagick installed: sudo apt install imagemagick
+    # Needs resize to 128x128 (128x128 is the size of the spritemap)
+    # Use trim, repage & fuzz to remove white background and padding
+    mogrify -trim +repage -fuzz 20% -resize 128x128 $line
 done

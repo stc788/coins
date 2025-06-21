@@ -38,6 +38,10 @@ jobs:
         shell: bash
         run: ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
 
+      - name: Create spritemap
+        shell: bash
+        run: python3 ${GITHUB_WORKSPACE}/utils/generate_app_configs.py spritemap
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
@@ -51,6 +55,7 @@ jobs:
           body: |
             - Coins JSON config auto-generated on merge to master
             - Electrum scan report updated
+            - Icon spritemap updated
           labels: |
             config-update
           reviewers: cipig, smk762, gcharang
