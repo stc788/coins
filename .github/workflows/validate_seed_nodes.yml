@@ -15,7 +15,7 @@ on:
       - 'utils/validate_seed_nodes.py'
   schedule:
     # Run every 6 hours at minute 0 (00:00, 06:00, 12:00, 18:00 UTC)
-    - cron: '0 */6 * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
