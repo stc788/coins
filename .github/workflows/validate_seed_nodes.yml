@@ -132,6 +132,7 @@ jobs:
           curl -H "Content-Type: application/json" \
                -X POST \
                -d '{
+                 "content": "<@423176312354635779> <@419964976397156352>",
                  "embeds": [{
                    "title": "❌ Seed Nodes Validation Failed",
                    "description": "One or more seed nodes failed validation or WSS connectivity checks",
