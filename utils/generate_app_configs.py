@@ -750,6 +750,7 @@ def generate_spritemap():
     # Get all coin tickers and names from the coins file
     coin_tickers = set()
     coin_names = set()
+    coin_fnames = set()  # Add set for fname values
     icon_name_to_ticker = {}
     
     for coin_entry in coins_data:
@@ -764,16 +765,22 @@ def generate_spritemap():
             name = coin_entry["name"].lower()
             coin_names.add(name)
             icon_name_to_ticker[name] = ticker
+        
+        # Also map fname if available
+        if "fname" in coin_entry:
+            fname = coin_entry["fname"].lower()
+            coin_fnames.add(fname)
+            icon_name_to_ticker[fname] = ticker
     
     # Get available icons
     available_icons = [f for f in os.listdir(icons_dir) if f.endswith('.png') and f != 'spritemap.png']
     
-    # Filter icons to match coin tickers or names
+    # Filter icons to match coin tickers, names, or fnames
     icons = []
     for icon_file in available_icons:
         icon_name = os.path.splitext(icon_file)[0].lower()
-        # Try to match by ticker first, then by name
-        if icon_name in coin_tickers or icon_name in coin_names:
+        # Try to match by ticker first, then by name, then by fname
+        if icon_name in coin_tickers or icon_name in coin_names or icon_name in coin_fnames:
             icons.append(icon_file)
     
     # Sort alphabetically
@@ -781,6 +788,7 @@ def generate_spritemap():
     
     logger.info(f"Coin tickers from coins file: {len(coin_tickers)} (first 10): {sorted(list(coin_tickers))[:10]}")
     logger.info(f"Coin names from coins file: {len(coin_names)} (first 10): {sorted(list(coin_names))[:10]}")
+    logger.info(f"Coin fnames from coins file: {len(coin_fnames)} (first 10): {sorted(list(coin_fnames))[:10]}")  # Add logging for fnames
     logger.info(f"Available icons count: {len(available_icons)} (first 10): {sorted(available_icons)[:10]}")
     logger.info(f"Matched icons count: {len(icons)} (first 10): {sorted(icons)[:10]}")
     
