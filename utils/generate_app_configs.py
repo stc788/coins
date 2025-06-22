@@ -743,47 +743,226 @@ def generate_spritemap():
     spritemap_img_path = f"{script_path}/spritemap.png"
     spritemap_json_path = f"{script_path}/spritemap.json"
 
-    icons = [f for f in os.listdir(icons_dir) if f.endswith('.png') and f != 'spritemap.png']
+    # Read coins file directly
+    with open(f"{repo_path}/coins", "r") as f:
+        coins_data = json.load(f)
+    
+    # Get all coin tickers and names from the coins file
+    coin_tickers = set()
+    coin_names = set()
+    icon_name_to_ticker = {}
+    
+    for coin_entry in coins_data:
+        ticker = coin_entry["coin"]
+        coin_tickers.add(ticker.lower())
+        
+        # Map ticker to itself
+        icon_name_to_ticker[ticker.lower()] = ticker
+        
+        # Also map name if available
+        if "name" in coin_entry:
+            name = coin_entry["name"].lower()
+            coin_names.add(name)
+            icon_name_to_ticker[name] = ticker
+    
+    # Get available icons
+    available_icons = [f for f in os.listdir(icons_dir) if f.endswith('.png') and f != 'spritemap.png']
+    
+    # Filter icons to match coin tickers or names
+    icons = []
+    for icon_file in available_icons:
+        icon_name = os.path.splitext(icon_file)[0].lower()
+        # Try to match by ticker first, then by name
+        if icon_name in coin_tickers or icon_name in coin_names:
+            icons.append(icon_file)
+    
+    # Sort alphabetically
+    icons.sort()
+    
+    logger.info(f"Coin tickers from coins file: {len(coin_tickers)} (first 10): {sorted(list(coin_tickers))[:10]}")
+    logger.info(f"Coin names from coins file: {len(coin_names)} (first 10): {sorted(list(coin_names))[:10]}")
+    logger.info(f"Available icons count: {len(available_icons)} (first 10): {sorted(available_icons)[:10]}")
+    logger.info(f"Matched icons count: {len(icons)} (first 10): {sorted(icons)[:10]}")
     
     if not icons:
-        logger.info("No icons found to generate a spritemap.")
+        logger.info("No icons found for valid coins to generate a spritemap.")
         return
 
-    grid_size = math.ceil(math.sqrt(len(icons)))
-    spritemap_width = grid_size * icon_size
-    spritemap_height = grid_size * icon_size
+    # Get the list of matched coin tickers for logging
+    matched_coin_tickers = [icon_name_to_ticker.get(os.path.splitext(icon)[0].lower(), os.path.splitext(icon)[0].upper()) for icon in icons]
+    logger.info(f"Generating spritemap with {len(icons)} icons for coins: {sorted(matched_coin_tickers)}")
+
+    # Use more efficient rectangular packing instead of square grid
+    # Calculate optimal dimensions to minimize wasted space
+    total_area = len(icons) * icon_size * icon_size
+    aspect_ratio = 1.2  # Slightly rectangular for better mobile/desktop fit
+    ideal_width = math.sqrt(total_area * aspect_ratio)
+    grid_cols = max(1, math.ceil(ideal_width / icon_size))
+    grid_rows = math.ceil(len(icons) / grid_cols)
+    
+    spritemap_width = grid_cols * icon_size
+    spritemap_height = grid_rows * icon_size
+
+    logger.info(f"Spritemap dimensions: {spritemap_width}x{spritemap_height} ({grid_cols}x{grid_rows} grid)")
 
     spritemap = Image.new('RGBA', (spritemap_width, spritemap_height), (0, 0, 0, 0))
     coordinates = {}
+    failed_icons = []
 
+    processed_count = 0
+    skipped_conversions = 0
     for i, icon_file in enumerate(icons):
         icon_path = os.path.join(icons_dir, icon_file)
-        with Image.open(icon_path) as icon:
-            icon = icon.resize((icon_size, icon_size), Image.Resampling.LANCZOS)
-            x = (i % grid_size) * icon_size
-            y = (i // grid_size) * icon_size
-            spritemap.paste(icon, (x, y))
-            
-            coin_ticker = os.path.splitext(icon_file)[0]
-            coordinates[coin_ticker] = {
-                'x': x,
-                'y': y,
-                'width': icon_size,
-                'height': icon_size
-            }
+        try:
+            with Image.open(icon_path) as icon:
+                original_width, original_height = icon.size
+                
+                # Skip format conversion if already RGBA (common for oxipng optimized PNGs)
+                if icon.mode != 'RGBA':
+                    icon = icon.convert('RGBA')
+                else:
+                    skipped_conversions += 1
+                
+                # Fast path for correctly sized images (skip all processing)
+                if original_width == icon_size and original_height == icon_size:
+                    # Image is already perfect size, no processing needed
+                    processed_icon = icon
+                else:
+                    # Use padding instead of stretching to maintain aspect ratio
+                    aspect_ratio = original_width / original_height
+                    
+                    if aspect_ratio > 1:  # Wider than tall
+                        new_width = min(icon_size, original_width)
+                        new_height = int(new_width / aspect_ratio)
+                    else:  # Taller than wide or square
+                        new_height = min(icon_size, original_height)
+                        new_width = int(new_height * aspect_ratio)
+                    
+                    # Only resize if different from original (avoid unnecessary processing)
+                    if new_width != original_width or new_height != original_height:
+                        icon = icon.resize((new_width, new_height), Image.Resampling.LANCZOS)
+                    
+                    # Create transparent canvas and center the image
+                    canvas = Image.new('RGBA', (icon_size, icon_size), (0, 0, 0, 0))
+                    paste_x = (icon_size - new_width) // 2
+                    paste_y = (icon_size - new_height) // 2
+                    canvas.paste(icon, (paste_x, paste_y), icon)
+                    processed_icon = canvas
+                    
+                    if original_width < icon_size or original_height < icon_size:
+                        logger.info(f"Icon {icon_file} padded from {original_width}x{original_height} to {icon_size}x{icon_size} (resized to {new_width}x{new_height})")
+                    processed_count += 1
+                
+                x = (i % grid_cols) * icon_size
+                y = (i // grid_cols) * icon_size
+                spritemap.paste(processed_icon, (x, y), processed_icon)  # Use icon as mask for proper alpha blending
+                
+                icon_name = os.path.splitext(icon_file)[0]  # Remove .png extension
+                coordinates[icon_name] = {
+                    'x': x,
+                    'y': y,
+                    'width': icon_size,
+                    'height': icon_size
+                }
+        except Exception as e:
+            logger.warning(f"Failed to process icon {icon_file}: {e}")
+            failed_icons.append(icon_file)
 
-    spritemap.save(spritemap_img_path, 'PNG')
-    with open(spritemap_json_path, 'w') as f:
-        json.dump(coordinates, f, indent=4)
-    logger.info(f"Generated spritemap at {spritemap_img_path}")
-    logger.info(f"Generated spritemap coordinates at {spritemap_json_path}")
+    if failed_icons:
+        logger.warning(f"Failed to process {len(failed_icons)} icons: {failed_icons}")
+
+    # Log optimization stats
+    logger.info(f"Processed {processed_count} icons (resized/padded), skipped format conversion for {skipped_conversions} already-RGBA icons")
+
+    # Save with minimal compression since input images are already oxipng optimized
+    # Using compress_level=1 for faster processing while still getting some compression
+    try:
+        spritemap.save(spritemap_img_path, 'PNG', optimize=False, compress_level=1)
+        logger.info(f"Generated spritemap at {spritemap_img_path} (input images already oxipng optimized)")
+        
+        # Optionally run oxipng on the final spritemap for maximum optimization
+        # This is more effective than PIL's built-in optimization for already-optimized inputs
+        try:
+            import subprocess
+            result = subprocess.run(['oxipng', '-o', '6', '--strip', 'safe', spritemap_img_path], 
+                                  capture_output=True, text=True, timeout=30)
+            if result.returncode == 0:
+                logger.info(f"Post-processed spritemap with oxipng for optimal compression")
+            else:
+                logger.info(f"oxipng not available or failed, using PIL compression only")
+        except (subprocess.TimeoutExpired, FileNotFoundError, subprocess.SubprocessError):
+            logger.info(f"oxipng post-processing skipped (not available or failed)")
+            
+    except Exception as e:
+        logger.error(f"Failed to save spritemap: {e}")
+        return
+        
+    # Save coordinates with metadata
+    spritemap_data = {
+        'metadata': {
+            'icon_size': icon_size,
+            'grid_cols': grid_cols,
+            'grid_rows': grid_rows,
+            'total_icons': len(coordinates),
+            'spritemap_width': spritemap_width,
+            'spritemap_height': spritemap_height,
+            'generated_at': int(current_time)
+        },
+        'coordinates': coordinates
+    }
+    
+    try:
+        with open(spritemap_json_path, 'w') as f:
+            json.dump(spritemap_data, f, indent=4)
+        logger.info(f"Generated spritemap coordinates at {spritemap_json_path}")
+    except Exception as e:
+        logger.error(f"Failed to save spritemap coordinates: {e}")
 
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1 and "spritemap" in sys.argv:
-        generate_spritemap()
-        sys.exit()
-
+    generate_spritemap_only = len(sys.argv) > 1 and "spritemap" in sys.argv
+    
+    # If only generating spritemap, try to use existing config files to avoid long electrum scan
+    if generate_spritemap_only:
+        config_files = [
+            f"{script_path}/coins_config.json",
+            f"{script_path}/coins_config_ssl.json", 
+            f"{script_path}/coins_config_tcp.json",
+            f"{script_path}/coins_config_wss.json"
+        ]
+        
+        # Check if all required config files exist
+        all_files_exist = all(os.path.exists(f) for f in config_files)
+        
+        if all_files_exist:
+            try:
+                logger.info("Generating spritemap using existing config files...")
+                with open(f"{script_path}/coins_config.json", "r") as f:
+                    coins_config = json.load(f)
+                with open(f"{script_path}/coins_config_ssl.json", "r") as f:
+                    coins_config_ssl = json.load(f)
+                with open(f"{script_path}/coins_config_tcp.json", "r") as f:
+                    coins_config_tcp = json.load(f)
+                with open(f"{script_path}/coins_config_wss.json", "r") as f:
+                    coins_config_wss = json.load(f)
+                
+                # Validate that configs have data
+                if coins_config and (coins_config_ssl or coins_config_tcp or coins_config_wss):
+                    generate_spritemap()
+                    logger.info("Spritemap generation completed successfully!")
+                    sys.exit()
+                else:
+                    logger.warning("Config files exist but appear to be empty, running full scan...")
+                    
+            except (json.JSONDecodeError, KeyError) as e:
+                logger.warning(f"Error reading config files ({e}), running full scan to regenerate...")
+        else:
+            missing_files = [f for f in config_files if not os.path.exists(f)]
+            logger.warning(f"Missing config files: {missing_files}")
+            logger.warning("Running full scan to generate missing configs...")
+        
+        # Fall through to full processing if cached files don't work
+    
     skip_scan = False
     if len(sys.argv) > 1:
         if sys.argv[1] == "no-scan":
@@ -828,3 +1007,13 @@ if __name__ == "__main__":
     logger.info(f"Total coins with SSL: {len(coins_config_ssl)}")
     logger.info(f"Total coins with TCP: {len(coins_config_tcp)}")
     logger.info(f"Total coins with WSS: {len(coins_config_wss)}")
+    
+    # Generate spritemap at the end of execution
+    if generate_spritemap_only:
+        logger.info("Generating spritemap after full processing (fallback)...")
+        generate_spritemap()
+        logger.info("Spritemap generation completed successfully!")
+        sys.exit()
+    else:
+        logger.info("Generating spritemap after full processing...")
+        generate_spritemap()

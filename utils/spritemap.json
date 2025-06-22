@@ -1,0 +1,1015 @@
+{
+    "metadata": {
+        "icon_size": 128,
+        "grid_cols": 15,
+        "grid_rows": 12,
+        "total_icons": 167,
+        "spritemap_width": 1920,
+        "spritemap_height": 1536,
+        "generated_at": 1750633459
+    },
+    "coordinates": {
+        "aby": {
+            "x": 0,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "actn": {
+            "x": 128,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "aibc": {
+            "x": 256,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "aipg": {
+            "x": 384,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "anagami": {
+            "x": 512,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "aney": {
+            "x": 640,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "arrr": {
+            "x": 768,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "atom": {
+            "x": 896,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "aur": {
+            "x": 1024,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "avax": {
+            "x": 1152,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "avaxt": {
+            "x": 1280,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "avn": {
+            "x": 1408,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "axe": {
+            "x": 1536,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "aya": {
+            "x": 1664,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "bbk": {
+            "x": 1792,
+            "y": 0,
+            "width": 128,
+            "height": 128
+        },
+        "bch": {
+            "x": 0,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "bczero": {
+            "x": 128,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "bitn": {
+            "x": 256,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "bkc": {
+            "x": 384,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "blk": {
+            "x": 512,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "blocx": {
+            "x": 640,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "bnb": {
+            "x": 768,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "bnbt": {
+            "x": 896,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "boli": {
+            "x": 1024,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "bonc": {
+            "x": 1152,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "bsty": {
+            "x": 1280,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "btc": {
+            "x": 1408,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "btcz": {
+            "x": 1536,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "bte": {
+            "x": 1664,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "btx": {
+            "x": 1792,
+            "y": 128,
+            "width": 128,
+            "height": 128
+        },
+        "cas": {
+            "x": 0,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "ccl": {
+            "x": 128,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "cdn": {
+            "x": 256,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "chips": {
+            "x": 384,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "chta": {
+            "x": 512,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "clam": {
+            "x": 640,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "clc": {
+            "x": 768,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "colx": {
+            "x": 896,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "crnc": {
+            "x": 1024,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "cy": {
+            "x": 1152,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "dash": {
+            "x": 1280,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "dgb": {
+            "x": 1408,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "dgc": {
+            "x": 1536,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "diac": {
+            "x": 1664,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "dime": {
+            "x": 1792,
+            "y": 256,
+            "width": 128,
+            "height": 128
+        },
+        "dimi": {
+            "x": 0,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "dingo": {
+            "x": 128,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "doc": {
+            "x": 256,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "doge": {
+            "x": 384,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "dogec": {
+            "x": 512,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "doi": {
+            "x": 640,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "dp": {
+            "x": 768,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "dpc": {
+            "x": 896,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "efl": {
+            "x": 1024,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "emc2": {
+            "x": 1152,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "etc": {
+            "x": 1280,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "eth": {
+            "x": 1408,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "evr": {
+            "x": 1536,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "ewt": {
+            "x": 1664,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "firo": {
+            "x": 1792,
+            "y": 384,
+            "width": 128,
+            "height": 128
+        },
+        "fjc": {
+            "x": 0,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "flo": {
+            "x": 128,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "flop": {
+            "x": 256,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "flux": {
+            "x": 384,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "frc": {
+            "x": 512,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "ftc": {
+            "x": 640,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "ftm": {
+            "x": 768,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "ftmt": {
+            "x": 896,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "gbx": {
+            "x": 1024,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "glc": {
+            "x": 1152,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "gleec": {
+            "x": 1280,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "glmr": {
+            "x": 1408,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "grlc": {
+            "x": 1536,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "grms": {
+            "x": 1664,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "grr": {
+            "x": 1792,
+            "y": 512,
+            "width": 128,
+            "height": 128
+        },
+        "grs": {
+            "x": 0,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "ht": {
+            "x": 128,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "il8p": {
+            "x": 256,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "iln": {
+            "x": 384,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "iris": {
+            "x": 512,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "iristest": {
+            "x": 640,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "jkc": {
+            "x": 768,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "kcn": {
+            "x": 896,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "kcs": {
+            "x": 1024,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "kiiro": {
+            "x": 1152,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "kmd": {
+            "x": 1280,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "koin": {
+            "x": 1408,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "lbc": {
+            "x": 1536,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "lcc": {
+            "x": 1664,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "lcn": {
+            "x": 1792,
+            "y": 640,
+            "width": 128,
+            "height": 128
+        },
+        "ltc": {
+            "x": 0,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "lupa": {
+            "x": 128,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "lynx": {
+            "x": 256,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "marty": {
+            "x": 384,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "matic": {
+            "x": 512,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "matictest": {
+            "x": 640,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "maza": {
+            "x": 768,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "mcl": {
+            "x": 896,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "mdx": {
+            "x": 1024,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "mewc": {
+            "x": 1152,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "mona": {
+            "x": 1280,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "movr": {
+            "x": 1408,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "nav": {
+            "x": 1536,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "neng": {
+            "x": 1664,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "ninja": {
+            "x": 1792,
+            "y": 768,
+            "width": 128,
+            "height": 128
+        },
+        "nito": {
+            "x": 0,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "nmc": {
+            "x": 128,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "nucleustest": {
+            "x": 256,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "nvc": {
+            "x": 384,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "nyc": {
+            "x": 512,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "one": {
+            "x": 640,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "osmo": {
+            "x": 768,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "pep": {
+            "x": 896,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "pink": {
+            "x": 1024,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "pivx": {
+            "x": 1152,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "pnd": {
+            "x": 1280,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "pot": {
+            "x": 1408,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "ppc": {
+            "x": 1536,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "prcy": {
+            "x": 1664,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "qrc20": {
+            "x": 1792,
+            "y": 896,
+            "width": 128,
+            "height": 128
+        },
+        "qtum": {
+            "x": 0,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "raph": {
+            "x": 128,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "rbtc": {
+            "x": 256,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "rdd": {
+            "x": 384,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "ric": {
+            "x": 512,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "rtm": {
+            "x": 640,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "runes": {
+            "x": 768,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "rvn": {
+            "x": 896,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "sbch": {
+            "x": 1024,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "shic": {
+            "x": 1152,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "spacecoin": {
+            "x": 1280,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "sys": {
+            "x": 1408,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "tbch": {
+            "x": 1536,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "tblk": {
+            "x": 1664,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "testbtc": {
+            "x": 1792,
+            "y": 1024,
+            "width": 128,
+            "height": 128
+        },
+        "thc": {
+            "x": 0,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "thc_bep20": {
+            "x": 128,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "tkl": {
+            "x": 256,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "tqtum": {
+            "x": 384,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "trc": {
+            "x": 512,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "tsia": {
+            "x": 640,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "ubq": {
+            "x": 768,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "ufo": {
+            "x": 896,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "uis": {
+            "x": 1024,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "uno": {
+            "x": 1152,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "val": {
+            "x": 1280,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "varrr": {
+            "x": 1408,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "vdex": {
+            "x": 1536,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "via": {
+            "x": 1664,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "vrsc": {
+            "x": 1792,
+            "y": 1152,
+            "width": 128,
+            "height": 128
+        },
+        "vtc": {
+            "x": 0,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "waf": {
+            "x": 128,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "whive": {
+            "x": 256,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "xec": {
+            "x": 384,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "xep": {
+            "x": 512,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "xmy": {
+            "x": 640,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "xna": {
+            "x": 768,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "xpm": {
+            "x": 896,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "xrg": {
+            "x": 1024,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "xvc": {
+            "x": 1152,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "xvg": {
+            "x": 1280,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "zdeex": {
+            "x": 1408,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "zec": {
+            "x": 1536,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "zer": {
+            "x": 1664,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "zet": {
+            "x": 1792,
+            "y": 1280,
+            "width": 128,
+            "height": 128
+        },
+        "zoin": {
+            "x": 0,
+            "y": 1408,
+            "width": 128,
+            "height": 128
+        },
+        "zombie": {
+            "x": 128,
+            "y": 1408,
+            "width": 128,
+            "height": 128
+        }
+    }
+}
