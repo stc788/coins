@@ -22,11 +22,14 @@ jobs:
 
       - name: Install oxipng
         shell: bash
+        env:
+          OXIPNG_VERSION: "9.1.5"
+          OXIPNG_ARCH: "x86_64-unknown-linux-gnu"
         run: |
-          wget https://github.com/oxipng/oxipng/releases/download/v9.1.5/oxipng-9.1.5-x86_64-unknown-linux-gnu.tar.gz
-          tar -xzf oxipng-9.1.5-x86_64-unknown-linux-gnu.tar.gz
-          sudo mv oxipng-9.1.5-x86_64-unknown-linux-gnu/oxipng /usr/local/bin/
-          rm -rf oxipng-9.1.5-x86_64-unknown-linux-gnu.tar.gz oxipng-9.1.5-x86_64-unknown-linux-gnu
+          wget https://github.com/oxipng/oxipng/releases/download/v${OXIPNG_VERSION}/oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz
+          tar -xzf oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz
+          sudo mv oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}/oxipng /usr/local/bin/
+          rm -rf oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}
 
       - name: Create 128x128 images in icons dir
         shell: bash
