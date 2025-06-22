@@ -27,7 +27,15 @@ jobs:
           OXIPNG_ARCH: "x86_64-unknown-linux-gnu"
         run: |
           wget https://github.com/oxipng/oxipng/releases/download/v${OXIPNG_VERSION}/oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz
+          if [ $? -ne 0 ]; then
+              echo "Error: Failed to download oxipng binary."
+              exit 1
+          fi
           tar -xzf oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz
+          if [ $? -ne 0 ]; then
+              echo "Error: Failed to extract oxipng binary."
+              exit 1
+          fi
           sudo mv oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}/oxipng /usr/local/bin/
           rm -rf oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}
 
