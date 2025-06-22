@@ -737,6 +737,46 @@ def sort_dicts_list(data, sort_key):
     return sorted(data, key=lambda x: x[sort_key])
 
 
+def normalize_coin_name(name):
+    """
+    Remove common protocol suffixes from coin names for better icon matching.
+    Also splits by separators and uses first part for broader matching.
+    Examples: 
+    - "BABYDOGE-BEP20" -> "babydoge"
+    - "babydoge_bep20" -> "babydoge"
+    - "1INCH-ERC20" -> "1inch"
+    - "SOME-COMPLEX_NAME" -> "some"
+    """
+    name = name.lower()
+    original_name = name
+    
+    # First try specific protocol suffix removal
+    suffixes_to_remove = [
+        # Dash-separated suffixes
+        '-bep20', '-erc20', '-plg20', '-avx20', '-krc20', '-ftm20', '-hrc20', 
+        '-qrc20', '-arb20', '-test', '-testnet',
+        # Underscore-separated suffixes  
+        '_bep20', '_erc20', '_plg20', '_avx20', '_krc20', '_ftm20', '_hrc20',
+        '_qrc20', '_arb20', '_test', '_testnet'
+    ]
+    
+    for suffix in suffixes_to_remove:
+        if name.endswith(suffix):
+            name = name[:-len(suffix)]
+            break
+    
+    # Also try splitting by separators and using first part
+    # This catches any prefix before - or _ separators
+    for separator in ['-', '_']:
+        if separator in original_name:
+            first_part = original_name.split(separator)[0]
+            # Return the shorter/more general version between suffix removal and first part
+            if len(first_part) <= len(name):
+                return first_part
+    
+    return name
+
+
 def generate_spritemap():
     icon_size = 128
     icons_dir = f"{repo_path}/icons"
@@ -760,17 +800,35 @@ def generate_spritemap():
         # Map ticker to itself
         icon_name_to_ticker[ticker.lower()] = ticker
         
+        # Also add normalized version of ticker (removes protocol suffixes)
+        normalized_ticker = normalize_coin_name(ticker)
+        if normalized_ticker != ticker.lower():
+            coin_tickers.add(normalized_ticker)
+            icon_name_to_ticker[normalized_ticker] = ticker
+        
         # Also map name if available
         if "name" in coin_entry:
             name = coin_entry["name"].lower()
             coin_names.add(name)
             icon_name_to_ticker[name] = ticker
+            
+            # Also add normalized version of name
+            normalized_name = normalize_coin_name(coin_entry["name"])
+            if normalized_name != name:
+                coin_names.add(normalized_name)
+                icon_name_to_ticker[normalized_name] = ticker
         
         # Also map fname if available
         if "fname" in coin_entry:
             fname = coin_entry["fname"].lower()
             coin_fnames.add(fname)
             icon_name_to_ticker[fname] = ticker
+            
+            # Also add normalized version of fname
+            normalized_fname = normalize_coin_name(coin_entry["fname"])
+            if normalized_fname != fname:
+                coin_fnames.add(normalized_fname)
+                icon_name_to_ticker[normalized_fname] = ticker
     
     # Get available icons
     available_icons = [f for f in os.listdir(icons_dir) if f.endswith('.png') and f != 'spritemap.png']
@@ -786,12 +844,59 @@ def generate_spritemap():
     # Sort alphabetically
     icons.sort()
     
+    # Track unmatched items for reporting
+    unmatched_report = {
+        'icons_not_included': [],
+        'coin_values_without_direct_icons_match': [],
+        'names_without_direct_icons_match': [],
+        'fnames_without_direct_icons_match': []
+    }
+    
+    # Find icons that weren't included (exist but don't match any coin)
+    included_icon_names = {os.path.splitext(icon)[0].lower() for icon in icons}
+    for icon_file in available_icons:
+        icon_name = os.path.splitext(icon_file)[0].lower()
+        if icon_name not in included_icon_names:
+            unmatched_report['icons_not_included'].append(icon_file)
+    
+    # Find coin data that doesn't have matching icons
+    for coin_ticker in coin_tickers:
+        if coin_ticker not in included_icon_names:
+            unmatched_report['coin_values_without_direct_icons_match'].append(coin_ticker)
+    
+    for coin_name in coin_names:
+        if coin_name not in included_icon_names:
+            unmatched_report['names_without_direct_icons_match'].append(coin_name)
+    
+    for coin_fname in coin_fnames:
+        if coin_fname not in included_icon_names:
+            unmatched_report['fnames_without_direct_icons_match'].append(coin_fname)
+    
+    # Sort all unmatched lists for consistent output
+    for key in unmatched_report:
+        unmatched_report[key].sort()
+    
     logger.info(f"Coin tickers from coins file: {len(coin_tickers)} (first 10): {sorted(list(coin_tickers))[:10]}")
     logger.info(f"Coin names from coins file: {len(coin_names)} (first 10): {sorted(list(coin_names))[:10]}")
     logger.info(f"Coin fnames from coins file: {len(coin_fnames)} (first 10): {sorted(list(coin_fnames))[:10]}")  # Add logging for fnames
     logger.info(f"Available icons count: {len(available_icons)} (first 10): {sorted(available_icons)[:10]}")
     logger.info(f"Matched icons count: {len(icons)} (first 10): {sorted(icons)[:10]}")
     
+    # Log unmatched counts
+    logger.info(f"Icons not included in spritemap: {len(unmatched_report['icons_not_included'])}")
+    logger.info(f"Coin tickers without direct icons match: {len(unmatched_report['coin_values_without_direct_icons_match'])}")  
+    logger.info(f"Coin names without direct icons match: {len(unmatched_report['names_without_direct_icons_match'])}")
+    logger.info(f"Coin fnames without direct icons match: {len(unmatched_report['fnames_without_direct_icons_match'])}")
+    
+    #Save unmatched report to JSON file
+    unmatched_report_path = f"{script_path}/spritemap_unmatched_report.json"
+    try:
+        with open(unmatched_report_path, 'w') as f:
+            json.dump(unmatched_report, f, indent=4)
+        logger.info(f"Generated unmatched items report at {unmatched_report_path}")
+    except Exception as e:
+        logger.error(f"Failed to save unmatched report: {e}")
+
     if not icons:
         logger.info("No icons found for valid coins to generate a spritemap.")
         return
