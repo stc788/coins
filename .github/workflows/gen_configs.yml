@@ -20,6 +20,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install oxipng
+        shell: bash
+        env:
+          OXIPNG_VERSION: "9.1.5"
+          OXIPNG_ARCH: "x86_64-unknown-linux-gnu"
+        run: |
+          wget https://github.com/oxipng/oxipng/releases/download/v${OXIPNG_VERSION}/oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz
+          if [ $? -ne 0 ]; then
+              echo "Error: Failed to download oxipng binary."
+              exit 1
+          fi
+          tar -xzf oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz
+          if [ $? -ne 0 ]; then
+              echo "Error: Failed to extract oxipng binary."
+              exit 1
+          fi
+          sudo mv oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}/oxipng /usr/local/bin/
+          rm -rf oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}
+
       - name: Create 128x128 images in icons dir
         shell: bash
         run:  ${GITHUB_WORKSPACE}/utils/icons_resize.sh
@@ -37,10 +56,6 @@ jobs:
       - name: Generate configs
         shell: bash
         run: ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
-
-      - name: Create spritemap
-        shell: bash
-        run: python3 ${GITHUB_WORKSPACE}/utils/generate_app_configs.py spritemap
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
