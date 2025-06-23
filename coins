@@ -11409,7 +11409,8 @@
       "protocol_data": {
         "platform": "tQTUM",
         "contract_address": "0xd362e096e873eb7907e205fadc6175c6fec7bc44"
-      }
+      },
+      "derivation_path": "m/44'/1'"
     }
   },
   {
@@ -11481,7 +11482,8 @@
     "avg_blocktime": 32,
     "protocol": {
       "type": "QTUM"
-    }
+    },
+    "derivation_path": "m/44'/1'"
   },
   {
     "coin": "RAPH",
@@ -16516,7 +16518,8 @@
     "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/1'"
   },
   {
     "coin": "UFO",
