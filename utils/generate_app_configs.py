@@ -993,12 +993,11 @@ def generate_spritemap():
         spritemap.save(spritemap_img_path, 'PNG', optimize=False, compress_level=1)
         logger.info(f"Generated spritemap at {spritemap_img_path} (input images already oxipng optimized)")
         
-        # Optionally run oxipng on the final spritemap for maximum optimization
-        # This is more effective than PIL's built-in optimization for already-optimized inputs
+        # Run oxipng on the final spritemap for maximum optimization
         try:
             import subprocess
             result = subprocess.run(['oxipng', '-o', '6', '--strip', 'safe', spritemap_img_path], 
-                                  capture_output=True, text=True, timeout=30)
+                                  capture_output=True, text=True, timeout=120)
             if result.returncode == 0:
                 logger.info(f"Post-processed spritemap with oxipng for optimal compression")
             else:
