@@ -10,6 +10,8 @@ on:
       - 'utils/coins_config_wss.json'
       - 'utils/coins_config_unfiltered.json'
       - 'utils/electrum_scan_report.json'
+      - 'utils/spritemap.json'
+      - 'utils/spritemap.png'
   schedule:
     - cron:  '0 0 * * *'
   workflow_dispatch:
