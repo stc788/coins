@@ -1,32 +1,4 @@
 {
-    "ANAGAMI": {
-        "coin": "ANAGAMI",
-        "type": "SIA",
-        "name": "Anagami Testnet",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://api.siascan.com/anagami/wallet/api/",
-        "explorer_tx_url": "addresses/{ADDRESS}/events/",
-        "explorer_address_url": "nucleus/accounts/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Anagami Testnet",
-        "mm2": 1,
-        "required_confirmations": 1,
-        "protocol": {
-            "type": "SIA"
-        },
-        "nodes": [
-            {
-                "url": "https://api.siascan.com/anagami/wallet/"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "TSIA": {
         "coin": "TSIA",
         "type": "SIA",
@@ -2570,15 +2542,6 @@
         "derivation_path": "m/44'/85'",
         "electrum": [
             {
-                "url": "electrum1.valhala.is:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "388437778624413706"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.aur.ewmcx.info:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -4903,16 +4866,6 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
-            },
-            {
-                "url": "electrum3.blackcoin.nl:30002",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -5023,16 +4976,6 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
-            },
-            {
-                "url": "electrum3.blackcoin.nl:30012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -5072,10 +5015,6 @@
             "homepage": "https://blocx.tech"
         },
         "electrum": [
-            {
-                "url": "electrum1.blocx.live:50002",
-                "protocol": "SSL"
-            },
             {
                 "url": "electrum2.blocx.live:50002",
                 "protocol": "SSL"
@@ -5808,44 +5747,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "BSTY": {
-        "coin": "BSTY",
-        "type": "UTXO",
-        "name": "GlobalBoost-Y",
-        "coinpaprika_id": "bsty-globalboost-y",
-        "coingecko_id": "globalboost",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://insight.globalboost.info/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "GlobalBoost-Y",
-        "rpcport": 8225,
-        "pubtype": 77,
-        "p2shtype": 139,
-        "wiftype": 208,
-        "txfee": 200000,
-        "segwit": true,
-        "bech32_hrp": "gb",
-        "mm2": 1,
-        "required_confirmations": 1,
-        "avg_blocktime": 600,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/664'",
-        "electrum": [
-            {
-                "url": "electrumserver02.globalboost.info:50014",
-                "protocol": "SSL"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "BTC": {
         "coin": "BTC",
         "type": "UTXO",
@@ -6151,13 +6052,22 @@
         "derivation_path": "m/44'/177'",
         "electrum": [
             {
-                "url": "electrum5.btcz.rocks:50002",
-                "protocol": "SSL",
+                "url": "electrum1.btcz.rocks:50001",
                 "contact": [
                     {
-                        "discord": "426842722436120577"
+                        "discord": "VandarGR#6065"
                     }
-                ]
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum2.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "TCP"
             },
             {
                 "url": "electrum3.btcz.rocks:50001",
@@ -10461,7 +10371,7 @@
     "DGB-segwit": {
         "coin": "DGB-segwit",
         "type": "UTXO",
-        "name": "Digibyte",
+        "name": "DigiByte",
         "coinpaprika_id": "dgb-digibyte",
         "coingecko_id": "digibyte",
         "livecoinwatch_id": "DGB",
@@ -10474,7 +10384,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "sign_message_prefix": "DigiByte Signed Message:\n",
-        "fname": "Digibyte",
+        "fname": "DigiByte",
         "rpcport": 14022,
         "pubtype": 30,
         "p2shtype": 63,
@@ -11149,15 +11059,6 @@
             },
             {
                 "url": "elecx1.dingocoin.com:3342",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "115619332448321541"
-                    }
-                ]
-            },
-            {
-                "url": "elecx2.dingocoin.com:3342",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -29706,7 +29607,8 @@
             "protocol_data": {
                 "platform": "tQTUM",
                 "contract_address": "0xd362e096e873eb7907e205fadc6175c6fec7bc44"
-            }
+            },
+            "derivation_path": "m/44'/1'"
         },
         "contract_address": "0xd362e096e873eb7907e205fadc6175c6fec7bc44",
         "parent_coin": "tQTUM",
@@ -29906,6 +29808,7 @@
         "protocol": {
             "type": "QTUM"
         },
+        "derivation_path": "m/44'/1'",
         "swap_contract_address": "0xba8b71f3544b93e2f681f996da519a98ace0107a",
         "fallback_swap_contract": "0xba8b71f3544b93e2f681f996da519a98ace0107a",
         "electrum": [
@@ -37349,16 +37252,6 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
-            },
-            {
-                "url": "e3.validitytech.com:11002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -43195,6 +43088,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/1'",
         "electrum": [
             {
                 "url": "electrs.electroncash.de:60002",
@@ -43652,7 +43546,7 @@
                 ]
             },
             {
-                "url": "electrum4.runebase.io:50002",
+                "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -44441,15 +44335,6 @@
                         "discord": "Meowmancer#2099"
                     }
                 ]
-            },
-            {
-                "url": "meowelectrum.xyz:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "Meowmancer#2099"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -45013,7 +44898,7 @@
         "coin": "CAS",
         "type": "UTXO",
         "name": "Cascoin",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "cas-cascoin",
         "coingecko_id": "",
         "livecoinwatch_id": "",
         "explorer_url": "https://casplorer.com/",
