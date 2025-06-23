@@ -10,6 +10,8 @@ on:
       - 'utils/coins_config_wss.json'
       - 'utils/coins_config_unfiltered.json'
       - 'utils/electrum_scan_report.json'
+      - 'utils/spritemap.json'
+      - 'utils/spritemap.png'
   schedule:
     - cron:  '0 0 * * *'
   workflow_dispatch:
@@ -19,6 +21,25 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install oxipng
+        shell: bash
+        env:
+          OXIPNG_VERSION: "9.1.5"
+          OXIPNG_ARCH: "x86_64-unknown-linux-gnu"
+        run: |
+          wget https://github.com/oxipng/oxipng/releases/download/v${OXIPNG_VERSION}/oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz
+          if [ $? -ne 0 ]; then
+              echo "Error: Failed to download oxipng binary."
+              exit 1
+          fi
+          tar -xzf oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz
+          if [ $? -ne 0 ]; then
+              echo "Error: Failed to extract oxipng binary."
+              exit 1
+          fi
+          sudo mv oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}/oxipng /usr/local/bin/
+          rm -rf oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}
 
       - name: Create 128x128 images in icons dir
         shell: bash
@@ -51,6 +72,7 @@ jobs:
           body: |
             - Coins JSON config auto-generated on merge to master
             - Electrum scan report updated
+            - Icon spritemap updated
           labels: |
             config-update
           reviewers: cipig, smk762, gcharang
