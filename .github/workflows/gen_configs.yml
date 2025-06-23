@@ -12,6 +12,8 @@ on:
       - 'utils/electrum_scan_report.json'
       - 'utils/spritemap.json'
       - 'utils/spritemap.png'
+      - 'utils/icon_checksums.json'
+
   schedule:
     - cron:  '0 0 * * *'
   workflow_dispatch:
@@ -22,24 +24,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install cargo
+        shell: bash
+        run: |
+          DEBIAN_FRONTEND=noninteractive
+          sudo apt update
+          sudo apt install cargo cmake autoconf automake libtool nasm make pkg-config rustc -y
+
       - name: Install oxipng
         shell: bash
-        env:
-          OXIPNG_VERSION: "9.1.5"
-          OXIPNG_ARCH: "x86_64-unknown-linux-gnu"
         run: |
-          wget https://github.com/oxipng/oxipng/releases/download/v${OXIPNG_VERSION}/oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz
-          if [ $? -ne 0 ]; then
-              echo "Error: Failed to download oxipng binary."
-              exit 1
-          fi
-          tar -xzf oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz
-          if [ $? -ne 0 ]; then
-              echo "Error: Failed to extract oxipng binary."
-              exit 1
-          fi
-          sudo mv oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}/oxipng /usr/local/bin/
-          rm -rf oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}.tar.gz oxipng-${OXIPNG_VERSION}-${OXIPNG_ARCH}
+          cargo install oxipng
+          echo "$HOME/.cargo/bin" >> $GITHUB_PATH
 
       - name: Create 128x128 images in icons dir
         shell: bash

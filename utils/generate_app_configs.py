@@ -1003,8 +1003,8 @@ def generate_spritemap():
                 logger.info(f"Post-processed spritemap with oxipng for optimal compression")
             else:
                 logger.info(f"oxipng not available or failed, using PIL compression only")
-        except (subprocess.TimeoutExpired, FileNotFoundError, subprocess.SubprocessError):
-            logger.info(f"oxipng post-processing skipped (not available or failed)")
+        except (subprocess.TimeoutExpired, FileNotFoundError, subprocess.SubprocessError) as e:
+            logger.info(f"oxipng post-processing skipped (not available or failed): {e}")
             
     except Exception as e:
         logger.error(f"Failed to save spritemap: {e}")
