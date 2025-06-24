@@ -366,7 +366,11 @@ def scan_electrums(electrum_dict):
 
 
 def get_repo_electrums():
-    electrum_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/electrums/{f}") and f not in ["TSIA"]]
+    electrum_coins = [
+        f for f in os.listdir(f"{repo_path}/electrums") 
+        if os.path.isfile(f"{repo_path}/electrums/{f}") 
+        and f not in ["ZEN", "SC"]
+    ]
     repo_electrums = {}
     for coin in electrum_coins:
         try:
