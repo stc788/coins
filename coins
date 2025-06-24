@@ -1944,6 +1944,7 @@
     "coin": "tBLK",
     "name": "blackmore",
     "fname": "BlackCoin Testnet",
+    "sign_message_prefix": "BlackCoin Signed Message:\n",
     "isPoS": 1,
     "rpcport": 25715,
     "pubtype": 111,
@@ -2271,6 +2272,7 @@
     "coin": "BSTY",
     "name": "globalboost",
     "fname": "GlobalBoost-Y",
+    "sign_message_prefix": "GlobalBoost Signed Message:\n",
     "rpcport": 8225,
     "pubtype": 77,
     "p2shtype": 139,
@@ -2284,7 +2286,11 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/664'"
+    "derivation_path": "m/44'/664'",
+    "links": {
+      "github": "https://github.com/GlobalBoost/GlobalBoost-Y",
+      "homepage": "https://globalboo.st"
+    }
   },
   {
     "coin": "BTC",
@@ -2580,6 +2586,7 @@
     "coin": "BTX",
     "name": "bitcore",
     "fname": "BitCore",
+    "sign_message_prefix": "BitCore Signed Message:\n",
     "rpcport": 9469,
     "pubtype": 3,
     "p2shtype": 125,
@@ -2605,6 +2612,7 @@
     "coin": "BTX-segwit",
     "name": "bitcore",
     "fname": "BitCore",
+    "sign_message_prefix": "BitCore Signed Message:\n",
     "rpcport": 9469,
     "pubtype": 3,
     "p2shtype": 125,
@@ -3093,6 +3101,7 @@
     "coin": "CHTA",
     "name": "cheetahcoin",
     "fname": "Cheetahcoin",
+    "sign_message_prefix": "Cheetahcoin Signed Message:\n",
     "rpcport": 8536,
     "pubtype": 28,
     "p2shtype": 5,
@@ -3104,7 +3113,11 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/682'"
+    "derivation_path": "m/44'/682'",
+    "links": {
+      "github": "https://github.com/ShorelineCrypto/cheetahcoin",
+      "homepage": "https://cheetahcoin.org"
+    }
   },
   {
     "coin": "CHTA-BEP20",
@@ -4580,6 +4593,7 @@
     "coin": "EFL",
     "name": "egulden",
     "fname": "e-Gulden",
+    "sign_message_prefix": "Egulden Signed Message:\n",
     "confpath": "USERHOME/.egulden/coin.conf",
     "rpcport": 21015,
     "pubtype": 48,
@@ -4593,7 +4607,11 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/78'"
+    "derivation_path": "m/44'/78'",
+    "links": {
+      "github": "https://github.com/Electronic-Gulden-Foundation/egulden",
+      "homepage": "https://electronic-gulden-foundation.gitlab.io"
+    }
   },
   {
     "coin": "EGLD-BEP20",
@@ -9875,6 +9893,7 @@
     "coin": "NENG",
     "name": "nengcoin",
     "fname": "Nengcoin",
+    "sign_message_prefix": "Nengcoin Signed Message:\n",
     "rpcport": 6376,
     "pubtype": 53,
     "p2shtype": 5,
@@ -9886,7 +9905,11 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/681'"
+    "derivation_path": "m/44'/681'",
+    "links": {
+      "github": "https://github.com/ShorelineCrypto/nengcoin",
+      "homepage": "https://nengcoin.io"
+    }
   },
   {
     "coin": "NENG-BEP20",
@@ -9998,6 +10021,7 @@
     "coin": "NMC",
     "name": "namecoin",
     "fname": "Namecoin",
+    "sign_message_prefix": "Namecoin Signed Message:\n",
     "rpcport": 8336,
     "pubtype": 52,
     "p2shtype": 13,
@@ -10023,6 +10047,7 @@
     "coin": "NMC-segwit",
     "name": "namecoin",
     "fname": "Namecoin",
+    "sign_message_prefix": "Namecoin Signed Message:\n",
     "rpcport": 8336,
     "pubtype": 52,
     "p2shtype": 13,
@@ -10804,6 +10829,7 @@
     "coin": "PND",
     "name": "pandacoin",
     "fname": "Pandacoin",
+    "sign_message_prefix": "Pandacoin Signed Message:\n",
     "isPoS": 1,
     "rpcport": 22444,
     "pubtype": 55,
@@ -10820,7 +10846,11 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/37'"
+    "derivation_path": "m/44'/37'",
+    "links": {
+      "github": "https://github.com/DigitalPandacoin/pandacoin",
+      "homepage": "https://pandacoin.tech"
+    }
   },
   {
     "coin": "POT",
@@ -10937,6 +10967,7 @@
     "coin": "PPC",
     "name": "peercoin",
     "fname": "Peercoin",
+    "sign_message_prefix": "Peercoin Signed Message:\n",
     "isPoS": 1,
     "rpcport": 9902,
     "pubtype": 55,
@@ -11468,6 +11499,7 @@
     "coin": "tQTUM",
     "name": "qtumtest",
     "fname": "QTUM Testnet",
+    "sign_message_prefix": "Qtum Signed Message:\n",
     "is_testnet": true,
     "rpcport": 13889,
     "pubtype": 120,
@@ -11881,6 +11913,7 @@
     "coin": "RTM",
     "name": "raptoreum",
     "fname": "Raptoreum",
+    "sign_message_prefix": "DarkCoin Signed Message:\n",
     "rpcport": 9998,
     "pubtype": 60,
     "p2shtype": 16,
@@ -11893,7 +11926,11 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/10226'"
+    "derivation_path": "m/44'/10226'",
+    "links": {
+      "github": "https://github.com/Raptor3um/Raptoreum",
+      "homepage": "https://raptoreum.com"
+    }
   },
   {
     "coin": "GRR",
@@ -12928,6 +12965,7 @@
     "coin": "TESTBTC",
     "name": "tbitcoin",
     "fname": "Bitcoin Testnet",
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
     "rpcport": 18332,
     "pubtype": 111,
     "p2shtype": 196,
@@ -12948,6 +12986,7 @@
     "coin": "TESTBTC-segwit",
     "name": "tbitcoin",
     "fname": "Bitcoin Testnet",
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
     "rpcport": 18332,
     "pubtype": 111,
     "p2shtype": 196,
@@ -13157,6 +13196,7 @@
     "coin": "TRC",
     "name": "terracoin",
     "fname": "Terracoin",
+    "sign_message_prefix": "DarkCoin Signed Message:\n",
     "confpath": "USERHOME/.terracoincore/terracoin.conf",
     "rpcport": 13332,
     "pubtype": 0,
@@ -13170,7 +13210,11 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/83'"
+    "derivation_path": "m/44'/83'",
+    "links": {
+      "github": "https://github.com/terracoin/terracoin",
+      "homepage": "https://www.terracoin.io"
+    }
   },
   {
     "coin": "TRX-BEP20_OLD",
@@ -15080,6 +15124,7 @@
     "coin": "XRG",
     "name": "ergon",
     "fname": "Ergon",
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
     "rpcport": 2137,
     "pubtype": 0,
     "p2shtype": 5,
@@ -15097,7 +15142,11 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/2137'"
+    "derivation_path": "m/44'/2137'",
+    "links": {
+      "github": "https://github.com/Ergon-moe/Bitcoin-Static",
+      "homepage": "https://ergon.moe"
+    }
   },
   {
     "coin": "XRP-BEP20",
@@ -15547,6 +15596,7 @@
     "coin": "ZER",
     "name": "zero",
     "fname": "Zero",
+    "sign_message_prefix": "Zero Signed Message:\n",
     "rpcport": 23811,
     "taddr": 28,
     "pubtype": 184,
@@ -15563,7 +15613,11 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/323'"
+    "derivation_path": "m/44'/323'",
+    "links": {
+      "github": "https://github.com/zerocurrencycoin/Zero",
+      "homepage": "https://zero.directory"
+    }
   },
   {
     "coin": "ZER-BEP20",
@@ -15726,6 +15780,7 @@
     "coin": "FLUX",
     "name": "flux",
     "fname": "Flux",
+    "sign_message_prefix": "Zelcash Signed Message:\n",
     "rpcport": 16124,
     "taddr": 28,
     "pubtype": 184,
@@ -15742,7 +15797,11 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/19167'"
+    "derivation_path": "m/44'/19167'",
+    "links": {
+      "github": "https://github.com/RunOnFlux/fluxd",
+      "homepage": "https://www.runonflux.io"
+    }
   },
   {
     "coin": "FLUX-ERC20",
@@ -16501,6 +16560,7 @@
     "coin": "tBCH",
     "name": "Bitcoin Cash Testnet",
     "fname": "Bitcoin Cash Testnet",
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
     "is_testnet": true,
     "pubtype": 111,
     "p2shtype": 196,
@@ -16967,6 +17027,7 @@
     "coin": "NITO-segwit",
     "name": "nito",
     "fname": "NITO",
+    "sign_message_prefix": "Nito Signed Message:\n",
     "rpcport": 8825,
     "pubtype": 0,
     "p2shtype": 5,
@@ -16987,8 +17048,8 @@
     },
     "derivation_path": "m/84'/0'",
     "links": {
-      "github": "https://github.com/NitoNetwork/",
-      "homepage": "https://nito.network/"
+      "github": "https://github.com/NitoNetwork/Nito-core",
+      "homepage": "https://nito.network"
     }
   },
   {
