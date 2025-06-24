@@ -6792,6 +6792,18 @@
                         "discord": "[MadCatMining]#0677"
                     }
                 ]
+            },
+            {
+                "url": "electrum3.cipig.net:20069",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -6843,6 +6855,18 @@
                 "contact": [
                     {
                         "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20069",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
                     }
                 ]
             }
