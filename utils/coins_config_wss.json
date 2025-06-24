@@ -2361,6 +2361,15 @@
         "derivation_path": "m/44'/85'",
         "electrum": [
             {
+                "url": "electrum1.valhala.is:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "388437778624413706"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx.aur.ewmcx.info:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -5261,6 +5270,44 @@
             {
                 "url": "https://avalanche-c-chain-rpc.publicnode.com",
                 "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BSTY": {
+        "coin": "BSTY",
+        "type": "UTXO",
+        "name": "GlobalBoost-Y",
+        "coinpaprika_id": "bsty-globalboost-y",
+        "coingecko_id": "globalboost",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://insight.globalboost.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "GlobalBoost-Y",
+        "rpcport": 8225,
+        "pubtype": 77,
+        "p2shtype": 139,
+        "wiftype": 208,
+        "txfee": 200000,
+        "segwit": true,
+        "bech32_hrp": "gb",
+        "mm2": 1,
+        "required_confirmations": 1,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/664'",
+        "electrum": [
+            {
+                "url": "electrumserver02.globalboost.info:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
