@@ -10892,18 +10892,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.dimecoinnetwork.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "developer@dimecoinnetwork.com"
-                    },
-                    {
-                        "discord": "dhop14#9359"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.dimecoinnetwork.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -14115,8 +14103,8 @@
                 ]
             },
             {
-                "url": "electrumx03.firo.org:50002",
-                "protocol": "SSL",
+                "url": "electrumx03.firo.org:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
@@ -28121,15 +28109,6 @@
                         "discord": "312541186793406465"
                     }
                 ]
-            },
-            {
-                "url": "electrum02.chainster.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?",
@@ -40609,15 +40588,6 @@
         },
         "electrum": [
             {
-                "url": "zet-ex-four.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "zet-ex-three.ewmci.online:50012",
                 "protocol": "SSL",
                 "contact": [
@@ -44162,18 +44132,6 @@
         },
         "electrum": [
             {
-                "url": "coin.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
                 "url": "explorer.crionic.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -44459,6 +44417,15 @@
             "homepage": "https://www.mewccrypto.com/"
         },
         "electrum": [
+            {
+                "url": "electrum.mewccrypto.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
+            },
             {
                 "url": "meowcoinelectrum.xyz:50002",
                 "protocol": "SSL",
