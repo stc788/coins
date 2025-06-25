@@ -16,5 +16,15 @@
         }
     ],
     "ws_url": "meowcoinelectrum.xyz:50004"
+  },
+  {
+    "url": "electrum.mewccrypto.com:50002",
+    "protocol": "SSL",
+    "contact": [
+        {
+            "discord": "Meowmancer#2099"
+        }
+    ],
+    "ws_url": "electrum.mewccrypto.com:50004"
   }
 ]
