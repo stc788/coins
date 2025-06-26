@@ -2,27 +2,27 @@ name: Validate Seed Nodes Configuration
 
 on:
   push:
-    branches: [ "master", "main" ]
+    branches: ["master", "main"]
     paths:
-      - 'seed-nodes.json'
-      - 'utils/seed_nodes_schema.json'
-      - 'utils/validate_seed_nodes.py'
+      - "seed-nodes.json"
+      - "utils/seed_nodes_schema.json"
+      - "utils/validate_seed_nodes.py"
   pull_request:
-    branches: [ "master", "main" ]
+    branches: ["master", "main"]
     paths:
-      - 'seed-nodes.json'
-      - 'utils/seed_nodes_schema.json'
-      - 'utils/validate_seed_nodes.py'
+      - "seed-nodes.json"
+      - "utils/seed_nodes_schema.json"
+      - "utils/validate_seed_nodes.py"
   schedule:
     # Run every 2 hours at minute 0 (00:00, 06:00, 12:00, 18:00 UTC)
-    - cron: '0 */2 * * *'
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
   validate:
     runs-on: ubuntu-22.04
     name: Validate Seed Nodes Configuration
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -47,12 +47,28 @@ jobs:
             exit 1
           fi
           echo "✓ utils/seed_nodes_schema.json file exists"
-         
+
       - name: Validate seed nodes JSON schema and WSS connectivity
         run: |
           echo "Validating seed-nodes.json against schema and testing WSS connectivity..."
           echo "Note: WSS connectivity tests run for nodes with 'wss': true"
-          python3 utils/validate_seed_nodes.py
+
+          # Capture script output and exit code
+          set +e  # Don't exit on error so we can capture the output
+          python3 utils/validate_seed_nodes.py 2>&1 | tee validation_output.txt
+          SCRIPT_EXIT_CODE=${PIPESTATUS[0]}
+          set -e  # Re-enable exit on error
+
+          # Store the output for later steps
+          echo "VALIDATION_OUTPUT<<EOF" >> $GITHUB_ENV
+          cat validation_output.txt >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+          # Store exit code
+          echo "SCRIPT_EXIT_CODE=$SCRIPT_EXIT_CODE" >> $GITHUB_ENV
+
+          # Exit with the original script exit code
+          exit $SCRIPT_EXIT_CODE
 
       - name: Validation Summary
         run: |
@@ -73,20 +89,26 @@ jobs:
             echo "Warning: DISCORD_WEBHOOK_URL secret not set, skipping Discord notification"
             exit 0
           fi
-          
+
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           COMMIT_SHA="${{ github.sha }}"
           COMMIT_SHORT="${COMMIT_SHA:0:7}"
           REPO_URL="${{ github.server_url }}/${{ github.repository }}"
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          
+
+          # Prepare validation output for Discord (limit to ~3800 chars to stay under Discord limits)
+          VALIDATION_OUTPUT_ESCAPED=$(echo "$VALIDATION_OUTPUT" | sed 's/"/\\"/g' | head -c 3800)
+          if [ ${#VALIDATION_OUTPUT} -gt 3800 ]; then
+            VALIDATION_OUTPUT_ESCAPED="${VALIDATION_OUTPUT_ESCAPED}... (output truncated)"
+          fi
+
           # Create Discord embed payload
           curl -H "Content-Type: application/json" \
                -X POST \
                -d '{
                  "embeds": [{
                    "title": "✅ Seed Nodes Validation Successful",
-                   "description": "All seed nodes passed validation and WSS connectivity checks",
+                   "description": "```\n'$VALIDATION_OUTPUT_ESCAPED'\n```",
                    "color": 3066993,
                    "fields": [
                      {
@@ -121,13 +143,19 @@ jobs:
             echo "Warning: DISCORD_WEBHOOK_URL secret not set, skipping Discord notification"
             exit 0
           fi
-          
+
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           COMMIT_SHA="${{ github.sha }}"
           COMMIT_SHORT="${COMMIT_SHA:0:7}"
           REPO_URL="${{ github.server_url }}/${{ github.repository }}"
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          
+
+          # Prepare validation output for Discord (limit to ~3800 chars to stay under Discord limits)
+          VALIDATION_OUTPUT_ESCAPED=$(echo "$VALIDATION_OUTPUT" | sed 's/"/\\"/g' | head -c 3800)
+          if [ ${#VALIDATION_OUTPUT} -gt 3800 ]; then
+            VALIDATION_OUTPUT_ESCAPED="${VALIDATION_OUTPUT_ESCAPED}... (output truncated)"
+          fi
+
           # Create Discord embed payload
           curl -H "Content-Type: application/json" \
                -X POST \
@@ -135,7 +163,7 @@ jobs:
                  "content": "<@423176312354635779> <@419964976397156352>",
                  "embeds": [{
                    "title": "❌ Seed Nodes Validation Failed",
-                   "description": "One or more seed nodes failed validation or WSS connectivity checks",
+                   "description": "```\n'$VALIDATION_OUTPUT_ESCAPED'\n```",
                    "color": 15158332,
                    "fields": [
                      {
@@ -160,4 +188,4 @@ jobs:
                    }
                  }]
                }' \
-               "$WEBHOOK_URL" 
+               "$WEBHOOK_URL"
