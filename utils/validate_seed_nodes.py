@@ -10,6 +10,7 @@ import json
 import sys
 import os
 import asyncio
+import time
 from pathlib import Path
 
 try:
@@ -98,30 +99,39 @@ def check_duplicates(seed_nodes):
     return errors
 
 
-async def test_wss_connection(host, port, timeout=5):
+async def test_wss_connection(host, port, timeout=15):
     """Test WSS connection to a seed node."""
     wss_url = f"wss://{host}:{port}"
+    start_time = time.time()
+    
     try:
         # Connect with timeout using asyncio.wait_for
         websocket = await asyncio.wait_for(websockets.connect(wss_url), timeout=timeout)
         try:
             # Try to send a simple ping to verify the connection works
             await asyncio.wait_for(websocket.ping(), timeout=2)
-            return True, "Connected successfully"
+            elapsed_time = time.time() - start_time
+            return True, "Connected successfully", elapsed_time
         finally:
             await websocket.close()
     except asyncio.TimeoutError:
-        return False, f"Connection timeout after {timeout}s"
+        elapsed_time = time.time() - start_time
+        return False, f"Connection timeout after {timeout}s", elapsed_time
     except websockets.exceptions.InvalidURI:
-        return False, "Invalid WSS URI"
+        elapsed_time = time.time() - start_time
+        return False, "Invalid WSS URI", elapsed_time
     except websockets.exceptions.InvalidStatusCode as e:
-        return False, f"HTTP {e.status_code}"
+        elapsed_time = time.time() - start_time
+        return False, f"HTTP {e.status_code}", elapsed_time
     except websockets.exceptions.ConnectionClosedError:
-        return False, "Connection closed unexpectedly"
+        elapsed_time = time.time() - start_time
+        return False, "Connection closed unexpectedly", elapsed_time
     except OSError as e:
-        return False, f"Network error: {e}"
+        elapsed_time = time.time() - start_time
+        return False, f"Network error: {e}", elapsed_time
     except Exception as e:
-        return False, f"Unexpected error: {e}"
+        elapsed_time = time.time() - start_time
+        return False, f"Unexpected error: {e}", elapsed_time
 
 
 async def check_wss_connectivity(seed_nodes):
@@ -143,16 +153,17 @@ async def check_wss_connectivity(seed_nodes):
         try:
             calculated_wss_port = wss_port(netid)
             print(f"  Testing {name} ({host}) on WSS port {calculated_wss_port} (netid: {netid})...")
-            success, message = await test_wss_connection(host, calculated_wss_port)
+            success, message, elapsed_time = await test_wss_connection(host, calculated_wss_port)
             connectivity_results.append((name, host, success, message))
         except ValueError as e:
             print(f"  ✗ Invalid netid {netid} for {name}: {e}")
             connectivity_results.append((name, host, False, f"Invalid netid: {e}"))
+            elapsed_time = 0
         
         if success:
-            print(f"    ✓ WSS connection successful")
+            print(f"    ✓ WSS connection successful ({elapsed_time:.2f}s)")
         else:
-            print(f"    ✗ WSS connection failed: {message}")
+            print(f"    ✗ WSS connection failed: {message} ({elapsed_time:.2f}s)")
     
     successful_connections = sum(1 for _, _, success, _ in connectivity_results if success)
     total_wss_nodes = len(wss_nodes)
