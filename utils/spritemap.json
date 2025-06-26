@@ -6,7 +6,7 @@
         "total_icons": 414,
         "spritemap_width": 2944,
         "spritemap_height": 2304,
-        "generated_at": 1750896724
+        "generated_at": 1750942942
     },
     "coordinates": {
         "1inch": {
@@ -1899,241 +1899,241 @@
             "width": 128,
             "height": 128
         },
-        "scrt": {
+        "sc": {
             "x": 2048,
+            "y": 1664,
+            "width": 128,
+            "height": 128
+        },
+        "scrt": {
+            "x": 2176,
             "y": 1664,
             "width": 128,
             "height": 128
         },
         "seele": {
-            "x": 2176,
+            "x": 2304,
             "y": 1664,
             "width": 128,
             "height": 128
         },
         "shib": {
-            "x": 2304,
+            "x": 2432,
             "y": 1664,
             "width": 128,
             "height": 128
         },
         "shic": {
-            "x": 2432,
+            "x": 2560,
             "y": 1664,
             "width": 128,
             "height": 128
         },
         "shr": {
-            "x": 2560,
+            "x": 2688,
             "y": 1664,
             "width": 128,
             "height": 128
         },
         "sibm": {
-            "x": 2688,
+            "x": 2816,
             "y": 1664,
             "width": 128,
             "height": 128
         },
         "signa": {
-            "x": 2816,
-            "y": 1664,
+            "x": 0,
+            "y": 1792,
             "width": 128,
             "height": 128
         },
         "skl": {
-            "x": 0,
+            "x": 128,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "snt": {
-            "x": 128,
+            "x": 256,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "snx": {
-            "x": 256,
+            "x": 384,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "sol": {
-            "x": 384,
+            "x": 512,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "solve": {
-            "x": 512,
+            "x": 640,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "space": {
-            "x": 640,
+            "x": 768,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "spacecoin": {
-            "x": 768,
+            "x": 896,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "srm": {
-            "x": 896,
+            "x": 1024,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "stfiro": {
-            "x": 1024,
-            "y": 1792,
-            "width": 128,
-            "height": 128
-        },
-        "storj": {
             "x": 1152,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "sushi": {
+        "storj": {
             "x": 1280,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "swap": {
+        "sushi": {
             "x": 1408,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "sxp": {
+        "swap": {
             "x": 1536,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "syn": {
+        "sxp": {
             "x": 1664,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "sys": {
+        "syn": {
             "x": 1792,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "tama": {
+        "sys": {
             "x": 1920,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "taz": {
+        "tama": {
             "x": 2048,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "tbch": {
+        "taz": {
             "x": 2176,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "tblk": {
+        "tbch": {
             "x": 2304,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "tbtc": {
+        "tblk": {
             "x": 2432,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "tel": {
+        "tbtc": {
             "x": 2560,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "testbtc": {
+        "tel": {
             "x": 2688,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "tft": {
+        "testbtc": {
             "x": 2816,
             "y": 1792,
             "width": 128,
             "height": 128
         },
-        "thc": {
+        "tft": {
             "x": 0,
             "y": 1920,
             "width": 128,
             "height": 128
         },
-        "thc_bep20": {
+        "thc": {
             "x": 128,
             "y": 1920,
             "width": 128,
             "height": 128
         },
-        "tkl": {
+        "thc_bep20": {
             "x": 256,
             "y": 1920,
             "width": 128,
             "height": 128
         },
-        "ton": {
+        "tkl": {
             "x": 384,
             "y": 1920,
             "width": 128,
             "height": 128
         },
-        "tqtum": {
+        "ton": {
             "x": 512,
             "y": 1920,
             "width": 128,
             "height": 128
         },
-        "trac": {
+        "tqtum": {
             "x": 640,
             "y": 1920,
             "width": 128,
             "height": 128
         },
-        "trc": {
+        "trac": {
             "x": 768,
             "y": 1920,
             "width": 128,
             "height": 128
         },
-        "trx": {
+        "trc": {
             "x": 896,
             "y": 1920,
             "width": 128,
             "height": 128
         },
-        "tryb": {
+        "trx": {
             "x": 1024,
             "y": 1920,
             "width": 128,
             "height": 128
         },
-        "tsia": {
+        "tryb": {
             "x": 1152,
             "y": 1920,
             "width": 128,
