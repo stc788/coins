@@ -128,8 +128,8 @@ jobs:
           echo "===============" >> validation_success.txt
           echo "$VALIDATION_OUTPUT" >> validation_success.txt
 
-          # Create Discord embed payload and send with file attachment
-          jq -n \
+          # Create Discord embed payload
+          DISCORD_PAYLOAD=$(jq -n \
             --arg title "✅ Seed Nodes Validation Successful" \
             --arg description "$SUMMARY" \
             --arg repo "${{ github.repository }}" \
@@ -165,11 +165,11 @@ jobs:
                   text: "Komodo Platform Seed Nodes Monitor"
                 }
               }]
-            }' > discord_payload.json
+            }')
 
-          # Send message with file attachment
+          # Send message with embed and file attachment
           curl -X POST "$WEBHOOK_URL" \
-            -F "payload_json=@discord_payload.json" \
+            --form-string "payload_json=$DISCORD_PAYLOAD" \
             -F "file=@validation_success.txt"
 
       - name: Send Discord Failure Notification
@@ -231,8 +231,8 @@ jobs:
           echo "======================" >> validation_failure.txt
           echo "$VALIDATION_OUTPUT" >> validation_failure.txt
 
-          # Create Discord embed payload and send with file attachment
-          jq -n \
+          # Create Discord embed payload
+          DISCORD_PAYLOAD=$(jq -n \
             --arg content "<@423176312354635779> <@419964976397156352>" \
             --arg title "❌ Seed Nodes Validation Failed" \
             --arg description "$SUMMARY" \
@@ -270,9 +270,9 @@ jobs:
                   text: "Komodo Platform Seed Nodes Monitor"
                 }
               }]
-            }' > discord_payload.json
+            }')
 
-          # Send message with file attachment
+          # Send message with embed and file attachment
           curl -X POST "$WEBHOOK_URL" \
-            -F "payload_json=@discord_payload.json" \
+            --form-string "payload_json=$DISCORD_PAYLOAD" \
             -F "file=@validation_failure.txt"
