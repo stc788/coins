@@ -15,7 +15,7 @@ on:
       - "utils/validate_seed_nodes.py"
   schedule:
     # Run every 2 hours at minute 0 (00:00, 06:00, 12:00, 18:00 UTC)
-    - cron: "*/5 * * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 jobs:
@@ -82,7 +82,7 @@ jobs:
           echo "✓ WSS connectivity verified for all WSS-enabled seed nodes"
 
       - name: Send Discord Success Notification
-        if: success() && github.event_name == 'schedule'
+        if: success() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         run: |
           WEBHOOK_URL="${{ secrets.DISCORD_WEBHOOK_URL }}"
           if [ -z "$WEBHOOK_URL" ]; then
@@ -97,46 +97,55 @@ jobs:
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
           # Prepare validation output for Discord (limit to ~3800 chars to stay under Discord limits)
-          VALIDATION_OUTPUT_ESCAPED=$(echo "$VALIDATION_OUTPUT" | sed 's/"/\\"/g' | head -c 3800)
+          VALIDATION_OUTPUT_TRUNCATED=$(echo "$VALIDATION_OUTPUT" | head -c 3800)
           if [ ${#VALIDATION_OUTPUT} -gt 3800 ]; then
-            VALIDATION_OUTPUT_ESCAPED="${VALIDATION_OUTPUT_ESCAPED}... (output truncated)"
+            VALIDATION_OUTPUT_TRUNCATED="${VALIDATION_OUTPUT_TRUNCATED}... (output truncated)"
           fi
 
-          # Create Discord embed payload
-          curl -H "Content-Type: application/json" \
-               -X POST \
-               -d '{
-                 "embeds": [{
-                   "title": "✅ Seed Nodes Validation Successful",
-                   "description": "```\n'$VALIDATION_OUTPUT_ESCAPED'\n```",
-                   "color": 3066993,
-                   "fields": [
-                     {
-                       "name": "Repository",
-                       "value": "[${{ github.repository }}]('$REPO_URL')",
-                       "inline": true
-                     },
-                     {
-                       "name": "Commit",
-                       "value": "['$COMMIT_SHORT']('$REPO_URL'/commit/'$COMMIT_SHA')",
-                       "inline": true
-                     },
-                     {
-                       "name": "Workflow Run",
-                       "value": "[View Details]('$RUN_URL')",
-                       "inline": true
-                     }
-                   ],
-                   "timestamp": "'$TIMESTAMP'",
-                   "footer": {
-                     "text": "Komodo Platform Seed Nodes Monitor"
-                   }
-                 }]
-               }' \
-               "$WEBHOOK_URL"
+          # Create Discord embed payload using jq
+          jq -n \
+            --arg title "✅ Seed Nodes Validation Successful" \
+            --arg description "$(printf '```\n%s\n```' "$VALIDATION_OUTPUT_TRUNCATED")" \
+            --arg repo "${{ github.repository }}" \
+            --arg commit_short "$COMMIT_SHORT" \
+            --arg commit_sha "$COMMIT_SHA" \
+            --arg repo_url "$REPO_URL" \
+            --arg run_url "$RUN_URL" \
+            --arg timestamp "$TIMESTAMP" \
+            '{
+              embeds: [{
+                title: $title,
+                description: $description,
+                color: 3066993,
+                fields: [
+                  {
+                    name: "Repository",
+                    value: "[\($repo)](\($repo_url))",
+                    inline: true
+                  },
+                  {
+                    name: "Commit",
+                    value: "[\($commit_short)](\($repo_url)/commit/\($commit_sha))",
+                    inline: true
+                  },
+                  {
+                    name: "Workflow Run",
+                    value: "[View Details](\($run_url))",
+                    inline: true
+                  }
+                ],
+                timestamp: $timestamp,
+                footer: {
+                  text: "Komodo Platform Seed Nodes Monitor"
+                }
+              }]
+            }' | curl -H "Content-Type: application/json" \
+                      -X POST \
+                      -d @- \
+                      "$WEBHOOK_URL"
 
       - name: Send Discord Failure Notification
-        if: failure() && github.event_name == 'schedule'
+        if: failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         run: |
           WEBHOOK_URL="${{ secrets.DISCORD_WEBHOOK_URL }}"
           if [ -z "$WEBHOOK_URL" ]; then
@@ -151,41 +160,51 @@ jobs:
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
           # Prepare validation output for Discord (limit to ~3800 chars to stay under Discord limits)
-          VALIDATION_OUTPUT_ESCAPED=$(echo "$VALIDATION_OUTPUT" | sed 's/"/\\"/g' | head -c 3800)
+          VALIDATION_OUTPUT_TRUNCATED=$(echo "$VALIDATION_OUTPUT" | head -c 3800)
           if [ ${#VALIDATION_OUTPUT} -gt 3800 ]; then
-            VALIDATION_OUTPUT_ESCAPED="${VALIDATION_OUTPUT_ESCAPED}... (output truncated)"
+            VALIDATION_OUTPUT_TRUNCATED="${VALIDATION_OUTPUT_TRUNCATED}... (output truncated)"
           fi
 
-          # Create Discord embed payload
-          curl -H "Content-Type: application/json" \
-               -X POST \
-               -d '{
-                 "content": "<@423176312354635779> <@419964976397156352>",
-                 "embeds": [{
-                   "title": "❌ Seed Nodes Validation Failed",
-                   "description": "```\n'$VALIDATION_OUTPUT_ESCAPED'\n```",
-                   "color": 15158332,
-                   "fields": [
-                     {
-                       "name": "Repository",
-                       "value": "[${{ github.repository }}]('$REPO_URL')",
-                       "inline": true
-                     },
-                     {
-                       "name": "Commit",
-                       "value": "['$COMMIT_SHORT']('$REPO_URL'/commit/'$COMMIT_SHA')",
-                       "inline": true
-                     },
-                     {
-                       "name": "Workflow Run",
-                       "value": "[View Details]('$RUN_URL')",
-                       "inline": true
-                     }
-                   ],
-                   "timestamp": "'$TIMESTAMP'",
-                   "footer": {
-                     "text": "Komodo Platform Seed Nodes Monitor"
-                   }
-                 }]
-               }' \
-               "$WEBHOOK_URL"
+          # Create Discord embed payload using jq
+          jq -n \
+            --arg content "<@423176312354635779> <@419964976397156352>" \
+            --arg title "❌ Seed Nodes Validation Failed" \
+            --arg description "$(printf '```\n%s\n```' "$VALIDATION_OUTPUT_TRUNCATED")" \
+            --arg repo "${{ github.repository }}" \
+            --arg commit_short "$COMMIT_SHORT" \
+            --arg commit_sha "$COMMIT_SHA" \
+            --arg repo_url "$REPO_URL" \
+            --arg run_url "$RUN_URL" \
+            --arg timestamp "$TIMESTAMP" \
+            '{
+              content: $content,
+              embeds: [{
+                title: $title,
+                description: $description,
+                color: 15158332,
+                fields: [
+                  {
+                    name: "Repository",
+                    value: "[\($repo)](\($repo_url))",
+                    inline: true
+                  },
+                  {
+                    name: "Commit",
+                    value: "[\($commit_short)](\($repo_url)/commit/\($commit_sha))",
+                    inline: true
+                  },
+                  {
+                    name: "Workflow Run",
+                    value: "[View Details](\($run_url))",
+                    inline: true
+                  }
+                ],
+                timestamp: $timestamp,
+                footer: {
+                  text: "Komodo Platform Seed Nodes Monitor"
+                }
+              }]
+            }' | curl -H "Content-Type: application/json" \
+                      -X POST \
+                      -d @- \
+                      "$WEBHOOK_URL"
