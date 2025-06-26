@@ -12,6 +12,7 @@ import os
 import asyncio
 import time
 import socket
+import ssl
 from pathlib import Path
 
 try:
@@ -116,39 +117,99 @@ def check_duplicates(seed_nodes):
     return errors
 
 
+def check_ssl_certificate(host, port, timeout=15):
+    """Check SSL certificate to ensure it's not self-signed and return issuer info."""
+    try:
+        # Create SSL context with default verification
+        context = ssl.create_default_context()
+        
+        # Connect and get certificate information
+        with socket.create_connection((host, port), timeout=timeout) as sock:
+            with context.wrap_socket(sock, server_hostname=host) as ssock:
+                cert = ssock.getpeercert()
+                
+                # Check if certificate is self-signed
+                # A certificate is self-signed if issuer equals subject
+                issuer = dict(x[0] for x in cert['issuer'])
+                subject = dict(x[0] for x in cert['subject'])
+                
+                # Extract issuer information
+                issuer_cn = issuer.get('commonName', 'Unknown')
+                issuer_o = issuer.get('organizationName', '')
+                issuer_ou = issuer.get('organizationalUnitName', '')
+                
+                # Build issuer display string
+                issuer_parts = []
+                if issuer_cn:
+                    issuer_parts.append(f"CN={issuer_cn}")
+                if issuer_o:
+                    issuer_parts.append(f"O={issuer_o}")
+                if issuer_ou:
+                    issuer_parts.append(f"OU={issuer_ou}")
+                
+                issuer_display = ", ".join(issuer_parts) if issuer_parts else "Unknown issuer"
+                
+                is_self_signed = issuer == subject
+                
+                if is_self_signed:
+                    return False, f"Certificate is self-signed (issuer: {issuer_display})"
+                
+                return True, f"Certificate is properly signed by {issuer_display}"
+                
+    except ssl.SSLError as e:
+        return False, f"SSL error: {e}"
+    except socket.timeout:
+        return False, f"SSL check timeout after {timeout}s"
+    except Exception as e:
+        return False, f"Certificate check error: {e}"
+
+
 async def test_wss_connection(host, port, timeout=15):
-    """Test WSS connection to a seed node."""
+    """Test WSS connection to a seed node and check SSL certificate."""
     wss_url = f"wss://{host}:{port}"
     start_time = time.time()
     
     try:
+        # First check SSL certificate
+        loop = asyncio.get_event_loop()
+        cert_valid, cert_message = await loop.run_in_executor(
+            None, check_ssl_certificate, host, port, timeout
+        )
+        
+        if not cert_valid:
+            elapsed_time = time.time() - start_time
+            return False, f"SSL certificate issue: {cert_message}", elapsed_time
+        
         # Connect with timeout using asyncio.wait_for
         websocket = await asyncio.wait_for(websockets.connect(wss_url), timeout=timeout)
         try:
             # Try to send a simple ping to verify the connection works
             await asyncio.wait_for(websocket.ping(), timeout=2)
             elapsed_time = time.time() - start_time
-            return True, "Connected successfully", elapsed_time
+            return True, f"Connected successfully, {cert_message}", elapsed_time
         finally:
             await websocket.close()
     except asyncio.TimeoutError:
         elapsed_time = time.time() - start_time
         return False, f"Connection timeout after {timeout}s", elapsed_time
-    except websockets.exceptions.InvalidURI:
+    except ssl.SSLError as e:
         elapsed_time = time.time() - start_time
-        return False, "Invalid WSS URI", elapsed_time
-    except websockets.exceptions.InvalidStatusCode as e:
-        elapsed_time = time.time() - start_time
-        return False, f"HTTP {e.status_code}", elapsed_time
-    except websockets.exceptions.ConnectionClosedError:
-        elapsed_time = time.time() - start_time
-        return False, "Connection closed unexpectedly", elapsed_time
+        return False, f"SSL error: {e}", elapsed_time
     except OSError as e:
         elapsed_time = time.time() - start_time
         return False, f"Network error: {e}", elapsed_time
     except Exception as e:
+        # Handle various websockets exceptions that may vary by version
         elapsed_time = time.time() - start_time
-        return False, f"Unexpected error: {e}", elapsed_time
+        error_msg = str(e)
+        if "invalid uri" in error_msg.lower():
+            return False, "Invalid WSS URI", elapsed_time
+        elif "status code" in error_msg.lower():
+            return False, f"HTTP error: {error_msg}", elapsed_time
+        elif "connection closed" in error_msg.lower():
+            return False, "Connection closed unexpectedly", elapsed_time
+        else:
+            return False, f"WebSocket error: {error_msg}", elapsed_time
 
 
 async def test_tcp_connection(host, port, timeout=15):
@@ -187,8 +248,8 @@ async def test_tcp_connection(host, port, timeout=15):
 
 
 async def check_wss_connectivity(seed_nodes):
-    """Check WSS connectivity for seed nodes with WSS support enabled."""
-    print("🔍 Checking WSS connectivity for seed nodes with WSS support...")
+    """Check WSS connectivity and SSL certificate validation for seed nodes with WSS support enabled."""
+    print("🔍 Checking WSS connectivity and SSL certificates for seed nodes with WSS support...")
     
     wss_nodes = [node for node in seed_nodes if node.get('wss') == True]
     
@@ -205,6 +266,7 @@ async def check_wss_connectivity(seed_nodes):
         try:
             calculated_wss_port = wss_port(netid)
             print(f"  Testing {name} ({host}) on WSS port {calculated_wss_port} (netid: {netid})...")
+            print(f"    - Checking SSL certificate validity...")
             success, message, elapsed_time = await test_wss_connection(host, calculated_wss_port)
             connectivity_results.append((name, host, success, message))
         except ValueError as e:
@@ -214,6 +276,7 @@ async def check_wss_connectivity(seed_nodes):
         
         if success:
             print(f"    ✓ WSS connection successful ({elapsed_time:.2f}s)")
+            print(f"    ✓ {message}")
         else:
             print(f"    ✗ WSS connection failed: {message} ({elapsed_time:.2f}s)")
     
@@ -390,7 +453,8 @@ async def main():
             print("  --help, -h          Show this help message")
             print("")
             print("This script validates seed nodes JSON schema and tests connectivity")
-            print("for all seed nodes. TCP for all and additionallyy WSS for seed nodes with with 'wss': true")
+            print("for all seed nodes. TCP for all and additionally WSS for seed nodes with 'wss': true.")
+            print("WSS connections also validate SSL certificates to ensure they are not self-signed.")
             sys.exit(0)
         elif arg.startswith('--'):
             print(f"Unknown option: {arg}")
