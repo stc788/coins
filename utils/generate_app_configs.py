@@ -48,6 +48,11 @@ BINANCE_DELISTED_COINS = [
     "YFII",
 ]
 
+MISMATCHED_IDS = [
+    "ZEN",
+    "SC",
+]
+
 # TODO: Check all coins have an icon.
 icons = [
     f
@@ -361,7 +366,7 @@ class CoinConfig:
                 if self.ticker.find(i) > -1:
                     return i.replace("IBC_", "")
 
-        if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "QTUM"]:
+        if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "QTUM", "SIA"]:
             if self.data[self.ticker]["is_testnet"]:
                 key_list = list(self.testnet_protocols.keys())
                 value_list = list(self.testnet_protocols.values())
@@ -395,9 +400,11 @@ class CoinConfig:
             else:
                 coin = "QTUM"
 
-        if coin in electrum_coins:
-            with open(f"{repo_path}/electrums/{coin}", "r") as f:
-                electrums = json.load(f)
+        if not coin in electrum_coins:
+            logger.warning(f"{coin} not found in electrum_coins")
+            return
+        with open(f"{repo_path}/electrums/{coin}", "r") as f:
+            electrums = json.load(f)
                 
         if coin in electrum_scan_report:
             valid_electrums = []
@@ -706,6 +713,7 @@ def generate_binance_api_ids(coins_config):
             elif ticker["symbol"].endswith(quote):
                 pair = (ticker["symbol"].replace(quote, ""), quote)
                 break
+            
         pairs.append(pair)
     unknown_ids = [i for i in pairs if isinstance(i, str)]
     known_ids = [i for i in pairs if isinstance(i, tuple)]
@@ -718,7 +726,7 @@ def generate_binance_api_ids(coins_config):
     for coin in kdf_coins:
         ticker = coin.split("-")[0]
         if ticker in known_id_coins:
-            if ticker not in BINANCE_DELISTED_COINS:
+            if ticker not in BINANCE_DELISTED_COINS and ticker not in MISMATCHED_IDS:
                 api_ids.update({coin: ticker})
 
     with open(f"{repo_path}/api_ids/binance_ids.json", "w") as f:

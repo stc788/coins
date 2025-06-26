@@ -1,7 +1,16 @@
 [
   {
-    "coin": "TSIA",
-    "fname": "Siacoin Testnet",
+    "coin": "SC",
+    "fname": "Siacoin",
+    "mm2": 1,
+    "required_confirmations": 1,
+    "protocol": {
+      "type": "SIA"
+    }
+  },
+  {
+    "coin": "ZEN",
+    "fname": "Zen Testnet",
     "mm2": 1,
     "required_confirmations": 1,
     "protocol": {
