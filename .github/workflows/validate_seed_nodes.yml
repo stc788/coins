@@ -101,32 +101,37 @@ jobs:
           WSS_SUMMARY=$(echo "$VALIDATION_OUTPUT" | grep "WSS Connectivity Summary:" | grep -oP "\d+/\d+" | head -1 || echo "N/A")
           TCP_SUMMARY=$(echo "$VALIDATION_OUTPUT" | grep "TCP Connectivity Summary:" | grep -oP "\d+/\d+" | head -1 || echo "N/A")
 
-          # Create summary
+          # Create concise summary
           SUMMARY="**✅ All validations passed successfully!**
-          📊 **Metrics:** ${TOTAL_NODES} seed nodes found
-          🔗 **TCP Connectivity:** ${TCP_SUMMARY} nodes reachable
-          🔐 **WSS Connectivity:** ${WSS_SUMMARY} WSS-enabled nodes reachable"
+          📊 **${TOTAL_NODES}** seed nodes validated
+          🔗 **TCP:** ${TCP_SUMMARY} reachable
+          🔐 **WSS:** ${WSS_SUMMARY} reachable with valid SSL certificates
 
-          # Prepare detailed output for spoiler (limit to ~3000 chars to stay under Discord limits)
-          VALIDATION_OUTPUT_TRUNCATED=$(echo "$VALIDATION_OUTPUT" | head -c 3000)
-          if [ ${#VALIDATION_OUTPUT} -gt 3000 ]; then
-            VALIDATION_OUTPUT_TRUNCATED="${VALIDATION_OUTPUT_TRUNCATED}... (output truncated)"
-          fi
+          📋 [View workflow logs]($RUN_URL)"
 
-          # Format with spoiler tags for detailed output
-          DETAILED_OUTPUT="||**Detailed Validation Output:**
-          \`\`\`
-          $VALIDATION_OUTPUT_TRUNCATED
-          \`\`\`||"
+          # Create detailed validation log file
+          cat > validation_success.txt << 'EOF'
+          Komodo Seed Nodes Validation Report - SUCCESS
+          ============================================
+          EOF
+          echo "Timestamp: $TIMESTAMP" >> validation_success.txt
+          echo "Repository: ${{ github.repository }}" >> validation_success.txt
+          echo "Commit: $COMMIT_SHORT ($COMMIT_SHA)" >> validation_success.txt
+          echo "Workflow Run: $RUN_URL" >> validation_success.txt
+          echo "" >> validation_success.txt
+          echo "Summary:" >> validation_success.txt
+          echo "- Total seed nodes: $TOTAL_NODES" >> validation_success.txt
+          echo "- TCP connectivity: $TCP_SUMMARY" >> validation_success.txt
+          echo "- WSS connectivity: $WSS_SUMMARY" >> validation_success.txt
+          echo "" >> validation_success.txt
+          echo "Detailed Output:" >> validation_success.txt
+          echo "===============" >> validation_success.txt
+          echo "$VALIDATION_OUTPUT" >> validation_success.txt
 
-          FULL_DESCRIPTION="$SUMMARY
-
-          $DETAILED_OUTPUT"
-
-          # Create Discord embed payload using jq
+          # Create Discord embed payload and send with file attachment
           jq -n \
             --arg title "✅ Seed Nodes Validation Successful" \
-            --arg description "$FULL_DESCRIPTION" \
+            --arg description "$SUMMARY" \
             --arg repo "${{ github.repository }}" \
             --arg commit_short "$COMMIT_SHORT" \
             --arg commit_sha "$COMMIT_SHA" \
@@ -160,10 +165,12 @@ jobs:
                   text: "Komodo Platform Seed Nodes Monitor"
                 }
               }]
-            }' | curl -H "Content-Type: application/json" \
-                      -X POST \
-                      -d @- \
-                      "$WEBHOOK_URL"
+            }' > discord_payload.json
+
+          # Send message with file attachment
+          curl -X POST "$WEBHOOK_URL" \
+            -F "payload_json=@discord_payload.json" \
+            -F "file=@validation_success.txt"
 
       - name: Send Discord Failure Notification
         if: failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
@@ -188,38 +195,47 @@ jobs:
           # Extract key error messages
           ERRORS=$(echo "$VALIDATION_OUTPUT" | grep -E "^(✗|❌)" | head -5 || echo "No specific errors found")
 
-          # Create failure summary
+                    # Create concise failure summary with key errors only
+          ERROR_PREVIEW=$(echo "$ERRORS" | head -3 | sed 's/^/• /')
+
           SUMMARY="**❌ Seed nodes validation failed!**
-          📊 **Metrics:** ${TOTAL_NODES} seed nodes found
-          🔗 **TCP Connectivity:** ${TCP_SUMMARY} nodes reachable  
-          🔐 **WSS Connectivity:** ${WSS_SUMMARY} WSS-enabled nodes reachable
+          📊 **${TOTAL_NODES}** seed nodes found
+          🔗 **TCP:** ${TCP_SUMMARY} reachable  
+          🔐 **WSS:** ${WSS_SUMMARY} reachable
 
           **🚨 Key Issues:**
-          \`\`\`
-          $ERRORS
-          \`\`\`"
+          $ERROR_PREVIEW
 
-          # Prepare detailed output for spoiler (limit to ~2500 chars to stay under Discord limits)
-          VALIDATION_OUTPUT_TRUNCATED=$(echo "$VALIDATION_OUTPUT" | head -c 2500)
-          if [ ${#VALIDATION_OUTPUT} -gt 2500 ]; then
-            VALIDATION_OUTPUT_TRUNCATED="${VALIDATION_OUTPUT_TRUNCATED}... (output truncated)"
-          fi
+          📋 [View workflow logs]($RUN_URL)"
 
-          # Format with spoiler tags for detailed output
-          DETAILED_OUTPUT="||**Full Validation Output:**
-          \`\`\`
-          $VALIDATION_OUTPUT_TRUNCATED
-          \`\`\`||"
+          # Create detailed validation log file
+          cat > validation_failure.txt << 'EOF'
+          Komodo Seed Nodes Validation Report - FAILURE
+          =============================================
+          EOF
+          echo "Timestamp: $TIMESTAMP" >> validation_failure.txt
+          echo "Repository: ${{ github.repository }}" >> validation_failure.txt
+          echo "Commit: $COMMIT_SHORT ($COMMIT_SHA)" >> validation_failure.txt
+          echo "Workflow Run: $RUN_URL" >> validation_failure.txt
+          echo "" >> validation_failure.txt
+          echo "Summary:" >> validation_failure.txt
+          echo "- Total seed nodes: $TOTAL_NODES" >> validation_failure.txt
+          echo "- TCP connectivity: $TCP_SUMMARY" >> validation_failure.txt
+          echo "- WSS connectivity: $WSS_SUMMARY" >> validation_failure.txt
+          echo "" >> validation_failure.txt
+          echo "Errors Found:" >> validation_failure.txt
+          echo "=============" >> validation_failure.txt
+          echo "$ERRORS" >> validation_failure.txt
+          echo "" >> validation_failure.txt
+          echo "Full Validation Output:" >> validation_failure.txt
+          echo "======================" >> validation_failure.txt
+          echo "$VALIDATION_OUTPUT" >> validation_failure.txt
 
-          FULL_DESCRIPTION="$SUMMARY
-
-          $DETAILED_OUTPUT"
-
-          # Create Discord embed payload using jq
+          # Create Discord embed payload and send with file attachment
           jq -n \
             --arg content "<@423176312354635779> <@419964976397156352>" \
             --arg title "❌ Seed Nodes Validation Failed" \
-            --arg description "$FULL_DESCRIPTION" \
+            --arg description "$SUMMARY" \
             --arg repo "${{ github.repository }}" \
             --arg commit_short "$COMMIT_SHORT" \
             --arg commit_sha "$COMMIT_SHA" \
@@ -254,7 +270,9 @@ jobs:
                   text: "Komodo Platform Seed Nodes Monitor"
                 }
               }]
-            }' | curl -H "Content-Type: application/json" \
-                      -X POST \
-                      -d @- \
-                      "$WEBHOOK_URL"
+            }' > discord_payload.json
+
+          # Send message with file attachment
+          curl -X POST "$WEBHOOK_URL" \
+            -F "payload_json=@discord_payload.json" \
+            -F "file=@validation_failure.txt"
