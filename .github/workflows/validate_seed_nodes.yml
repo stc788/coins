@@ -15,7 +15,7 @@ on:
       - "utils/validate_seed_nodes.py"
   schedule:
     # Run every 2 hours at minute 0 (00:00, 06:00, 12:00, 18:00 UTC)
-    - cron: "*/5 * * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 jobs:
@@ -82,7 +82,7 @@ jobs:
           echo "✓ WSS connectivity verified for all WSS-enabled seed nodes"
 
       - name: Send Discord Success Notification
-        if: success() && github.event_name == 'schedule'
+        if: success() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         run: |
           WEBHOOK_URL="${{ secrets.DISCORD_WEBHOOK_URL }}"
           if [ -z "$WEBHOOK_URL" ]; then
@@ -136,7 +136,7 @@ jobs:
                "$WEBHOOK_URL"
 
       - name: Send Discord Failure Notification
-        if: failure() && github.event_name == 'schedule'
+        if: failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         run: |
           WEBHOOK_URL="${{ secrets.DISCORD_WEBHOOK_URL }}"
           if [ -z "$WEBHOOK_URL" ]; then
