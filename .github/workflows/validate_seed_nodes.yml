@@ -96,16 +96,37 @@ jobs:
           REPO_URL="${{ github.server_url }}/${{ github.repository }}"
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
-          # Prepare validation output for Discord (limit to ~3800 chars to stay under Discord limits)
-          VALIDATION_OUTPUT_TRUNCATED=$(echo "$VALIDATION_OUTPUT" | head -c 3800)
-          if [ ${#VALIDATION_OUTPUT} -gt 3800 ]; then
+          # Extract key metrics from validation output
+          TOTAL_NODES=$(echo "$VALIDATION_OUTPUT" | grep -oP "Found \K\d+" | head -1 || echo "N/A")
+          WSS_SUMMARY=$(echo "$VALIDATION_OUTPUT" | grep "WSS Connectivity Summary:" | grep -oP "\d+/\d+" | head -1 || echo "N/A")
+          TCP_SUMMARY=$(echo "$VALIDATION_OUTPUT" | grep "TCP Connectivity Summary:" | grep -oP "\d+/\d+" | head -1 || echo "N/A")
+
+          # Create summary
+          SUMMARY="**✅ All validations passed successfully!**
+          📊 **Metrics:** ${TOTAL_NODES} seed nodes found
+          🔗 **TCP Connectivity:** ${TCP_SUMMARY} nodes reachable
+          🔐 **WSS Connectivity:** ${WSS_SUMMARY} WSS-enabled nodes reachable"
+
+          # Prepare detailed output for spoiler (limit to ~3000 chars to stay under Discord limits)
+          VALIDATION_OUTPUT_TRUNCATED=$(echo "$VALIDATION_OUTPUT" | head -c 3000)
+          if [ ${#VALIDATION_OUTPUT} -gt 3000 ]; then
             VALIDATION_OUTPUT_TRUNCATED="${VALIDATION_OUTPUT_TRUNCATED}... (output truncated)"
           fi
+
+          # Format with spoiler tags for detailed output
+          DETAILED_OUTPUT="||**Detailed Validation Output:**
+          \`\`\`
+          $VALIDATION_OUTPUT_TRUNCATED
+          \`\`\`||"
+
+          FULL_DESCRIPTION="$SUMMARY
+
+          $DETAILED_OUTPUT"
 
           # Create Discord embed payload using jq
           jq -n \
             --arg title "✅ Seed Nodes Validation Successful" \
-            --arg description "$(printf '```\n%s\n```' "$VALIDATION_OUTPUT_TRUNCATED")" \
+            --arg description "$FULL_DESCRIPTION" \
             --arg repo "${{ github.repository }}" \
             --arg commit_short "$COMMIT_SHORT" \
             --arg commit_sha "$COMMIT_SHA" \
@@ -159,17 +180,46 @@ jobs:
           REPO_URL="${{ github.server_url }}/${{ github.repository }}"
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
-          # Prepare validation output for Discord (limit to ~3800 chars to stay under Discord limits)
-          VALIDATION_OUTPUT_TRUNCATED=$(echo "$VALIDATION_OUTPUT" | head -c 3800)
-          if [ ${#VALIDATION_OUTPUT} -gt 3800 ]; then
+          # Extract key metrics and errors from validation output
+          TOTAL_NODES=$(echo "$VALIDATION_OUTPUT" | grep -oP "Found \K\d+" | head -1 || echo "N/A")
+          WSS_SUMMARY=$(echo "$VALIDATION_OUTPUT" | grep "WSS Connectivity Summary:" | grep -oP "\d+/\d+" | head -1 || echo "N/A")
+          TCP_SUMMARY=$(echo "$VALIDATION_OUTPUT" | grep "TCP Connectivity Summary:" | grep -oP "\d+/\d+" | head -1 || echo "N/A")
+
+          # Extract key error messages
+          ERRORS=$(echo "$VALIDATION_OUTPUT" | grep -E "^(✗|❌)" | head -5 || echo "No specific errors found")
+
+          # Create failure summary
+          SUMMARY="**❌ Seed nodes validation failed!**
+          📊 **Metrics:** ${TOTAL_NODES} seed nodes found
+          🔗 **TCP Connectivity:** ${TCP_SUMMARY} nodes reachable  
+          🔐 **WSS Connectivity:** ${WSS_SUMMARY} WSS-enabled nodes reachable
+
+          **🚨 Key Issues:**
+          \`\`\`
+          $ERRORS
+          \`\`\`"
+
+          # Prepare detailed output for spoiler (limit to ~2500 chars to stay under Discord limits)
+          VALIDATION_OUTPUT_TRUNCATED=$(echo "$VALIDATION_OUTPUT" | head -c 2500)
+          if [ ${#VALIDATION_OUTPUT} -gt 2500 ]; then
             VALIDATION_OUTPUT_TRUNCATED="${VALIDATION_OUTPUT_TRUNCATED}... (output truncated)"
           fi
+
+          # Format with spoiler tags for detailed output
+          DETAILED_OUTPUT="||**Full Validation Output:**
+          \`\`\`
+          $VALIDATION_OUTPUT_TRUNCATED
+          \`\`\`||"
+
+          FULL_DESCRIPTION="$SUMMARY
+
+          $DETAILED_OUTPUT"
 
           # Create Discord embed payload using jq
           jq -n \
             --arg content "<@423176312354635779> <@419964976397156352>" \
             --arg title "❌ Seed Nodes Validation Failed" \
-            --arg description "$(printf '```\n%s\n```' "$VALIDATION_OUTPUT_TRUNCATED")" \
+            --arg description "$FULL_DESCRIPTION" \
             --arg repo "${{ github.repository }}" \
             --arg commit_short "$COMMIT_SHORT" \
             --arg commit_sha "$COMMIT_SHA" \
