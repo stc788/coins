@@ -44867,42 +44867,6 @@
         ],
         "explorer_block_url": "block.dws?"
     },
-    "WAF": {
-        "coin": "WAF",
-        "type": "UTXO",
-        "name": "Waifu",
-        "coinpaprika_id": "waf-waifu-core",
-        "coingecko_id": "",
-        "livecoinwatch_id": "_WAF",
-        "explorer_url": "https://waifu-explorer.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Waifu Signed Message:\n",
-        "fname": "Waifu",
-        "rpcport": 18332,
-        "pubtype": 73,
-        "p2shtype": 22,
-        "wiftype": 158,
-        "segwit": true,
-        "bech32_hrp": "waf",
-        "txfee": 1000,
-        "mm2": 1,
-        "required_confirmations": 4,
-        "avg_blocktime": 210,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "links": {
-            "github": "https://github.com/waifu-core/waifu-core"
-        },
-        "electrum": [],
-        "explorer_block_url": "block/"
-    },
     "WAVES-BEP20": {
         "coin": "WAVES-BEP20",
         "type": "BEP-20",

@@ -3,10 +3,10 @@
         "icon_size": 128,
         "grid_cols": 23,
         "grid_rows": 18,
-        "total_icons": 414,
+        "total_icons": 413,
         "spritemap_width": 2944,
         "spritemap_height": 2304,
-        "generated_at": 1750942942
+        "generated_at": 1750983165
     },
     "coordinates": {
         "1inch": {
@@ -2295,200 +2295,194 @@
             "width": 128,
             "height": 128
         },
-        "waf": {
-            "x": 1664,
-            "y": 2048,
-            "width": 128,
-            "height": 128
-        },
         "waves": {
-            "x": 1792,
+            "x": 1664,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "wbtc": {
-            "x": 1920,
+            "x": 1792,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "whive": {
-            "x": 2048,
+            "x": 1920,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "wld": {
-            "x": 2176,
+            "x": 2048,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "woo": {
-            "x": 2304,
+            "x": 2176,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "xcn": {
-            "x": 2432,
+            "x": 2304,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "xec": {
-            "x": 2560,
+            "x": 2432,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "xep": {
-            "x": 2688,
+            "x": 2560,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "xidr": {
-            "x": 2816,
+            "x": 2688,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "xlm": {
+            "x": 2816,
+            "y": 2048,
+            "width": 128,
+            "height": 128
+        },
+        "xmy": {
             "x": 0,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xmy": {
+        "xna": {
             "x": 128,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xna": {
+        "xor": {
             "x": 256,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xor": {
+        "xpm": {
             "x": 384,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xpm": {
+        "xrg": {
             "x": 512,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xrg": {
+        "xrp": {
             "x": 640,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xrp": {
+        "xsgd": {
             "x": 768,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xsgd": {
+        "xtz": {
             "x": 896,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xtz": {
+        "xvc": {
             "x": 1024,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xvc": {
+        "xvg": {
             "x": 1152,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xvg": {
+        "xvs": {
             "x": 1280,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xvs": {
+        "yfi": {
             "x": 1408,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "yfi": {
+        "yfii": {
             "x": 1536,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "yfii": {
+        "zdeex": {
             "x": 1664,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "zdeex": {
+        "zec": {
             "x": 1792,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "zec": {
+        "zer": {
             "x": 1920,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "zer": {
+        "zet": {
             "x": 2048,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "zet": {
+        "zil": {
             "x": 2176,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "zil": {
+        "zinu": {
             "x": 2304,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "zinu": {
+        "zoin": {
             "x": 2432,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "zoin": {
+        "zombie": {
             "x": 2560,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "zombie": {
-            "x": 2688,
-            "y": 2176,
-            "width": 128,
-            "height": 128
-        },
         "zrx": {
-            "x": 2816,
+            "x": 2688,
             "y": 2176,
             "width": 128,
             "height": 128
