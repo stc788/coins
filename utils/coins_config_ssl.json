@@ -44816,7 +44816,7 @@
         "p2shtype": 123,
         "wiftype": 216,
         "txfee": 40000000,
-        "dust": 72800,
+        "dust": 40000000,
         "mature_confirmations": 120,
         "segwit": true,
         "bech32_hrp": "rc",
