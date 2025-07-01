@@ -13,6 +13,7 @@
     "fname": "Siacoin Zen Testnet",
     "mm2": 1,
     "required_confirmations": 1,
+    "is_testnet": true,
     "protocol": {
       "type": "SIA"
     }
