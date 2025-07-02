@@ -4881,6 +4881,7 @@
         "chain_id": 1
       }
     },
+    "trezor_coin": "Ethereum",
     "derivation_path": "m/44'/60'"
   },
   {
@@ -16091,6 +16092,7 @@
     "mm2": 1,
     "chain_id": 11155111,
     "sign_message_prefix": "Sepolia Signed Message:\n",
+    "trezor_coin": "Sepolia",
     "required_confirmations": 3,
     "avg_blocktime": 15,
     "protocol": {
