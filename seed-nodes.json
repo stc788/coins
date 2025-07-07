@@ -22,5 +22,41 @@
                 "email": ""
             }
         ]
+    },
+    {
+        "name": "balerion-dragon-seed",
+        "host": "balerion.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "falkor-dragon-seed",
+        "host": "falkor.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "drogon-dragon-seed",
+        "host": "drogon.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
     }
 ]
