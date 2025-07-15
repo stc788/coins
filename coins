@@ -13019,6 +13019,31 @@
     "derivation_path": "m/84'/1'"
   },
   {
+    "coin": "TESTNET4BTC-segwit",
+    "name": "t4bitcoin",
+    "fname": "Bitcoin Testnet4",
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
+    "rpcport": 18332,
+    "pubtype": 111,
+    "p2shtype": 196,
+    "wiftype": 239,
+    "segwit": true,
+    "bech32_hrp": "tb",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "tBTC",
+    "txfee": 0,
+    "estimate_fee_mode": "ECONOMICAL",
+    "mm2": 1,
+    "is_testnet": true,
+    "required_confirmations": 0,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/84'/1'"
+  },
+  {
     "coin": "TEL-ERC20",
     "name": "tel_erc20",
     "fname": "Telcoin",
