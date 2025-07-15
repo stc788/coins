@@ -46,5 +46,25 @@
                     }
                 ],
                 "ws_url": "explorer.crionic.org:50005"
+            },
+            {
+                "url": "crncexplorer.nostrweb.gleeze.com:50055",
+                "contact": [
+                    {
+                        "discord": "stc786"
+                    }
+                ]
+                
+            },
+            {
+                "url": "crncexplorer.nostrweb.gleeze.com:50006",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "stc786"
+                    }
+                ],
+                "ws_url": "crncexplorer.nostrweb.gleeze.com:50005"
             }
+
         ]
